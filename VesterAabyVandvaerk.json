@@ -15,9 +15,11 @@
             "overlays": [
               
                 {
-                    "id": "tekster.tekster_samlet_wms_web", "db": "geofyn", "host": "https://kort.geofyn.dk"},
+                    "id": "tekster.tekster_samlet_wms_web", "db": "geofyn", "host": "https://kort.geofyn.dk"
+                },
+              
                 {
-                    "id": "tekster.adgangsadresseinfo", "db": "geofyn", "host": "https://kort.geofyn.dk"}
+                    "id": "tekster.adgangsadresseinfo", "db": "geofyn", "host": "https://kort.geofyn.dk"
                 }
             ]
         },
