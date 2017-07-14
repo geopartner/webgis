@@ -1,7 +1,9 @@
 {
   "baseLayers": [
-      {"id":"dtkSkaermkort","name":"Dtk Skaermkort"},
+      {"id":"dtkSkaermkort","name":"Dtk Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Dtk Skaermkort daempet"},
+      {"id":"public.orto_foraar_temp_2016","name":"Luftfoto 2016"},
+    
       {"id": "osm", "name": "OSM"},
     
       {"id": "stamenToner", "name": "Stamen Toner"},
