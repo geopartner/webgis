@@ -1,6 +1,7 @@
 {
   "baseLayers": [
-      
+      {"id":"dtkSkaermkort","name":"Dtk Skaermkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Dtk Skaermkort daempet"},
       {"id": "osm", "name": "OSM"},
     
       {"id": "stamenToner", "name": "Stamen Toner"},
