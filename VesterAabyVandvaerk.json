@@ -2,7 +2,7 @@
   "baseLayers": [
     
    
-      {"id": "dtk_skaermkort", "name": "Skærmkort", "db": "geofyn", "host": "https://{s}.services.kortforsyningen.dk/service",
+      {"id": "dtk_skaermkort", "name": "Skærmkort", "host": "https://{s}.services.kortforsyningen.dk/service",
          "config": {
             "service": "WMS",
             "transparent": "true",
