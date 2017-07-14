@@ -1,6 +1,10 @@
 {
   "baseLayers": [
     
+   
+      {"id": "Night View", "name": "night"},
+      {"id": "Satellite View", "name": "sat"},
+      {"id": "Black Marble", "name": "lights"},
       {"id": "osm", "name": "OSM"},
     
       {"id": "stamenToner", "name": "Stamen Toner"},
