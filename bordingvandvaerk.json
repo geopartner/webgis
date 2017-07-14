@@ -2,7 +2,7 @@
   "baseLayers": [
     
    {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016 Odder", "db": "odder", "host": "http://odder.mapcentia.com"},
-
+  ],
   
   "brandName": "Bording vand",
   
