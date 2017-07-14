@@ -2,9 +2,21 @@
   "baseLayers": [
     
    
-      {"id": "Night View", "name": "night"},
-      {"id": "Satellite View", "name": "sat"},
-      {"id": "Black Marble", "name": "lights"},
+      {"id": "dtk_skaermkort", "name": "Skærmkort", "db": "geofyn", "host": "https://{s}.services.kortforsyningen.dk/service",
+         "config": {
+            service: 'WMS',
+            transparent: true,
+            servicename: 'mat',
+            layers: 'Centroide,MatrikelSkel,OptagetVej',
+            version: '1.1.0',
+            ticket: kmsticket,
+            styles: 'sorte_centroider,sorte_skel,default',
+            format: 'image/png',
+            attribution: "Styrelsen for Dataforsyning og Effektivisering",
+            continuousWorld: true,
+            minZoom: 9
+          }
+      },
       {"id": "osm", "name": "OSM"},
     
       {"id": "stamenToner", "name": "Stamen Toner"},
