@@ -1,7 +1,7 @@
 {
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort daempet"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
       {"id":"public.orto_foraar_temp_2016","name":"Luftfoto 2016"},
     
         {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016 Odder", "db": "odder", "host": "http://odder.mapcentia.com"},
