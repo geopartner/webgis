@@ -3,12 +3,12 @@
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
     
-        {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016 Odder", "db": "odder", "host": "http://odder.mapcentia.com"}
+        {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016", "db": "odder", "host": "http://odder.mapcentia.com"}
   ],
   
   "brandName": "Bording vand",
   
-  "enabledPrints": ["bordingvandprint"],
+  "enabledPrints": ["print2"],
   
   "searchConfig": {
         "komkode": "756"
