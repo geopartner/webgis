@@ -1,7 +1,7 @@
 {
   "baseLayers": [
-      {"id":"dtkSkaermkort","name":"Dtk Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Dtk Skaermkort daempet"},
+      {"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort daempet"},
       {"id":"public.orto_foraar_temp_2016","name":"Luftfoto 2016"},
     
       {"id": "osm", "name": "OSM"},
