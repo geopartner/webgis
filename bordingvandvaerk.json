@@ -8,7 +8,7 @@
   
   "brandName": "Bording vand",
   
-  "enabledPrints": ["print2"],
+  "enabledPrints": ["bordingvandprint"],
   
   "searchConfig": {
         "komkode": "756"
