@@ -14,93 +14,16 @@
         -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
         box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
     }
-	
-	.outer-container {
-		border: 0;
-		height: 50%;
-		width: 350px;
-	}
-
-	.top-section {
-		padding-top:5px;
-		padding-left:15px;
-		height: 50%;
-	}
-
-	.bottom-section {
-		height: 50%;
-		margin: 8px;
-	}
-
-	.bottom-aligner {
-		display: inline-block;
-		height: 100%;
-		vertical-align: bottom;
-		width: 3px;
-	}
-
-	.bottom-content {
-		display: inline-block;
-	}
-
-	.top-content {
-		padding: 8px;
-	}
 </style>
-
 <!-- map -->
 <div id="pane1" style="position: absolute; width: {{printWidth}}; height: {{printHeight}}; display: block; overflow: hidden; top: 30px; left:30px; border: 1px solid black">
     <div id="container1" style="position: relative; width: 200%; height: 200%; left:-50%; top:-50%; display: inline-block;">
         <div id="map"></div>
     </div>
-    <div id="header" style="display: {{_showHeader}}; position: absolute; width: 600px; height: 300px; background-color: white; bottom: -100px; right: -210px; border-top: 1px solid gray;">
-		<div class="outer-container">
-			<div class="top-section">
-				<table >
-					<tr>
-						<td style="vertical-align: top;">
-							<b>Titel</b>
-						</td>
-						<td style="vertical-align: top;">
-							<b id="title" ></b>
-						</td>
-					</tr>
-					<tr>
-						<td style="vertical-align: top;">
-							<b>Kommentar</b>
-						</td>
-						<td style="vertical-align: top;">
-							<p id="comment"></p>
-						</td>
-					</tr>
-				</table>
-			</div>
-
-			<div class="bottom-section">
-				<div class="bottom-aligner"></div>				
-				<div class="bottom-content">
-					<table>
-						<tr>
-							<td>
-								<div><img width="200px" src="https://geopartner.dk/assets/images/geopartner_landinspektoerer.png"></div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Udskriftsdato: {{printDate}} 								
-							</td>
-						</tr>
-						<tr>
-							<td>
-								Bemærk: Udskrifter er ikke målfaste.
-							</td>
-						</tr>
-					</table>		
-				</div>
-			</div>
-		</div>
-		
-        
+    <div id="header" style="display: {{_showHeader}}; position: absolute; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); width: 600px; height: 300px; background-color: white; bottom: -100px; right: -210px; border-top: 1px solid gray;">
+        <div style="position: absolute; top: 140px; left: 280px;"><img style="width: 100px" src="https://geopartner.dk/assets/images/geopartner_landinspektoerer.png"></div>
+        <b id="title" style="position: absolute; top: 10px; left: 190px; white-space: nowrap"></b>
+        <p id="comment" style="position: absolute; top: 30px; left: 190px; width: 270px;"></p>
 
     </div>
 
