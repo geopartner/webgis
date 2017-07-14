@@ -4,6 +4,8 @@
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort daempet"},
       {"id":"public.orto_foraar_temp_2016","name":"Luftfoto 2016"},
     
+        {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016 Odder", "db": "odder", "host": "http://odder.mapcentia.com"},
+    
       {"id": "osm", "name": "OSM"},
     
       {"id": "stamenToner", "name": "Stamen Toner"},
