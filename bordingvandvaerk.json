@@ -10,6 +10,8 @@
   
   "enabledPrints": ["print2"],
   
+  "singleTiled": ["bordingvand.jordstykke"],
+
   "searchConfig": {
         "komkode": "756"
   }
