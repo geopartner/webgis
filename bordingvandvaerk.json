@@ -8,7 +8,7 @@
   
   "brandName": "Bording vand",
   
-  "enabledPrints": ["bordingvandprint.tmpl"],
+  "enabledPrints": ["bordingvandprint"],
   
   "_singleTiled": ["bordingvand.jordstykke"],
 
