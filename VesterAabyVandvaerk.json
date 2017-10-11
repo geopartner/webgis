@@ -37,7 +37,18 @@
   "brandName": "Vester Aaby Vandværk",
   
   "enabledPrints": ["print2"],
-  
+  "extensions": {
+        "browser": [
+            {"streetView": ["index", "controller"]},
+            {"coordinates": ["index"]}
+        ],
+        "server": [
+        ]
+    },
+  "enabledExtensions": [
+        "streetView",
+        "coordinates"
+    ],
   "searchConfig": {
         "komkode": "430"
   }
