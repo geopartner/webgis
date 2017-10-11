@@ -55,7 +55,7 @@
         "streetView",
         "coordinates"
     ],
-  "searchConfig": {
+  "searchConfig": { 
         "komkode": "461"
   }
 }
