@@ -2,11 +2,10 @@
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id":"public.orto_foraar_temp_2016","name":"Luftfoto 2016"},
+      {"id": "_b_luftfotoserier.luftfoto2016", "name": "Luftfoto 2016", "db": "geofyn", "host": "https://kort.geofyn.dk"},
+      {"id": "_b_luftfotoserier.luftfoto2015", "name": "Luftfoto 2015", "db": "geofyn", "host": "https://kort.geofyn.dk"},
     
-        {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016 Odder", "db": "odder", "host": "http://odder.mapcentia.com"},
-    
-      {"id": "osm", "name": "OSM"},
+      {"id": "osm", "name": "Open Street Maps"},
     
       {"id": "stamenToner", "name": "Stamen Toner"},
     
@@ -27,11 +26,7 @@
                     "id": "tekster.adgangsadresseinfo", "db": "geofyn", "host": "https://kort.geofyn.dk"
                 }
             ]
-        },
-    
-        {"id": "_b_luftfotoserier.luftfoto2016", "name": "Luftfoto 2016", "db": "geofyn", "host": "https://kort.geofyn.dk"},
-    
-        {"id": "_b_luftfotoserier.luftfoto2015", "name": "Luftfoto 2015", "db": "geofyn", "host": "https://kort.geofyn.dk"}
+        }    
   ],
   
   "brandName": "MapGO demo",
