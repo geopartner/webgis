@@ -39,6 +39,8 @@
   "enabledPrints": ["print2"],
   
   "enabledExtensions": [
+        "mapGoMenu",
+        "mapGOCollector",
         "streetView",
         "coordinates"
     ],
