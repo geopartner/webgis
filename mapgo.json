@@ -51,9 +51,7 @@
   
   "enabledExtensions": [
         "mapGoMenu",
-        "mapGOCollector",
-        "streetView",
-        "coordinates"
+        "mapGOCollector"
     ],
   "searchConfig": { 
         "komkode": "461"
