@@ -54,7 +54,7 @@
         "mapGOCollector"
     ],
   
-  "_singleTiled": ["mapgodemo.go_egenkontrol"],
+  "singleTiled": ["mapgodemo.go_egenkontrol"],
   
   "searchConfig": { 
         "komkode": "461"
