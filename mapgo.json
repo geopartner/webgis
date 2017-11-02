@@ -54,7 +54,7 @@
         "mapGOCollector"
     ],
   
-  "singleTiled": ["mapgodemo.go_egenkontrol"],
+  "singleTiled": ["mapgodemo.go_egenkontrol", "mapgodemo.t_6802_parl_pkt_t", "mapgodemo.t_6801_parl_li_t", "mapgodemo.t_6800_parl_fl_t"],
   
   "searchConfig": { 
         "komkode": "461"
