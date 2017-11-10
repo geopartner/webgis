@@ -50,7 +50,7 @@
   "enabledPrints": ["bordingvandvaerk"],
   
     
-  "singleTiled": ["all_categories", "negativer_cat", "positiver_cat"],
+  "singleTiled": ["strategis.all_categories", "strategis.negativer_cat", "strategis.positiver_cat"],
   
   "searchConfig": { 
         "komkode": "479"
