@@ -9,7 +9,7 @@
   
   "enabledPrints": ["bordingvandvaerk"],
   
-  "singleTiled": ["boetoenor.skel"],
+  "singleTiled": ["boetoenor.skel", "boetoenor.botoe_sum"],
   
   "searchConfig": { 
         "komkode": "376"
