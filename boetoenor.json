@@ -1,7 +1,7 @@
 {
   "baseLayers": [
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
       {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
       {"id": "osm", "name": "Open Street Maps"}
   ],
   
