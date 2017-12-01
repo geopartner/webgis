@@ -9,7 +9,14 @@
   
   "enabledPrints": ["bordingvandvaerk"],
   
-  "singleTiled": ["boetoenor.skel", "boetoenor.parter_botoe_nor_ejd_bidrag", "boetoenor.botoe_sum"], "boetoenor.takster_botoe_nor", "boetoenor.parter_botoe_nor", "boetoenor.vaerdi_parter_botoe_nor", "boetoenor.adm_parter_botoe_nor", "boetoenor.takster_botoe_nor_ejd_bidrag"],
+  "singleTiled": ["boetoenor.skel",
+                  "boetoenor.parter_botoe_nor_ejd_bidrag",
+                  "boetoenor.botoe_sum"],
+                  "boetoenor.takster_botoe_nor",
+                  "boetoenor.parter_botoe_nor",
+                  "boetoenor.vaerdi_parter_botoe_nor",
+                  "boetoenor.adm_parter_botoe_nor",
+                  "boetoenor.takster_botoe_nor_ejd_bidrag"],
   
   "searchConfig": { 
         "komkode": "376"
