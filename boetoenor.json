@@ -11,8 +11,7 @@
   
   "singleTiled": ["boetoenor.skel",
                   "boetoenor.boetoe_sum",
-                  "boetoenor.parter_boetoe_nor",
-                  "boetoenor.adm_parter_boetoe_nor"],
+                  "boetoenor.parter_boetoe_nor"],
   
   "searchConfig": { 
         "komkode": "376"
