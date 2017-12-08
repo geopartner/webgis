@@ -47,7 +47,7 @@
   
   "brandName": "Skårup Fjernvarme",
   
-  "enabledPrints": ["geopartner_defaultprint"],
+  "enabledPrints": ["print2"],
   
   "searchConfig": { 
         "komkode": "479"
