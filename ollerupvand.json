@@ -47,7 +47,7 @@
   
   "brandName": "Ollerup Vandværk",
   
-  "enabledPrints": ["ollerupvand"],
+  "enabledPrints": ["bordingvandvaerk"],
   
   "searchConfig": { 
         "komkode": "479"
