@@ -47,7 +47,7 @@
   
   "brandName": "MapGO demo",
   
-  "enabledPrints": ["bordingvandvaerk"],
+  "enabledPrints": ["geopartner_defaultprint"],
   
   "enabledExtensions": [
         "mapGoMenu",
