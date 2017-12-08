@@ -47,7 +47,7 @@
   
   "brandName": "StrateGIS",
   
-  "enabledPrints": ["geopartner_defaultprint"],
+  "enabledPrints": ["print2"],
   
     
   "singleTiled": ["strategis.all_categories", "strategis.negativer_cat", "strategis.positiver_cat", "strategis.all_categories_transp", "strategis.negativer_cat_transp", "strategis.positiver_cat_transp"],
