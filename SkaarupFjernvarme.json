@@ -47,7 +47,7 @@
   
   "brandName": "Skårup Fjernvarme",
   
-  "enabledPrints": ["bordingvandvaerk"],
+  "enabledPrints": ["geopartner_defaultprint"],
   
   "searchConfig": { 
         "komkode": "479"
