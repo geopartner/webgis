@@ -14,6 +14,8 @@
                   "boetoenor.parter_boetoe_nor"],
   
   "searchConfig": { 
-        "komkode": "376"
+        "komkode": "376",
+        "esrSearchActive": true,
+        "sfeSearchActive": false
   }
 }
