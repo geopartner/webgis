@@ -6,7 +6,7 @@
   
   "enabledPrints": ["print"],
   
-  "singleTiled": ["draendemo.gisdata_punkter", "draendemo.gisdata_labels"],
+  "_singleTiled": ["draendemo.gisdata_punkter", "draendemo.gisdata_labels"],
   
 "searchConfig": {
         "komkode": [
