@@ -8,5 +8,5 @@
   
   "enabledPrints": ["print2"],
   
-  "_singleTiled": ["geosag.matrikelkort", "geosag.luftfoto"]
+  "singleTiled": ["geosag.matrikelkort", "geosag.luftfoto"]
 }
