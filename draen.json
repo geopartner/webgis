@@ -6,7 +6,7 @@
   
   "enabledPrints": ["print2"],
   
-  "_singleTiled": ["draendemo.matrikelkort", "draendemo.skaermkort", "draendemo.luftfoto", "draendemo.historiske_kort", "draendemo.teknisk_kort"],
+  "singleTiled": ["draendemo.gisdata_linjer", "draendemo.gisdata_punkter", "draendemo.gisdata_labels"],
   
 "searchConfig": {
         "komkode": [
