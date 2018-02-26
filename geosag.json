@@ -1,14 +1,12 @@
 {
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
-      {"id":"geosag.Luftfoto","name":"Luftfoto"}
-      
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},      
    ],
   
   "brandName": "Geopartner, Geosag",
   
   "enabledPrints": ["print2"],
   
-  "_singleTiled": ["geosag.matrikelkort"]
+  "_singleTiled": ["geosag.matrikelkort", "geosag.luftfoto"]
 }
