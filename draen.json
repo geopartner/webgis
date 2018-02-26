@@ -4,7 +4,7 @@
   
   "brandName": "Drændemo, Geopartner, kun til demoformål",
   
-  "enabledPrints": ["print2"],
+  "enabledPrints": ["print"],
   
   "singleTiled": ["draendemo.gisdata_linjer", "draendemo.gisdata_punkter", "draendemo.gisdata_labels"],
   
