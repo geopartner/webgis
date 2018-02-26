@@ -6,7 +6,7 @@
   
   "enabledPrints": ["print2"],
   
-  "singleTiled": ["draendemo.matrikelkort", "draendemo.skaermkort", "draendemo.luftfoto", "draendemo.historiske_kort", "draendemo.teknisk_kort"],
+  "_singleTiled": ["draendemo.matrikelkort", "draendemo.skaermkort", "draendemo.luftfoto", "draendemo.historiske_kort", "draendemo.teknisk_kort"],
   
 "searchConfig": {
         "komkode": [
