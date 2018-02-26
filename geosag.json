@@ -1,0 +1,8 @@
+{
+  
+  "brandName": "Geopartner, Geosag",
+  
+  "enabledPrints": ["print2"],
+  
+  "_singleTiled": ["geosag.matrikelkort"]
+}
