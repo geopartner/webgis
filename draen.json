@@ -1,9 +1,6 @@
 {
   "baseLayers": [
-      {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id": "osm", "name": "Open Street Maps"},
-      {"id": "public.orto_foraar_temp_2016", "name": "Luftfoto 2016", "db": "odder", "host": "http://odder.mapcentia.com"}
+    
   ],
   
   "brandName": "Drændemo, Geopartner, kun til demoformål",
