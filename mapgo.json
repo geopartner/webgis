@@ -56,6 +56,7 @@
     ],
   
   "_singleTiled": ["mapgodemo.go_egenkontrol", "mapgodemo.t_6802_parl_pkt_t", "mapgodemo.t_6801_parl_li_t", "mapgodemo.t_6800_parl_fl_t"],
+  "singleTiled": ["mapgodemo.v_incident_pkt"],
   
   "searchConfig": { 
         "komkode": "461"
