@@ -1,0 +1,22 @@
+{
+  "baseLayers": [
+      {"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
+  ],
+  
+  "brandName": "MapGO, Guldborgsund",
+  
+  "enabledPrints": ["print2"],
+  
+  "enabledExtensions": [
+        "MapGOMenu",
+        "MapGOCollector",
+        "session"
+    ],
+  
+  "singleTiled": ["guldborgsund.v_incident_pkt"],
+  
+  "searchConfig": { 
+        "komkode": "376"
+  }
+}
