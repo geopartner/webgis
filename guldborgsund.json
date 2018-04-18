@@ -1,4 +1,6 @@
-{
+,
+                  "guldborgsund.v_stikproeve_pkt",
+                  "guldborgsund.v_stikproeve_pkt"{
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
@@ -17,7 +19,8 @@
   "singleTiled": ["guldborgsund.v_incident_pkt",
                   "guldborgsund.v_stikproeve_fl",
                   "guldborgsund.v_stikproeve_li",
-                  "guldborgsund.v_stikproeve_pkt"],
+                  "guldborgsund.v_stikproeve_pkt",
+                  "guldborgsund.v_incident_pkt"],
   
   "searchConfig": { 
         "komkode": "376"
