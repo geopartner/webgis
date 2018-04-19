@@ -1,6 +1,4 @@
-,
-                  "guldborgsund.v_stikproeve_pkt",
-                  "guldborgsund.v_stikproeve_pkt"{
+{
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
