@@ -9,7 +9,7 @@
   "enabledPrints": ["print2"],
   
   "enabledExtensions": [
-        "GeosagMatr",
+        "GeosagMatr"
     ],
   
   "singleTiled": ["geosag.matrikelkort"],

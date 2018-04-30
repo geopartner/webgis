@@ -4,7 +4,6 @@
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
       {"id": "osm", "name": "Open Street Maps"}  
   ],
-  
   "brandName": "Knudstrup Vandværk",
   "enabledPrints": ["vandvaerk"],
   "searchConfig": { 

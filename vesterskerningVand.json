@@ -4,9 +4,9 @@
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
       {"id": "osm", "name": "Open Street Maps"}
   ],
-  "brandName": "Herrested-Måre Vandværk",
+  "brandName": "Vester Skerninge Vandværk",
   "enabledPrints": ["vandvaerk"],
   "searchConfig": { 
-        "komkode": "450"
+        "komkode": "479"
   }
 }
