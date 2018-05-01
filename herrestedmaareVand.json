@@ -5,7 +5,7 @@
       {"id": "osm", "name": "Open Street Maps"}
   ],
   "brandName": "Herrested-Måre Vandværk",
-  "enabledPrints": ["vandvaerk"],
+  "enabledPrints": ["vandvaerk_herrestedmaare"],
   "searchConfig": { 
         "komkode": "450"
   }
