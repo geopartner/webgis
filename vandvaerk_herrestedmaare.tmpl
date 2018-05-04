@@ -3,28 +3,14 @@
     body {
         background-color: white;
     }
-
     .leaflet-control-graphicscale {
         box-shadow: none;
         -webkit-box-shadow: none;
         white-space: nowrap;
     }
-
     #legend, #header, #date-time, #scale-box {
         -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
         box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
-    }
-
-    #header {
-        display: {{_showHeader}};
-        position: absolute; -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        width: 600px;
-        height: 300px;
-        background-color: white;
-        bottom: -100px;
-        right: -210px;
-        border-top: 1px solid gray;
     }
     #pane1 {
         position: absolute;
@@ -33,15 +19,53 @@
         display: block;
         overflow: hidden;
         top: 30px;
-        left:30px;
-        border: 1px solid black;
+        left: 30px;
+        border: 1px solid black
     }
-    #npil {
+    #container1 {
+        position: relative;
+        width: 200%;
+        height: 200%;
+        left:-50%;
+        top:-50%;
+        display: inline-block;
+    }
+    #header {
+        display: {{_showHeader}};
+        position: absolute;
+        width: 500px;
+        height: 70px;
+        background-color: white;
+        bottom: 0px;
+        right: 0px;
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+    }
+    #logo {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    #logoimg {
+        height: 50px;
+    }
+    #title {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        white-space: nowrap;
+    }
+    #comment {
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+    #date-time {
         position: absolute;
         bottom: 0;
         left: 0;
-        height: 50px;
         background-color: white;
+        font-size: 0.8em;
     }
     #legend {
         position: absolute;
@@ -53,30 +77,48 @@
         -webkit-transform-origin:left top;
         display: {{_showLegend}};
     }
-    #date-time {
+    #scale {
+        position: relative;
+        left: 60px;
+        font-size: 0.8em;
+    }
+    #scalebar {
+        position: relative;
+        left: 48px;
+    }
+    #north {
         position: absolute;
         top: 0;
         right: 0;
-        background-color:white;
-        font-size: 0.8em;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+    }
+    #northimg {
+        position: absolute;
+        top: 5px;
+        right: 5px;
     }
 </style>
 <!-- map -->
 <div id="pane1">
-    <div id="container1" style="position: relative; width: 200%; height: 200%; left:-50%; top:-50%; display: inline-block;">
+    <div id="container1">
         <div id="map"></div>
     </div>
     <div id="header">
-        <div style="position: absolute; top: 140px; left: 280px;"><img style="width: 100px" src="https://geopartner.dk/assets/images/geopartner_landinspektoerer.png"></div>
-        <b id="title" style="position: absolute; top: 10px; left: 190px; white-space: nowrap"></b>
-        <p id="comment" style="position: absolute; top: 30px; left: 190px; width: 270px;"></p>
+        <b id="title"></b>
+        <p id="comment"></p>
     </div>
-
-    <div id="npil">
-        <div style="position: absolute; bottom: 5px; left: 5px;"><img style="width: 40px" src="http://www.clipartbest.com/cliparts/Rcd/dgL/RcddgLgc9.png"></div>
-        <div id="scalebar" style="position: relative; left: 48px;"></div>
-        <div id="scale" style="position: relative; left: 60px; font-size: 0.8em;"></div>
+    <div id="north">
+        <div id="northimg">
+            <img style="width: 40px" src="http://www.clipartbest.com/cliparts/Rcd/dgL/RcddgLgc9.png">
+        </div>
+        <div id="scalebar"></div>
+        <div id="scale"></div>
     </div>
     <div id="legend"></div>
-    <div id="date-time">{{printDate}}</div>
+    <div id="date-time">Udskrevet {{printDataTime}}</div>
+    <div id="logo">
+        <img id="logoimg" src="http://www.mapcentia.com/images/__od/863/mapcentialogo.png">
+    </div>
 </div>
