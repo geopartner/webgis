@@ -34,7 +34,7 @@
         display: {{_showHeader}};
         position: absolute;
         width: 500px;
-        height: 70px;
+        height: 80px;
         background-color: white;
         bottom: 0px;
         right: 0px;
@@ -43,11 +43,14 @@
     }
     #logo {
         position: absolute;
-        bottom: 10px;
+        bottom: 0px;
         right: 10px;
     }
     #logoimg {
-        height: 50px;
+        height: 55px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
     }
     #title {
         position: absolute;
@@ -99,6 +102,11 @@
         top: 5px;
         right: 5px;
     }
+    .brandName {
+        font-size: 10px;
+        margin: 0;
+        text-align: center;
+    }
 </style>
 <!-- map -->
 <div id="pane1">
@@ -119,6 +127,7 @@
     <div id="legend"></div>
     <div id="date-time">Udskrevet {{printDataTime}}</div>
     <div id="logo">
-        <img id="logoimg" src="http://www.mapcentia.com/images/__od/863/mapcentialogo.png">
+        <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/herrestedmaare.png">
+        <p class="brandName">Herrested/Måre Vandværk</p>
     </div>
 </div>
