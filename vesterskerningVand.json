@@ -2,7 +2,8 @@
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id": "osm", "name": "Open Street Maps"}
+      {"id": "osm", "name": "Open Street Maps"},
+      {"id":"luftfotoserier.geodanmark_2017_12_5cm", "name":"Ortofoto 2017"}
   ],
   "brandName": "Vester Skerninge Vandværk",
   "enabledPrints": ["vandvaerk"],
