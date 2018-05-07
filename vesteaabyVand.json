@@ -5,7 +5,13 @@
       {"id": "osm", "name": "Open Street Maps"}
   ],
   "brandName": "Vester Aaby Vandværk",
-  "enabledPrints": ["vandvaerk"],
+  "enabledPrints": ["vandvaerk_vesteraaby"],
+  "enabledExtensions": [
+    "mapGoMenu",
+    "mapGOCollector",
+    "streetView",
+    "coordinates"
+  ],
   "searchConfig": { 
         "komkode": "430"
   }
