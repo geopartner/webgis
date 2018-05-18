@@ -40,8 +40,6 @@
     "vandvaerk_vesteraaby"
   ],
   "enabledExtensions": [
-    "mapGoMenu",
-    "mapGOCollector",
     "streetView",
     "coordinates"
   ],
