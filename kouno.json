@@ -1,0 +1,11 @@
+{
+  
+  "brandName": "Danva årsmøde, demo",
+  
+  "enabledPrints": ["print2"],
+  
+  
+  "singleTiled": ["kouno.pumpestationer_uvedk_vand",
+                  "kouno.pumpestationer_unikt_flow"],
+  
+}
