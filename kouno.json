@@ -7,7 +7,7 @@
   
   "singleTiled": ["kouno.unikt_flow",
                   "kouno.uvedkommende_vand",
-                  "kouno.fas_diff"],
+                  "kouno.fasdiff"],
   
   "searchConfig": { 
         "komkode": "575"
