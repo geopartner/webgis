@@ -5,8 +5,9 @@
   "enabledPrints": ["print2"],
   
   
-  "singleTiled": ["kouno.pumpestationer_uvedk_vand",
-                  "kouno.pumpestationer_unikt_flow"],
+  "singleTiled": ["kouno.unikt_flow",
+                  "kouno.uvedkommende_vand",
+                  "kouno.fas_diff"],
   
   "searchConfig": { 
         "komkode": "575"
