@@ -1,0 +1,15 @@
+{
+  
+  "brandName": "Danva årsmøde, demo",
+  
+  "enabledPrints": ["print2"],
+  
+  
+  "singleTiled": ["kouno.unikt_flow",
+                  "kouno.uvedkommende_vand",
+                  "kouno.fasdiff"],
+  
+  "searchConfig": { 
+        "komkode": "575"
+  }
+}
