@@ -1,0 +1,69 @@
+{
+    "baseLayers": [{
+            "id": "dtkSkaermkort",
+            "name": "Skærmkort"
+        },
+        {
+            "id": "dtkSkaermkortDaempet",
+            "name": "Skærmkort dæmpet"
+        },
+        {
+            "id": "osm",
+            "name": "Open Street Maps"
+        },
+        {
+            "id": "geodk.terminal",
+            "name": "GeoDanmark - Terminal",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        }, {
+            "id": "geodk.bright",
+            "name": "GeoDanmark - Bright",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2016_12_5cm",
+            "name": "Luftfoto 2016",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        }
+    ],
+    "brandName": "Geokodning SK",
+    "enabledPrints": [
+        "vandvaerk"
+    ],
+    "enabledExtensions": [
+        "streetView",
+        "coordinates"
+    ],
+    "searchConfig": {
+        "komkode": "740"
+    }
+}
