@@ -1,11 +1,8 @@
 {
-    "baseLayers": [{
-            "id": "dtkSkaermkort",
-            "name": "Skærmkort"
-        },
+    "baseLayers": [
         {
-            "id": "geodk.terminal",
-            "name": "GeoDanmark - Terminal",
+            "id": "geodk.bright",
+            "name": "GeoDanmark - Bright",
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
@@ -13,9 +10,9 @@
                 "maxNativeZoom": 19,
                 "attribution": "&copy; SDFE & MapCentia ApS"
             }
-        }, {
-            "id": "geodk.bright",
-            "name": "GeoDanmark - Bright",
+        },{
+            "id": "geodk.terminal",
+            "name": "GeoDanmark - Terminal",
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
