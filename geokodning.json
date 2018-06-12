@@ -1,16 +1,5 @@
 {
-    "baseLayers": [{
-            "id": "dtkSkaermkort",
-            "name": "Skærmkort"
-        },
-        {
-            "id": "dtkSkaermkortDaempet",
-            "name": "Skærmkort dæmpet"
-        },
-        {
-            "id": "osm",
-            "name": "Open Street Maps"
-        },
+    "baseLayers": [
         {
             "id": "geodk.terminal",
             "name": "GeoDanmark - Terminal",
