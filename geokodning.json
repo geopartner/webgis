@@ -60,12 +60,14 @@
         "vandvaerk"
     ],
     "enabledExtensions": [
+        "coordinates"
     ],
     "singleTiled": [
         "geokodning.besigtigelse",
         "geokodning.byg_udpeg",
         "geokodning.anlaeg_udpeg",
-        "geokodning.byg_adskil"
+        "geokodning.byg_adskil",
+        "geokodning.rel_jordstykke"
       ],
     "searchConfig": {
         "komkode": "740"
