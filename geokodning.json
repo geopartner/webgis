@@ -1,5 +1,8 @@
 {
-    "baseLayers": [
+    "baseLayers": [{
+            "id": "dtkSkaermkort",
+            "name": "Skærmkort"
+        },
         {
             "id": "geodk.terminal",
             "name": "GeoDanmark - Terminal",
