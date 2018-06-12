@@ -60,9 +60,13 @@
         "vandvaerk"
     ],
     "enabledExtensions": [
-        "streetView",
-        "coordinates"
     ],
+    "singleTiled": [
+        "geokodning.besigtigelse",
+        "geokodning.byg_udpeg",
+        "geokodning.anlaeg_udpeg",
+        "geokodning.byg_adskil"
+      ],
     "searchConfig": {
         "komkode": "740"
     }
