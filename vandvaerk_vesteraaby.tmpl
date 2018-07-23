@@ -33,7 +33,7 @@
     #header {
         display: {{_showHeader}};
         position: absolute;
-        width: 400px;
+        width: 500px;
         height: 80px;
         background-color: white;
         bottom: 0px;
@@ -114,8 +114,20 @@
         <div id="map"></div>
     </div>
     <div id="header">
-        <b id="title"></b>
-        <p id="comment"></p>
+        <table>
+            <tr>
+                <td>
+                    <b id="title"></b>
+                    <p id="comment"></p>
+                </td>
+                <td>
+                    <div id="logo">
+                        <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/vesteraaby.png">
+                        <p class="brandName">Vester Aaby Vandværk</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
     <div id="north">
         <div id="northimg">
@@ -126,8 +138,5 @@
     </div>
     <div id="legend"></div>
     <div id="date-time">Udskrevet {{printDataTime}}</div>
-    <div id="logo">
-        <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/vesteraaby.png">
-        <p class="brandName">Vester Aaby Vandværk</p>
-    </div>
+    
 </div>
