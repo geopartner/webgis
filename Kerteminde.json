@@ -1,0 +1,26 @@
+{
+  "baseLayers": [
+      {"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
+  ],
+  
+  "brandName": "MapGO, Kerteminde forsyning",
+  
+  "enabledPrints": ["print2"],
+  
+  "enabledExtensions": [
+        "MapGOMenu",
+        "MapGOCollector",
+        "session"
+    ],
+  
+  "singleTiled": ["kerteminde.v_incident_pkt",
+                  "kerteminde.v_stikproeve_fl",
+                  "kerteminde.v_stikproeve_li",
+                  "kerteminde.v_stikproeve_pkt",
+                  "kerteminde.v_incident_pkt"],
+  
+  "searchConfig": { 
+        "komkode": "440"
+  }
+}
