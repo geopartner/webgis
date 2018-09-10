@@ -43,6 +43,9 @@
       "streetView",
       "coordinates"
     ],
+    "singleTiled": [
+      "kjellerupvand.maalsaetning_labels_pkt"
+    ],
     "searchConfig": {
       "komkode": "740"
     }
