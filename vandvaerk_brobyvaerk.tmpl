@@ -54,20 +54,9 @@
     #logoimg {
         height: 55px;
         margin-right: auto;
-        margin-left: auto;
-        display: block;
+        margin-left: auto;        
     }
-    #title {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        white-space: nowrap;
-    }
-    #comment {
-        position: absolute;
-        top: 30px;
-        left: 10px;
-    }
+   
     #date-time {
         position: absolute;
         bottom: 0;
@@ -118,6 +107,25 @@
     <div id="container1">
         <div id="map"></div>
     </div>
+    <div id="logo">
+        <table cellpadding="1" cellspacing="1">
+            <tr>
+                <td style="padding-right:10px;align:top;">
+                    <b id="title"></b>
+                    <p id="comment"></p>
+                </td>
+                <td style="padding:1px;align:top;">
+                    <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/vesteraaby.png">
+                </td>
+                <td style="padding:1px;align:top;">
+                    <p class="brandName">Brobyværk Andelsvandværk</p>
+                    <p class="brandName">xxxx xxxx</p>
+                    <p class="brandName">tlf. xxxx xxxx</p>
+                    <p class="brandName">&nbsp;xxxx@xxxx.dknbsp;</p>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div id="north">
         <div id="northimg">
             <img style="width: 40px" src="http://www.clipartbest.com/cliparts/Rcd/dgL/RcddgLgc9.png">
@@ -127,18 +135,5 @@
     </div>
     <div id="legend"></div>
     <div id="date-time">Udskrevet {{printDataTime}}</div>
-    <div id="logo">
-            <table cellpadding="1" cellspacing="1">
-            <tr>
-                <td style="padding-right:10px;align:top;">
-                    <b id="title"></b>
-                    <p id="comment"></p>
-                </td>
-                <td style="padding:1px;align:top;">
-                    <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/geopartner.png">
-                    <p class="brandName">Powered by MapCentia</p>
-                </td>
-            </tr>
-        </table>
-    </div>
+    
 </div>
