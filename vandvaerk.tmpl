@@ -45,11 +45,9 @@
         position: absolute;
         bottom: 0px;
         right: 0px;
-        padding: 10px;
+        padding: 5px;
+        outline: 1px black solid;
         background-color: white;
-        border: 1px solid black;
-        border-bottom: 0;
-        border-right: 0;
     }
     #logoimg {
         height: 55px;
@@ -118,6 +116,10 @@
     <div id="container1">
         <div id="map"></div>
     </div>
+    <div id="header">
+        <b id="title"></b>
+        <p id="comment"></p>
+    </div>
     <div id="north">
         <div id="northimg">
             <img style="width: 40px" src="http://www.clipartbest.com/cliparts/Rcd/dgL/RcddgLgc9.png">
@@ -128,17 +130,7 @@
     <div id="legend"></div>
     <div id="date-time">Udskrevet {{printDataTime}}</div>
     <div id="logo">
-            <table cellpadding="1" cellspacing="1">
-            <tr>
-                <td style="padding-right:10px;align:top;">
-                    <b id="title"></b>
-                    <p id="comment"></p>
-                </td>
-                <td style="padding:1px;align:top;">
-                    <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/geopartner.png">
-                    <p class="brandName">Powered by MapCentia</p>
-                </td>
-            </tr>
-        </table>
+        <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/geopartner.png">
+        <p class="brandName">Powered by MapCentia</p>
     </div>
 </div>
