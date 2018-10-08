@@ -47,6 +47,9 @@
       "brobyvaerkvand.brobyvaerkvand-maalsaetning"
     ],
     "searchConfig": {
-      "komkode": "340"
+      "komkode": [
+        "430",
+        "420"
+      ]
     }
   }
