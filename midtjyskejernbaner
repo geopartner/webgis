@@ -46,6 +46,6 @@
       "coordinates"
     ],
   "searchConfig": { 
-        "komkode": ["661", "665"]
+        "komkode": "661"
   }
 }
