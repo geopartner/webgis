@@ -6,7 +6,7 @@
   
   "brandName": "MapGO, Guldborgsund",
   
-  "enabledPrints": ["print2"],
+  "enabledPrints": ["vandvaerk"],
   
   "enabledExtensions": [
         "MapGOMenu",
