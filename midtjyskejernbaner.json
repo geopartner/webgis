@@ -47,11 +47,6 @@
     ],
 
   "searchConfig": {
-    "komkode": "661", "665",
-    "komkodeM": [
-            "661",
-            "665"],
-    "esrSearchActive": true,
-    "sfeSearchActive": false
+    "komkode": "661 665",    
   }
 }
