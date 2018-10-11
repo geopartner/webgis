@@ -38,9 +38,7 @@
     
     "brandName": "Midtjyske jernbaner, ejerkort",
   
-  "enabledPrints": [
-    "print2"
-  ],
+  "enabledPrints": ["vandvaerk"],
   
   "singleTiled": ["midtjyske_jernbaner.esr_sammenlagt"],
   
