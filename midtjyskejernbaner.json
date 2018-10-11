@@ -38,9 +38,12 @@
     
     "brandName": "Midtjyske jernbaner, ejerkort",
   
-  "enabledPrints": ["print2"],
+  "enabledPrints": [
+    "print2"
+  ],
   
   "singleTiled": ["midtjyske_jernbaner.esr_sammenlagt"],
+  
   "enabledExtensions": [
       "streetView",
       "coordinates"
