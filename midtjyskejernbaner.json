@@ -45,7 +45,10 @@
       "streetView",
       "coordinates"
     ],
-  "searchConfig": { 
-        "komkode": ["661", "665"]
+
+  "searchConfig": {
+    "komkode": "661, 665",
+    "esrSearchActive": true,
+    "sfeSearchActive": false
   }
 }
