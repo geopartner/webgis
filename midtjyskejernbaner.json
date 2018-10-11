@@ -40,7 +40,7 @@
   
   "enabledPrints": ["print2"],
   
-  "singleTiled": [",midtjyske_jernbaner.esr_sammenlagt"],
+  "singleTiled": ["midtjyske_jernbaner.esr_sammenlagt"],
   "enabledExtensions": [
       "streetView",
       "coordinates"
