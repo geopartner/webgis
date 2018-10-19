@@ -47,7 +47,13 @@
   
   "brandName": "Skårup Fjernvarme",
   
-  "enabledPrints": ["print2"],
+  
+  "enabledPrints": ["vandvaerk"],
+  
+  "enabledExtensions": [
+        "ventilMotionering",
+        "session"
+    ],
   
   "searchConfig": { 
         "komkode": "479"
