@@ -42,8 +42,5 @@
     "enabledExtensions": [
       "streetView",
       "coordinates"
-    ],
-    "singleTiled": [
-      "danishports.jordstykke"
     ]
   }
