@@ -44,9 +44,6 @@
       "coordinates"
     ],
     "singleTiled": [
-      "danishports.jordstykke",
-      "danishports.status_1",
-      "danishports.status_2",
-      "danishports.status_3"
+      "danishports.jordstykke"
     ]
   }
