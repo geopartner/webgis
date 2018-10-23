@@ -46,7 +46,7 @@
         "session"
     ],
   
-  "singleTiled": [ "skaarupfjv.ventilmotionering" ],
+  "_singleTiled": [ "skaarupfjv.ventilmotionering" ],
   
   "searchConfig": { 
         "komkode": "479"
