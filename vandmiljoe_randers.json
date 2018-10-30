@@ -22,7 +22,7 @@
   "enabledPrints": ["print2"],
   
   "enabledExtensions": [
-        
+        "docunoteIncident",
         "session"
     ],
   
