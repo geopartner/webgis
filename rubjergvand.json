@@ -39,6 +39,9 @@
   "enabledPrints": [
     "vandvaerk"
   ],
+  
+  "singleTiled": ["rubjergvand.rubjergvand"],
+  
   "searchConfig": {
     "komkode": "860"
   }
