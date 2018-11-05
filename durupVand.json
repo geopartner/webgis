@@ -43,6 +43,7 @@
       "streetView",
       "coordinates"
     ],
+    "singleTile": ["durupvand.durupvand-composite"], 
     "searchConfig": {
       "komkode": "779"
     }
