@@ -39,6 +39,7 @@
   "enabledPrints": [
     "vandvaerk"
   ],
+  "singleTiled": ["hornevand.hornevand-composite"],
   "searchConfig": {
     "komkode": "430"
   }
