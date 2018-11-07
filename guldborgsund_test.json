@@ -14,6 +14,15 @@
         "session"
     ],
   
+  "singleTiled": ["guldborgsund.v_incident_pkt",
+                  "guldborgsund.v_stikproeve_fl",
+                  "guldborgsund.v_stikproeve_li",
+                  "guldborgsund.v_stikproeve_pkt",
+                  "mapgo.t_6800_parl_fl_t",
+                  "mapgo.t_6801_parl_li_t",
+                  "mapgo.t_6802_parl_pkt_t",
+                  "mapgo.t_6803_parl_omr_t"],
+  
   "searchConfig": { 
         "komkode": "376"
   }
