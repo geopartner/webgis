@@ -1,0 +1,20 @@
+{
+  "baseLayers": [
+      {"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
+  ],
+  
+  "brandName": "MapGO, Guldborgsund",
+  
+  "enabledPrints": ["vandvaerk"],
+  
+  "enabledExtensions": [
+        "MapGOMenu",
+        "MapGOCollector",
+        "session"
+    ],
+  
+  "searchConfig": { 
+        "komkode": "376"
+  }
+}
