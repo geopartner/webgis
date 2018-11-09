@@ -43,7 +43,7 @@
       "streetView",
       "coordinates"
     ],
-    "singleTiled": ["durupvand.durupvand-composite"], 
+    "singleTiled": ["durupvand.durupvand-composite", "durupvand.teknisk_kort"], 
     "searchConfig": {
       "komkode": "779"
     }
