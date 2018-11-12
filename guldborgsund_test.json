@@ -14,7 +14,7 @@
         "session"
     ],
   
-  "singleTiled": ["mapgo.guldborgsund-remnider",
+  "singleTiled": ["mapgo.t_6800_parl_fl_t,mapgo.t_6801_parl_li_t,mapgo.t_6802_parl_pkt_t",
                   "mapgo.guldborgsund-mapgo"],
   
   "searchConfig": { 
