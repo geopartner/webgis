@@ -1,7 +1,20 @@
 {
   "baseLayers": [
       {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
+      {"id":"geodkBright","name":"Geodanmark"},
+    
+    {
+      "id": "luftfotoserier.geodanmark_2017_12_5cm",
+      "name": "Luftfoto 2017",
+      "db": "baselayers",
+      "host": "https://gc2.io",
+      "config": {
+        "maxZoom": 21,
+        "maxNativeZoom": 19,
+        "attribution": "&copy; SDFE & MapCentia ApS"
+      }
+    }
   ],
   
   "brandName": "MapGO, Guldborgsund",
@@ -14,10 +27,7 @@
         "session"
     ],
   
-  "singleTiled": ["guldborgsund.v_incident_pkt",
-                  "guldborgsund.v_stikproeve_fl",
-                  "guldborgsund.v_stikproeve_li",
-                  "guldborgsund.v_stikproeve_pkt"],
+  "singleTiled": ["guldborgsund.v_incident_pkt"],
   
   "searchConfig": { 
         "komkode": "376"
