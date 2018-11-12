@@ -27,7 +27,7 @@
         "session"
     ],
   
-  "singleTiled": ["guldborgsund.v_incident_pkt"],
+  "singleTiled": ["mapgo.v_incident_pkt"],
   
   "searchConfig": { 
         "komkode": "376"
