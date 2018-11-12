@@ -27,7 +27,7 @@
         "session"
     ],
   
-  "singleTiled": ["mapgo.v_stikproeve_pkt","mapgo.v_stikproeve_li","mapgo.v_stikproeve_fl"],
+  "singleTiled": ["mapgo.guldborgsund-stikp"],
   
   "searchConfig": { 
         "komkode": "376"
