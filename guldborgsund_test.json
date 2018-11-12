@@ -15,7 +15,7 @@
     ],
   
   "singleTiled": ["mapgo.guldborgsund-remnider",
-                  "mapgo.guldborgsund-go"],
+                  "mapgo.guldborgsund-mapgo"],
   
   "searchConfig": { 
         "komkode": "376"
