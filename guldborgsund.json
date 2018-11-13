@@ -27,7 +27,7 @@
         "session"
     ],
   
-  "singleTiled": ["mapgo.v_incident_pkt"],
+  "singleTiled": ["mapgo.v_incident_pkt", "mapgo.guldborgsund-stikp"],
   
   "searchConfig": { 
         "komkode": "376"
