@@ -41,6 +41,7 @@
     ],
     "enabledExtensions": [
       "streetView",
-      "coordinates"
+      "coordinates",
+        "session"
     ]
   }
