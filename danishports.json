@@ -43,5 +43,6 @@
       "streetView",
       "coordinates",
         "session"
-    ]
+    ],
+    "reloadOnLogin": "true"
   }
