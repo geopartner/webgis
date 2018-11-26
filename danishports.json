@@ -47,7 +47,9 @@
       "coordinates",
         "session"
     ],
-    "searchConfig": { 
-        "komkode": ["450","607","410"]
-    }
+    "searchConfig": {
+        "komkode": ["450","607","410"],
+        "esrSearchActive": false,
+        "sfeSearchActive": false
+      }
   }
