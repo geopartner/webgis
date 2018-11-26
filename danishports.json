@@ -48,6 +48,6 @@
         "session"
     ],
     "searchConfig": { 
-        "komkode": ["450,607,410"]
+        "komkode": ["450","607","410"]
     }
   }
