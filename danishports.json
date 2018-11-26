@@ -1,5 +1,5 @@
 {
-    "baseLayers": [geodk.bright
+    "baseLayers": [
       {
         "id": "geodk.bright",
         "name": "GeoDanmark kort"
