@@ -12,14 +12,6 @@
         }
       },
       {
-        "_id": "dtkSkaermkortDaempet",
-        "_name": "Skærmkort dæmpet"
-      },
-      {
-        "_id": "dtkSkaermkort",
-        "_name": "Skærmkort"
-      },
-      {
         "id": "osm",
         "name": "Open Street Maps"
       },
