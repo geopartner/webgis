@@ -1,12 +1,16 @@
 {
-    "baseLayers": [
+    "baseLayers": [geodk.bright
       {
-        "id": "dtkSkaermkortDaempet",
-        "name": "Skærmkort dæmpet"
+        "id": "geodk.bright",
+        "name": "GeoDanmark kort"
       },
       {
-        "id": "dtkSkaermkort",
-        "name": "Skærmkort"
+        "_id": "dtkSkaermkortDaempet",
+        "_name": "Skærmkort dæmpet"
+      },
+      {
+        "_id": "dtkSkaermkort",
+        "_name": "Skærmkort"
       },
       {
         "id": "osm",
