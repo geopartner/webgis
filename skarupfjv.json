@@ -42,8 +42,8 @@
   "enabledPrints": ["vandvaerk"],
   
   "enabledExtensions": [
-        "ventilMotionering",
-        "session"
+        "streetView",
+        "coordinates"
     ],
   
   "singleTiled": [ "skarupfjv.teknisk_baggrundskort" ],
