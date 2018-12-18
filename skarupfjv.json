@@ -41,11 +41,7 @@
   
   "enabledPrints": ["vandvaerk"],
   
-  "enabledExtensions": [
-        "streetView",
-        "coordinates"
-    ],
-  
+
   "singleTiled": [ "skarupfjv.teknisk_baggrundskort" ],
   
   "searchConfig": { 
