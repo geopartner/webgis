@@ -6,8 +6,7 @@
  
     "enabledExtensions": [
       "streetView",
-      "coordinates",
-        "session"
+      "coordinates"
     ],
   "searchConfig": { 
         "komkode": "479"
