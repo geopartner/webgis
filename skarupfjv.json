@@ -39,7 +39,7 @@
   "brandName": "Skårup Fjernvarme",
   
   
-  "enabledPrints": ["vandvaerk"],
+  "enabledPrints": ["skarupfjv"],
   
 
   "singleTiled": [ "skarupfjv.teknisk_baggrundskort" ],
