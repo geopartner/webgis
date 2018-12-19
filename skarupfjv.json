@@ -40,10 +40,12 @@
   
   
   "enabledPrints": ["skarupfjv"],
-  
-
-  "singleTiled": [ "skarupfjv.teknisk_baggrundskort" ],
-  
+ 
+    "enabledExtensions": [
+      "streetView",
+      "coordinates",
+        "session"
+    ],
   "searchConfig": { 
         "komkode": "479"
   }
