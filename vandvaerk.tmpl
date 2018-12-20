@@ -118,30 +118,25 @@
     }
 </style>
 <!-- map -->
-<div id="pane1">
-    <div id="container1">
+<div id="pane1" style="position: absolute; width: {{printWidth}}; height: {{printHeight}}; display: block; overflow: hidden; top: 30px; left:30px; border: 1px solid black">
+    <div id="container1" style="position: relative; width: 200%; height: 200%; left:-50%; top:-50%; display: inline-block;">
         <div id="map"></div>
     </div>
-    <div id="header">
-        <b id="title"></b>
-        <p id="comment"></p>
+    <div id="header" style="display: {{_showHeader}}; position: absolute; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); width: 600px; height: 300px; background-color: white; bottom: -100px; right: -210px; border-top: 1px solid gray;">
+        <div style="position: absolute; top: 140px; left: 280px;"><img style="width: 100px" src="http://media.licdn.com/media/p/1/005/081/1b1/1881d37.png"></div>
+        <b id="title" style="position: absolute; top: 10px; left: 190px; white-space: nowrap"></b>
+        <p id="comment" style="position: absolute; top: 30px; left: 190px; width: 270px;"></p>
+
     </div>
-     
-    
-    <div style="position: absolute; bottom: 0; left: 0; height: 50px; width:150px; width: 150px; background-color: white">
+
+    <div style="position: absolute; bottom: 0; left: 0; height: 50px; background-color: white">
         <div style="position: absolute; bottom: 5px; left: 5px;"><img style="width: 40px" src="http://www.clipartbest.com/cliparts/Rcd/dgL/RcddgLgc9.png"></div>
-        <div id="scalebar" style="position: relative; left: 48px;"><div class="leaflet-control-scale-line" style="width: 57px; transform: scale(0.813576); transform-origin: left bottom 0px;">5 km</div></div>
-        <div id="scale" style="position: relative; left: 60px; font-size: 0.8em; margin-top: 10px">1 : 25000</div>
+        <div id="scalebar" style="position: relative; left: 48px;"></div>
+        <div id="scale" style="position: relative; left: 60px; font-size: 0.8em;"></div>
     </div>
-    
-    <div id="scalebar"></div>
-    <div id="scale"></div>
-    <div id="legend"></div>
-    <div id="date-time">Udskrevet {{printDataTime}}</div>
-    <div id="logo"> 
-        <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/geopartner.png">
-        <p class="brandName">Powered by MapCentia</p>
-    </div>
+
+    <div id="legend" class="legend" style="position: absolute; top: 5px; left: 5px; padding: 10px; background-color: white; -webkit-transform: scale(0.6); -webkit-transform-origin:left top; display: {{_showLegend}}"></div>
+    <div id="date-time" style="position: absolute; top: 0; right: 0; background-color:white;font-size: 0.8em;">{{printDataTime}}</div>
 </div>
 
 
