@@ -1,12 +1,15 @@
 {
-    "baseLayers": [
+  "baseLayers": [
       {
-        "id": "dtkSkaermkort",
-        "name": "Skærmkort"
-      },
-      {
-        "id": "dtkSkaermkortDaempet",
-        "name": "Skærmkort dæmpet"
+        "id": "geodk.bright",
+        "name": "GeoDanmark kort",
+        "db": "baselayers",
+        "host": "https://gc2.io",
+        "config": {
+          "maxZoom": 21,
+          "maxNativeZoom": 19,
+          "attribution": "&copy; SDFE & MapCentia ApS"
+        }
       },
       {
         "id": "osm",
@@ -35,18 +38,17 @@
         }
       }
     ],
-    "brandName": "Kjellerup Vandværk",
-    "enabledPrints": [
-      "vandvaerk"
-    ],
+  
+  "brandName": "Skårup Fjernvarme",
+  
+  
+  "enabledPrints": ["skarupfjv"],
+ 
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [
-      "kjellerupvand.teknisk_baggrundskort"
-    ],
-    "searchConfig": {
-      "komkode": "740"
-    }
+  "searchConfig": { 
+        "komkode": "479"
   }
+} 

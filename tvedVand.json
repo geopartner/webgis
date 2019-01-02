@@ -35,7 +35,7 @@
         }
       }
     ],
-    "brandName": "Kjellerup Vandværk",
+    "brandName": "Tved Vandværk",
     "enabledPrints": [
       "vandvaerk"
     ],
@@ -43,10 +43,8 @@
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [
-      "kjellerupvand.teknisk_baggrundskort"
-    ],
+    "singleTiled": [ "tvedvand.teknisk_baggrundskort"  ],
     "searchConfig": {
-      "komkode": "740"
+      "komkode": "621"
     }
   }
