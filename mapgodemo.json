@@ -27,14 +27,7 @@
         "session"
     ],
   
-  "singleTiled": ["mapgo.v_incident_pkt",
-                  "mapgo.v_stikproeve_fl",
-                  "mapgo.v_stikproeve_pkt",
-                  "mapgo.v_stikproeve_li",
-                  "mapgo.v_incident_pkt",
-                  "mapgo.v_reminder_fl",
-                  "mapgo.v_reminder_li",
-                  "mapgo.v_reminder.pkt"],
+  "singleTiled": ["mapgo.t_6800_parl_fl_t"],
   
   "searchConfig": { 
         "komkode": "461"
