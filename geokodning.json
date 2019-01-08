@@ -52,6 +52,7 @@
         "coordinates"
     ],
     "singleTiled": [
+        "geokodning.rel_jordstykke"
       ],
     "searchConfig": {
         "komkode": "740"
