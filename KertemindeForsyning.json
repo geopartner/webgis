@@ -1,0 +1,10 @@
+{
+   
+  "brandName": "Kerteminde Forsyning A/S",
+  
+  "enabledPrints": ["print2"],
+    
+  "searchConfig": { 
+        "komkode": "440"
+  }
+}
