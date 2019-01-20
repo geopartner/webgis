@@ -2,7 +2,7 @@
    
   "brandName": "Kerteminde Forsyning A/S",
   
-  "enabledPrints": ["print2"],
+  "_enabledPrints": ["print2"],
     
   "searchConfig": { 
         "komkode": "440"
