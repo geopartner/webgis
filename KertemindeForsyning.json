@@ -8,6 +8,8 @@
   
   "_enabledPrints": ["print2"],
     
+  "singleTiled": [ "webgis.vandvaerksopland" ],
+
   "searchConfig": { 
         "komkode": "440"
   }
