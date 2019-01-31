@@ -1,4 +1,8 @@
 {
+   "baseLayers": [
+      {"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},      
+  ],
    
   "brandName": "Kerteminde Forsyning A/S",
   
