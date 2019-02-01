@@ -3,10 +3,7 @@
   
   "enabledPrints": ["stoholmvarme"],
   
-  "searchConfig": { 
-        "komkode": "791"
-  },
-  
-  searchModules: ["google", "danish"]
-
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"791"}  
 }
