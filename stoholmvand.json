@@ -1,0 +1,11 @@
+{
+ 
+  "brandName": "Stoholm vand",
+  
+  "enabledPrints": ["vandvaerk"],
+  
+   
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"791"}  
+} 
