@@ -1,0 +1,9 @@
+{
+  "brandName": "Stoholm varmeværk",
+  
+  "enabledPrints": ["stoholmvarme"],
+  
+  "searchConfig": { 
+        "komkode": "791"
+  }
+}
