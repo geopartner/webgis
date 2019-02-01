@@ -5,5 +5,7 @@
   
   "searchConfig": { 
         "komkode": "791"
-  }
+  },
+  searchModules: ["google", "danish"]
+
 }
