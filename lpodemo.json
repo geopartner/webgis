@@ -1,0 +1,10 @@
+{
+ 
+  "brandName": "Lindø - Port of Odense",
+  
+  "enabledPrints": ["vandvaerk"],
+  
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":["461", "440"]}  
+} 
