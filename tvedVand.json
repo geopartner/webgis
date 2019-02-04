@@ -43,7 +43,7 @@
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "tvedvand.teknisk_baggrundskort"  ],
+    "singleTiled": [ "tvedvand.tvedvand-composite"  ],
     "searchConfig": {
       "komkode": "621"
     }
