@@ -1,0 +1,9 @@
+{
+  "brandName": "Tved Vandværk",
+  
+  "enabledPrints": ["vandvaerk2"],
+  
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"621"}  
+}
