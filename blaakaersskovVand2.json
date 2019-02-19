@@ -39,6 +39,10 @@
   "enabledPrints": [
     "vandvaerk2"
   ],
+  "searchModules":[
+    "google",
+    "danish"
+  ],
   "enabledExtensions": [
     "mapGoMenu",
     "mapGOCollector",
