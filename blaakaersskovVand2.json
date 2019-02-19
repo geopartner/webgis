@@ -43,6 +43,7 @@
     "google",
     "danish"
   ],
+  "enabledSearch":"danish",
   "enabledExtensions": [
     "mapGoMenu",
     "mapGOCollector",
