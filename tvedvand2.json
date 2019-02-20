@@ -1,7 +1,7 @@
 {
   "brandName": "Tved Vandværk",
   
-  "enabledPrints": ["vandvaerk2"],
+  "enabledPrints": ["tvedvand"],
   
   "searchModules":["google","danish"],
   "enabledSearch":"danish",
