@@ -1,7 +1,7 @@
 {
   "brandName": "Engesvang Vandværk",
   
-  "enabledPrints": ["vandvaerk2"],
+  "enabledPrints": ["engesvangvand"],
   
   "searchModules":["google","danish"],
   "enabledSearch":"danish",
