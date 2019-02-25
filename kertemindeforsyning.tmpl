@@ -15,15 +15,92 @@
         box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
     }
 </style>
+<html>
+<body>
 <!-- map -->
 <div id="pane1"
-     style="position: absolute; width: {{printWidth}}; height: {{printHeight}}; display: block; overflow: hidden; top: 30px; left:30px; border: 1px solid black">
+     style="position: absolute; width: 100%; height: 100%; display: block; overflow: hidden; top: 30px; left:30px; border: 1px solid black">
     <div id="container1"
          style="position: relative; width: 200%; height: 200%; left:-50%; top:-50%; display: inline-block;">
         <div id="map"></div>
     </div>
     <div id="header"
-         style="display: block; position: absolute; width: 50%; height: 309px; background-color: white; bottom: 0; right: 0px; border-top: 1px solid gray;">
+         style="display: block; position: absolute; width: 50%; height: 206px; background-color: white; bottom: 0; right: 0px; border-top: 1px solid gray;">
+		 <table border="0" width="100%" height="50%" align="center">
+			 <tr>
+				 <td width="50%" style="text-align: left;">
+					<img style="height: 103px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/kertemindeforsyning_logo.jpg"></img>
+				 </td>
+				 <td align="top" style="vertical-align: top;">
+					<table border="0" width="100%"  >
+						<tr>
+							<td text-align="center" style="vertical-align: top;">
+								Kohaven 12, 5300 Kerteminde								
+							 </td>
+						 </tr>
+						 <tr>
+							<td text-align="center">
+								Tlf. 70243333
+							 </td>
+						 </tr>
+					 </table>
+				 </td>
+			 </tr>
+			 <tr>
+				 <table border="1" width="100%" height="50%" align="center">
+					 <tr>
+						<td width="50%">
+							<table border="0" width="100%" height="100%" align="center">
+								<tr>
+									<td>
+										Dato: {{printDataTime}}
+									 </td>
+								 </tr>
+								 <tr>
+									<td>
+										&nbsp;
+									 </td>
+								 </tr>
+								 <tr>
+									<td>
+										&nbsp;
+									 </td>
+								 </tr>
+							 </table>
+						</td>
+						<td >
+							<table border="0" width="100%" height="100%" align="center">
+								<tr style="border-bottom: 1pt solid black;">
+									<td width="50%" >
+										J. Nr. 
+									 </td>
+									<td>
+										<input type="text"/>
+									 </td>
+								 </tr>
+								 <tr>
+									<td width="50%" >
+										Målforhold: 1:
+									 </td>
+									<td>
+										<div id="scale" ></div>
+									 </td>
+								 </tr>
+								 <tr>
+									<td width="50%" >
+										Init: 
+									 </td>
+									<td>
+										<input type="text"/>
+									 </td>
+								 </tr>
+							 </table>
+						</td>
+					 </tr>
+				</table>
+			</tr>
+		 </table>
+		 <!--
         <div style="position: absolute;top: 0;left: 0;background: #ffffff;width: 50%;height: 103px;padding-left: 18px;padding-top: 31px;border-right: 1px solid;">
             <img style="width: 100px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/kertemindeforsyning_logo.jpg"></img>
         </div>
@@ -39,7 +116,7 @@
             <div id="date-time"
                  style="position: absolute; bottom: 0; right: 2px; font-size: 0.8em; box-shadow: none">{{printDataTime}}</div>
         </div>
-
+-->
     </div>
 
 
@@ -47,3 +124,5 @@
          style="position: absolute; bottom: 5px; left: 5px; padding: 10px; background-color:rgba(255, 255, 255, 0.5); -webkit-transform: scale(0.6); -webkit-transform-origin:left bottom; display: {{_showLegend}}"></div>
 
 </div>
+</body>
+</html>
