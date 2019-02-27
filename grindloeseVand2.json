@@ -1,0 +1,8 @@
+{
+ 
+  "brandName": "Grindløse Vand",
+  "enabledPrints": ["vandvaerk2"],
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"480"}  
+} 

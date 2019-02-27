@@ -1,0 +1,9 @@
+{
+  "brandName": "Salten Vandværk",
+  
+  "enabledPrints": ["vandvaerk2"],
+  
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"740"}  
+}

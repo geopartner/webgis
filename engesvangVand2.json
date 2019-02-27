@@ -1,0 +1,9 @@
+{
+  "brandName": "Engesvang Vandværk",
+  
+  "enabledPrints": ["engesvangvand"],
+  
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"760"}  
+}

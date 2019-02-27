@@ -35,16 +35,17 @@
         }
       }
     ],
-    "brandName": "Tved Vandværk",
+    "brandName": "Skårup Vandværk",
     "enabledPrints": [
-      "vandvaerk"
+      "vandvaerk2"
     ],
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "tvedvand.tvedvand-composite"  ],
+    "enabledSearch":"danish"
+    ,
     "searchConfig": {
-      "komkode": "621"
+      "komkode": "479"
     }
   }

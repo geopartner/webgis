@@ -35,16 +35,15 @@
         }
       }
     ],
-    "brandName": "Tved Vandværk",
-    "enabledPrints": [
-      "vandvaerk"
-    ],
+    "brandName": "Stoholm Vandværk",
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "tvedvand.tvedvand-composite"  ],
     "searchConfig": {
-      "komkode": "621"
-    }
+      "komkode": "791"
+    },
+    "enabledPrints": ["vandvaerk2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
   }

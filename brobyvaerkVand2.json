@@ -35,16 +35,20 @@
         }
       }
     ],
-    "brandName": "Tved Vandværk",
+    "brandName": "Brobyværk Andelsvandværk",
     "enabledPrints": [
-      "vandvaerk"
+      "vandvaerk_brobyvaerk2"
     ],
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "tvedvand.tvedvand-composite"  ],
+    "enabledSearch":"danish"
+    ,
     "searchConfig": {
-      "komkode": "621"
+      "komkode": [
+        "430",
+        "420"
+      ]
     }
   }

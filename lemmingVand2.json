@@ -35,16 +35,17 @@
         }
       }
     ],
-    "brandName": "Tved Vandværk",
+    "brandName": "Lemming Vandværk",
     "enabledPrints": [
-      "vandvaerk"
+      "vandvaerk2"
     ],
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "tvedvand.tvedvand-composite"  ],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
     "searchConfig": {
-      "komkode": "621"
+      "komkode": "740"
     }
   }

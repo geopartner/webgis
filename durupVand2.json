@@ -35,16 +35,22 @@
         }
       }
     ],
-    "brandName": "Tved Vandværk",
+    "brandName": "Durup Vandværk a.m.b.a.",
     "enabledPrints": [
-      "vandvaerk"
+      "vandvaerk_durupvand2"
     ],
+    "searchModules":[
+      "google",
+      "danish"
+    ],
+    "enabledSearch":"danish",
     "enabledExtensions": [
+      "mapGoMenu",
+      "mapGOCollector",
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "tvedvand.tvedvand-composite"  ],
     "searchConfig": {
-      "komkode": "621"
+      "komkode": "779"
     }
   }

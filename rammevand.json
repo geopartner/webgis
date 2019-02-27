@@ -1,0 +1,11 @@
+{
+ 
+  "brandName": "Ramme vand",
+  
+  "enabledPrints": ["vandvaerk2"],
+  
+   
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish",
+  "searchConfig":{"komkode":"665"}  
+} 
