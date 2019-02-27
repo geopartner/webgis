@@ -27,7 +27,7 @@
         "session"
     ],
   
-  "singleTiled": ["mapgo.ribergaarden"],
+  "singleTiled": ["mapgo.ribergaarden-wms"],
   
   "searchConfig": { 
         "komkode": "461"
