@@ -56,7 +56,9 @@
         "geokodning.rel_jordstykke"
       ],
     "searchConfig": {
-        "komkode": "740",
+        "komkode": [
+            "740"
+        ],
         "esrSearchActive": true,
         "sfeSearchActive": true
     }
