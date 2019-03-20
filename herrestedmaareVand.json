@@ -39,6 +39,7 @@
   "enabledPrints": [
     "vandvaerk_herrestedmaare"
   ],
+ "singleTiled": ["herrestedmaarevand.teknisk_baggrundskort"], 
   "searchConfig": {
     "komkode": "450"
   }
