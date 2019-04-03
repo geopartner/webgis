@@ -43,7 +43,7 @@
     "searchConfig": {
       "komkode": "791"
     },
-    "enabledPrints": ["vandvaerk2"],
+    "enabledPrints": ["vandvaerk_stoholm2"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
   }
