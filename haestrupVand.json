@@ -46,5 +46,7 @@
     "singleTiled": [ "haestrupvand.haestrupvand-composite"  ],
     "searchConfig": {
       "komkode": "860"
-    }
+    },
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish"
   }
