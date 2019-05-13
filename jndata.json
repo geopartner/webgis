@@ -32,7 +32,8 @@
           "maxZoom": 21,
           "maxNativeZoom": 19,
           "attribution": "&copy; SDFE & MapCentia ApS"
-        },
+        }
+      },
       {
         "id": "luftfotoserier.geodanmark_2018_12_5cm",
         "name": "Luftfoto 2018",
