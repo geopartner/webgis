@@ -1,20 +1,29 @@
 {
   "baseLayers": [
-      {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id":"geodkBright","name":"Geodanmark"},
+	   {
+            "id": "geodk.bright",
+            "name": "GeoDanmark kort, lavkon",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
     
-    {
-      "id": "luftfotoserier.geodanmark_2017_12_5cm",
-      "name": "Luftfoto 2017",
-      "db": "baselayers",
-      "host": "https://gc2.io",
-      "config": {
-        "maxZoom": 21,
-        "maxNativeZoom": 19,
-        "attribution": "&copy; SDFE & MapCentia ApS"
-      }
-    }
+        {
+            "id": "luftfotoserier.geodanmark_2018_12_5cm",
+            "name": "Luftfoto 2018",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+     
+        }
   ],
   
  
