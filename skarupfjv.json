@@ -1,16 +1,5 @@
 {
-  "baseLayers": [
-      {
-             "id": "kortforsyningen.matrikelkort", 
-             "name": "Matrikelkort", 
-             "db": "baselayers", 
-             "host": "https://services.kortforsyningen.dk/mat?login=qgisdk&password=qgisdk&LAYERS=MatrikelSkel,Centroide&TRANSPARENT=TRUE&STYLE=default&SERVICE=WMS&VERSION=1.1.1&STYLES=&FORMAT=image/png", // Host (skal være public DNS og fx ikke localhost)
-             "config": {
-                 "maxZoom": 26,
-                 "maxNativeZoom": 26,
-                 "attribution": "&copy; SDFE"
-             }
-         },
+  "baseLayers": [      
       {
         "id": "geodk.bright",
         "name": "GeoDanmark kort",
