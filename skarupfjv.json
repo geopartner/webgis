@@ -1,9 +1,9 @@
 {
   "baseLayers": [
       {
-             "id": "kortforsyningen.matrikelkort", // teknisk navn på lag i GC2
-             "name": "Matrikelkort", // Titel i Vidi
-             "db": "baselayers", // Database
+             "id": "kortforsyningen.matrikelkort", 
+             "name": "Matrikelkort", 
+             "db": "baselayers", 
              "host": "https://services.kortforsyningen.dk/mat?login=qgisdk&password=qgisdk&LAYERS=MatrikelSkel,Centroide&TRANSPARENT=TRUE&STYLE=default&SERVICE=WMS&VERSION=1.1.1&STYLES=&FORMAT=image/png", // Host (skal være public DNS og fx ikke localhost)
              "config": {
                  "maxZoom": 26,
