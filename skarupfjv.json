@@ -1,6 +1,17 @@
 {
   "baseLayers": [      
       {
+        "id": "skarupfjv.teknisk_baggrundskort",
+        "name": "Teknisk baggrundskort",
+        "db": "skarupfjv",
+        "host": "https://mapgogc2.geopartner.dk",
+        "config": {
+          "maxZoom": 21,
+          "maxNativeZoom": 19,
+          "attribution": "&copy; SDFE"
+        }
+      },
+    {
         "id": "skarupfjv.matrikelkort",
         "name": "Matrikelkort",
         "db": "skarupfjv",
