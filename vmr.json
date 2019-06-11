@@ -1,0 +1,15 @@
+{
+    "brandName": "VMR",
+    "enabledPrints": [
+      "vandvaerk2"
+    ],
+    "enabledExtensions": [
+      "documentCreate"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "730"
+      ]
+    },
+    "enabledSearch":"danish"
+  }
