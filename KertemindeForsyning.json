@@ -6,7 +6,7 @@
    
   "brandName": "Kerteminde Forsyning A/S",
   
-  "_enabledPrints": ["kertemindeforsyning"],
+  "enabledPrints": ["kertemindeforsyning"],
     
   "singleTiled": [ "webgis.vandvaerksopland" ],
 
