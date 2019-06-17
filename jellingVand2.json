@@ -1,16 +1,6 @@
 {
     "baseLayers": [
       {
-        "id": "jellingvand.teknisk_baggrundskort",
-        "name": "Teknisk baggrundskort",
-        "db": "vandvaerker",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
-      },{
         "id": "dtkSkaermkort",
         "name": "Skærmkort"
       },
