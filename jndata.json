@@ -48,13 +48,13 @@
     ],
     "brandName": "JN Data",
     "enabledPrints": [
-      "vandvaerk2"
+      "jndata"
     ],
     "enabledExtensions": [
       "streetView",
-      "coordinates"
+      "coordinates",
+        "session"
     ],
-    "singleTiled": [ "ler.ler-composite"  ],
     "searchConfig": {
       "komkode": [
         "740","157"

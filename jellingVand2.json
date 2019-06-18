@@ -1,26 +1,12 @@
 {
-  "baseLayers": [      
+    "baseLayers": [
       {
-        "id": "skarupfjv.teknisk_baggrundskort",
-        "name": "Teknisk baggrundskort",
-        "db": "skarupfjv",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
+        "id": "dtkSkaermkort",
+        "name": "Skærmkort"
       },
       {
-        "id": "geodk.bright",
-        "name": "GeoDanmark kort",
-        "db": "baselayers",
-        "host": "https://gc2.io",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE & MapCentia ApS"
-        }
+        "id": "dtkSkaermkortDaempet",
+        "name": "Skærmkort dæmpet"
       },
       {
         "id": "osm",
@@ -49,17 +35,16 @@
         }
       }
     ],
-  
-  "brandName": "Skårup Fjernvarme",
-  
-  
-  "enabledPrints": ["skarupfjv"],
- 
+    "brandName": "Jelling Vandværk",
+    "enabledPrints": [
+      "vandvaerk2"
+    ],
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-  "searchConfig": { 
-        "komkode": "479"
+    "enabledSearch":"danish",
+    "searchConfig": {
+      "komkode": "630"
+    }
   }
-} 
