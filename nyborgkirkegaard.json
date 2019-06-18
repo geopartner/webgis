@@ -1,0 +1,30 @@
+{
+  "baseLayers": [
+      {"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
+      {"id":"geodkBright","name":"Geodanmark"},
+    
+    {
+      "id": "luftfotoserier.geodanmark_2018_12_5cm",
+      "name": "Luftfoto 2018",
+      "db": "baselayers",
+      "host": "https://gc2.io",
+      "config": {
+        "maxZoom": 21,
+        "maxNativeZoom": 19,
+        "attribution": "&copy; SDFE & MapCentia ApS"
+      }
+    }
+  ],
+  
+  "brandName": "MapGO, Nyborg Kirkegård",
+  
+  "enabledPrints": ["print2"],
+  
+  "enabledExtensions": [
+        "MapGOMenu",
+        "MapGOCollector",
+        "session"
+    ],
+  
+}
