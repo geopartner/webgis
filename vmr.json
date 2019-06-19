@@ -17,7 +17,8 @@
   "enabledSearch": "danish",
   "extensionConfig": {
     "documentCreate": {
-      "GC2key": "c38fba7edbed4f889acac6a138643d02",
+      "GC2key": "446be0f3af69b565ac769b78773fb892",
+      "GC2user": "vmr",
       "maxZoom": 18,
       "metaTag": "documentCreate",
       "tables": [{
