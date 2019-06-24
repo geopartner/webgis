@@ -26,16 +26,10 @@
         "attribution": "&copy; SDFE & MapCentia ApS"
       }
     }
+    
   ],
   
-  "brandName": "MapGO, Nyborg Kirkegård",
+  "brandName": "MapGO, Nyborg Kirkegård"
   
-  "enabledPrints": ["print2"],
-  
-  "enabledExtensions": [
-        "MapGOMenu",
-        "MapGOCollector",
-        "session"
-    ],
-  
+
 }
