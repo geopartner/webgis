@@ -11,7 +11,7 @@
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
           "maxZoom": 23,
-          "maxNativeZoom": 19,
+          "maxNativeZoom": 23,
           "attribution": "&copy; Geopartner & MapCentia ApS"
         }
       },
@@ -21,7 +21,7 @@
       "db": "baselayers",
       "host": "https://gc2.io",
       "config": {
-        "maxZoom": 21,
+        "maxZoom": 23,
         "maxNativeZoom": 19,
         "attribution": "&copy; SDFE & MapCentia ApS"
       }
