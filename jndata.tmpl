@@ -14,6 +14,14 @@
         -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
         box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
     }
+
+    .leaflet-control-zoom*,.leaflet-control-locate*, .leaflet-control-custom*, .history-back-*, .history-forward-*,.leaflet-control-boxzoom*  {
+        display: none;
+    }
+    .leaflet-control-attribution {
+        bottom: 200px;
+    }
+
 </style>
 <!-- map -->
 <div id="pane1"
@@ -25,7 +33,7 @@
     <div id="header"
          style="display: block; position: absolute; width: 50%; height: 100px; background-color: white; bottom: 0; right: 0px; border-top: 1px solid gray;">
         <div style="position: absolute;top: 0;left: 0;background: #ffffff;width: 140px;height: 100%;padding-left: 18px;padding-top: 31px;border-right: 1px solid;border-left: 1px solid;">
-            <img style="width: 100px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/jndata_logo.jpg"></img>
+            <img style="width: 100px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/geopartner.png"></img>
         </div>
 
         <b id="title" style="position: absolute; top: 10px; left: 150px; white-space: nowrap"></b>
@@ -44,6 +52,6 @@
 
 
     <div id="legend" class="legend"
-         style="position: absolute; bottom: 5px; left: 5px; padding: 10px; background-color:rgba(255, 255, 255, 0.5); -webkit-transform: scale(0.6); -webkit-transform-origin:left bottom; display: {{_showLegend}}"></div>
+         style="position: absolute; bottom: 5px; left: 5px; padding: 10px; background-color:rgba(255, 255, 255, 1); -webkit-transform: scale(0.6); -webkit-transform-origin:left bottom; display: {{_showLegend}}"></div>
 
 </div>

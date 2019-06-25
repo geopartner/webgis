@@ -53,7 +53,7 @@
     "enabledExtensions": [
       "streetView",
       "coordinates",
-        "session"
+      "session"
     ],
     "searchConfig": {
       "komkode": [
