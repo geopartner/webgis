@@ -31,7 +31,8 @@
   "brandName": "Ejendomskort",
   
     "enabledExtensions": [
-      "streetView"
+      "streetView",
+      "session"
     ],
   "searchConfig": { 
         "komkode": "482"
