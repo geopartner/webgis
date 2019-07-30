@@ -47,7 +47,7 @@
   
   "brandName": "Ørbæk Vandværk",
   
-  "enabledPrints": ["vandvaerk"],
+  "enabledPrints": ["vandvaerk2"],
   
   "searchConfig": { 
         "komkode": "450"
