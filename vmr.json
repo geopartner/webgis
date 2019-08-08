@@ -14,6 +14,7 @@
       "730"
     ]
   },
+  "activateMainTab": "documentCreate",
   "enabledSearch": "danish",
   "extensionConfig": {
     "documentCreate": {
