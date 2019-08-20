@@ -33,7 +33,18 @@
           "maxNativeZoom": 19,
           "attribution": "&copy; SDFE & MapCentia ApS"
         }
-      }
+      },
+      {
+         "id": "luftfotoserier.geodanmark_2018_12_5cm",
+         "name": "Luftfoto 2018",
+         "db": "baselayers",
+         "host": "https://dk.gc2.io",
+         "config": {
+           "maxZoom": 26,
+           "maxNativeZoom": 20,
+           "attribution": "&copy; SDFE"
+          }
+       }
     ],
     "brandName": "Kjellerup Varmeværk",
     "enabledPrints": [
