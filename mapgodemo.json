@@ -6,6 +6,7 @@
       "vandvaerk2"
     ],
     "enabledExtensions": [
+      "documentCreate",
       "MapGOMenu",
       "session"
     ],
