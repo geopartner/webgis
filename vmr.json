@@ -23,6 +23,7 @@
         "maxZoom": 19,
         "metaTag": "documentCreate",
         "fileIdentCol": "fileident",
+        "defaulttable": "spildevand",
         "tables": [{
             "table": "spildevand",
             "optional": [],
