@@ -52,7 +52,11 @@
               "sagsstatus",
               "adgangsadresseid",
               "adresseid",
-              "esrnr"
+              "esrnr",
+              "casenumber",
+              "kontakt_tele",
+              "kontakt_mail",
+              "fileident"
             ],
             "geom_ext": {
               "x": "lat",
@@ -90,7 +94,11 @@
               "sagsstatus",
               "adgangsadresseid",
               "adresseid",
-              "esrnr"
+              "esrnr",
+              "casenumber",
+              "kontakt_tele",
+              "kontakt_mail",
+              "fileident"
             ],
             "geom_ext": {
               "x": "lat",
