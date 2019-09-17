@@ -23,7 +23,7 @@
         "maxZoom": 19,
         "metaTag": "documentCreate",
         "fileIdentCol": "fileident",
-        "defaulttable": "spildevand",
+        "defaulttable": "vmr.spildevand",
         "tables": [{
             "table": "spildevand",
             "optional": [],
