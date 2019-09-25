@@ -1,6 +1,17 @@
 {
   "baseLayers": [
       {
+        "id": "midtjyske_jernbaner.hybrid",
+        "name": "Luftfoto kort",
+        "db": "mjba",
+        "host": "https://mapgogc2.geopartner.dk",
+        "config": {
+          "maxZoom": 21,
+          "maxNativeZoom": 19,
+          "attribution": "&copy; SDFE"
+        }
+      },
+    {
         "id": "dtkSkaermkortDaempet",
         "name": "Skærmkort dæmpet"
       },
