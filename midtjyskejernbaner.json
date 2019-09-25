@@ -8,7 +8,8 @@
         "config": {
           "maxZoom": 21,
           "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
+          "attribution": "&copy; SDFE",
+          "singleTile": "true"
         }
       },
     {
@@ -22,28 +23,6 @@
       {
         "id": "osm",
         "name": "Open Street Maps"
-      },
-      {
-        "id": "luftfotoserier.geodanmark_2016_12_5cm",
-        "name": "Luftfoto 2016",
-        "db": "baselayers",
-        "host": "https://gc2.io",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE & MapCentia ApS"
-        }
-      },
-      {
-        "id": "luftfotoserier.geodanmark_2017_12_5cm",
-        "name": "Luftfoto 2017",
-        "db": "baselayers",
-        "host": "https://gc2.io",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE & MapCentia ApS"
-        }
       }
     ],
     
