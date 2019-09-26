@@ -34,7 +34,9 @@
               "adresse": "_SEARCH",
               "adgangsadresseid": "1",
               "adresseid": "1",
-              "esrnr": "1"
+              "esrnr": "1",
+              "vejret":"2",
+              "tilbagemelding":"2"
             },
             "hidden": [
               "lat",
@@ -57,7 +59,8 @@
               "casenumber",
               "kontakt_tele",
               "kontakt_mail",
-              "fileident"
+              "fileident",
+              "tilbagemelding"
             ],
             "geom_ext": {
               "x": "lat",
@@ -76,7 +79,9 @@
               "adresse": "_SEARCH",
               "adgangsadresseid": "1",
               "adresseid": "1",
-              "esrnr": "1"
+              "esrnr": "1",
+              "vejret":"2",
+              "tilbagemelding":"2"
             },
             "hidden": [
               "lat",
@@ -99,7 +104,8 @@
               "casenumber",
               "kontakt_tele",
               "kontakt_mail",
-              "fileident"
+              "fileident",
+              "tilbagemelding"
             ],
             "geom_ext": {
               "x": "lat",
