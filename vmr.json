@@ -14,7 +14,8 @@
         "config": {
           "maxZoom": 21,
           "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
+          "attribution": "&copy; SDFE",
+          "singleTile": "true"
         }
       }
     ],
