@@ -1,7 +1,23 @@
 {
     "brandName": "VMR",
     "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
-  
+   "baseLayers": [      
+      {
+        "id": "osm",
+        "name": "Open Street Maps"
+      },
+       {
+        "id": "vmr.hybridkort",
+        "name": "Hybrid baggrundskort",
+        "db": "vmr",
+        "host": "https://mapgogc2.geopartner.dk",
+        "config": {
+          "maxZoom": 21,
+          "maxNativeZoom": 19,
+          "attribution": "&copy; SDFE"
+        }
+      }
+    ],
     "enabledPrints": [
       "vandvaerk2"
     ],
