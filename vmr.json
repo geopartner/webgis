@@ -9,7 +9,7 @@
        {
         "id": "vmr.hybridkort",
         "name": "Hybrid baggrundskort",
-        "db": "vmr",
+        "db": "intranote",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
           "maxZoom": 21,
