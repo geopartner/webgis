@@ -1,5 +1,6 @@
 {
   "baseLayers": [
+      {"id":"geodkBright","name":"Geodanmark"},
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"}
    ],
