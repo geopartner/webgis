@@ -43,6 +43,7 @@
         "defaulttable": "vmr.spildevand",
         "tables": [{
             "table": "spildevand",
+            "cosmeticbackgroundlayer": "vmr.spildevandsbrnde_sandfang_renseanlaeg_reguleringsbygvaerk_regnv"
             "optional": [],
             "defaults": {
               "henvendelsesdato": "_DATETIME",
@@ -88,6 +89,7 @@
           },
           {
             "table": "vand",
+            "cosmeticbackgroundlayer": "vmr.wms_ledninger"
             "optional": [],
             "defaults": {
               "henvendelsesdato": "_DATETIME",
