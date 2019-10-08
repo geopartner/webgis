@@ -39,6 +39,11 @@
   "enabledPrints": [
     "vandvaerk2"
   ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "enabledSearch":"danish",
   "searchConfig": {
     "komkode": "740"
   }
