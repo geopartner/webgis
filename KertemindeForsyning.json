@@ -6,13 +6,16 @@
    
   "brandName": "Kerteminde Forsyning A/S",
   
-  "enabledPrints": ["kertemindeforsyning"],
-    
-  "singleTiled": [ "webgis.vandvaerksopland" ],
+  "enabledPrints": ["kertemindeforsyning"],   
 
     "searchConfig": {
-      "komkode": [
-        "479"
-      ]
-    }
+        "komkode": [
+            "440"
+        ]
+    },
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish"
 }
