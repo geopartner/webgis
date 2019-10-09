@@ -44,7 +44,9 @@
       "coordinates"
     ],
     "searchConfig": {
-      "komkode": "773"
+      "komkode": [
+        "773"
+      ]
     },
     "enabledPrints": ["vandvaerk2"],
     "searchModules":["google","danish"],
