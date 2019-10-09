@@ -10,7 +10,9 @@
     
   "singleTiled": [ "webgis.vandvaerksopland" ],
 
-  "searchConfig": { 
-        "komkode": "440"
-  }
+    "searchConfig": {
+      "komkode": [
+        "479"
+      ]
+    }
 }
