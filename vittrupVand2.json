@@ -39,9 +39,16 @@
   "enabledPrints": [
     "vandvaerk2"
   ],
-
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
   "searchConfig": {
-    "komkode": "860"
-  }
+    "komkode": [
+      "860"
+    ]
+  },
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish" 
 }
  
