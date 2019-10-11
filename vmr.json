@@ -2,10 +2,6 @@
     "brandName": "VMR",
     "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
    "baseLayers": [      
-      {
-        "id": "osm",
-        "name": "Open Street Maps"
-      },
        {
         "id": "vmr.hybridkort",
         "name": "Hybrid baggrundskort",
@@ -17,6 +13,11 @@
           "attribution": "&copy; SDFE",
           "singleTile": "true"
         }
+      }
+       ,
+       {
+        "id": "osm",
+        "name": "Open Street Maps"
       }
     ],
     "enabledPrints": [
@@ -34,9 +35,6 @@
     "activateMainTab": "documentCreate",
     "enabledSearch": "danish",
     "extensionConfig": {
-      "session":{
-        "autoLogin": "true"
-      },
       "documentCreate": {
         "GC2key": "446be0f3af69b565ac769b78773fb892",
         "GC2user": "vmr",
