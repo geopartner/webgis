@@ -35,9 +35,9 @@
       }
     }
   ],
-  "brandName": "Vittrup Vandværk",
+  "brandName": "Hesselager-Kirkeby Vandværk",
   "enabledPrints": [
-    "vandvaerk_vittrupvand2"
+    "vandvaerk_hesselagerkirkebyvand2"
   ],
   "enabledExtensions": [
     "streetView",
@@ -45,7 +45,7 @@
   ],
   "searchConfig": {
     "komkode": [
-      "860"
+      "479"
     ]
   },
   "searchModules":["google","danish"],
