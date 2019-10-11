@@ -31,6 +31,10 @@
         "730"
       ]
     },
+    "session":{
+    "autoLogin": true, 
+    "autoLoginMaxAge": null
+    },
     "activateMainTab": "documentCreate",
     "enabledSearch": "danish",
     "extensionConfig": {
