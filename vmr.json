@@ -31,10 +31,8 @@
         "730"
       ]
     },
-    "autoLoginPossible": "true",
     "session":{
-    "autoLogin": true, 
-    "autoLoginMaxAge": null
+        "autoLogin": "true"
     },
     "activateMainTab": "documentCreate",
     "enabledSearch": "danish",
