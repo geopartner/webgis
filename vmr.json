@@ -31,7 +31,7 @@
         "730"
       ]
     },
-    autoLoginPossible: true,
+    "autoLoginPossible": "true",
     "session":{
     "autoLogin": true, 
     "autoLoginMaxAge": null
