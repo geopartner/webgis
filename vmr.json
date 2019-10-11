@@ -31,12 +31,12 @@
         "730"
       ]
     },
-    "session":{
-        "autoLogin": "true"
-    },
     "activateMainTab": "documentCreate",
     "enabledSearch": "danish",
     "extensionConfig": {
+      "session":{
+        "autoLogin": "true"
+      },
       "documentCreate": {
         "GC2key": "446be0f3af69b565ac769b78773fb892",
         "GC2user": "vmr",
