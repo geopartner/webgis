@@ -54,8 +54,11 @@
       "streetView",
       "coordinates"
     ],
+    "searchModules":["google","danish"],
     "enabledSearch":"danish",
     "searchConfig": {
-      "komkode": "740"
+      "komkode": [
+        "740"
+      ]
     }
   }
