@@ -38,7 +38,14 @@
   "enabledPrints": [
     "vandvaerk2"
   ],
-  "searchConfig": {
-    "komkode": "479"
-  }
+      "searchConfig": {
+        "komkode": [
+            "479"
+        ]
+    },
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish"
 }
