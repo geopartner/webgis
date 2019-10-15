@@ -6,7 +6,7 @@
         "db": "vandvaerker",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
-          "maxZoom": 21,
+          "maxZoom": 26,
           "maxNativeZoom": 19,
           "attribution": "&copy; SDFE"
         }
@@ -17,7 +17,7 @@
         "db": "vandvaerker",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
-          "maxZoom": 21,
+          "maxZoom": 26,
           "maxNativeZoom": 19,
           "attribution": "&copy; SDFE"
         }
