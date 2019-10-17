@@ -3,6 +3,10 @@
     "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
    "baseLayers": [      
        {
+        "id": "osm",
+        "name": "Open Street Maps"
+      },
+       {
         "id": "vmr.hybridkort",
         "name": "Hybrid baggrundskort",
         "db": "intranote",
@@ -13,11 +17,6 @@
           "attribution": "&copy; SDFE",
           "singleTile": "true"
         }
-      }
-       ,
-       {
-        "id": "osm",
-        "name": "Open Street Maps"
       }
     ],
     "enabledPrints": [
