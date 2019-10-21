@@ -34,6 +34,10 @@
   "searchConfig": {
   },
   "enabledExtensions": [
+    "streetView",
+    "layerSearch",
+    "coordinates",
+    "session",
     "editor"
   ]
 }
