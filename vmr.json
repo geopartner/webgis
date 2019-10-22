@@ -46,7 +46,7 @@
         "defaulttable": "vmr.spildevand",
         "tables": [{
             "table": "spildevand",
-            "cosmeticbackgroundlayer": "vmr.spildevand1",
+            "cosmeticbackgroundlayer": "vmr.spildevand_wms_niras",
             "optional": [],
             "defaults": {
               "henvendelsesdato": "_DATETIME",
@@ -92,7 +92,7 @@
           },
           {
             "table": "vand",
-            "cosmeticbackgroundlayer": "vmr.vand1",
+            "cosmeticbackgroundlayer": "vmr.vand_wms_niras",
             "optional": [],
             "defaults": {
               "henvendelsesdato": "_DATETIME",
