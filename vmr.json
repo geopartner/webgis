@@ -62,7 +62,6 @@
             "hidden": [
               "lat",
               "lng",
-              "henvendelsesdato",
               "prioritet",
               "problemtype",
               "ejendomstype",
@@ -108,7 +107,6 @@
             "hidden": [
               "lat",
               "lng",
-              "henvendelsesdato",
               "prioritet",
               "problemtype",
               "ejendomstype",
