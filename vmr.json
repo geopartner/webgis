@@ -47,6 +47,7 @@
         "tables": [{
             "table": "spildevand",
             "cosmeticbackgroundlayer": "vmr.spildevand_wms_niras",
+            "docunotecaseutilitytype": "Spildevand",
             "optional": [],
             "defaults": {
               "henvendelsesdato": "_DATETIME",
@@ -93,6 +94,7 @@
           {
             "table": "vand",
             "cosmeticbackgroundlayer": "vmr.vand_wms_niras",
+            "docunotecaseutilitytype": "Vand",
             "optional": [],
             "defaults": {
               "henvendelsesdato": "_DATETIME",
