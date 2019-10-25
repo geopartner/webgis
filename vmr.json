@@ -43,7 +43,7 @@
         "maxZoom": 19,
         "metaTag": "documentCreate",
         "fileIdentCol": "fileident",
-        "defaulttable": "vmr.spildevand",
+        "defaulttable": "vmr.vw_spildevand",
         "tables": [{
             "table": "vw_spildevand",
             "cosmeticbackgroundlayer": "vmr.spildevand_wms_niras",
