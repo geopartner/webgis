@@ -42,7 +42,8 @@
     "enabledExtensions": [
       "streetView",
       "coordinates",
-      "editor"
+      "editor",
+        "session"
     ],
     "enabledSearch":"danish"
     ,
