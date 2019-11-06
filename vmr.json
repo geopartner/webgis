@@ -25,17 +25,6 @@
     {
       "id": "dtkSkaermkortDaempet",
       "name": "Skærmkort dæmpet"
-    },
-    {
-      "id": "geodkBright",
-      "name": "Geodanmark",
-      "db": "baselayers",
-      "host": "https://gc2.io",
-      "config": {
-        "maxZoom": 21,
-        "maxNativeZoom": 19,
-        "attribution": "&copy; SDFE & MapCentia ApS"
-      }
     }
   ],
   "enabledPrints": [
