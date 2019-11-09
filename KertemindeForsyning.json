@@ -17,5 +17,6 @@
         "google",
         "danish"
     ],
-    "enabledSearch": "danish"
+    "enabledSearch": "danish",
+   "template": "kertemindeforsyning.tmpl"
 }
