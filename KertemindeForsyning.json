@@ -18,5 +18,5 @@
         "danish"
     ],
     "enabledSearch": "danish",
-   "template": "kertemindeforsyning.tmpl"
+   "template": "kertemindeforsyningprint.tmpl"
 }
