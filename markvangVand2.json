@@ -1,16 +1,9 @@
 {
   "baseLayers": [
     {
-        "id": "knudstrandvand.teknisk_baggrundskort",
-        "name": "Teknisk baggrundskort",
-        "db": "vandvaerker",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
-      },
+      "id": "dtkSkaermkort",
+      "name": "Skærmkort"
+    },
     {
       "id": "dtkSkaermkortDaempet",
       "name": "Skærmkort dæmpet"
@@ -18,6 +11,17 @@
     {
       "id": "osm",
       "name": "Open Street Maps"
+    },
+    {
+      "id": "luftfotoserier.geodanmark_2016_12_5cm",
+      "name": "Luftfoto 2016",
+      "db": "baselayers",
+      "host": "https://gc2.io",
+      "config": {
+        "maxZoom": 21,
+        "maxNativeZoom": 19,
+        "attribution": "&copy; SDFE & MapCentia ApS"
+      }
     },
     {
       "id": "luftfotoserier.geodanmark_2017_12_5cm",
@@ -31,7 +35,7 @@
       }
     }
   ],
-  "brandName": "Knud Strand Vandværk",
+  "brandName": "Markvang Vandværk",
   "enabledPrints": [
     "vandvaerk2"
   ],
@@ -41,7 +45,7 @@
   ],
   "searchConfig": {
     "komkode": [
-      "779"
+      "710"
     ]
   },
   "searchModules":["google","danish"],
