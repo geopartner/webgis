@@ -2,16 +2,5 @@
   "brandName": "SDFE",
   "aboutBox": "<p>Denne side indeholder lokale cachede lag</p>",
   "baseLayers": [
-    {
-    "id": "wms.orto_foraar",
-    "name": "Luftfoto 2016",
-    "db": "sdfe",
-    "host": "http://mapgogc2.geopartner.dk",
-    "config": {
-      "maxZoom": 21,
-      "maxNativeZoom": 19,
-      "attribution": "&copy; SDFE & MapCentia ApS"
-    }
-    }
   ]
 }
