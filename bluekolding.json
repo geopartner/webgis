@@ -25,9 +25,9 @@
      
         }
   ],
-  
- 
+  "enabledSearch":"danish"
+  ,
   "searchConfig": { 
-        "komkode": "621"
+        "komkode": ["621"]
   }
 }
