@@ -1,33 +1,58 @@
 {
-  "baseLayers": [
-	   {
-            "id": "geodk.bright",
-            "name": "GeoDanmark kort, lavkon",
+    "schemata": [
+        "public",
+        "tag:_deklarationer",
+        "tag:_forsyning"
+    ],
+    "brandName": "Bluekolding",
+    "aboutBox": "<p>Deklarations web</p>",
+    "enabledExtensions": [
+        "conflictSearch",
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "offlineMap"
+    ],
+    "baseLayers": [
+        {
+            "id": "geodk.bright-01052019",
+            "name": "GeoDanmark kort, lavkon TEST",
             "db": "baselayers",
-            "host": "https://gc2.io",
+            "host": "https://dk.gc2.io",
             "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
                 "attribution": "&copy; SDFE & MapCentia ApS"
             }
         },
-    
+        {
+            "id": "hereNormalDayGrey",
+            "name": "HERE Normal Day Grey"
+        },
+        {
+            "id": "dtkSkaermkortDaempet",
+            "name": "DTK Skærmkort, dæmpet"
+        },
         {
             "id": "luftfotoserier.geodanmark_2018_12_5cm",
             "name": "Luftfoto 2018",
             "db": "baselayers",
-            "host": "https://gc2.io",
+            "host": "https://dk.gc2.io",
             "config": {
-                "maxZoom": 21,
+                "maxZoom": 26,
                 "maxNativeZoom": 20,
-                "attribution": "&copy; SDFE & MapCentia ApS"
+                "attribution": "&copy; SDFE"
             }
-     
         }
-  ],
-  "enabledSearch":"danish"
-  ,
-  "searchConfig": { 
-        "komkode": ["621"]
-  }
+    ],
+    "searchConfig": {
+        "komkode": "621"
+    },
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish",
+    "template": "default.tmpl"
 }
