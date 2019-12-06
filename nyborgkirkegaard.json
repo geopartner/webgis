@@ -1,9 +1,5 @@
 {
   "baseLayers": [
-      {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id":"geodkBright","name":"Geodanmark"},
-    
       {
         "id": "mapgo.nyborg_kirke_transparent_mosaic_group1",
         "name": "Dronefoto",
@@ -15,7 +11,12 @@
           "attribution": "&copy; Geopartner & MapCentia ApS"
         }
       },
-	  {
+	{"id":"dtkSkaermkort","name":"Skærmkort"},
+      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
+      {"id":"geodkBright","name":"Geodanmark"},
+    
+      
+	{
       "id": "luftfotoserier.geodanmark_2018_12_5cm",
       "name": "Luftfoto 2018",
       "db": "baselayers",
