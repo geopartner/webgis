@@ -11,6 +11,17 @@
           "attribution": "&copy; Geopartner & MapCentia ApS"
         }
       },
+      {
+        "id": "mapgo.transparent_nyborg_01_mosaic_rgb",
+        "name": "Dronefoto Assistens",
+        "db": "nyborgkirkegaard",
+        "host": "https://mapgogc2.geopartner.dk",
+        "config": {
+          "maxZoom": 23,
+          "maxNativeZoom": 23,
+          "attribution": "&copy; Geopartner & MapCentia ApS"
+        }
+      },
 	{"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
       {"id":"geodkBright","name":"Geodanmark"},
