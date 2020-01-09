@@ -43,7 +43,8 @@
   "enabledSearch": "danish",
   "extensionConfig": {
     "session": {
-      "autoLogin": true
+      "autoLogin": true,
+      "autoLoginMaxAge": ‭"31536000"‬
     },
     "documentCreate": {
       "GC2key": "446be0f3af69b565ac769b78773fb892",
