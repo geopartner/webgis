@@ -1,9 +1,9 @@
 {
     "baseLayers": [
       {
-        "id": "skarupfjv.teknisk_baggrundskort",
+        "id": "nrlyngbyvand.teknisk_baggrundskort",
         "name": "Teknisk baggrundskort",
-        "db": "skarupfjv",
+        "db": "vandvaerker",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
           "maxZoom": 21,
