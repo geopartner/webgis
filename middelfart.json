@@ -23,13 +23,18 @@
   
   "enabledExtensions": [
         "MapGOMenu",
-        "MapGOCollector",
         "session"
     ],
-  
-  "singleTiled": ["mapgo.t_6800_parl_fl_t"],
-  
-  "searchConfig": { 
-        "komkode": "410"
-  }
+
+    "searchConfig": {
+        "komkode": [
+            "410"
+        ]
+    },
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish"
+
 }
