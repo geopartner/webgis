@@ -1,7 +1,7 @@
 {
     "baseLayers": [      
       {
-        "id": "	stoholmvarme.teknisk_baggrundskort",
+        "id": "stoholmvarme.teknisk_baggrundskort",
         "name": "Teknisk baggrundskort",
         "db": "varmevaerker",
         "host": "https://mapgogc2.geopartner.dk",
