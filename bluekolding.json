@@ -2,7 +2,9 @@
     "schemata": [
         "public",
         "tag:_deklarationer",
-        "tag:_forsyning"
+        "tag:_forsyning",
+        "tag:_skraafoto",
+        "tag:_luftfoto"
     ],
     "brandName": "Bluekolding",
     "aboutBox": "<p>Deklarations web</p>",
