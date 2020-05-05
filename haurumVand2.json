@@ -37,7 +37,7 @@
         "710"
       ]
     },
-    "enabledPrints": ["haurumvand"],
+    "enabledPrints": ["vandvaerk_haurumvand2"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
   }
