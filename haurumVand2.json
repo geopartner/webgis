@@ -1,6 +1,10 @@
 {
     "baseLayers": [
       {
+        "id": "osm",
+        "name": "Open Street Maps"
+      },
+      {
         "id": "luftfotoserier.geodanmark_2016_12_5cm",
         "name": "Luftfoto 2016",
         "db": "baselayers",
@@ -21,10 +25,6 @@
           "maxNativeZoom": 19,
           "attribution": "&copy; SDFE & MapCentia ApS"
         }
-      },
-      {
-        "id": "osm",
-        "name": "Open Street Maps"
       }
     ],
     "brandName": "Haurum Vandværk",
