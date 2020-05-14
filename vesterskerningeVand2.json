@@ -40,7 +40,10 @@
     "vandvaerk2"
   ],
   "searchConfig": {
-    "komkode": "479"
+    "komkode": [
+            "430",
+            "479"
+      ]
   },
   "searchModules":["google","danish"],
   "enabledSearch":"danish"
