@@ -1,0 +1,28 @@
+{
+  "brandName": "lertool",
+  "baseLayers": [
+    {
+      "id": "osm",
+      "name": "Open Street Maps"
+    }
+  ],
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "enabledExtensions": [
+    "session"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "846"
+    ]
+  },
+  "activateMainTab": "documentCreate",
+  "enabledSearch": "danish",
+  "extensionConfig": {
+    "session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 630720000000
+    }
+  }
+}
