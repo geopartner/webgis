@@ -1,5 +1,5 @@
 {
-  "brandName": "lertool",
+  "brandName": "LER 2.0",
   "baseLayers": [
     {
       "id": "osm",
@@ -10,14 +10,15 @@
     "vandvaerk2"
   ],
   "enabledExtensions": [
-    "session"
+    "session",
+    "lerConverter"
   ],
   "searchConfig": {
     "komkode": [
       "846"
     ]
   },
-  "activateMainTab": "documentCreate",
+  "activateMainTab": "lerConverter",
   "enabledSearch": "danish",
   "extensionConfig": {
     "session": {
