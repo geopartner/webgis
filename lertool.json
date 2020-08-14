@@ -1,5 +1,5 @@
 {
-  "brandName": "LER 2.0",
+  "brandName": "Graveassistent",
   "baseLayers": [
     {
       "id": "osm",
@@ -23,7 +23,7 @@
   "extensionConfig": {
     "session": {
       "autoLogin": true,
-      "autoLoginMaxAge": 630720000000
+      "autoLoginMaxAge": 604800000
     }
   }
 }
