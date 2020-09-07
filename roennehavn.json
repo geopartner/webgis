@@ -1,0 +1,34 @@
+{
+    "baseLayers": [
+      {
+        "id": "dtkSkaermkort",
+        "name": "Skærmkort"
+      },
+      {
+        "id": "dtkSkaermkortDaempet",
+        "name": "Skærmkort dæmpet"
+      },
+      {
+        "id": "osm",
+        "name": "Open Street Map"  
+      },
+      {
+        "id": "luftfotoserier.geodanmark_2019_12_5cm",
+        "name": "Luftfoto 2019",
+        "db": "baselayers",
+        "host": "https://gc2.io",
+        "config": {
+          "maxZoom": 21,
+          "maxNativeZoom": 19,
+          "attribution": "&copy; SDFE & MapCentia ApS"
+        }
+      }
+    ],
+    "brandName": "Rønne havn",
+    "enabledPrints": [
+      "vandvaerk2"
+    ],
+    "searchConfig": {
+      "komkode": "400"
+    }
+  }
