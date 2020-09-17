@@ -24,6 +24,6 @@
       "komkode": "400"
     },
     "cssFiles": [
-      "roennehavn.css"
+      "css/editor-hide-delete-button.css"
     ]
   }
