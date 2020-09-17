@@ -22,5 +22,8 @@
     ],
     "searchConfig": {
       "komkode": "400"
-    }
+    },
+    "cssFiles": [
+      "https://github.com/geopartner/webgis/blob/master/roennehavn.css"
+    ]
   }
