@@ -30,7 +30,7 @@
   
   "enabledPrints": ["vandvaerk"],
   
-  "singleTiled": ["midtjyske_jernbaner.esr_sammenlagt"],
+  "_singleTiled": ["midtjyske_jernbaner.esr_sammenlagt"],
   
   "enabledExtensions": [
       "streetView",
