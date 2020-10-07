@@ -1,27 +1,5 @@
 {
-    "baseLayers": [      
-      {
-        "id": "stoholmvarme.teknisk_baggrundskort",
-        "name": "Teknisk baggrundskort",
-        "db": "varmevaerker",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
-      },
-      {
-        "id": "geodk.bright",
-        "name": "GeoDanmark kort",
-        "db": "baselayers",
-        "host": "https://gc2.io",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE & MapCentia ApS"
-        }
-      },
+    "baseLayers": [
       {
         "id": "osm",
         "name": "Open Street Maps"
@@ -49,11 +27,17 @@
         }
       }
     ],
-    "brandName": "Stoholm varmeværk",
+    "brandName": "Vorgod Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
     "searchConfig": {
-      "komkode": "791"
+      "komkode": [
+        "760"
+      ]
     },
-    "enabledPrints": ["varmevaerk_stoholmvarme2"],
+    "enabledPrints": ["vandvaerk_vorgodvand2"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
   }

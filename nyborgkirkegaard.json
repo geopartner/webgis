@@ -12,6 +12,17 @@
         }
       },
       {
+        "id": "mapgo.nyborg_assistens_50m_transparent_mosaic_group1",
+        "name": "Dronefoto Assistens 2020",
+        "db": "nyborgkirkegaard",
+        "host": "https://mapgogc2.geopartner.dk",
+        "config": {
+          "maxZoom": 23,
+          "maxNativeZoom": 23,
+          "attribution": "&copy; Geopartner & MapCentia ApS"
+        }
+      },
+      {
         "id": "mapgo.transparent_nyborg_01_mosaic_rgb",
         "name": "Dronefoto Assistens",
         "db": "nyborgkirkegaard",
