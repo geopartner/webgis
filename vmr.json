@@ -18,7 +18,19 @@
         "singleTile": "true"
       }
     },
-    {
+        {
+            "abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/aqwPtJAKE9BzKes?x=2553&y=827&a=true&file=sagsbehandler_basiskort_eget.png&scalingup=0'>",
+            "id": "geodk.bright-01052019",
+            "name": "Topografisk kort",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "config": {
+                "maxZoom": 26,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+	  {
       "id": "dtkSkaermkort",
       "name": "Skærmkort"
     },
