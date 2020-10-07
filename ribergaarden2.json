@@ -1,8 +1,8 @@
 {
   "baseLayers": [
+      {"id":"geodkBright","name":"Geodanmark"},
       {"id":"dtkSkaermkort","name":"Skærmkort"},
       {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id":"geodkBright","name":"Geodanmark"},
     
     {
       "id": "luftfotoserier.geodanmark_2017_12_5cm",
