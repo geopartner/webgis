@@ -133,22 +133,6 @@
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering." 
          }
-      },
-      {
-         "id": "googleStreets", 
-         "name": "Google Streets"         
-      },
-      {
-         "id": "googleHybrid", 
-         "name": "Google Hybrid"         
-      },
-      {
-         "id": "googleSatellite", 
-         "name": "Google Luftfoto"         
-      },
-      {
-         "id": "hereNormalNightGrey", 
-         "name": "Here maps, Night Grey"         
       }
    ]
 }
