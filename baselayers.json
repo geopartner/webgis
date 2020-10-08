@@ -37,9 +37,11 @@
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          },
          "overlays":[
-            "id":"dar.adgangsadresser_husnr",
-            "db":"baselayers",
-            "host":"https://dk.gc2.io"
+            {
+               "id":"dar.adgangsadresser_husnr",
+               "db":"baselayers",
+               "host":"https://dk.gc2.io"
+            }
          ]
       },      
       {
