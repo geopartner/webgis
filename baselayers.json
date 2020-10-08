@@ -14,7 +14,6 @@
    "template":"default.tmpl",
    "baseLayers":[
       {
-      {
          "id":"geodk.bright",
          "name":"Topografisk kort",
          "db":"baselayers",
