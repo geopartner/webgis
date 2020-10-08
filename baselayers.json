@@ -41,6 +41,11 @@
                "id":"dar.adgangsadresser_husnr",
                "db":"baselayers",
                "host":"https://dk.gc2.io"
+            },
+            {
+               "id":"geodk.vejmidte_brudt_m_navn",
+               "db":"baselayers",
+               "host":"https://dk.gc2.io"
             }
          ]
       },      
