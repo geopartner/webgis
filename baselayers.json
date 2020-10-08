@@ -43,7 +43,7 @@
                "host":"https://dk.gc2.io"
             },
             {
-               "id":"geodk.vejmidte_brudt_m_navn",
+               "id":"geodk.vejmidte_brudt",
                "db":"baselayers",
                "host":"https://dk.gc2.io"
             }
