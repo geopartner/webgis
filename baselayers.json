@@ -62,7 +62,7 @@
          }
       },
       {
-         "id": "dtk_skaermkort_daempet",
+         "id": "kortforsyningen.dtk_skaermkort_daempet",
          "name":"Skærmkort - dæmpet",
          "db":"baselayers",
          "host":"https://dk.gc2.io",
