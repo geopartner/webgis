@@ -43,7 +43,7 @@
                "host":"https://dk.gc2.io",
                "config":{
                   "maxZoom":19,
-                  "maxNativeZoom":19,
+                  "maxNativeZoom":19
                }
             },
             {
@@ -52,7 +52,7 @@
                "host":"https://dk.gc2.io",
                "config":{
                   "maxZoom":19,
-                  "maxNativeZoom":19,
+                  "maxNativeZoom":19
                }
             }
          ]
