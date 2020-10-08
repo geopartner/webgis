@@ -62,6 +62,16 @@
          }
       },
       {
+         "id": "dtk_skaermkort_daempet ",
+         "name":"Skærmkort - dæmpet",
+         "abstract":"<p>Skærmkort, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/aqwPtJAKE9BzKes?x=2553&y=827&a=true&file=sagsbehandler_basiskort_eget.png&scalingup=0'>",
+         "config":{
+            "maxZoom":19,
+            "maxNativeZoom":19,
+            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering."
+         }
+      },
+      {
           "id": "osm",
          "name":"Topografisk kort - Open Street Map",
          "abstract":"<p>Kortet hentes fra Open Street Map.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/d66QC8j5mNi4xDS?x=2553&y=827&a=true&file=open_street_map.png&scalingup=0'>",
