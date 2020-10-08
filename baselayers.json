@@ -101,6 +101,17 @@
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering."
          }
+      },
+      {
+         "id": "kortforsyningen.forvaltning2", 
+         "name": "Forvaltningskort", 
+         "db": "baselayers", 
+         "host": "https://gc2.io",
+         "config": {
+            "maxZoom":19,
+            "maxNativeZoom":19,
+            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering."
+         }
       }
    ]
 }
