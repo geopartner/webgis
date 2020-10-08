@@ -131,7 +131,7 @@
          "config": {
             "maxZoom":19,
             "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering."
+            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering." 
          }
       }
    ]
