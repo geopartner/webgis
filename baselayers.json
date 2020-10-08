@@ -36,7 +36,6 @@
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          },
-          // A base layer can comprise one or more overlays
          "overlays": [
             {
                "id": "dar.adgangsadresser",
