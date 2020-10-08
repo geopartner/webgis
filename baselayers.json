@@ -35,7 +35,27 @@
             "maxZoom":19,
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
+         },
+         "overlays": [
+            {
+              "id":"dar.adgangsadresser_husnr",
+               "name":"Adgangsadresser",
+               "db":"baselayers",
+               "host":"https://dk.gc2.io",
+              "config": {
+                  "attribution": "Danmarks adresser"
+              }
+            },
+            {
+               "id": "geodk.vejmidte_brudt_m_navn",
+               "name":"Vejnavne",
+               "db":"baselayers",
+               "host":"https://dk.gc2.io",
+               "config": {
+                  "attribution": "Danske kommuner."
+               }
+            }
+         ]
       },      
       {
          "id":"luftfotoserier.geodanmark_2018_12_5cm",
