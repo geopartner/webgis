@@ -35,7 +35,25 @@
             "maxZoom":19,
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
+         },
+         // A base layer can comprise one or more overlays
+         "overlays": [{
+                 "id": "tekster.tekster_samlet_wms_web",
+                 "db": "geofyn",
+                 "host": "https://kort.geofyn.dk",
+                 "config": {
+                     "attribution": "Geofyn A/S"
+                 }
+             },
+             {
+                 "id": "tekster.adgangsadresseinfo",
+                 "db": "geofyn",
+                 "host": "https://kort.geofyn.dk",
+                 "config": {
+                     "attribution": "Geofyn A/S"
+                 }
+             }
+         ]
       },      
       {
          "id":"luftfotoserier.geodanmark_2018_12_5cm",
@@ -90,6 +108,17 @@
           "maxNativeZoom":19,
           "attribution":"&copy; Stamen Toner"
         }
-       }
+      },
+      {
+         "id": "kortforsyningen.topo25", 
+         "name": "Klassisk 4cm kort", 
+         "db": "baselayers", 
+         "host": "https://gc2.io",
+         "config": {
+            "maxZoom":19,
+            "maxNativeZoom":19,
+            "attribution":"&copy; SDFE & MapCentia ApS"
+         }
+      }
    ]
 }
