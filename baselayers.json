@@ -37,21 +37,22 @@
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          },
           // A base layer can comprise one or more overlays
-         "overlays": [{
-            "id": "gc2_io_dk_dar.adgangsadresser",
-            "db": "baselayers",
-            "host": "https://dk.gc2.io",
-            "config": {
-               "attribution": "Danmarks adresser."
-            }
+         "overlays": [
+            {
+               "id": "dar.adgangsadresser",
+               "db": "baselayers",
+               "host": "https://dk.gc2.io",
+               "config": {
+                  "attribution": "Danmarks adresser."
+               }
             },
             {
-            "id": "gc2_io_dk_dar.vejstykker",
-            "db": "baselayers",
-            "host": "https://dk.gc2.io",
-            "config": {
-               "attribution": "Danmarks adresser."
-            }
+               "id": "dar.vejstykker",
+               "db": "baselayers",
+               "host": "https://dk.gc2.io",
+               "config": {
+                  "attribution": "Danmarks adresser."
+               }
             }
          ]
       },      
