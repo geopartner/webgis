@@ -35,25 +35,7 @@
             "maxZoom":19,
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         },
-         "overlays": [
-            {
-               "id": "dar.adgangsadresser",
-               "db": "baselayers",
-               "host": "https://dk.gc2.io",
-               "config": {
-                  "attribution": "Danmarks adresser."
-               }
-            },
-            {
-               "id": "dar.vejstykker",
-               "db": "baselayers",
-               "host": "https://dk.gc2.io",
-               "config": {
-                  "attribution": "Danmarks adresser."
-               }
-            }
-         ]
+         }
       },      
       {
          "id":"luftfotoserier.geodanmark_2018_12_5cm",
