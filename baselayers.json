@@ -40,12 +40,20 @@
             {
                "id":"dar.adgangsadresser_husnr",
                "db":"baselayers",
-               "host":"https://dk.gc2.io"
+               "host":"https://dk.gc2.io",
+               "config":{
+                  "maxZoom":19,
+                  "maxNativeZoom":19,
+               }
             },
             {
                "id":"geodk.vejmidte_brudt",
                "db":"baselayers",
-               "host":"https://dk.gc2.io"
+               "host":"https://dk.gc2.io",
+               "config":{
+                  "maxZoom":19,
+                  "maxNativeZoom":19,
+               }
             }
          ]
       },      
