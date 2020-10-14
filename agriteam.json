@@ -1,0 +1,16 @@
+{
+  "brandName": "Agriteam ApS",  
+  "enabledPrints": ["vandvaerk"],  
+  "enabledExtensions": [
+    "conflictSearch",
+    "streetView",
+    "layerSearch",
+    "coordinates",
+    "session",
+    "editor"
+  ],
+  "searchConfig": {
+    "esrSearchActive": true,
+    "sfeSearchActive": true
+  }
+}
