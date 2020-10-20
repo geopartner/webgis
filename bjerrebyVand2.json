@@ -50,5 +50,11 @@
     },
     "enabledPrints": ["vandvaerk2"],
     "searchModules":["google","danish"],
-    "enabledSearch":"danish" 
+    "enabledSearch":"danish",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "editor"
+    ]
   }
