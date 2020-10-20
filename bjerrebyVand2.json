@@ -39,10 +39,6 @@
       }
     ],
     "brandName": "Bjerreby Vandværk",
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
     "searchConfig": {
       "komkode": [
         "479"
