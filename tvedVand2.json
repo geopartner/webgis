@@ -1,10 +1,15 @@
 {    
- 
+ "schemata": [
+        "tvedvand"
+    ],
   "brandName": "Tved Vandværk",
   
   "enabledPrints": ["tvedvand"],
-  
-  "searchModules":["google","danish"],
+  "enabledExtensions": [
+        "streetView",
+        "coordinates"
+    ],
+  "template": "default.tmpl",
   "enabledSearch":"danish",
   "searchConfig":{"komkode":"621"}  
 }
