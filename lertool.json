@@ -1,11 +1,6 @@
 {
   "brandName": "Graveassistent",
-  "baseLayers": [
-    {
-      "id": "osm",
-      "name": "Open Street Maps"
-    }
-  ],
+  
   "enabledPrints": [
     "vandvaerk2"
   ],
@@ -13,14 +8,14 @@
     "session",
     "graveAssistent"
   ],
-  "searchConfig": {
+  "_searchConfig": {
     "komkode": [
       "846"
     ]
   },
   "activateMainTab": "graveAssistent",
   "enabledSearch": "danish",
-  "extensionConfig": {
+  "_extensionConfig": {
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 604800000
