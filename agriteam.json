@@ -18,7 +18,8 @@
   "enabledSearch": "danish",
   "searchConfig": {
     "esrSearchActive": true,
-    "sfeSearchActive": true
+    "sfeSearchActive": true,
+     "advanced": true
   },
   "extensionConfig": {
     "session": {
