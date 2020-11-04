@@ -32,7 +32,6 @@
   "enabledExtensions": [
     "conflictSearch",
     "streetView",
-    /*"layerSearch",*/
     "coordinates",
     "session",
     "editor"
