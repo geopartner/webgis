@@ -28,7 +28,7 @@
     }
   },
   "startUpModal": "<h1>Velkommen</h1><br><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, for opmålte fosyningsarter: kloak, el, fiber, vand og fjernvarme. Informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p></p>",
-  "enabledPrints": ["Agriteam_Viborg", "Agriteam_Varde", "Agriteam_Brorup", "Agriteam_Randers"],  
+  "enabledPrints": ["Agriteam_Viborg", "Agriteam_Varde", "Agriteam_Brorup", "Agriteam_Randers" ],  
   "enabledExtensions": [
     "conflictSearch",
     "streetView",
