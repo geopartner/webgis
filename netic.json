@@ -1,0 +1,15 @@
+{
+    "brandName": "Netic A/S",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "851"
+      ]
+    },
+    "enabledPrints": ["vandvaerk2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
