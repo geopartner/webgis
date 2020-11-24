@@ -9,7 +9,8 @@
          "gc2_io_dk_kulturarvsstyrelsen",      
          "gc2_io_dk_landbrugsdrift",
          "gc2_io_dk_naturdatabasen",      
-         "gc2_io_dk_matrikel"
+         "gc2_io_dk_matrikel",
+         "gc2_io_dk_naturerhvervsstyrelsen"
     ],
     "aboutBox": "<h1>Velkommen</h1><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort og detaljerede oplysnigner pom Aalborg universitets bygninger</a>.</p>",
     
