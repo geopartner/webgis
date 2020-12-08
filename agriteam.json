@@ -39,7 +39,7 @@
     "session",
     "editor"
   ],
-   "cssFiles": [
+   "_cssFiles": [
        "https://raw.githubusercontent.com/geopartner/webgis/master/css/agriteam_legendstyling.css"
   ]
 }
