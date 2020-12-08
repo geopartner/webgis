@@ -40,6 +40,6 @@
     "editor"
   ],
    "cssFiles": [
-       "css/agriteam_legendstyling.css"
+       "https://raw.githubusercontent.com/geopartner/webgis/master/css/agriteam_legendstyling.css"
   ]
 }
