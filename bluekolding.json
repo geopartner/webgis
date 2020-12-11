@@ -1,6 +1,7 @@
 {
     "schemata": [
         "public",
+        "ejerkort",
         "tag:_deklarationer",
         "tag:_forsyning",
         "tag:_skraafoto",
@@ -8,16 +9,15 @@
         "tag:_video"
     ],
     "brandName": "Bluekolding",
-    "aboutBox": "<p>Deklarations web</p>",
+    "aboutBox": "<p>Deklarations web, inklusive dronefotos og ejerkort</p>",
     "enabledExtensions": [
-        "conflictSearch",
         "streetView",
         "coordinates",
         "session",
         "editor",
         "offlineMap"
     ],
-    "baseLayers": [
+    "_baseLayers": [
         {
             "id": "geodk.bright-01052019",
             "name": "GeoDanmark kort, lavkon TEST",
@@ -52,10 +52,11 @@
     "searchConfig": {
         "komkode": "621"
     },
-    "searchModules": [
-        "google",
-        "danish"
-    ],
     "enabledSearch": "danish",
+    "searchConfig": {
+        "esrSearchActive": true,
+        "sfeSearchActive": true
+    },
+    "featureInfoTableOnMap": true,
     "template": "default.tmpl"
 }
