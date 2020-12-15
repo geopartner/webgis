@@ -1,44 +1,12 @@
-{
-  "baseLayers": [
-      {
-        "id": "geodk.bright",
-        "name": "Teknisk kort",
-        "db": "baselayers",
-        "host": "https://gc2.io",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE & MapCentia ApS"
-        }
-      },
-    {
-        "id": "midtjyske_jernbaner.hybrid",
-        "name": "Luftfoto kort",
-        "db": "mjba",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE",
-          "singleTile": "true"
-        }
-      },
-    {
-        "id": "dtkSkaermkortDaempet",
-        "name": "Skærmkort dæmpet"
-      },
-      {
-        "id": "osm",
-        "name": "Open Street Maps"
-      }
+{    
+  "schemata": [
+         "midtjyske_jernbaner",
+         "scan2020"
     ],
-    
     "brandName": "Midtjyske jernbaner, ejerkort",
   
   "enabledPrints": ["vandvaerk"],
-  
-  "_singleTiled": ["midtjyske_jernbaner.esr_sammenlagt"],
-  
+    
   "enabledExtensions": [
       "streetView",
       "coordinates",
