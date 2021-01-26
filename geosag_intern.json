@@ -6,8 +6,7 @@
         "gc2_io_dk_dkjord",
         "gc2_io_dk_kulturarvsstyrelsen",
         "gc2_io_dk_matrikel",
-        "gc2_io_dk_plandatadk",
-        "matrikeludpegning"
+        "gc2_io_dk_plandatadk"
     ],
     "aboutBox": "<h1>Velkommen</h1><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort ogøvrige detaljerede oplysninger. Se efter dit login i login huskeren (geosag webigs) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</p>",
     
