@@ -133,7 +133,7 @@
          }
       },
       {
-          "id": "osm",
+          "id": "osm", 
          "name":"Topografisk kort - Open Street Map",
          "abstract":"<p>Kortet hentes fra Open Street Map.</p><br>",
          "config":{
