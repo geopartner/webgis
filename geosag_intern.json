@@ -180,6 +180,21 @@
       },
       {
         "type": "wms",
+        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+        "layers": [
+            "DK-DDOland2020_125mm_UTM32ETRS89"
+        ],
+        "id": "DDO_land_2020",
+        "name": "DDO land 2020",
+        "description": "DDO land 2020 12,5cm",
+        "attribution": "test",
+        "abstract": "<p>TEST Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 21,
+        "maxNativeZoom": 21
+        },,
+      {
+        "type": "wms",
         "url": "https://services.kortforsyningen.dk/service?SERVICENAME=orto_sommer_2008&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
         "layers": [
             "orto_sommer_2008"
