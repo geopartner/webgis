@@ -33,6 +33,18 @@
   ],  
    "baseLayers":[
       {
+         "id":"geodk.bright",
+         "name":"Topografisk kort",
+         "db":"baselayers",
+         "host":"https://dk.gc2.io",
+         "abstract":"<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+         "config":{
+            "maxZoom":21,
+            "maxNativeZoom":19,
+            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+         }
+      },
+	  {
         "type": "wms",
         "url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
         "layers": [
@@ -40,14 +52,14 @@
             "Navne_basis_kort",
             "Husnummer"
         ],
-        "id": "Basis_kort",
-        "name": "Basiskort (GST)",
+        "id": "Forvaltningskort",
+        "name": "Forvaltningskort (GST)",
         "description": "Forvaltningskort fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract": "<p>Forvaltningskort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
         },
         {
         "type": "wms",
@@ -67,8 +79,8 @@
         "attribution": "&copy; Geodatastyrelsen.",
         "abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -82,15 +94,15 @@
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
         "abstract": "<p>Nyeste luftfotokort, med overlejrede vejnavne og adgangsadresser.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21,
+        "maxZoom": 24,
+        "maxNativeZoom": 24,
             "overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
-                        "maxZoom": 21,
+                        "maxZoom": 24,
                         "maxNativeZoom": 19
                     }
                 },
@@ -99,7 +111,7 @@
                     "db": "mapconnectbase",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
-                        "maxZoom": 21,
+                        "maxZoom": 24,
                         "maxNativeZoom": 19
                     }
                 }
@@ -117,8 +129,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -132,8 +144,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -147,8 +159,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -162,8 +174,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 12cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -177,8 +189,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -192,8 +204,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -207,8 +219,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -222,8 +234,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -237,8 +249,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -252,8 +264,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -267,8 +279,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -282,8 +294,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 80cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -297,8 +309,8 @@
         "attribution": "&copy; Hexagon.",
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -326,8 +338,8 @@
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
         "abstract": "<p>Klassisk 1 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -340,8 +352,8 @@
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
         "abstract": "<p>Klassisk 2 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       },
       {
         "type": "wms",
@@ -354,8 +366,8 @@
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
         "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
-        "maxZoom": 21,
-        "maxNativeZoom": 21
+        "maxZoom": 24,
+        "maxNativeZoom": 24
       }
    ]
 }
