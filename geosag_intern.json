@@ -179,6 +179,67 @@
             ]
       },
       {
+        "type": "wms",
+        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=orto_sommer_2008&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+        "layers": [
+            "orto_sommer_2008"
+        ],
+        "id": "Basis_kort",
+        "name": "Basiskort (GST)",
+        "description": "Kortforsyningen luftfoto 2008",
+        "attribution": "Kortforsyningen OGC:WMS - orto_sommer_2008",
+        "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 21,
+        "maxNativeZoom": 21
+        },
+      ,
+      {
+        "type": "wms",
+        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=orto_sommer_2005&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+        "layers": [
+            "orto_sommer_2005"
+        ],
+        "id": "Basis_kort",
+        "name": "Basiskort (GST)",
+        "description": "Kortforsyningen luftfoto 2005",
+        "attribution": "Kortforsyningen OGC:WMS - orto_sommer_2005",
+        "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 21,
+        "maxNativeZoom": 21
+        },
+      {
+        "type": "wms",
+        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=orto_sommer_2002&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+        "layers": [
+            "orto_sommer_2002"
+        ],
+        "id": "Basis_kort",
+        "name": "Basiskort (GST)",
+        "description": "Kortforsyningen luftfoto 2002",
+        "attribution": "Kortforsyningen OGC:WMS - orto_sommer_2002",
+        "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 21,
+        "maxNativeZoom": 21
+        },
+      {
+        "type": "wms",
+        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=orto_sommer_1999&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+        "layers": [
+            "orto_sommer_1999"
+        ],
+        "id": "Basis_kort",
+        "name": "Basiskort (GST)",
+        "description": "Kortforsyningen luftfoto 1999",
+        "attribution": "Kortforsyningen OGC:WMS - orto_sommer_1999",
+        "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 21,
+        "maxNativeZoom": 21
+        },
+      {
          "id": "kortforsyningen.dtk_skaermkort_daempet",
          "name":"Skærmkort - dæmpet",
          "db":"baselayers",
