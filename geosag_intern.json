@@ -184,8 +184,8 @@
         "layers": [
             "orto_sommer_2008"
         ],
-        "id": "Basis_kort",
-        "name": "Basiskort (GST)",
+        "id": "2008",
+        "name": "Luftfoto 2008 (GST)",
         "description": "Kortforsyningen luftfoto 2008",
         "attribution": "Kortforsyningen OGC:WMS - orto_sommer_2008",
         "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
@@ -199,8 +199,8 @@
         "layers": [
             "orto_sommer_2005"
         ],
-        "id": "Basis_kort",
-        "name": "Basiskort (GST)",
+        "id": "2005",
+        "name": "Luftfoto 2005 (GST)",
         "description": "Kortforsyningen luftfoto 2005",
         "attribution": "Kortforsyningen OGC:WMS - orto_sommer_2005",
         "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
@@ -229,8 +229,8 @@
         "layers": [
             "orto_sommer_1999"
         ],
-        "id": "Basis_kort",
-        "name": "Basiskort (GST)",
+        "id": "1999",
+        "name": "Luftfoto 1999 (GST)",
         "description": "Kortforsyningen luftfoto 1999",
         "attribution": "Kortforsyningen OGC:WMS - orto_sommer_1999",
         "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
