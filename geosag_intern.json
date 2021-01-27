@@ -214,8 +214,8 @@
         "layers": [
             "orto_sommer_2002"
         ],
-        "id": "Basis_kort",
-        "name": "Basiskort (GST)",
+        "id": "2002",
+        "name": "Luftfoto 2002 (GST)",
         "description": "Kortforsyningen luftfoto 2002",
         "attribution": "Kortforsyningen OGC:WMS - orto_sommer_2002",
         "abstract": "<p>Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
