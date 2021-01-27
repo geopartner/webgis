@@ -58,7 +58,7 @@
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract": "<p>Forvaltningskort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
-        "maxZoom": 24,
+        "maxZoom": 22,
         "maxNativeZoom": 20
         },
         {
@@ -79,7 +79,7 @@
         "attribution": "&copy; Geodatastyrelsen.",
         "abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
-        "maxZoom": 24,
+        "maxZoom": 22,
         "maxNativeZoom": 20
       },
       {
@@ -103,7 +103,7 @@
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
                         "maxZoom": 24,
-                        "maxNativeZoom": 19
+                        "maxNativeZoom": 22
                     }
                 },
                 {
@@ -112,7 +112,7 @@
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
                         "maxZoom": 24,
-                        "maxNativeZoom": 19
+                        "maxNativeZoom": 22
                     }
                 }
             ]
