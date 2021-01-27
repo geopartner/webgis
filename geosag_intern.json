@@ -188,7 +188,7 @@
         "name": "DDO land 2020",
         "description": "DDO land 2020 12,5cm",
         "attribution": "test",
-        "crossOrigin": null,
+        "crossOrigin": false,
         "abstract": "<p>TEST Historiske sommerortofotos.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><p>SDFE har frikøbt fire årgange historiske ortofotos: 1999, 2002, 2005, 2008.  De fire årgange er sommerortofotos og er landsdækkende. De udstilles nu som frie data, som kan anvendes af alle.</p><br>",
         "minZoom": 4,
         "maxZoom": 21,
