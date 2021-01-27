@@ -59,7 +59,7 @@
         "abstract": "<p>Forvaltningskort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
         },
         {
         "type": "wms",
@@ -80,7 +80,7 @@
         "abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -95,7 +95,7 @@
         "abstract": "<p>Nyeste luftfotokort, med overlejrede vejnavne og adgangsadresser.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24,
+        "maxNativeZoom": 20,
             "overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
@@ -130,7 +130,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -145,7 +145,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -160,7 +160,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -175,7 +175,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 12cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -190,7 +190,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -205,7 +205,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -220,7 +220,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -235,7 +235,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -250,7 +250,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -265,7 +265,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -280,7 +280,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -295,7 +295,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 80cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -310,7 +310,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -325,7 +325,7 @@
         "abstract": "<p>Copyright: Hexagon. Opløsning 5cm.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 22
       },
       {
         "type": "wms",
@@ -339,7 +339,7 @@
         "abstract": "<p>Klassisk 1 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -353,7 +353,7 @@
         "abstract": "<p>Klassisk 2 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       },
       {
         "type": "wms",
@@ -367,7 +367,7 @@
         "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
-        "maxNativeZoom": 24
+        "maxNativeZoom": 20
       }
    ]
 }
