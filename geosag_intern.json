@@ -193,7 +193,6 @@
         "maxZoom": 21,
         "maxNativeZoom": 21
         },
-      ,
       {
         "type": "wms",
         "url": "https://services.kortforsyningen.dk/service?SERVICENAME=orto_sommer_2005&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
