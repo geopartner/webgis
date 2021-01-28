@@ -75,7 +75,17 @@
             "Jordstykke",
             "Ejerlav"
         ],
-	"styles": "default,default,default,default,default,default,default,default,Sorte_Ejerlav",
+	"styles": [
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "Sorte_Ejerlav"
+        ],
         "id": "Matrikel_kort",
         "name": "Matrikelkort (GST)",
         "description": "Matrikelkort fra kortforsyningen",
