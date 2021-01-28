@@ -63,15 +63,28 @@
         },
         {
         "type": "wms",
-        "url": "https://services.kortforsyningen.dk/mat?TRANSPARENT=TRUE&STYLE=default&SERVICE=WMS&VERSION=1.1.1&STYLES=&FORMAT=image/png&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+        "url": "https://services.kortforsyningen.dk/mat?TRANSPARENT=TRUE&STYLE=default&SERVICE=WMS&VERSION=1.1.1&FORMAT=image/png&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
         "layers": [
+            "Centroide",
+            "MatrikelSkel",
+            "OptagetVej",
+            "Majoratskov",
+            "Fredskov",
             "Klitfredning",
             "Strandbeskyttelse",
-            "Fredskov",
-            "Majoratskov",
-            "Stormfald",
-            "OptagetVej",
-            "MatrikelSkel"
+            "Jordstykke",
+            "Ejerlav"
+        ],
+	"styles": [
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "default",
+            "Sorte_skel"
         ],
         "id": "Matrikel_kort",
         "name": "Matrikelkort (GST)",
