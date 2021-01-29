@@ -1,32 +1,4 @@
-{
-    "baseLayers": [
-      {
-        "id": "nrlyngbyvand.teknisk_baggrundskort",
-        "name": "Teknisk baggrundskort",
-        "db": "vandvaerker",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
-      },
-      {
-        "id": "osm",
-        "name": "Open Street Maps"
-      },
-      {
-        "id": "luftfotoserier.geodanmark_2017_12_5cm",
-        "name": "Luftfoto 2017",
-        "db": "baselayers",
-        "host": "https://gc2.io",
-        "config": {
-          "maxZoom": 21,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE & MapCentia ApS"
-        }
-      }
-    ],
+{   
     "brandName": "Nr. lyngby Vandværk",
     "enabledPrints": [
       "vandvaerk_nrlyngbyvand2"
