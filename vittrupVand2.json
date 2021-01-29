@@ -1,32 +1,4 @@
 {
-  "baseLayers": [
-    {
-        "id": "vittrupvand.teknisk_baggrundskort",
-        "name": "Teknisk baggrundskort",
-        "db": "vandvaerker",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 26,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
-      },
-    {
-        "id": "vittrupvand.hybrid",
-        "name": "Luftfoto",
-        "db": "vandvaerker",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 26,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; SDFE"
-        }
-      },
-    {
-      "id": "dtkSkaermkortDaempet",
-      "name": "Skærmkort dæmpet"
-    }    
-  ],
   "brandName": "Vittrup Vandværk",
   "enabledPrints": [
     "vandvaerk_vittrupvand2"
