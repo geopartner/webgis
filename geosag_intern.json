@@ -129,6 +129,33 @@
                 }
             ]
       },
+        "id": "Hybrid",
+        "name": "Hybrid_eks",
+        "description": "Hybrid_eksperiment",
+        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
+        "abstract": "<p>Nyeste luftfotokort, med overlejrede vejnavne og adgangsadresser.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 24,
+        "maxNativeZoom": 20,
+            "overlays": [
+                {
+			"type": "wms",
+			"url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+			"layers": [
+			    "Husnummer",
+			    "Navne_basis_kort"
+			],
+			"id": "Forvaltningskort",
+			"name": "Forvaltningskort (GST)",
+			"description": "Forvaltningskort fra kortforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Forvaltningskort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
+			"minZoom": 17,
+			"maxZoom": 22,
+			"maxNativeZoom": 20				
+                }
+            ]
+      },
       {
         "type": "wms",
         "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
