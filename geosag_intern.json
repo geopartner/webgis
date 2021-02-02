@@ -130,6 +130,11 @@
             ]
       },
       {
+        "type": "wms",
+        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+        "layers": [
+            "DK-DDOland2020_125mm_UTM32ETRS89"
+        ],
         "id": "Hybrid_eks",
         "name": "Hybrid_eks",
         "description": "Hybrid_eksperiment",
