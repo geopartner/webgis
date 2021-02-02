@@ -129,6 +129,7 @@
                 }
             ]
       },
+      {
         "id": "Hybrid",
         "name": "Hybrid_eks",
         "description": "Hybrid_eksperiment",
