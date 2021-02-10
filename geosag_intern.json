@@ -98,6 +98,41 @@
         "maxNativeZoom": 20
       },
       {
+        "type": "wmts",
+        "url": "https://services.hxgncontent.com/streaming/wmts?Username=Geopartner&Password=403A7D81",
+        "layers": [
+            "DK-DDOland2020_125mm_UTM32ETRS89"
+        ],
+        "id": "Hybrid_wmts",
+        "name": "Hybrid_wmts",
+        "description": "Hybrid_wmts",
+        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
+        "abstract": "<p>Nyeste luftfotokort, med overlejrede vejnavne og adgangsadresser.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+        "minZoom": 4,
+        "maxZoom": 24,
+        "maxNativeZoom": 20,
+            "overlays": [
+                {
+                    "id": "public.mvw_adgangsadresser",
+                    "db": "mapconnectbase",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "maxZoom": 24,
+                        "maxNativeZoom": 22
+                    }
+                },
+                {
+                    "id": "public.mvw_vejnavne",
+                    "db": "mapconnectbase",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "maxZoom": 24,
+                        "maxNativeZoom": 22
+                    }
+                }
+            ]
+      },
+      {
         "type": "wms",
         "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
         "layers": [
