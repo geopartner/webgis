@@ -1,0 +1,21 @@
+{
+    "schemata": [
+        "ejendomskort"
+    ],
+    "template": "default.tmpl",
+    "aboutBox": "<h1>Velkommen</h1><p>Det er her muligt at evaluere Geopartners 'Map Ejerkort' for at se ejeroplysninger og ejendommenes sammens&aelig;tninger i hele Danmark. Kortet er dagligt ajourf&oslash;rt og landsd&aelig;kkende. Ring gerne for yderligere oplysnigner p&aring; tlf. 28581660 eller <a href='mailto:lkm@geopartner.dk'>lkm@geopartner.dk</a>.</p><p>Se flere oplysnigner om Map Ejerkort p&aring; <a href='https://geopartner.dk/ydelser/map-ejerkort-se-ejere-paa-ejendomme-i-dk/' target='_blank' rel='noopener'>geopartners hjemmeside</a></p><p>&nbsp;</p><p><img style='display: block; margin-left: auto; margin-right: auto;' src='https://geopartner.dk/wp-content/uploads/geopartner_landinspektoerer.png'/></p>",
+    "brandName": "Map Ejerkort (DEMO)",
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "esrSearchActive": true,
+        "sfeSearchActive": true,
+        "advanced": true
+    },
+    "featureInfoTableOnMap": true,
+    "startUpModal": "<h1>Velkommen</h1><p>Det er her muligt at evaluere Geopartners 'Map Ejerkort' for at se ejeroplysninger og ejendommenes sammens&aelig;tninger i hele Danmark. Kortet er dagligt ajourf&oslash;rt og landsd&aelig;kkende. Ring gerne for yderligere oplysnigner p&aring; tlf. 28581660 eller <a href='mailto:lkm@geopartner.dk'>lkm@geopartner.dk</a>.</p><p>Se flere oplysnigner om Map Ejerkort p&aring; <a href='https://geopartner.dk/ydelser/map-ejerkort-se-ejere-paa-ejendomme-i-dk/' target='_blank' rel='noopener'>geopartners hjemmeside</a></p><p>&nbsp;</p><p><img style='display: block; margin-left: auto; margin-right: auto;' src='https://geopartner.dk/wp-content/uploads/geopartner_landinspektoerer.png'/></p>",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session"
+    ]
+}
