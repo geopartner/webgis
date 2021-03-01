@@ -25,7 +25,7 @@
     },
     "streetView": {
 	  "_cowi": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=Geopartner&p=403A7D81&origin=desktop&cmd=state&project=DDS2018%20PLF&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2018%20Complete&hlayers=DDS2018%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2018%20Complete&ssTrigger=SINGLE_CLICK",
-	  "cowi": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner%20std.%20Opsætning&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2020%20Complete&hlayers=DDS2020%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2020%20Complete&ssTrigger=SINGLE_CLICK"
+	  "cowi": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner%20std.%20Ops%C3%A6tning&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2018%20Complete&hlayers=DDS2018%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2018%20Complete&ssTrigger=SINGLE_CLICK"
     }
   },
   "featureInfoTableOnMap": true,
