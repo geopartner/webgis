@@ -1,0 +1,10 @@
+{  
+  "brandName": "Nature Energy",
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "enabledSearch":"danish",
+  "searchConfig": {
+    "komkode": "760"
+  }
+}
