@@ -1,6 +1,4 @@
-.modal-body {
+.startup-message-modal .about-modal {
     height: 480px;    
 }
-#module-container-body {
-    height: 100%;
-}
+
