@@ -1,3 +1,6 @@
 .modal-body {
     height: 480px;    
 }
+#module-container-body {
+    height: 100%;
+}
