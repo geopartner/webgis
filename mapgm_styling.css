@@ -1,4 +1,8 @@
-.startup-message-modal .about-modal {
+.startup-message-modal {
+    height: 480px;    
+}
+
+.about-modal {
     height: 480px;    
 }
 
