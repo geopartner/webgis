@@ -18,21 +18,6 @@
     "cssFiles": [
         "mapgm_styling.css"
     ],
-    // ===================================================
-    // Configuration of which base layers are available
-    //
-    // GC2 has the following pre-defined base layers
-    //
-    // osm
-    // stamenToner
-    // stamenTonerLite
-    // googleStreets
-    // googleHybrid
-    // googleSatellite
-    // dtkSkaermkort
-    // dtkSkaermkortDaempet
-    // hereNormalNightGrey
-    // ===================================================
    "baseLayers":[
       {
          "id":"geodk.bright",
