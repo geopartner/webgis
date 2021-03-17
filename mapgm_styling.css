@@ -1,7 +1,7 @@
-startup-message-modal.modal-body {
+#startup-message-modal {
     height: 480px;    
 }
 
-about-modal.modal-body {
+#about-modal {
     height: 480px;    
 }
