@@ -114,7 +114,7 @@
         },
        {
         "type": "wms",
-        "url": "https://services.kortforsyningen.dk/service?servicename=dhm&service=WMS&version=1.1.1&username=XMERXHKAVN&password=Geop1234!",
+        "url": "https://services.kortforsyningen.dk/service?servicename=dhm&service=WMS&version=1.1.1&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
         "layers": [
             "dhm_terraen_skyggekort_overdrevet"
         ],
