@@ -114,16 +114,16 @@
         },
        {
         "type": "wms",
-        "url": "https://services.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "url": "https://services.kortforsyningen.dk/service?servicename=dhm&service=WMS&version=1.1.1&username=XMERXHKAVN&password=Geop1234!",
         "layers": [
-            "dtk25"
+            "dhm_terraen_skyggekort_overdrevet"
         ],
-        "id": "DTK_Kort25",
-        "name": "Klassisk 4cm kort",
+        "id": "DHM",
+        "name": "Terræn, skyggekort",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
+        "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering.</p><br>",
         "minZoom": 4,
-        "maxZoom": 24,
+        "maxZoom": 22,
         "maxNativeZoom": 20
       }       
    ]    
