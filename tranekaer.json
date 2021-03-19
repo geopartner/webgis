@@ -15,7 +15,10 @@
       "streetView",
       "session"
     ],
-  "searchConfig": { 
-        "komkode": "482"
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "esrSearchActive": true,
+    "sfeSearchActive": true,
+     "advanced": false
   }
 } 
