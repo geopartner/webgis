@@ -3,8 +3,14 @@
         "ejerkort",
         "public"
     ],
+  "extensionConfig": {
+    "session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 630720000000
+    }
+  },
   "brandName": "Ejendomskort",
-  
+  "featureInfoTableOnMap": true,
     "enabledExtensions": [
       "streetView",
       "session"
