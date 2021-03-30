@@ -13,7 +13,8 @@
   "featureInfoTableOnMap": true,
     "enabledExtensions": [
       "streetView",
-      "session"
+      "session",
+      "editor"
     ],
   "enabledSearch": "danish",
   "searchConfig": {
