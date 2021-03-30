@@ -3,6 +3,7 @@
         "ejerkort",
         "public"
     ],
+  "enabledPrints": ["vandvaerk2"],
   "extensionConfig": {
     "session": {
       "autoLogin": true,
