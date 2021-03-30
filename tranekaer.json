@@ -1,7 +1,10 @@
 {
   "schemata": [
         "ejerkort",
-        "public"
+        "public",
+        "gc2_io_dk_naturerhvervsstyrelsen",
+        "gc2_io_dk_kulturarvsstyrelsen",
+        "gc2_io_dk_matrikel"
     ],
   "enabledPrints": ["vandvaerk2"],
   "extensionConfig": {
