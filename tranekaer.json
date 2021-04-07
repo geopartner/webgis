@@ -14,7 +14,7 @@
     }
   },
   "brandName": "Ejendomskort",
-  "_featureInfoTableOnMap": true,
+  "featureInfoTableOnMap": false,
     "enabledExtensions": [
       "streetView",
       "session",
