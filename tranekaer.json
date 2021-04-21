@@ -1,12 +1,29 @@
 {
-
+  "schemata": [
+        "ejerkort",
+        "public",
+        "gc2_io_dk_naturerhvervsstyrelsen",
+        "gc2_io_dk_kulturarvsstyrelsen",
+        "gc2_io_dk_matrikel"
+    ],
+  "enabledPrints": ["vandvaerk2"],
+  "extensionConfig": {
+    "session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 630720000000
+    }
+  },
   "brandName": "Ejendomskort",
-  
+  "featureInfoTableOnMap": false,
     "enabledExtensions": [
       "streetView",
-      "session"
+      "session",
+      "editor"
     ],
-  "searchConfig": { 
-        "komkode": "482"
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "esrSearchActive": true,
+    "sfeSearchActive": true,
+     "advanced": false
   }
 } 
