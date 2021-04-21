@@ -1,0 +1,10 @@
+{  
+  "brandName": "Køng/Gummerup Vandværk",
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "enabledSearch":"danish",
+  "searchConfig": {
+    "komkode": "430"
+  }
+}
