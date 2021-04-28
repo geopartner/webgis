@@ -1,0 +1,10 @@
+{  
+  "brandName": "Løkkensvejens Kraftvarmeværk",
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "enabledSearch":"danish",
+  "searchConfig": {
+    "komkode": "860"
+  }
+}
