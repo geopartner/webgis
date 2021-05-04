@@ -102,11 +102,9 @@
         "maxNativeZoom": 20
       },
 	{
-        "type": "wms",
-        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
-        "layers": [
-            "Basis_ortofoto"
-        ],
+        "type": "wms",		
+        "url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "_url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",       
         "id": "ortofoto_foraar",
         "name": "GST ortofoto forår",
         "description": "Forvaltningskort fra kortforsyningen",
