@@ -103,7 +103,7 @@
       },
 	{
         "type": "wms",		
-        "url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
         "_url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",       
         "layers": [
             "Basis_ortofoto"
