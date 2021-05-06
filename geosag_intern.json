@@ -102,6 +102,21 @@
         "maxNativeZoom": 20
       },
 	{
+        "type": "_wms",		
+        "url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "layers": [
+            "Basis_ortofoto"
+        ],
+	"id": "daf_ortofoto_foraar",
+        "name": "DAF ortofoto forår",
+        "description": "Ortofoto forår fra datafordeleren",
+        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+        "abstract": "<p>Ortofoto forår, nyeste ortofoto.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
+        "minZoom": 4,
+        "maxZoom": 22,
+        "maxNativeZoom": 20
+        },
+	{
         "type": "wms",		
         "_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
         "url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",       
@@ -110,9 +125,9 @@
         ],
 	"id": "ortofoto_foraar",
         "name": "GST ortofoto forår",
-        "description": "Forvaltningskort fra kortforsyningen",
+        "description": "Ortofoto forår fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract": "<p>Forvaltningskort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
+        "abstract": "<p>Ortofoto forår, nyeste ortofoto fra forvaltningstjenesten.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
         "minZoom": 4,
         "maxZoom": 22,
         "maxNativeZoom": 20
