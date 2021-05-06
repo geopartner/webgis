@@ -102,7 +102,7 @@
         "maxNativeZoom": 20
       },
 	{
-        "type": "_wms",		
+        "type": "wms",		
         "url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
         "layers": [
             "Basis_ortofoto"
