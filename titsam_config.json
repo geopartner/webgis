@@ -1,0 +1,34 @@
+{
+    "schemata": [
+        "demo"
+    ],
+    "aboutBox": "<h1>Velkommen</h1><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p></a>.</p>",
+    "brandName": "TITSAM",
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "esrSearchActive": true,
+        "sfeSearchActive": true,
+        "advanced": true
+    },
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        }
+    },
+    "featureInfoTableOnMap": true,
+    "startUpModal": "<h1>Velkommen</h1><br><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer</p><p></p>",
+    "enabledPrints": [
+        "titsamdemo.tmpl",
+        "titsamdemo.tmpl"
+    ],
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "editor"
+    ],
+    "cssFiles": [
+        "titsam_demo_legend.css"
+    ]
+}
