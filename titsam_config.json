@@ -20,7 +20,6 @@
   "startUpModal": "<h1>Velkommen</h1><br><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p></p>",
   "enabledPrints": ["Titsam" ],  
   "enabledExtensions": [
-    "conflictSearch",
     "streetView",
     "coordinates",
     "session",
