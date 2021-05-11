@@ -19,8 +19,8 @@
     "featureInfoTableOnMap": true,
     "startUpModal": "<h1>Velkommen</h1><br><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer</p><p></p>",
     "enabledPrints": [
-        "titsamdemo.tmpl",
-        "titsamdemo.tmpl"
+        "titsamdemo",
+        "titsamdemo"
     ],
     "enabledExtensions": [
         "streetView",
