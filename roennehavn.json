@@ -9,8 +9,7 @@
     },
     "cssFiles": [
       "css_editor-hide-delete-button.css"
-    ]
-  },
+    ],
    "baseLayers":[
       {
          "id":"geodk.bright",
@@ -377,3 +376,4 @@
         "maxNativeZoom": 20
       }
    ]
+}
