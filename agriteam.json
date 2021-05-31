@@ -196,7 +196,7 @@
       },
       {
         "type": "wms",
-         "url": "https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+         "url": "https://services.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?username=XMERXHKAVN&password=Geop1234!",
         "layers": [
             "dtk_skaermkort_daempet"
         ],
