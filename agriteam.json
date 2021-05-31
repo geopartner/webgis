@@ -196,7 +196,7 @@
       },
       {
         "type": "wms",
-         "url": "https://api.dataforsyningen.dk/service?servicename=topo_skaermkort_daempet&service=WMTS&version=1.0.0&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+         "url": "https://api.dataforsyningen.dk/service?servicename=topo_skaermkort&service=WMS&version=1.1.1&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
         "layers": [
             "dtk_skaermkort_daempet"
         ],
