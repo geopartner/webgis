@@ -196,9 +196,9 @@
       },
       {
         "type": "wms",
-         "url": "https://services.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+         "url": "https://api.dataforsyningen.dk/service?request=GetCapabilities&servicename=topo_skaermkort_daempet&service=WMTS&version=1.0.0&login=63135050&password=trafrel29",
         "layers": [
-            "topo_skaermkort_daempet"
+            "dtk_skaermkort_daempet"
         ],
         "id": "kortforsyningen.dtk_skaermkort_daempet",
         "name": "Skærmkort - dæmpet",
