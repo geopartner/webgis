@@ -1,0 +1,21 @@
+{
+    "brandName": "Det nordfynske kystsikrings-, dige- og pumpelag",
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "esrSearchActive": false,
+      "sfeSearchActive": false,
+       "advanced": false
+    },
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "enabledExtensions": [
+        "streetView",
+        "session"
+    ],
+    "extensionConfig": {
+        "session": {
+          "autoLogin": true,
+          "autoLoginMaxAge": 630720000000
+        }
+    }
+  }
