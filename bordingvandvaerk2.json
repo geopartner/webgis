@@ -5,6 +5,6 @@
   ],
   "enabledSearch":"danish",
   "searchConfig": {
-    "komkode": "756"
+    "komkode": ["756" , "740"]
   }
 }
