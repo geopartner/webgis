@@ -9,3 +9,7 @@
     color: #BDBDBD;
     font-weight: 400;
 }
+
+.print-form {
+    display: none;
+}
