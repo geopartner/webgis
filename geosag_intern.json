@@ -126,14 +126,14 @@
             "DK-DDOland2020_125mm_UTM32ETRS89"
         ],
         "id": "Hybrid",
-        "name": "Hybrid",
-        "description": "Hybrid",
+        "name": "Ortofoto 2020",
+        "description": "Ortofoto 2020",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
         "abstract": "<p>Nyeste luftfotokort, med overlejrede vejnavne og adgangsadresser.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
         "minZoom": 4,
         "maxZoom": 24,
         "maxNativeZoom": 20,
-            "overlays": [
+            "_overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
