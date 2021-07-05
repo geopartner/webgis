@@ -1,0 +1,20 @@
+{    
+    "brandName": "Fjelstervang Vandværk",
+    "enabledPrints": [
+      "vandvaerk2"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates",
+      "editor",
+        "session"
+    ],
+    "enabledSearch":"danish"
+    ,
+    "searchConfig": {
+      "komkode": [
+        "760",
+        "657"
+      ]
+    }
+  }
