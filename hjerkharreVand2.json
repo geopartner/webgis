@@ -9,8 +9,8 @@
       "editor",
         "session"
     ],
-    "enabledSearch":"danish"
-    ,
+    "enabledSearch":"danish",
+    "showLayerGroupCheckbox": "true",
     "searchConfig": {
       "komkode": [
         "779"
