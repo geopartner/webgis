@@ -109,7 +109,7 @@
         "minZoom": 4,
         "maxZoom": 22,
         "maxNativeZoom": 20,
-            "overlays": [
+            "_overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
@@ -141,7 +141,7 @@
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          },
-            "overlays": [
+            "_overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
@@ -173,7 +173,7 @@
             "maxNativeZoom":19,
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          },
-            "overlays": [
+            "_overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
