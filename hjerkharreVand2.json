@@ -10,7 +10,7 @@
         "session"
     ],
     "enabledSearch":"danish",
-    "showLayerGroupCheckbox": "true",
+    "showLayerGroupCheckbox": true,
     "searchConfig": {
       "komkode": [
         "779"
