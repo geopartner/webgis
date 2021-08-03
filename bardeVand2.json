@@ -1,0 +1,19 @@
+{    
+    "brandName": "Barde Vandværk",
+    "enabledPrints": [
+      "vandvaerk2"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates",
+      "editor",
+        "session"
+    ],
+    "enabledSearch":"danish",
+    "showLayerGroupCheckbox": true,
+    "searchConfig": {
+      "komkode": [
+        "760"
+      ]
+    }
+  }
