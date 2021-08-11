@@ -1,0 +1,19 @@
+{    
+    "brandName": "Årø Vandværk",
+    "enabledPrints": [
+      "vandvaerk2"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates",
+      "editor",
+       "session"
+    ],
+    "enabledSearch":"danish",
+    "showLayerGroupCheckbox": true,
+    "searchConfig": {
+      "komkode": [
+        "510"
+      ]
+    }
+  }
