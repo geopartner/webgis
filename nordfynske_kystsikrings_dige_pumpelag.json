@@ -1,4 +1,8 @@
 {
+    "schemata": [
+        "nkl",
+        "gc2_io_dk_matrikel"
+    ],
     "brandName": "Det nordfynske kystsikrings-, dige- og pumpelag",
     "enabledSearch": "danish",
     "searchConfig": {
