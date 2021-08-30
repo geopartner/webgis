@@ -7,5 +7,6 @@
    
   "searchModules":["google","danish"],
   "enabledSearch":"danish",
-  "searchConfig":{"komkode":"740"}  
+  "searchConfig":{"komkode":"740"},
+  "showLayerGroupCheckbox": true
 } 
