@@ -1,14 +1,3 @@
-.group-check-box-RnlzaXNrIHBsYW5sw6ZnbmluZw {
-    display: none;
-}
-
-.checkbox label, .radio label, label {
-    font-size: 20px;
-    line-height: 1.42857143;
-    color: #BDBDBD;
-    font-weight: 400;
-}
-
-.print-form {
+group-check-box-RnlzaXNrIHBsYW5sw6ZnbmluZw {
     display: none;
 }
