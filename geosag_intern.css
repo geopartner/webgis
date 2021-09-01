@@ -1,0 +1,15 @@
+.legend-text {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.checkbox label, .radio label, label {
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400;
+}
+
+.print-form {
+    display: none;
+}
