@@ -1,0 +1,8 @@
+{
+    "brandName": "Virring Vandværk",
+    "enabledPrints": ["vandvaerk2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "searchConfig":{"komkode":"730"},
+    "showLayerGroupCheckbox": true
+  } 

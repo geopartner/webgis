@@ -1,10 +1,6 @@
 {
- 
   "brandName": "Resenbro vand",
-  
   "enabledPrints": ["vandvaerk2"],
-  "showLayerGroupCheckbox": true,
-   
   "searchModules":["google","danish"],
   "enabledSearch":"danish",
   "searchConfig":{"komkode":"740"},
