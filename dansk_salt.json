@@ -19,5 +19,11 @@
         "coordinates",
         "session",
       "editor"
-    ]
+    ],
+    "extensionConfig": {
+        "session": {
+          "autoLogin": true,
+          "autoLoginMaxAge": 630720000000
+        }
+    }
 }
