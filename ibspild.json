@@ -1,0 +1,22 @@
+{
+    "brandName": "Ikast-Brande Spildevand, DEMO",
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "esrSearchActive": false,
+      "sfeSearchActive": false,
+       "advanced": false
+    },
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "enabledExtensions": [
+        "streetView",
+        "session",
+        "editor"
+    ],
+    "extensionConfig": {
+        "session": {
+          "autoLogin": true,
+          "autoLoginMaxAge": 630720000000
+        }
+    }
+  }
