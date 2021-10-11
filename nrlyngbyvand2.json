@@ -4,8 +4,10 @@
       "vandvaerk_nrlyngbyvand2"
     ],
   
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
     "searchConfig": {
-      "komkode": "860"
+      "komkode": "779"
     }
   }
    
