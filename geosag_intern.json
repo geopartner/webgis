@@ -19,7 +19,7 @@
   "enabledPrints": ["vandvaerk2"],
   "brandName": "GP kort - Geopartner A/S",  
   "enabledSearch": "danish",
-  "showLayerGroupCheckbox": false,
+  "showLayerGroupCheckbox": true,
   "searchConfig": {
     "esrSearchActive": true,
     "sfeSearchActive": true,
