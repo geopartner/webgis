@@ -1,5 +1,6 @@
 {
     "brandName": "Ikast-Brande Spildevand",
+    "enabledPrints": ["ibspildprint"],  
     "enabledSearch": "danish",
     "searchConfig": {
          "komkode": [
