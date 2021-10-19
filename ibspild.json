@@ -12,6 +12,7 @@
     },
     "searchModules":["google","danish"],
     "enabledSearch":"danish",
+    "showLayerGroupCheckbox": true,
     "enabledExtensions": [
         "streetView",
         "session",
