@@ -2,6 +2,9 @@
     "brandName": "Ikast-Brande Spildevand, DEMO",
     "enabledSearch": "danish",
     "searchConfig": {
+         "komkode": [
+            "756"
+        ],
       "esrSearchActive": false,
       "sfeSearchActive": false,
        "advanced": false
