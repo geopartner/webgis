@@ -16,7 +16,8 @@
     "enabledExtensions": [
         "streetView",
         "session",
-        "editor"
+        "editor",
+        "graveAssistent"
     ],
     "extensionConfig": {
         "session": {
