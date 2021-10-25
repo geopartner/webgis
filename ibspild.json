@@ -1,6 +1,7 @@
 {
     "schemata": [
         "dandas",
+        "public",
         "gc2_io_dk_matrikel",
         "ibspildevand"
     ],
