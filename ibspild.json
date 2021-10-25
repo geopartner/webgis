@@ -1,6 +1,7 @@
 {
     "schemata": [
         "dandas",
+        "gc2_io_dk_matrikel",
         "ibspildevand"
     ],
     "brandName": "Ikast-Brande Spildevand",
