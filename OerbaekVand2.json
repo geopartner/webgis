@@ -2,7 +2,7 @@
   "brandName": "Ørbæk Vandværk",
   
   "enabledPrints": ["vandvaerk2"],
-  "featureInfoTableOnMap": true,
+  "showLayerGroupCheckbox": true,
   "searchConfig": { 
         "komkode": "450"
   }
