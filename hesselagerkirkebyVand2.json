@@ -7,6 +7,7 @@
     "streetView",
     "coordinates"
   ],
+  "showLayerGroupCheckbox": true,
   "searchConfig": {
     "komkode": [
       "479"
