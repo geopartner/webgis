@@ -1,4 +1,8 @@
 {   
+    "schemata": [
+        "jellingvand",
+        "tag:_matrikel"
+    ],
     "brandName": "Jelling Vandværk",
     "enabledPrints": [
       "vandvaerk_jellingvand2"
