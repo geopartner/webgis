@@ -453,13 +453,13 @@
 			"default"
 		],
         "id": "Matriklen-DAF",
-        "name": "Matriklen (Datafordeleren) (test-name 3)",
+        "name": "Matriklen (Datafordeleren) (test 3)",
         "description": "Matriklen (Datafordeleren) (test)",
         "attribution": "Geodatastyrelsen, Datafordeleren",
         "minZoom": 8,
         "maxZoom": 22,
         "maxNativeZoom": 22,
-        "transparent": true
+        "transparent": false
       }
 	  
    ]
