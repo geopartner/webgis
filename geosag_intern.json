@@ -433,12 +433,12 @@
 	  
       {
         "type": "wms",
-        "url": "/api/df/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+        "url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
         "layers": [
-          "geodanmark_2020_12_5cm"
+          "Centroide_Gaeldende"
         ],
-        "id": "Matriklen (Datafordeleren)",
-        "name": "Matriklen (Datafordeleren) (test)",
+        "id": "Matriklen-DAF",
+        "name": "Matriklen (Datafordeleren) (test-name)",
         "description": "Matriklen (Datafordeleren) (test)",
         "attribution": "Geodatastyrelsen, Datafordeleren",
         "minZoom": 8,
