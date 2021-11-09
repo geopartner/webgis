@@ -443,6 +443,15 @@
             "StrandbeskyttelseFlade_Gaeldende",
             "Jordstykke_Gaeldende"
         ],
+		"styles": [
+			"Sorte_centroider",
+			"Sorte_skel",
+			"Roed_OptagetVej",
+			"Jordstykke_Gaeldende_Sort",
+			"default",
+			"default",
+			"default"
+		],
         "id": "Matriklen-DAF",
         "name": "Matriklen (Datafordeleren) (test-name)",
         "description": "Matriklen (Datafordeleren) (test)",
