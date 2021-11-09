@@ -438,8 +438,8 @@
           "geodanmark_2020_12_5cm"
         ],
         "id": "geodanmark_2020_12_5cm_Test",
-        "name": "TEST geodanmark_2020_12_5cm (test)",
-        "description": "geodanmark_2020_12_5cm",
+        "name": "TEST geodanmark_2020_12_5cm",
+        "description": "geodanmark_2020_12_5cm (test)",
         "attribution": "Styrelsen for Dataforsyning og Effektivisering",
         "minZoom": 8,
         "maxZoom": 22,
