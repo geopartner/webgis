@@ -436,22 +436,22 @@
         "url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
         "layers": [
 			"Centroide_Gaeldende",
-            "MatrikelSkel_Gaeldende",
             "OptagetVej_Gaeldende",
+            "MatrikelSkel_Gaeldende",
             "StrandbeskyttelseFlade_Gaeldende",
             "KlitfredningFlade_Gaeldende",
             "FredskovFlade_Gaeldende"
         ],
 		"styles": [
 			"Sorte_centroider",
-			"Sorte_skel",
 			"Roed_OptagetVej",
+			"Sorte_skel",
 			"default",
 			"default",
 			"default"
 		],
         "id": "Matriklen-DAF",
-        "name": "Matriklen (Datafordeleren) (test 4)",
+        "name": "Matriklen (Datafordeleren) (test 5)",
         "description": "Matriklen (Datafordeleren)",
         "attribution": "Geodatastyrelsen, Datafordeleren",
         "minZoom": 8,
