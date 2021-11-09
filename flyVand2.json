@@ -9,6 +9,7 @@
         "779"
       ]
     },
+    "showLayerGroupCheckbox": true,
     "enabledPrints": ["vandvaerk2"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
