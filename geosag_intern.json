@@ -86,7 +86,7 @@
 				"KlitfredningFlade_Gaeldende",
 				"FredskovFlade_Gaeldende"
 			],
-			"stles": [
+			"styles": [
 				"Sorte_centroider",
 				"Sort_OptagetVej",
 				"Sorte_skel",
@@ -95,7 +95,7 @@
 				"default"
 			],
 			"id": "Matriklen-DAF",
-			"name": "Matriklen (Datafordeleren) (test 7)",
+			"name": "Matriklen (Datafordeleren) (test 8)",
 			"description": "Matriklen (Datafordeleren)",
 			"attribution": "Geodatastyrelsen, Datafordeleren",
 			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Geodatastyrelsen</p><p>Matrikelkortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
