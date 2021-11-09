@@ -453,7 +453,7 @@
 			"default"
 		],
         "id": "Matriklen-DAF",
-        "name": "Matriklen (Datafordeleren) (test-name)",
+        "name": "Matriklen (Datafordeleren) (test-name 2)",
         "description": "Matriklen (Datafordeleren) (test)",
         "attribution": "Geodatastyrelsen, Datafordeleren",
         "minZoom": 8,
