@@ -1,0 +1,15 @@
+{    
+    "brandName": "Fly Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "779"
+      ]
+    },
+    "enabledPrints": ["vandvaerk2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
