@@ -83,7 +83,7 @@
 				"Navne_basis_kort",
 				"Husnummer"
 			],
-			"id": "Forvaltningskort",
+			"id": "ForvaltningskortDF",
 			"name": "Forvaltningskort 1",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
