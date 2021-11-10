@@ -57,24 +57,6 @@
             "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
          }
       },
-	  {
-        "type": "wms",
-        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
-        "layers": [
-            "Basis_kort",
-            "Navne_basis_kort",
-            "Husnummer"
-        ],
-        "id": "Forvaltningskort",
-        "name": "Forvaltningskort (GST)",
-        "description": "Forvaltningskort fra kortforsyningen",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract": "<p>Forvaltningskort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-        "minZoom": 4,
-        "maxZoom": 22,
-        "maxNativeZoom": 20
-        },
-
 		{
 			"type": "wms",
 			"url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
@@ -84,7 +66,7 @@
 				"Husnummer"
 			],
 			"id": "ForvaltningskortDF",
-			"name": "Forvaltningskort 1",
+			"name": "Forvaltningskort",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Navne_basis_kort</li><li>Husnummer</li></ul></p><br>",
@@ -92,7 +74,6 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
-
 		{
 			"type": "wms",
 			"url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
@@ -113,7 +94,7 @@
 				"default"
 			],
 			"id": "Matriklen-DAF",
-			"name": "Matrikelkort (DAF)",
+			"name": "Matrikelkort",
 			"description": "Matriklen (Datafordeleren)",
 			"attribution": "&copy; Geodatastyrelsen, Datafordeleren",
 			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
@@ -122,22 +103,26 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		},
-	{
-        "type": "wms",		
-        "_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
-        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",       
-        "layers": [
-            "Basis_ortofoto"
-        ],
-	"id": "ortofoto_foraar",
-        "name": "GST ortofoto forår",
-        "description": "Ortofoto forår fra kortforsyningen",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract": "<p>Ortofoto forår, nyeste ortofoto fra forvaltningstjenesten.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-        "minZoom": 4,
-        "maxZoom": 22,
-        "maxNativeZoom": 20
-        },
+		
+		{
+			"type": "wms",		
+			"_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
+			"_url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+			"url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
+			"layers": [
+				"Basis_ortofoto"
+			],
+			"id": "ortofoto_foraar",
+			"name": "GeoDanmark ortofoto forår 1",
+			"description": "Seneste ortofoto forår fra GeoDanmark",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste ortofoto fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"minZoom": 4,
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		
+
       {
         "type": "wms",
         "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
