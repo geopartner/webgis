@@ -97,7 +97,7 @@
 			"name": "Matriklen (DAF)",
 			"description": "Matriklen (Datafordeleren)",
 			"attribution": "&copy; Geodatastyrelsen, Datafordeleren",
-			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Geodatastyrelsen</p><br>",
+			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed på <a href="https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/" target="_blank">følgende vilkår.</a> </p><br>",
 			"minZoom": 8,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
