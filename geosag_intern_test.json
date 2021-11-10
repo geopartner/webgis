@@ -74,38 +74,35 @@
         "maxZoom": 22,
         "maxNativeZoom": 20
         },
-        {
-        "type": "wms",
-        "url": "https://services.kortforsyningen.dk/mat?TRANSPARENT=TRUE&STYLE=default&SERVICE=WMS&VERSION=1.1.1&FORMAT=image/png&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
-        "layers": [
-            "Centroide",
-            "MatrikelSkel",
-            "OptagetVej",
-            "Majoratskov",
-            "Fredskov",
-            "Klitfredning",
-            "Strandbeskyttelse",
-            "Jordstykke"
-        ],
-	"styles": [
-            "default",
-            "default",
-            "default",
-            "default",
-            "default",
-            "default",
-            "default",
-            "default"
-        ],
-        "id": "Matrikel_kort",
-        "name": "Matrikelkort (GST)",
-        "description": "Matrikelkort fra kortforsyningen",
-        "attribution": "&copy; Geodatastyrelsen.",
-        "abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-        "minZoom": 4,
-        "maxZoom": 22,
-        "maxNativeZoom": 20
-      },
+		{
+			"type": "wms",
+			"url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"layers": [
+				"Centroide_Gaeldende",
+				"OptagetVej_Gaeldende",
+				"MatrikelSkel_Gaeldende",
+				"StrandbeskyttelseFlade_Gaeldende",
+				"KlitfredningFlade_Gaeldende",
+				"FredskovFlade_Gaeldende"
+			],
+			"styles": [
+				"Sorte_centroider",
+				"Sort_OptagetVej",
+				"Sorte_skel",
+				"default",
+				"default",
+				"default"
+			],
+			"id": "Matriklen-DAF",
+			"name": "Matrikelkort (DAF)",
+			"description": "Matriklen (Datafordeleren)",
+			"attribution": "&copy; Geodatastyrelsen, Datafordeleren",
+			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
+			"minZoom": 8,
+			"maxZoom": 22,
+			"maxNativeZoom": 22,
+			"transparent": false
+		},
 	{
         "type": "wms",		
         "_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
