@@ -103,7 +103,6 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		},
-		
 		{
 			"type": "wms",		
 			"_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
@@ -113,16 +112,14 @@
 				"Basis_ortofoto"
 			],
 			"id": "ortofoto_foraar",
-			"name": "GeoDanmark ortofoto forår 1",
+			"name": "GeoDanmark ortofoto forår (seneste)",
 			"description": "Seneste ortofoto forår fra GeoDanmark",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, nyeste ortofoto fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
 			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
-		
-
       {
         "type": "wms",
         "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
