@@ -74,6 +74,25 @@
         "maxZoom": 22,
         "maxNativeZoom": 20
         },
+
+		{
+			"type": "wms",
+			"url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
+			"layers": [
+				"Basis_kort",
+				"Navne_basis_kort",
+				"Husnummer"
+			],
+			"id": "Forvaltningskort",
+			"name": "Forvaltningskort 1",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Navne_basis_kort</li><li>Husnummer</li></ul></p><br>",
+			"minZoom": 4,
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+
 		{
 			"type": "wms",
 			"url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
