@@ -80,7 +80,7 @@
 				"quickorto"
 			],
 			"id": "ortofoto_foraar_temp_DF",
-			"name": "Ortofoto forår (quickorto)",
+			"name": "GeoDanmark ortofoto forår (quickorto)",
 			"description": "Ortofoto forår fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
