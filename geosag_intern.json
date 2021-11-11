@@ -119,6 +119,22 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
+        {
+			"type": "wms",		
+			"url": "https://api.dataforsyningen.dk/orto_foraar_temp?service=WMS&token=93d689ac11dfbff1990199a1ab343788",
+			"layers": [
+				"quickorto"
+			],
+			"id": "ortofoto_foraar_temp_DF",
+			"name": "GeoDanmark ortofoto forår (quickorto)",
+			"description": "Ortofoto forår fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
+			"minZoom": 4,
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+        },
+
       {
         "type": "wms",
         "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
