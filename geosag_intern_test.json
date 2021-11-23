@@ -9,7 +9,8 @@
    "gc2_io_dk_plandatadk",
     "gc2_io_dk_dagi",
     "gc2_io_dk_kortforsyningen",
-    "gc2_io_dk_geodanmark",
+    "gc2_io_dk_geodanmark",	 
+    "dktl",
     "naviair"
   ],
   "cssFiles": [
