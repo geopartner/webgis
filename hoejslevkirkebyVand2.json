@@ -10,7 +10,7 @@
       ]
     },
     "showLayerGroupCheckbox": true,
-    "enabledPrints": ["vandvaerk2"],
+    "enabledPrints": ["hoejslevkirkeby_print"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
   }
