@@ -1,0 +1,16 @@
+{    
+    "brandName": "Højslev Kirkeby Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "779"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["hoejslevkirkeby_print"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
