@@ -1,0 +1,16 @@
+{    
+    "brandName": "Vejby-Smidstrup Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "860"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vejbysmidstrup_print"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
