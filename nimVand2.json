@@ -1,0 +1,16 @@
+{    
+    "brandName": "Nim Vandværk a.m.b.a",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "860"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["nimvand_print"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
