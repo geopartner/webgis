@@ -17,7 +17,7 @@
     ],
     "aboutBox": "<h1>Velkommen</h1><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort og detaljerede oplysnigner pom Aalborg universitets bygninger</a>.</p>",
     
-  "brandName": "Agriteam ApS",  
+  "brandName": "EDC Videbæk",  
   "enabledSearch": "danish",
   "searchConfig": {
     "esrSearchActive": true,
@@ -32,16 +32,13 @@
   },
   "featureInfoTableOnMap": true,
   "startUpModal": "<h1>Velkommen</h1><br><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, for opmålte fosyningsarter: kloak, el, fiber, vand og fjernvarme. Informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p></p>",
-  "enabledPrints": ["Agriteam_Viborg_Aars", "Agriteam_Varde", "Agriteam_Brorup", "Agriteam_Randers" ],  
+  "enabledPrints": ["edcvidebaekgprint" ],  
   "enabledExtensions": [
     "conflictSearch",
     "streetView",
     "coordinates",
     "session",
     "editor"
-  ],
-   "cssFiles": [
-       "agriteam_legendstyling.css"
   ],
 "baseLayers":[
       {
