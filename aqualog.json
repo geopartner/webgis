@@ -14,6 +14,8 @@
     ]
   },
   "searchModules":["google","danish"],
-  "enabledSearch":"danish" 
+  "enabledSearch":"danish",
+  "showLayerGroupCheckbox": true,
+  "template": "default.tmpl",
 }
  
