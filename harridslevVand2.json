@@ -10,7 +10,7 @@
       ]
     },
     "showLayerGroupCheckbox": true,
-    "enabledPrints": ["harridslev_print"],
+    "enabledPrints": ["harridslevvand_print"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
   }
