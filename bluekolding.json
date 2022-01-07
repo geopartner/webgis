@@ -1,6 +1,7 @@
 {
     "schemata": [
         "public",
+        "orto",
         "tag:_ejerfortegnelse",
         "tag:_deklarationer",
         "tag:_forsyning",
