@@ -12,8 +12,19 @@
         }
       },
     {
+        "id": "havnedemo.aabenraa_2017",
+        "name": "Aabenraa havn 2017",
+        "db": "demo",
+        "host": "https://mapgogc2.geopartner.dk",
+        "config": {
+          "maxZoom": 26,
+          "maxNativeZoom": 19,
+          "attribution": "&copy; Sensorsurvey"
+        }
+      },
+    {
         "id": "havnedemo.roenne_210521_rev0",
-        "name": "Maj 2021",
+        "name": "Rønne havn, Maj 2021",
         "db": "demo",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
@@ -24,7 +35,7 @@
       },
     {
         "id": "havnedemo.roenne_060821_rev0",
-        "name": "August 2021",
+        "name": "Rønne havn, August 2021",
         "db": "demo",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
@@ -35,7 +46,7 @@
       },
     {
         "id": "havnedemo.roenne_140921_rev0",
-        "name": "September 2921",
+        "name": "Rønne havn, September 2921",
         "db": "demo",
         "host": "https://mapgogc2.geopartner.dk",
         "config": {
@@ -43,11 +54,7 @@
           "maxNativeZoom": 19,
           "attribution": "&copy; Sensorsurvey"
         }
-      },
-    {
-      "id": "dtkSkaermkortDaempet",
-      "name": "Skærmkort dæmpet"
-    }
+      }
   ],
   "brandName": "HavneDemo",
   "enabledPrints": [
