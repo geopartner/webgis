@@ -1,0 +1,16 @@
+{    
+    "brandName": "Nibe Varme",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "851"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
