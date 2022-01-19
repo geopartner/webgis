@@ -104,7 +104,7 @@
 		},
       {
         "type": "wms",
-        "url": "/api/df/Matrikel/GeoDanmarkOrto/1.0.0/WMS",
+        "url": "/api/df/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
         "layers": [
             "orto_foraar"
         ],
