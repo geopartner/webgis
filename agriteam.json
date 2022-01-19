@@ -116,7 +116,7 @@
         "minZoom": 4,
         "maxZoom": 22,
         "maxNativeZoom": 20,
-            "_overlays": [
+            "overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
