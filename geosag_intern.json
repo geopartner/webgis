@@ -111,9 +111,9 @@
 		{
 			"type": "wms",
 			"_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
+			"url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=93d689ac11dfbff1990199a1ab343788",
 			"layers": [
-				"Basis_ortofoto"
+				"orto_foraar_12_5"
 			],
 			"id": "ortofoto_foraar",
 			"name": "GeoDanmark ortofoto forår (seneste)",
