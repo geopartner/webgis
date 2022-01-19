@@ -104,19 +104,19 @@
 		},
       {
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
+        "url": "/api/df/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
         "layers": [
-            "Basis_ortofoto"
+            "orto_foraar"
         ],
-        "id": "Luftfoto_2019",
-        "name":"Luftfoto 2019",
-        "description": "Luftfotokort fra dataforsyningen",
+        "id": "Luftfoto_nyeste",
+        "name":"Luftfoto nyeste",
+        "description": "Luftfotokort fra datafordeler",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2019 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
+        "abstract":"<p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
         "minZoom": 4,
         "maxZoom": 22,
         "maxNativeZoom": 20,
-            "_overlays": [
+            "overlays": [
                 {
                     "id": "public.mvw_adgangsadresser",
                     "db": "mapconnectbase",
@@ -203,7 +203,7 @@
       },
       {
         "type": "wms",
-         "url": "https://api.dataforsyningen.dk/service?servicename=topo_skaermkort&service=WMS&version=1.1.1&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+         "url": "/api/df/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
         "layers": [
             "dtk_skaermkort_daempet"
         ],
@@ -247,7 +247,7 @@
       },
        {
         "type": "wms",
-        "url": "https://services.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "url": "/api/df/DKtopokort/dtk_25/1.0.0/WMS",
         "layers": [
             "dtk25"
         ],
