@@ -203,7 +203,7 @@
       },
       {
         "type": "wms",
-         "url": "https://api.dataforsyningen.dk/service?servicename=topo_skaermkort&service=WMS&version=1.1.1&token=2edaf0d4a10f052d184f2d4fcafcbfd6",
+         "url": "/api/df/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
         "layers": [
             "dtk_skaermkort_daempet"
         ],
@@ -247,7 +247,7 @@
       },
        {
         "type": "wms",
-        "url": "https://services.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "url": "/api/df/DKtopokort/dtk_25/1.0.0/WMS",
         "layers": [
             "dtk25"
         ],
