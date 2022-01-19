@@ -104,7 +104,7 @@
 		},
       {
         "type": "wms",
-        "url": "/api/df/Matrikel/GeoDanmarkOrto/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
+        "url": "/api/df/Matrikel/GeoDanmarkOrto/1.0.0/WMS",
         "layers": [
             "orto_foraar"
         ],
