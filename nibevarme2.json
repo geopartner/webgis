@@ -10,7 +10,7 @@
       ]
     },
     "showLayerGroupCheckbox": true,
-    "enabledPrints": ["vandvaerk2"],
+    "enabledPrints": ["nibevarme"],
     "searchModules":["google","danish"],
     "enabledSearch":"danish" 
   }
