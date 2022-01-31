@@ -7,6 +7,6 @@
     visibility: hidden;
 }
 
-.fixed-table-container {
+#fixed-table-container {
     height: 600px;
 }
