@@ -8,6 +8,5 @@
 }
 
 #fixed-table-container {
-	element.style {height: 500px;}
     max-height: 600px;
 }
