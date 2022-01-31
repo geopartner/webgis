@@ -7,3 +7,6 @@
     visibility: hidden;
 }
 
+.fixed-table-container {
+    height: 600px;
+}
