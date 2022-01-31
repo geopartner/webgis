@@ -6,3 +6,7 @@
 #group-check-box-S29ydGZvcnN5bmluZ2VuOiBGaWtzcHVua3Rlcg {
     visibility: hidden;
 }
+
+#fixed-table-container {
+    max-height: 600px;
+}
