@@ -7,6 +7,6 @@
     visibility: hidden;
 }
 
-#fixed-table-container {
+.fixed-table-container {
     max-height: 600px;
 }
