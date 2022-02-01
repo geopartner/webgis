@@ -10,3 +10,7 @@
 .fixed-table-container {
     height: 250px !important;
 }
+
+.leaflet-popup-content{
+	width: 551px;
+}
