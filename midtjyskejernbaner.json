@@ -1,7 +1,9 @@
 {    
   "schemata": [
          "midtjyske_jernbaner",
-         "scan2020"
+         "scan2020",
+         "gc2_io_dk_matrikel",
+         "gc2_io_dk_danmarksarealinformation"
     ],
     "brandName": "Midtjyske jernbaner, ejerkort",
   
