@@ -1,0 +1,16 @@
+{    
+    "brandName": "Farstrup Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "851"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_farstrupvand2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
