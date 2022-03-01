@@ -6,6 +6,9 @@
     width: 698px;
 }
 
+.alternative-info-container-right {
+	width: 690px;
+}
 
 .info-tabbed {
 	overflow-x: hidden; /* so we could easily hide the radio inputs */
