@@ -1,0 +1,16 @@
+{    
+    "brandName": "Sjørup Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "791"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_sjoerupvand2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
