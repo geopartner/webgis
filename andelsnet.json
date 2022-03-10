@@ -1,17 +1,29 @@
-{    
-    "brandName": "Andels.net",
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-    "searchConfig": {
-      "komkode": [
-        "101",
-        "147"
-      ]
-    },
-    "showLayerGroupCheckbox": true,
-    "enabledPrints": ["andelsnet"],
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish"
+{
+  "brandName": "Andels.net",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+    "session"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "101",
+      "147"
+    ]
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "andelsnet"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "extensionConfig": {
+    "session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 630720000000
+    }
   }
+}

@@ -1,15 +1,19 @@
+/* Begin of section regarding TABs for forbrugsmåler */
+
+/* First some changes regarding size of info-box */
 .leaflet-popup-content-wrapper {
     width: 700px;
 }
 
 .leaflet-popup-content {
-    width: 698px;
+    width: 670px !important;
 }
 
 .alternative-info-container-right {
-	width: 690px;
+	width: 660px;
 }
 
+/* Then some settings regardign the TABs itself */
 .info-tabbed {
 	overflow-x: hidden; /* so we could easily hide the radio inputs */
 	margin: 32px 0;
@@ -77,4 +81,11 @@
 .info-tabbed [type="radio"]:nth-of-type(7):checked ~ .info-tab-content:nth-of-type(7) {
 	display: block;
 }
+
+
+
+
+
+
+/* End of section regarding TABs for forbrugsmåler */
 
