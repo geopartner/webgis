@@ -1,0 +1,16 @@
+{    
+    "brandName": "Haderup Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "657", "791"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_haderupvand2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
