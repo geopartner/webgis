@@ -2,7 +2,7 @@
     "brandName": "Skagen Havn",
     "aboutBox": "",
     "startUpModal": "",
-    "enabledPrints": ["skagenhavn"],
+    "enabledPrints": ["skagenhavn_print"],
     "enabledExtensions": [
       "streetView",
       "coordinates"
