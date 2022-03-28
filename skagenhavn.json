@@ -17,6 +17,18 @@
     },
     "baseLayers": [
         {
+            "id": "geodk.bright",
+            "name": "Topografisk kort",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+        {
             "type": "wms",
             "url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
             "layers": [
@@ -31,18 +43,6 @@
             "abstract": "<p>GeoDanmark Forvaltningskort</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.'. </p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Navne_basis_kort</li><li>Husnummer</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20
-        },
-        {
-            "id": "geodk.bright",
-            "name": "Topografisk kort",
-            "db": "baselayers",
-            "host": "https://dk.gc2.io",
-            "abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
-            "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
-                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-            }
         },
         {
             "type": "wms",
