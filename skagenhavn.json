@@ -4,6 +4,7 @@
     "startUpModal": "",
     "enabledPrints": ["skagenhavn_print"],
     "enabledExtensions": [
+      "session",
       "streetView",
       "coordinates"
     ],
