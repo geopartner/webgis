@@ -1,4 +1,8 @@
 {
+    "schemata": [
+        "skagen_data",
+        "gc2_io_dk_matrikel"
+    ],
     "brandName": "Skagen Havn",
     "aboutBox": "",
     "startUpModal": "",
