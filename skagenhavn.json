@@ -1,7 +1,8 @@
 {
     "schemata": [
         "skagen_data",
-        "gc2_io_dk_matrikel"
+        "gc2_io_dk_matrikel",
+        "tag:_havnegrundkort"
     ],
     "brandName": "Skagen Havn",
     "aboutBox": "",
