@@ -1,3 +1,4 @@
-#modal-header {
-	display: none;
+#startup-message-modalLabel,
+#about-modalLabel {
+    visibility: hidden;
 }
