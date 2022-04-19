@@ -2,6 +2,7 @@
     "schemata": [
         "dandas",
         "public",
+	"ler_aws",
         "gc2_io_dk_matrikel",
         "ibspildevand"
     ],
