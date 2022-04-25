@@ -11,19 +11,20 @@
       "css_editor-hide-delete-button.css"
     ],
    "baseLayers":[
- 		{
+		{
 			"type": "wms",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
+			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
 			"layers": [
 				"Basis_kort",
-				"Navne_basis_kort",
+				"Stednavne_basiskort",
+				"Vejnavne_basiskort",
 				"Husnummer"
 			],
 			"id": "ForvaltningskortDF",
 			"name": "Forvaltningskort",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Navne_basis_kort</li><li>Husnummer</li></ul></p><br>",
+			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
 			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
@@ -59,8 +60,7 @@
 		},
 		{
 			"type": "wms",		
-			"_url": "https://services.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/Wms?username=XMERXHKAVN&password=Geop1234!&SERVICE=WMS&VERSION=1.3.0&CRS=EPSG:4326&LAYERS=orto_foraar_12_5&STYLES=&FORMAT=image/jpeg&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&transparent=FALSE",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=93d689ac11dfbff1990199a1ab343788",
+			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
 			"layers": [
 				"Basis_ortofoto"
 			],
@@ -75,7 +75,7 @@
 		},
         {
 			"type": "wms",		
-			"url": "https://api.dataforsyningen.dk/orto_foraar_temp?service=WMS&token=93d689ac11dfbff1990199a1ab343788",
+			"url": "https://api.dataforsyningen.dk/orto_foraar_temp?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
 			"layers": [
 				"quickorto"
 			],
