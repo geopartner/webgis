@@ -109,7 +109,7 @@
                     }
                 }
             ]
-        }
+        },
       {
         "type": "wms",
          "url": "/api/df/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
