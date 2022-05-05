@@ -26,7 +26,7 @@
     "showLayerGroupCheckbox": true,
     "enabledPrints": ["nibevarme"],
     "searchModules":["google","danish"],
-    "enabledSearch":"danish" 
+    "enabledSearch":"danish",
 "baseLayers":[
         {
 			"type": "wms",
