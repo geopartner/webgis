@@ -1,0 +1,16 @@
+{
+  "brandName": "Harerenden I/S",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "860"
+    ]
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["vandvaerk_harerendenvand2"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish"
+}
