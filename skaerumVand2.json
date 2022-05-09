@@ -1,0 +1,16 @@
+{
+  "brandName": "Skærum Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "813"
+    ]
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["vandvaerk_skaerumvand2"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish"
+}
