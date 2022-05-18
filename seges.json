@@ -1,7 +1,5 @@
 {
    "schemata": [
-         "edc_videbaek",
-	 "dktl",
          "ejerfortegnelse",
          "gc2_io_dk_danmarksarealinformation",
          "gc2_io_dk_distrikter",
@@ -16,7 +14,7 @@
          "gc2_io_dk_plandatadk",
          "gc2_io_dk_geus"
     ],
-    "aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Map Connect - dokumentation</a></p><br><p>Map Connect er en kortløsning/platform, der samler og viser de forskellige geografiske datatyper, som I har brug for.</p><br><p>Map Connect kan anvendes både som primært system til at visualisere data, eller også som 'omstillingscentral' til egne lokale desktop og/eller WebGIS-løsninger.</p><br><p>Platformen bygger på velkendte teknologier og internationale standarder, og anvendelsen kan derfor supplere de systemer, som I er vant til at arbejde med. Løsningen kan vise de forskellige data via tjenester, der kan anvendes i egne eksisterende løsninger.</p><br><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfotos, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se tingbogsoplysninger & ejerkort.</p><p><b>HUSK AT LOGGE IND: Den fulde adgang til alle lag, fås ved at logge ind. Når du er logget ind, vil det blive husket lokalt på din computer til næste gang. Hold øje med hængelåssymbolet i nederste højre hjørne af skæmbilledet.</b></p><br><img src='https://raw.githubusercontent.com/geopartner/webgis/master/logo/EDC_Videbaek_logo.jpg' width='550px'/><br>",
+    "aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Map Connect - dokumentation</a></p><br><p>Map Connect er en kortløsning/platform, der samler og viser de forskellige geografiske datatyper, som I har brug for.</p><br><p>Map Connect kan anvendes både som primært system til at visualisere data, eller også som 'omstillingscentral' til egne lokale desktop og/eller WebGIS-løsninger.</p><br><p>Platformen bygger på velkendte teknologier og internationale standarder, og anvendelsen kan derfor supplere de systemer, som I er vant til at arbejde med. Løsningen kan vise de forskellige data via tjenester, der kan anvendes i egne eksisterende løsninger.</p><br><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfotos, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se tingbogsoplysninger & ejerkort.</p><p><b>HUSK AT LOGGE IND: Den fulde adgang til alle lag, fås ved at logge ind. Når du er logget ind, vil det blive husket lokalt på din computer til næste gang. Hold øje med hængelåssymbolet i nederste højre hjørne af skæmbilledet.</b></p><br><img src='https://raw.githubusercontent.com/geopartner/webgis/master/logo/Seges_logo.jpg' width='151px'/><br>",
 
     
   "brandName": "EDC Videbæk",  
@@ -33,9 +31,8 @@
     }
   },
   "featureInfoTableOnMap": false,
-  "_startUpModal": "<h1>Velkommen</h1><br><p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, for opmålte fosyningsarter: kloak, el, fiber, vand og fjernvarme. Informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p></p>",
-  "startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere om Map Connect – En internetbaseret kortløsning</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Map Connect - dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se tingbogsoplysninger og ejerkort.</b></p><br><p><a target='blank' href='https://geopartner.dk/ydelser/kortloesning/'>Læs mere om Map Connect her</a></p><br><img src='https://raw.githubusercontent.com/geopartner/webgis/master/logo/EDC_Videbaek_logo.jpg' width='550px'/><br>",	
-  "enabledPrints": ["edcvidebaekgprint" ],  
+  "startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere om Map Connect – En internetbaseret kortløsning</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Map Connect - dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se tingbogsoplysninger og ejerkort.</b></p><br><p><a target='blank' href='https://geopartner.dk/ydelser/kortloesning/'>Læs mere om Map Connect her</a></p><br><img src='https://raw.githubusercontent.com/geopartner/webgis/master/logo/Seges_logo.jpg' width='151px'/><br>",	
+  "enabledPrints": ["segesprint" ],  
   "enabledExtensions": [
     "conflictSearch",
     "streetView",
@@ -45,18 +42,6 @@
   ],
 "baseLayers":[
       {
-         "id":"geodk.bright",
-         "name":"Topografisk kort",
-         "db":"baselayers", 
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
-		{
 			"type": "wms",
 			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
 			"layers": [
@@ -137,128 +122,6 @@
                     }
                 }
             ]
-        },      
-        {
-         "id":"luftfotoserier.geodanmark_2018_12_5cm",
-         "name":"Luftfoto 2018",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2018 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         },
-            "_overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                }
-            ]
-      },
-      {
-         "id":"luftfotoserier.geodanmark_2017_12_5cm",
-         "name":"Luftfoto 2017",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2017 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         },
-            "_overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                }
-            ]
-      },
-      {
-        "type": "wms",
-         "url": "https://api.dataforsyningen.dk/service?servicename=topo_skaermkort&service=WMS&version=1.1.1&token=4aacd5977eb46ca012c260ecb608c65c",
-        "layers": [
-            "dtk_skaermkort_daempet"
-        ],
-        "id": "kortforsyningen.dtk_skaermkort_daempet",
-        "name": "Skærmkort - dæmpet",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-         "abstract":"<p>Skærmkort, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-          "id": "osm",
-         "name":"Topografisk kort - Open Street Map",
-         "abstract":"<p>Kortet hentes fra Open Street Map.</p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Open Street Map"
-         }
-      },      
-      {
-        "id": "stamenToner",
-        "name": "Stamen Toner",
-        "abstract":"<p>Kortet hentes fra Stamen Toner.</p><br>",
-        "config":{
-          "maxZoom":21,
-          "maxNativeZoom":19,
-          "attribution":"&copy; Stamen Toner"
         }
-      },      
-      {
-        "id": "stamenTonerLite",
-        "name": "Stamen Toner Light",
-        "abstract":"<p>Kortet hentes fra Stamen Toner.</p><br>",
-        "config":{
-          "maxZoom":21,
-          "maxNativeZoom":19,
-          "attribution":"&copy; Stamen Toner"
-        }
-      },
-       {
-        "type": "wms",
-        "url": "https://services.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",
-        "layers": [
-            "dtk25"
-        ],
-        "id": "DTK_Kort25",
-        "name": "Klassisk 4cm kort",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      }
    ]   
 }
