@@ -126,7 +126,7 @@
         },
 	{
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?service=WMS&token=f9d630aba2a9e72a5ccc62d151af3025",
+        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
         "layers": [
             "geodanmark_2019_10cm"
         ],
