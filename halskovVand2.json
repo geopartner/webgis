@@ -1,0 +1,16 @@
+{    
+    "brandName": "Halskov Vandværk A.M.B.A.",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "779"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_halskovvand2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
