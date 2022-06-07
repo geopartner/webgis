@@ -7,6 +7,7 @@
       "streetView",
       "coordinates"
     ],
+    "showLayerGroupCheckbox": true,
     "searchModules":["google","danish"],
     "enabledSearch":"danish",
     "searchConfig": {
