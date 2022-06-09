@@ -1,0 +1,18 @@
+{    
+    "brandName": "Lendum Antennelaug",
+    "enabledPrints": [
+      "antenne_lendumantenne"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "showLayerGroupCheckbox": true,
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "searchConfig": {
+      "komkode": [
+        "860"
+      ]
+    }
+  }
