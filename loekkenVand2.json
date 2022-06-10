@@ -1,0 +1,18 @@
+{    
+    "brandName": "Løkken Vandværk",
+    "enabledPrints": [
+      "vandvaerk_loekkenvand2"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "showLayerGroupCheckbox": true,
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "searchConfig": {
+      "komkode": [
+        "860"
+      ]
+    }
+  }
