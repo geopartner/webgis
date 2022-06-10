@@ -1,0 +1,18 @@
+{    
+    "brandName": "Låstrup - Nr. Rind Vandværk",
+    "enabledPrints": [
+      "vandvaerk_laastrupnrrindvand2"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "showLayerGroupCheckbox": true,
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "searchConfig": {
+      "komkode": [
+        "791"
+      ]
+    }
+  }
