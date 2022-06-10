@@ -1,0 +1,21 @@
+{
+  "brandName": "Agersted Fælled Vandværk",
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "813"
+    ]
+  }
+}
