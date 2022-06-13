@@ -1,0 +1,18 @@
+{    
+    "brandName": "Lendum Vandværk a.m.b.a.",
+    "enabledPrints": [
+      "vandvaerk_lendumvand2"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "showLayerGroupCheckbox": true,
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "searchConfig": {
+      "komkode": [
+        "860"
+      ]
+    }
+  }
