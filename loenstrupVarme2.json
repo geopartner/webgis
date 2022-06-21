@@ -1,0 +1,18 @@
+{    
+    "brandName": "Lønstrup Kraftvarmeværk",
+    "enabledPrints": [
+      "varmevaerk_lendumvarme"
+    ],
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "showLayerGroupCheckbox": true,
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish",
+    "searchConfig": {
+      "komkode": [
+        "860"
+      ]
+    }
+  }
