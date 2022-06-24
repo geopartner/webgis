@@ -1,6 +1,5 @@
 {
     "schemata": [
-        "ejerkort_kiggerolle",
       "nst_demobruger"
     ],
     "template": "default.tmpl",
