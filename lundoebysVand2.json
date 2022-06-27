@@ -1,0 +1,16 @@
+{    
+    "brandName": "Lundø Bys Vandværk",
+    "enabledExtensions": [
+      "streetView",
+      "coordinates"
+    ],
+    "searchConfig": {
+      "komkode": [
+        "779"
+      ]
+    },
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_lundoebysvand2"],
+    "searchModules":["google","danish"],
+    "enabledSearch":"danish" 
+  }
