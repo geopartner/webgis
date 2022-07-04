@@ -12,7 +12,8 @@
     "enabledSearch":"danish",
     "searchConfig": {
       "komkode": [
-        "860"
+        "860",
+        "813"
       ]
     },
     "schemata": [
