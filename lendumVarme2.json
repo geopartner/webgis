@@ -14,5 +14,9 @@
       "komkode": [
         "860"
       ]
-    }
+    },
+    "schemata": [
+      "vand",
+      "antenne"
+    ]
   }
