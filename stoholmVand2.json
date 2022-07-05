@@ -1,13 +1,19 @@
 {
-    "brandName": "Stoholm Vandværk",
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-    "searchConfig": {
-      "komkode": "791"
-    },
-    "enabledPrints": ["vandvaerk_stoholm2"],
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish" 
-  }
+  "brandName": "Stoholm Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "searchConfig": {
+    "komkode": "791"
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_stoholm2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish"
+}
