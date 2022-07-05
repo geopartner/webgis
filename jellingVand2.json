@@ -1,18 +1,19 @@
-{   
-    "schemata": [
-        "jellingvand",
-        "tag:_matrikel"
-    ],
-    "brandName": "Jelling Vandværk",
-    "enabledPrints": [
-      "vandvaerk_jellingvand2"
-    ],
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-    "enabledSearch":"danish",
-    "searchConfig": {
-      "komkode": "630"
-    }
+{
+  "schemata": [
+    "jellingvand",
+    "tag:_matrikel"
+  ],
+  "brandName": "Jelling Vandværk",
+  "enabledPrints": [
+    "vandvaerk_jellingvand2"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": "630"
   }
+}
