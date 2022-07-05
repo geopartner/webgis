@@ -1,9 +1,15 @@
-{  
-    "brandName": "Stoholm varmeværk",
-    "searchConfig": {
-      "komkode": "791"
-    },
-    "enabledPrints": ["varmevaerk_stoholmvarme2"],
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish" 
-  }
+{
+  "brandName": "Stoholm varmeværk",
+  "searchConfig": {
+    "komkode": "791"
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "varmevaerk_stoholmvarme2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish"
+}
