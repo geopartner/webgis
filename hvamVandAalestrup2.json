@@ -1,0 +1,23 @@
+{
+  "brandName": "Hvam Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "820",
+      "791",
+      "846"
+    ]
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_hvamvandaalestrup2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish"
+}
