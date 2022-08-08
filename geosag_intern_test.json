@@ -1,64 +1,67 @@
 {
- "schemata": [
-   "public",
-   "ejerkort",
-   "gc2_io_dk_danmarksarealinformation",
-   "gc2_io_dk_dkjord",
-   "gc2_io_dk_kulturarvsstyrelsen",
-   "gc2_io_dk_matrikel", 
-   "gc2_io_dk_plandatadk",
-    "gc2_io_dk_dagi",
-    "gc2_io_dk_kortforsyningen",
-    "gc2_io_dk_geodanmark",	 
-    "dktl",
-    "naviair"
-  ],
-  "cssFiles": [
-    "geosag_intern.css"
-  ],
-  "aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a><br><p>Geopartners Webkortløsning der er solgt til mange af vores kunder, bliver udrullet til internt brug under navnet ’GP Kort’. Den første udgave indeholder en grundopsætning af lag der kan anvendes i dagligdagen. Sammen med udrulningen af GP Kort findes en online manual til rådighed på linket oven over.</p><p>Skulle du i løsningen savne adgang til lag, links eller funktioner, så opret en Sysaid på det. Der er mere end 400 eksterne lag tilgængeligt, så der er filtreret på forhånd. Måske mangler der lag som du er vant til at kigge, men det vil kunne aktiveres med din henvendelse.</p></p><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort, stedfæstede sager i kort, genveje til Docunote, ois, bbr mm.</p><p><b>Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
-  "enabledPrints": ["vandvaerk2"],
-  "brandName": "GP kort - Geopartner A/S",  
-  "enabledSearch": "danish",
-  "showLayerGroupCheckbox": true,
-  "searchConfig": {
-    "esrSearchActive": true,
-    "sfeSearchActive": true,
-     "advanced": false
-  },
-  "extensionConfig": {
-    "session": {
-      "autoLogin": true,
-      "autoLoginMaxAge": 630720000000
-    },
-    "streetView": {
-	  "cowi_der_virker": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=Geopartner&p=403A7D81&origin=desktop&cmd=state&project=DDS2018%20PLF&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2018%20Complete&hlayers=DDS2018%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2018%20Complete&ssTrigger=SINGLE_CLICK",
-	  "_ny_cowi": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner%20std.%20Ops%C3%A6tning&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2018%20Complete&hlayers=DDS2018%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2018%20Complete&ssTrigger=SINGLE_CLICK",
-	  "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner_DDG&vlayers=GeoDanmark+OrtoPhoto+2020;DDG2020+Complete&maximize=DDG2020+Complete&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG2020+Complete&ssTrigger=SINGLE_CLICK"
-    }
-  },
-  "featureInfoTableOnMap": false,
-  "startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere om GP Kort – Ny webkortløsning til intern brug</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se ejerkort og øvrige detaljerede oplysninger. Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil.jpg' width='550px' height='412px'/><br>",
-  "enabledExtensions": [
-    "conflictSearch",
-    "streetView",
-    "coordinates",
-    "session",
-    "editor"
-  ],  
-   "baseLayers":[
-      {
-         "id":"geodk.bright",
-         "name":"Topografisk kort",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
+	"schemata": [
+		"public",
+		"ejerkort",
+		"gc2_io_dk_danmarksarealinformation",
+		"gc2_io_dk_dkjord",
+		"gc2_io_dk_kulturarvsstyrelsen",
+		"gc2_io_dk_matrikel",
+		"gc2_io_dk_plandatadk",
+		"gc2_io_dk_dagi",
+		"gc2_io_dk_kortforsyningen",
+		"gc2_io_dk_geodanmark",
+		"naviair",
+		"dktl",
+		"ler_aws"
+	],
+	"cssFiles": [
+		"geosag_intern.css"
+	],
+	"aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a><br><p>Geopartners Webkortløsning der er solgt til mange af vores kunder, bliver udrullet til internt brug under navnet ’GP Kort’. Den første udgave indeholder en grundopsætning af lag der kan anvendes i dagligdagen. Sammen med udrulningen af GP Kort findes en online manual til rådighed på linket oven over.</p><p>Skulle du i løsningen savne adgang til lag, links eller funktioner, så opret en Sysaid på det. Der er mere end 400 eksterne lag tilgængeligt, så der er filtreret på forhånd. Måske mangler der lag som du er vant til at kigge, men det vil kunne aktiveres med din henvendelse.</p></p><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort, stedfæstede sager i kort, genveje til Docunote, ois, bbr mm.</p><p><b>Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
+	"enabledPrints": [
+		"vandvaerk2"
+	],
+	"brandName": "GP kort - Geopartner A/S",
+	"enabledSearch": "danish",
+	"showLayerGroupCheckbox": true,
+	"searchConfig": {
+		"esrSearchActive": true,
+		"sfeSearchActive": true,
+		"advanced": false
+	},
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		},
+		"streetView": {
+			"cowi_der_virker": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=Geopartner&p=403A7D81&origin=desktop&cmd=state&project=DDS2018%20PLF&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2018%20Complete&hlayers=DDS2018%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2018%20Complete&ssTrigger=SINGLE_CLICK",
+			"_ny_cowi": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner%20std.%20Ops%C3%A6tning&vlayers=GeoDanmark%20OrtoPhoto%202018;DDG2018%20Complete&maximize=DDG2018%20Complete&hlayers=DDS2018%20Complete&dssLayers=DDS2018%20Complete&assLayers=DDG2018%20Complete&ssTrigger=SINGLE_CLICK",
+			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner_DDG&vlayers=GeoDanmark+OrtoPhoto+2020;DDG2020+Complete&maximize=DDG2020+Complete&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG2020+Complete&ssTrigger=SINGLE_CLICK"
+		}
+	},
+	"featureInfoTableOnMap": true,
+	"startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere om GP Kort – Ny webkortløsning til intern brug</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se ejerkort og øvrige detaljerede oplysninger. Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil.jpg' width='550px' height='412px'/><br>",
+	"enabledExtensions": [
+		"conflictSearch",
+		"streetView",
+		"coordinates",
+		"session",
+		"editor"
+	],
+	"baseLayers": [
+		{
+			"id": "geodk.bright",
+			"name": "Topografisk kort",
+			"db": "baselayers",
+			"host": "https://dk.gc2.io",
+			"abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+			"config": {
+				"maxZoom": 21,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+			}
+		},
 		{
 			"type": "wms",
 			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
@@ -73,7 +76,7 @@
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"minZoom": 4,
+			"minZoom": 7,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
@@ -107,10 +110,10 @@
 			"transparent": false
 		},
 		{
-			"type": "wms",		
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
+			"type": "wms",
+			"url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=4aacd5977eb46ca012c260ecb608c65c",
 			"layers": [
-				"Basis_ortofoto"
+				"orto_foraar_12_5"
 			],
 			"id": "ortofoto_foraar",
 			"name": "GeoDanmark ortofoto forår (seneste)",
@@ -121,8 +124,8 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
-        {
-			"type": "wms",		
+		{
+			"type": "wms",
 			"url": "https://api.dataforsyningen.dk/orto_foraar_temp?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
 			"layers": [
 				"quickorto"
@@ -135,293 +138,258 @@
 			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
-        },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2020_125mm_UTM32ETRS89"
-        ],
-        "id": "Hybrid",
-        "name": "Ortofoto 2020",
-        "description": "Ortofoto 2020",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-        "abstract": "<p>Nyeste luftfotokort, med overlejrede vejnavne og adgangsadresser.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20,
-            "_overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 24,
-                        "maxNativeZoom": 22
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 24,
-                        "maxNativeZoom": 22
-                    }
-                }
-            ]
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2020_125mm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2020",
-        "name": "DDO land 2020",
-        "description": "DDO land 2020",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2016_125mm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2016",
-        "name": "DDO land 2016",
-        "description": "DDO land 2016",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2015_25CM_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2015",
-        "name": "DDO land 2015",
-        "description": "DDO land 2015",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2014_12CM_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2014",
-        "name": "DDO land 2014",
-        "description": "DDO land 2014",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 12cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2012_125mm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2012",
-        "name": "DDO land 2012",
-        "description": "DDO land 2012",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2010_125mm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2010",
-        "name": "DDO land 2010",
-        "description": "DDO land 2010",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2008_125mm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2008",
-        "name": "DDO land 2008",
-        "description": "DDO land 2008",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2006_25cm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2006",
-        "name": "DDO land 2006",
-        "description": "DDO land 2006",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2004_25CM_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2004",
-        "name": "DDO land 2004",
-        "description": "DDO land 2004",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland2002_40cm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_2002",
-        "name": "DDO land 2002",
-        "description": "DDO land 2002",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland1999_40CM_UTM32ETRS89"
-        ],
-        "id": "DDO_land_1999",
-        "name": "DDO land 1999",
-        "description": "DDO land 1999",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland1995_80cm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_1995",
-        "name": "DDO land 1995",
-        "description": "DDO land 1995",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 80cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOland1954_25cm_UTM32ETRS89"
-        ],
-        "id": "DDO_land_1954",
-        "name": "DDO land 1954",
-        "description": "DDO land 1954",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DDOby2018_5cm_UTM32ETRS89"
-        ],
-        "id": "DDO_by_2018",
-        "name": "DDO by (Kbh) 2018",
-        "description": "DDO by 2018",
-        "attribution": "&copy; Hexagon.",
-        "abstract": "<p>Copyright: Hexagon. Opløsning 5cm.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 22
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DTK_Kort100_UTM32ETRS89"
-        ],
-        "id": "DTK_Kort100",
-        "name": "Klassisk 1 cm kort",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-        "abstract": "<p>Klassisk 1 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DTK_Kort50_UTM32ETRS89"
-        ],
-        "id": "DTK_Kort50",
-        "name": "Klassisk 2 cm kort",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-        "abstract": "<p>Klassisk 2 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
-        "layers": [
-            "DK-DTK_Kort25_UTM32ETRS89"
-        ],
-        "id": "DTK_Kort25",
-        "name": "Klassisk 4 cm kort",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-        "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      }
-   ]
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2020_125mm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2020",
+			"name": "DDO land 2020",
+			"description": "DDO land 2020",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2016_125mm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2016",
+			"name": "DDO land 2016",
+			"description": "DDO land 2016",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2015_25CM_UTM32ETRS89"
+			],
+			"id": "DDO_land_2015",
+			"name": "DDO land 2015",
+			"description": "DDO land 2015",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2014_12CM_UTM32ETRS89"
+			],
+			"id": "DDO_land_2014",
+			"name": "DDO land 2014",
+			"description": "DDO land 2014",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 12cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2012_125mm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2012",
+			"name": "DDO land 2012",
+			"description": "DDO land 2012",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2010_125mm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2010",
+			"name": "DDO land 2010",
+			"description": "DDO land 2010",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2008_125mm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2008",
+			"name": "DDO land 2008",
+			"description": "DDO land 2008",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2006_25cm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2006",
+			"name": "DDO land 2006",
+			"description": "DDO land 2006",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2004_25CM_UTM32ETRS89"
+			],
+			"id": "DDO_land_2004",
+			"name": "DDO land 2004",
+			"description": "DDO land 2004",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland2002_40cm_UTM32ETRS89"
+			],
+			"id": "DDO_land_2002",
+			"name": "DDO land 2002",
+			"description": "DDO land 2002",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland1999_40CM_UTM32ETRS89"
+			],
+			"id": "DDO_land_1999",
+			"name": "DDO land 1999",
+			"description": "DDO land 1999",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 40cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland1995_80cm_UTM32ETRS89"
+			],
+			"id": "DDO_land_1995",
+			"name": "DDO land 1995",
+			"description": "DDO land 1995",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 80cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOland1954_25cm_UTM32ETRS89"
+			],
+			"id": "DDO_land_1954",
+			"name": "DDO land 1954",
+			"description": "DDO land 1954",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DDOby2018_5cm_UTM32ETRS89"
+			],
+			"id": "DDO_by_2018",
+			"name": "DDO by (Kbh) 2018",
+			"description": "DDO by 2018",
+			"attribution": "&copy; Hexagon.",
+			"abstract": "<p>Copyright: Hexagon. Opløsning 5cm.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 22
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DTK_Kort100_UTM32ETRS89"
+			],
+			"id": "DTK_Kort100",
+			"name": "Klassisk 1 cm kort",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
+			"abstract": "<p>Klassisk 1 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DTK_Kort50_UTM32ETRS89"
+			],
+			"id": "DTK_Kort50",
+			"name": "Klassisk 2 cm kort",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
+			"abstract": "<p>Klassisk 2 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+			"layers": [
+				"DK-DTK_Kort25_UTM32ETRS89"
+			],
+			"id": "DTK_Kort25",
+			"name": "Klassisk 4 cm kort",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
+			"abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		}
+	]
 }
