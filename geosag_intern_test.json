@@ -51,6 +51,23 @@
 	],
 	"baseLayers": [
 		{
+			"type": "wms",
+			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
+			"layers": [
+				"Basis_kort",
+				"Stednavne_basiskort",
+				"Vejnavne_basiskort",
+				"Husnummer"
+			],
+			"id": "ForvaltningskortDF",
+			"name": "xxx Forvaltningskort",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
+			"minZoom": 7,
+			"maxZoom": 20
+		},
+		{
 			"id": "geodk.bright",
 			"name": "Topografisk kort",
 			"db": "baselayers",
@@ -61,23 +78,6 @@
 				"maxNativeZoom": 19,
 				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
 			}
-		},
-		{
-			"type": "wms",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
-			"layers": [
-				"Basis_kort",
-				"Stednavne_basiskort",
-				"Vejnavne_basiskort",
-				"Husnummer"
-			],
-			"id": "ForvaltningskortDF",
-			"name": "xx Forvaltningskort",
-			"description": "Forvaltningskort fra Dataforsyningen",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"minZoom": 7,
-			"maxZoom": 22
 		},
 		{
 			"type": "wms",
