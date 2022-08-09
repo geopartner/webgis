@@ -48,7 +48,7 @@
 "baseLayers":[
       {
 			"type": "wms",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
+			"url": "/api/dataforsyningen/forvaltning2",
 			"layers": [
 				"Basis_kort",
 				"Stednavne_basiskort",
@@ -66,7 +66,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
@@ -95,7 +95,7 @@
 		},
 	{
         "type": "wms",
-        "url": "/api/df/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
         "layers": [
             "orto_foraar"
         ],
@@ -130,7 +130,7 @@
         },
 	{
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
         "layers": [
             "geodanmark_2019_12_5cm"
         ],
@@ -144,7 +144,7 @@
 	},
 	{
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
         "layers": [
             "geodanmark_2018_12_5cm"
         ],
@@ -158,7 +158,7 @@
 	},
 	{
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
         "layers": [
             "geodanmark_2017_12_5cm"
         ],
@@ -172,7 +172,7 @@
 	},
 	{
         "type": "wms",
-        "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
         "layers": [
             "geodanmark_2016_12_5cm"
         ],
@@ -186,7 +186,7 @@
 	},
 	{
         "type": "wms",
-        "url": "/api/df/DKtopokort/dtk_1000/1.0.0/WMS",
+        "url": "/api/datafordeler/DKtopokort/dtk_1000/1.0.0/WMS",
         "layers": [
             "dtk_1000"
         ],
@@ -200,7 +200,7 @@
       },
        {
         "type": "wms",
-        "url": "/api/df/DKtopokort/dtk_500/1.0.0/WMS",
+        "url": "/api/datafordeler/DKtopokort/dtk_500/1.0.0/WMS",
         "layers": [
             "dtk500"
         ],
@@ -214,7 +214,7 @@
       },
        {
         "type": "wms",
-        "url": "/api/df/DKtopokort/dtk_25/1.0.0/WMS",
+        "url": "/api/datafordeler/DKtopokort/dtk_25/1.0.0/WMS",
         "layers": [
             "dtk25"
         ],

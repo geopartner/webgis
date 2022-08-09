@@ -12,7 +12,7 @@
     },
 {
         "type": "wms",
-        "url": "/api/df/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
         "layers": [
             "orto_foraar"
         ],
@@ -47,7 +47,7 @@
         },
     {
         "type": "wms",
-         "url": "/api/df/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
+         "url": "/api/datafordeler/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
         "layers": [
             "dtk_skaermkort"
         ],
@@ -61,7 +61,7 @@
       },
     {
         "type": "wms",
-         "url": "/api/df/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
+         "url": "/api/datafordeler/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
         "layers": [
             "dtk_skaermkort_daempet"
         ],
