@@ -32,7 +32,7 @@
       },
 		{
 			"type": "wms",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
+			"url": "/api/dataforsyningen/forvaltning2",
 			"layers": [
 				"Basis_kort",
 				"Stednavne_basiskort",
@@ -50,7 +50,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/df/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
@@ -190,7 +190,7 @@
       },
        {
         "type": "wms",
-        "url": "/api/df/DKtopokort/dtk_25/1.0.0/WMS",
+        "url": "/api/datafordeler/DKtopokort/dtk_25/1.0.0/WMS",
         "layers": [
             "dtk25"
         ],
@@ -204,7 +204,7 @@
       },
       {
         "type": "wms",
-        "url": "/api/df/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
         "layers": [
           "geodanmark_2020_12_5cm"
         ],

@@ -24,7 +24,7 @@
     "baseLayers": [
 		{
 			"type": "wms",
-			"url": "https://api.dataforsyningen.dk/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
+			"url": "/api/dataforsyningen/forvaltning2",
 			"layers": [
 				"Basis_kort",
 				"Stednavne_basiskort",
@@ -53,7 +53,7 @@
         },
         {
             "type": "wms",
-            "url": "https://api.dataforsyningen.dk/orto_foraar_DAF?token=4aacd5977eb46ca012c260ecb608c65c",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
             "layers": [
                 "orto_foraar_12_5"
             ],
