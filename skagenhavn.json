@@ -62,7 +62,6 @@
             "description": "Seneste ortofoto forår fra GeoDanmark",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
-            "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20
         }

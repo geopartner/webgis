@@ -25,7 +25,6 @@
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
@@ -69,13 +68,12 @@
 			"description": "Seneste ortofoto forår fra GeoDanmark",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
-			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
         {
 			"type": "wms",		
-			"url": "/api/dataforsyningen/orto_foraar_temp?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+			"url": "/api/dataforsyningen/orto_foraar_temp",
 			"layers": [
 				"quickorto"
 			],
@@ -84,7 +82,6 @@
 			"description": "Ortofoto forår fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
         },

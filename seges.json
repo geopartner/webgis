@@ -60,7 +60,6 @@
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
@@ -130,7 +129,7 @@
         },
 	{
         "type": "wms",
-        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF",
         "layers": [
             "geodanmark_2019_12_5cm"
         ],
@@ -139,12 +138,11 @@
         "description": "Luftfotokort fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract":"<p>Baggrundskort, GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-        "minZoom": 4,
         "maxZoom": 22
 	},
 	{
         "type": "wms",
-        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF",
         "layers": [
             "geodanmark_2018_12_5cm"
         ],
@@ -153,12 +151,11 @@
         "description": "Luftfotokort fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract":"<p>Baggrundskort, GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-        "minZoom": 4,
         "maxZoom": 22
 	},
 	{
         "type": "wms",
-        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF?",
         "layers": [
             "geodanmark_2017_12_5cm"
         ],
@@ -167,12 +164,11 @@
         "description": "Luftfotokort fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract":"<p>Baggrundskort, GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-        "minZoom": 4,
         "maxZoom": 22
 	},
 	{
         "type": "wms",
-        "url": "/api/dataforsyningen/orto_foraar_DAF?service=WMS&token=4aacd5977eb46ca012c260ecb608c65c",
+        "url": "/api/dataforsyningen/orto_foraar_DAF",
         "layers": [
             "geodanmark_2016_12_5cm"
         ],
@@ -181,7 +177,6 @@
         "description": "Luftfotokort fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract":"<p>Baggrundskort, GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-        "minZoom": 4,
         "maxZoom": 22
 	},
 	{

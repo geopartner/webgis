@@ -52,7 +52,6 @@
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
@@ -96,7 +95,6 @@
         "description": "Luftfotokort fra kortforsyningen",
         "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
         "abstract":"<p>Oprettede luftfoto (ortofoto) i (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-        "minZoom": 4,
         "maxZoom": 22,
         "maxNativeZoom": 20,
             "_overlays": [
