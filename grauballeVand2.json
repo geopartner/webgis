@@ -1,0 +1,19 @@
+{
+  "brandName": "Grauballe Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "740"
+    ]
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["vandvaerk2"],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish"
+}
