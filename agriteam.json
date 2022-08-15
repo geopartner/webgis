@@ -29,7 +29,6 @@
       "autoLogin": true,
       "autoLoginMaxAge": 630720000000
     },
-	  "extensionConfig": {
     "conflictSearch": {
       "poolSize": 40,
       "stateless": true
