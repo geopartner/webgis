@@ -21,6 +21,7 @@
 	"enabledPrints": [
 		"vandvaerk2"
 	],
+	"popupDraggable": true,
 	"brandName": "GP kort - Geopartner A/S",
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
