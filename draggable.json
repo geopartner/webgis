@@ -1,5 +1,6 @@
 {
     "popupDraggable": true,
+    "featureInfoTableOnMap": true,
     "enabledExtensions": [
         "streetView",
         "session",
