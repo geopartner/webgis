@@ -1,3 +1,8 @@
 {
-    "popupDraggable": true
+    "popupDraggable": true,
+    "enabledExtensions": [
+        "streetView",
+        "session",
+        "editor"
+    ]
 }
