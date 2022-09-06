@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import json
 import glob
 
@@ -18,110 +20,110 @@ def find_json_files():
 
 
 VALID_KOMKODES = [
-    "0101",
-    "0147",
-    "0151",
-    "0153",
-    "0155",
-    "0157",
-    "0159",
-    "0161",
-    "0163",
-    "0165",
-    "0167",
-    "0169",
-    "0173",
-    "0175",
-    "0183",
-    "0185",
-    "0187",
-    "0190",
-    "0201",
-    "0210",
-    "0217",
-    "0219",
-    "0223",
-    "0230",
-    "0240",
-    "0250",
-    "0253",
-    "0259",
-    "0260",
-    "0265",
-    "0269",
-    "0270",
-    "0306",
-    "0316",
-    "0320",
-    "0326",
-    "0329",
-    "0330",
-    "0336",
-    "0340",
-    "0350",
-    "0360",
-    "0370",
-    "0376",
-    "0390",
-    "0400",
-    "0410",
-    "0411",
-    "0420",
-    "0430",
-    "0440",
-    "0450",
-    "0461",
-    "0479",
-    "0480",
-    "0482",
-    "0492",
-    "0510",
-    "0530",
-    "0540",
-    "0550",
-    "0561",
-    "0563",
-    "0573",
-    "0575",
-    "0580",
-    "0607",
-    "0615",
-    "0621",
-    "0630",
-    "0657",
-    "0661",
-    "0665",
-    "0671",
-    "0706",
-    "0707",
-    "0710",
-    "0727",
-    "0730",
-    "0740",
-    "0741",
-    "0746",
-    "0751",
-    "0756",
-    "0760",
-    "0766",
-    "0773",
-    "0779",
-    "0787",
-    "0791",
-    "0810",
-    "0813",
-    "0820",
-    "0825",
-    "0840",
-    "0846",
-    "0849",
-    "0851",
-    "0860",
+    "101",
+    "147",
+    "151",
+    "153",
+    "155",
+    "157",
+    "159",
+    "161",
+    "163",
+    "165",
+    "167",
+    "169",
+    "173",
+    "175",
+    "183",
+    "185",
+    "187",
+    "190",
+    "201",
+    "210",
+    "217",
+    "219",
+    "223",
+    "230",
+    "240",
+    "250",
+    "253",
+    "259",
+    "260",
+    "265",
+    "269",
+    "270",
+    "306",
+    "316",
+    "320",
+    "326",
+    "329",
+    "330",
+    "336",
+    "340",
+    "350",
+    "360",
+    "370",
+    "376",
+    "390",
+    "400",
+    "410",
+    "411",
+    "420",
+    "430",
+    "440",
+    "450",
+    "461",
+    "479",
+    "480",
+    "482",
+    "492",
+    "510",
+    "530",
+    "540",
+    "550",
+    "561",
+    "563",
+    "573",
+    "575",
+    "580",
+    "607",
+    "615",
+    "621",
+    "630",
+    "657",
+    "661",
+    "665",
+    "671",
+    "706",
+    "707",
+    "710",
+    "727",
+    "730",
+    "740",
+    "741",
+    "746",
+    "751",
+    "756",
+    "760",
+    "766",
+    "773",
+    "779",
+    "787",
+    "791",
+    "810",
+    "813",
+    "820",
+    "825",
+    "840",
+    "846",
+    "849",
+    "851",
+    "860",
+    "*"
 ]
 
 
 if __name__ == "__main__":
-
     errs = []
     cfgs = find_json_files()
 
@@ -131,24 +133,29 @@ if __name__ == "__main__":
 
             # This function adds a line to the error list starting with the configuration file name
             def add_error(error):
-                errs.append("{}: {}".format(cfg, error))
+                errs.append(f"{cfg}: {error}")
 
             # Check if print configuration exists
             if "enabledPrints" in config:
-                for print in config["enabledPrints"]:
-                    if not check_file_exists(print):
-                        add_error("Print configuration {} does not exist".format(print))
+                for templates in config["enabledPrints"]:
+                    if not check_file_exists(templates):
+                        add_error(f"Print configuration '{templates}' does not exist")
 
             # Check if kommunekodes are valid
             if "searchConfig" in config and "komkode" in config["searchConfig"]:
-                for komkode in config["searchConfig"]["komkode"]:
-                    if komkode in VALID_KOMKODES:
-                        add_error("Kommunekode {} does not exist".format(komkode))
+                komlist = config["searchConfig"]["komkode"]
+
+                # if komlist is a string, convert it to a list
+                if isinstance(komlist, str):
+                    komlist = [komlist]
+
+                for komkode in komlist:
+                    if komkode not in VALID_KOMKODES:
+                        add_error(f"Kommunekode '{komkode}' does not exist")
 
         # Print all errors
         for err in errs:
-            print("")
             print(err)
 
     except Exception as e:
-        print("Error: {}".format(e))
+        print(f"Error: {e}")
