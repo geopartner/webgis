@@ -11,7 +11,7 @@
   },
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
-    "nim_print"
+    "nimvand_print"
   ],
   "searchModules": [
     "google",
