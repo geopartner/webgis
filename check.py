@@ -119,7 +119,7 @@ VALID_KOMKODES = [
     "849",
     "851",
     "860",
-    "*"
+    "*",
 ]
 
 
@@ -140,6 +140,12 @@ if __name__ == "__main__":
                 for templates in config["enabledPrints"]:
                     if not check_file_exists(templates):
                         add_error(f"Print configuration '{templates}' does not exist")
+
+            # Check if css configuration exists
+            if "cssFiles" in config:
+                for css in config["cssFiles"]:
+                    if not check_file_exists(css):
+                        add_error(f"CSS configuration '{css}' does not exist")
 
             # Check if kommunekodes are valid
             if "searchConfig" in config and "komkode" in config["searchConfig"]:
