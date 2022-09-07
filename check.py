@@ -153,9 +153,12 @@ if __name__ == "__main__":
                     if komkode not in VALID_KOMKODES:
                         add_error(f"Kommunekode '{komkode}' does not exist")
 
-        # Print all errors
-        for err in errs:
-            print(err)
+        # If there are errors, print them and exit with error code 1
+        if errs:
+            for err in errs:
+                print(err)
+            exit(1)
 
     except Exception as e:
         print(f"Error: {e}")
+        exit(1)
