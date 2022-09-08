@@ -10,8 +10,11 @@ def read_json_file(filename):
 
 
 # This function checks if a file without extension exists in current directory
-def check_file_exists(filename):
-    return glob.glob(filename + ".*")
+def check_file_exists(filename, extension=".*"):
+    if not extension:
+        return glob.glob(filename)
+    else:
+        return glob.glob(filename + extension)
 
 
 # This function finds all json files in current directory
@@ -138,13 +141,13 @@ if __name__ == "__main__":
             # Check if print configuration exists
             if "enabledPrints" in config:
                 for templates in config["enabledPrints"]:
-                    if not check_file_exists(templates):
+                    if not check_file_exists(templates, ".tmpl"):
                         add_error(f"Print configuration '{templates}' does not exist")
 
             # Check if css configuration exists
             if "cssFiles" in config:
                 for css in config["cssFiles"]:
-                    if not check_file_exists(css):
+                    if not check_file_exists(css, None):
                         add_error(f"CSS configuration '{css}' does not exist")
 
             # Check if kommunekodes are valid
