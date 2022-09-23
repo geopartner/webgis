@@ -6,6 +6,7 @@
   "enabledExtensions": [
     "streetView",
     "coordinates",
+    "editor",
     "session"
   ],
   "showLayerGroupCheckbox": true,
