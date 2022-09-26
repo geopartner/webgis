@@ -1,4 +1,7 @@
 {
+	"schemata": [
+		"loekkenvand"
+	],
   "brandName": "Løkken Vandværk",
   "enabledPrints": [
     "vandvaerk_loekkenvand2"
