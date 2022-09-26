@@ -9,6 +9,12 @@
     "editor",
     "session"
   ],
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		}
+	},
   "showLayerGroupCheckbox": true,
   "searchModules": [
     "google",
