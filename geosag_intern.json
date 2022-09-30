@@ -12,7 +12,8 @@
 		"gc2_io_dk_geodanmark",
 		"naviair",
 		"dktl",
-		"ler_aws"
+		"ler_aws",
+		"bbr"
 	],
 	"cssFiles": [
 		"geosag_intern.css"
