@@ -1,0 +1,32 @@
+{
+  "brandName": "Vestjyske Net",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "searchConfig": {
+    "komkode": [
+      "787",
+      "773",
+      "779",
+      "665",
+      "671",
+      "661",
+      "760",
+      "657",
+      "756",
+      "530",
+      "573",
+      "561"
+    ]
+  },
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "el_vestjyskeNet2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish"
+}
