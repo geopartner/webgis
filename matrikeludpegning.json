@@ -1,4 +1,8 @@
 {
+	"schemata": [
+		"matrikeludpegning",
+		"tag:_aabnesager"
+	],
   "brandName": "Matrikeludpegning",
   "enabledPrints": [
     "vandvaerk2"
