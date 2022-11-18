@@ -1,14 +1,14 @@
 {
-	"schemata": [
-		"matrikeludpegning",
-		"tag:_aabnesager"
-	],
   "brandName": "Matrikeludpegning",
   "enabledPrints": [
     "vandvaerk2"
   ],
   "enabledExtensions": [
     "geosag"
+  ],
+  "activeLayers": [
+    "matrikeludpegning.matrikel",
+    "public.aabne_sager"
   ],
   "searchConfig": {
       "komkode": [
