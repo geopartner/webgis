@@ -1,7 +1,7 @@
 {  
   "brandName": "Løkkensvejens Kraftvarmeværk",
   "enabledPrints": [
-    "varmevaerk_loekkensvejensvarme2"
+    "varmevaerk_loekkensvejenskraftvarme"
   ],
   "enabledSearch":"danish",
   "searchConfig": {

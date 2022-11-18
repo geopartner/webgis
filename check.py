@@ -141,6 +141,8 @@ if __name__ == "__main__":
             # Check if print configuration exists
             if "enabledPrints" in config:
                 for templates in config["enabledPrints"]:
+                    if templates == "print": #"print" is the default print configuration
+                        continue
                     if not check_file_exists(templates, ".tmpl"):
                         add_error(f"Print configuration '{templates}' does not exist")
 
