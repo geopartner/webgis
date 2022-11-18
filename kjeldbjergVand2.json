@@ -1,0 +1,13 @@
+{
+  "brandName": "Kjeldbjerg Vandværk A.m.b.a.",
+  "enabledPrints": [
+    "vandvaerk_kjeldbjergvand2"
+  ],
+  "searchConfig": {
+    "komkode": [
+            "791"
+      ]
+  },
+  "searchModules":["google","danish"],
+  "enabledSearch":"danish"
+} 
