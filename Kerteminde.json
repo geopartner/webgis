@@ -38,5 +38,5 @@
     "enabledSearch": "danish",
     "popupVideoWidth": "350px",
     "popupImageWidth": "350px",
-    "template": "kertemindeforsyning.tmpl"
+    "template": "kertemindeforsyningprint.tmpl"
 }
