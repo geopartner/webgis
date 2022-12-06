@@ -1,0 +1,23 @@
+{
+  "brandName": "Atlantic Sapphire AS",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "atlanticsapphire"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "760"
+
+    ]
+  },
+  "popupDraggable": true
+}
