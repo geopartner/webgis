@@ -124,5 +124,8 @@
 		}
 	},
   "showLayerGroupCheckbox": true,
-  "popupDraggable": true
+  "popupDraggable": true,
+  "activeLayers": [
+    "el.v_kabel"
+]
 }
