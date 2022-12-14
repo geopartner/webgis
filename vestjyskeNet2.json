@@ -126,6 +126,20 @@
   "showLayerGroupCheckbox": true,
   "popupDraggable": true,
   "activeLayers": [
-    "el.v_kabel"
+    "el.v_kabel",
+    "el.v_boring",
+    "el.v_muffe",
+    "el.v_fiber",
+    "el.v_styrekabel",
+    "el.v_komponenter",
+    "el.mast_dobbeltsystem",
+    "el.v_ledning",
+    "el.v_mast",
+    "el.mast_forgrening",
+    "el.transporthoejde",
+    "el.v_transformer",
+    "el.v_slukkespole",
+    "el.station",
+    "el.Linjefelter_60_kV"
 ]
 }
