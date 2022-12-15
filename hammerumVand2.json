@@ -1,0 +1,23 @@
+{
+  "brandName": "Hammerum Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_hammerumvand2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "657",
+      "756"
+    ]
+  },
+  "popupDraggable": true
+}
