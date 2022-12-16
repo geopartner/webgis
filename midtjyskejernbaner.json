@@ -7,7 +7,7 @@
     ],
     "brandName": "Midtjyske jernbaner, ejerkort",
   
-  "enabledPrints": ["vandvaerk"],
+  "enabledPrints": ["print2"],
     
   "enabledExtensions": [
       "streetView",
