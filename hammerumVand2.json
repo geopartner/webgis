@@ -2,7 +2,9 @@
   "brandName": "Hammerum Vandværk",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+    "session",
+    "editor"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
