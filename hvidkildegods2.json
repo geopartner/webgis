@@ -1,4 +1,8 @@
 {
+  "schemata": [
+    "public",
+    "ejerkort"
+  ],
   "brandName": "Hvidkilde Gods",
   "enabledExtensions": [
     "streetView",
