@@ -82,10 +82,11 @@
     "session"
   ],
   "searchConfig": {
-    "size": 30,
+    "size": 10,
     "komkode": [
       "710", "730", "791", "846"
-    ]
+    ],
+    "sortByScore": true
   },
   "activateMainTab": "documentCreate",
   "enabledSearch": "danish",
