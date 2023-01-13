@@ -23,7 +23,8 @@
         "streetView",
         "session",
         "editor",
-        "graveAssistent"
+        "graveAssistent",
+	"coordinates"
     ],
     "extensionConfig": {
         "session": {
