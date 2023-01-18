@@ -18,7 +18,7 @@
 	"enabledPrints": [
 		"rsforsyning_print"
 	],
-	"initZoomCenter": "/10/8.5378/55.9972",
+	"_initZoomCenter": "/10/8.5378/55.9972",
 	"brandName": "Ringkøbing-Skjern Forsyning",
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
