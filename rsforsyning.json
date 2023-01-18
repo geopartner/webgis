@@ -100,11 +100,6 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
-		
-		
-		
-		
-		
 		{
 			"type": "wms",
 			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
@@ -134,10 +129,6 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		},
-		
-		
-		
-		
 		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/orto_foraar_temp",
@@ -405,5 +396,4 @@
 			"maxNativeZoom": 20
 		}
 	]
-
 }
