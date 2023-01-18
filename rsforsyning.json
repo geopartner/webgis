@@ -169,7 +169,9 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": false
-		},
+		}
+	],
+	"_baseLayers": [
 		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/orto_foraar_temp",
@@ -184,6 +186,6 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		}
-
 	]
+	
 }
