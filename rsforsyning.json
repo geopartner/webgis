@@ -46,8 +46,13 @@
 		"session"
 	],
 	"df": {
-		"username": "XMERXHKAVN",
-		"password": "Geop1234!"
+		"datafordeler": {
+			"username": "XMERXHKAVN",
+			"password": "Geop1234!"
+		},
+		"dataforsyningen": {
+			"token": "4aacd5977eb46ca012c260ecb608c65c"
+		}
 	},
 	"baseLayers": [
 		{
