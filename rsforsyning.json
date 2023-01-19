@@ -42,7 +42,8 @@
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
-		"session"
+		"session",
+		"graveAssistent"
 	],
 	"df": {
 		"datafordeler": {
