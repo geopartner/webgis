@@ -13,7 +13,8 @@
 		"naviair",
 		"dktl",
 		"ler_aws",
-		"bbr"
+		"bbr",
+		"geofa"
 	],
 	"cssFiles": [
 		"geosag_intern.css"
