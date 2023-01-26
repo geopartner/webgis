@@ -1,0 +1,23 @@
+{
+  "brandName": "Tæbring Vandværk AMBA",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_taebring2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "773"
+
+    ]
+  },
+  "popupDraggable": true
+}
