@@ -86,7 +86,7 @@
 				"Matrikel-tekst",
 				"Matrikeltekst"
 			],
-			"id": "ForvaltningskortDF",
+			"id": "ForvaltningskortDFMatrikel",
 			"name": "Forvaltningskort, Matrikler",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
