@@ -76,13 +76,9 @@
 			"url": "/api/dataforsyningen/forvaltning2",
 			"layers": [
 				"Basis_kort",
-				"Stednavne_basiskort",
-				"Vejnavne_basiskort",
-				"Husnummer",
 				"Matrikel",
 				"Matrikelskel",
 				"Matrikel-foreloebig",
-				"Matrikelskel-foreloebig",
 				"Matrikel-tekst",
 				"Matrikeltekst"
 			],
