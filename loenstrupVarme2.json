@@ -1,5 +1,6 @@
 {
   "brandName": "Lønstrup Varmeforsyning",
+  "schemata": ["tag:matrikel"],
   "enabledPrints": [
     "varmevaerk_loenstrupvarme2"
   ],
