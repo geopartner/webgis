@@ -46,7 +46,8 @@
 		"streetView",
 		"coordinates",
 		"session",
-		"graveAssistent"
+		"graveAssistent",
+		"editor"
 	],
 	"df": {
 		"datafordeler": {
