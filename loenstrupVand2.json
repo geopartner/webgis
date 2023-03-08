@@ -1,0 +1,23 @@
+{
+  "brandName": "Lønstrup Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+    "session",
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_loenstrupvand2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "860"
+    ]
+  },
+  "popupDraggable": true
+}
