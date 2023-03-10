@@ -14,6 +14,7 @@
     "enabledSearch":"danish",
     "enabledExtensions": [
         "streetView",
+        "editor",
         "session"
     ],
     "extensionConfig": {
