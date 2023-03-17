@@ -1,0 +1,32 @@
+{
+	"schemata": [
+		"timvand"
+	],
+  "brandName": "Tim Vandværk",
+  "enabledPrints": [
+    "vandvaerk_timvand2"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+    "editor",
+    "session"
+  ],
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		}
+	},
+  "showLayerGroupCheckbox": true,
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "760"
+    ]
+  }
+}
