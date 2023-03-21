@@ -1,0 +1,13 @@
+{
+  "brandName": "Provas",
+  "schemata": ["dandas", "danvand", "privat"],
+  "enabledExtensions": ["streetView", "coordinates", "session"],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["provas"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": ["510"]
+  },
+  "popupDraggable": true
+}
