@@ -2,7 +2,7 @@
   "brandName": "Lukkeliste",
 
   "enabledPrints": ["vandvaerk2"],
-  "enabledExtensions": ["session", "blueidea"],
+  "enabledExtensions": ["session", "blueidea", "conflictSearch"],
   "enabledSearch": "danish",
   "_extensionConfig": {
     "session": {
