@@ -1,0 +1,13 @@
+{
+  "brandName": "Brønderslev Forsyning",
+  "schemata": ["dandas", "danvand", "privat"],
+  "enabledExtensions": ["streetView", "coordinates", "session"],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["brforsyning"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": ["810"]
+  },
+  "popupDraggable": true
+}
