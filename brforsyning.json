@@ -1,6 +1,6 @@
 {
   "brandName": "Brønderslev Forsyning",
-  "schemata": ["dandas", "danvand", "privat"],
+  "schemata": ["dandas", "danvand","varme","privat"],
   "enabledExtensions": ["streetView", "coordinates", "session"],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["brforsyning"],
