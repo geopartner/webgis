@@ -1,0 +1,14 @@
+{
+    "brandName": "Andelsværket Helle Vest A.M.B.A.",
+    "schemata": [],
+    "enabledExtensions": ["streetView", "coordinates"],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_hellevestvand2"],
+    "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "komkode": ["573"]
+    },
+    "popupDraggable": true
+  }
+  
