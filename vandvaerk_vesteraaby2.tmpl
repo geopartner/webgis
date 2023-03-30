@@ -75,14 +75,17 @@
         display: {{_showLegend}};
     }
     #scale {
-        position: relative;
-        left: 60px;
-        font-size: 0.8em;
-    }
-    #scalebar {
-        position: relative;
-        left: 48px;
-    }
+            position: absolute;
+            left: 4px;
+            font-size: 0.8em;
+            bottom: 40px;
+        }
+
+        #scalebar {
+            position: absolute;
+            left: 4px;
+            bottom: 19px;
+        }
     #north {
         position: absolute;
         top: 0;
@@ -130,9 +133,9 @@
         <div id="northimg">
             <img style="width: 40px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/npil.jpg">
         </div>
-        <div id="scalebar"></div>
-        <div id="scale"></div>
     </div>
+    <div id="scalebar"></div>
+    <div id="scale"></div>
     <div id="legend"></div>
     <div id="date-time">Udskrevet {{printDataTime}}</div>
     

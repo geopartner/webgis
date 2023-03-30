@@ -2,11 +2,12 @@
 
 import json
 import glob
+from lxml import etree
 
 # This function reads a json file into an object
-def read_json_file(filename):
-    with open(filename) as json_file:
-        return json.load(json_file)
+def read_file(filename):
+    with open(filename) as file:
+        return file.read()
 
 
 # This function checks if a file without extension exists in current directory
@@ -20,6 +21,11 @@ def check_file_exists(filename, extension=".*"):
 # This function finds all json files in current directory
 def find_json_files():
     return glob.glob("*.json")
+
+
+# This function finds all tmpl files in current directory
+def find_tmpl_files():
+    return glob.glob("*.tmpl")
 
 
 VALID_KOMKODES = [
@@ -128,11 +134,13 @@ VALID_KOMKODES = [
 
 if __name__ == "__main__":
     errs = []
+    # Check if all json files are valid
     cfgs = find_json_files()
 
     try:
         for cfg in cfgs:
-            config = read_json_file(cfg)
+            filestr = read_file(cfg)
+            config = json.loads(filestr)
 
             # This function adds a line to the error list starting with the configuration file name
             def add_error(error):
@@ -141,7 +149,9 @@ if __name__ == "__main__":
             # Check if print configuration exists
             if "enabledPrints" in config:
                 for templates in config["enabledPrints"]:
-                    if templates == "print": #"print" is the default print configuration
+                    if (
+                        templates == "print"
+                    ):  # "print" is the default print configuration
                         continue
                     if not check_file_exists(templates, ".tmpl"):
                         add_error(f"Print configuration '{templates}' does not exist")
@@ -169,6 +179,16 @@ if __name__ == "__main__":
             for err in errs:
                 print(err)
             exit(1)
+    except Exception as e:
+        print(f"Error: {e}")
+        exit(1)
+
+    # Check if all templates are valid
+    tmpls = find_tmpl_files()
+    try:
+        for tmpl in tmpls:
+            template = read_file(tmpl)
+            # TODO: Check if template is valid parsable HTML
 
     except Exception as e:
         print(f"Error: {e}")
