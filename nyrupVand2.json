@@ -1,0 +1,23 @@
+{
+  "brandName": "Nyrup Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_nyrupvand2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "370"
+
+    ]
+  },
+  "popupDraggable": true
+}
