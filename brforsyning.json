@@ -9,5 +9,11 @@
   "searchConfig": {
     "komkode": ["810"]
   },
-  "popupDraggable": true
+  "popupDraggable": true,
+  "extensionConfig": {
+    "session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 630720000000
+    }
+  }
 }
