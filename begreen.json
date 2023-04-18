@@ -1,0 +1,15 @@
+{
+    "brandName": "BeGreen",
+    "schemata": [],
+    "enabledExtensions": ["streetView", "coordinates"],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["begreen"],
+    "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "komkode": ["390", "657", "661"]
+    },
+    "popupDraggable": true
+  }
+  
+
