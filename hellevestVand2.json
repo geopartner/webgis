@@ -7,7 +7,7 @@
     "searchModules": ["google", "danish"],
     "enabledSearch": "danish",
     "searchConfig": {
-      "komkode": ["573"]
+      "komkode": ["573", "561"]
     },
     "popupDraggable": true
   }
