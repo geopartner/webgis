@@ -2,9 +2,7 @@
   "brandName": "Ulbølle Vandværk",
   "enabledExtensions": [
     "streetView",
-    "coordinates",
-    "session",
-    "editor"
+    "coordinates"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
