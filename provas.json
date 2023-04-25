@@ -9,6 +9,5 @@
   "searchConfig": {
     "komkode": ["510"]
   },
-  "popupDraggable": true,
-  "setmax_zoom_level_table_click": 21
+  "popupDraggable": true
 }
