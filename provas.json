@@ -9,5 +9,14 @@
   "searchConfig": {
     "komkode": ["510"]
   },
-  "popupDraggable": true
+  "popupDraggable": true,
+  "extensionConfig": {
+		"_session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		},
+		"streetView": {
+			"cowi": "https://cmv.cowi.com/?u=CMVprovas&p=9A5E978&project=Provas%20gadefoto&&origin=desktop&cmd=state&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
+		}
+	},
 }
