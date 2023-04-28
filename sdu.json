@@ -12,7 +12,8 @@
 	],
 	"enabledExtensions": [
 		"streetView",
-		"coordinates"
+		"coordinates",
+		"session"
 	],
 	"extensionConfig": {
 		"session": {
@@ -21,6 +22,7 @@
 		}
 	},
 	"showLayerGroupCheckbox": true,
+	"popupDraggable": false,
 	"searchModules": [
 		"google",
 		"danish"
