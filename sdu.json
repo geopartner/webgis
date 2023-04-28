@@ -1,0 +1,34 @@
+{
+	"schemata": [
+		"public"
+	],
+	"brandName": "SDU",
+	"enabledPrints": [
+		"sdu"
+	],
+	"_activeLayers": [
+		"bomiva.andenledning",
+		"bomiva.andenkomponent_pkt"
+	],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates"
+	],
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		}
+	},
+	"showLayerGroupCheckbox": true,
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"enabledSearch": "danish",
+	"_searchConfig": {
+		"komkode": [
+			"779"
+		]
+	}
+}
