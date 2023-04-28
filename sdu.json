@@ -1,6 +1,7 @@
 {
 	"schemata": [
-		"public"
+		"public",
+		"ler2"
 	],
 	"brandName": "SDU",
 	"enabledPrints": [
