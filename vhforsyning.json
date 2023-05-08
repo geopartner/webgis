@@ -164,6 +164,20 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": false
+		},
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/topo20_hoeje_maalebordsblade_DAF",
+			"layers": [
+				"topo20_hoeje_maalebordsblade_DAF"
+			],
+			"id": "topo20_hoeje_maalebordsblade_DAF",
+			"name": "Høje målebordsblade",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Høje målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, baggrundskort, WMS-tjeneste</p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
 		}
 	],
 	"_baseLayers": [
@@ -182,5 +196,4 @@
 			"maxNativeZoom": 20
 		}
 	]
-	
 }
