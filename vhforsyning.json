@@ -169,10 +169,10 @@
 			"type": "wms",
 			"url": "/api/dataforsyningen/topo20_hoeje_maalebordsblade_DAF",
 			"layers": [
-				"topo20_hoeje_maalebordsblade_DAF"
+				"dtk_hoeje_maalebordsblade"
 			],
 			"id": "topo20_hoeje_maalebordsblade_DAF",
-			"name": "Høje målebordsblade",
+			"name": "Høje målebordsblade2",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Høje målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, baggrundskort, WMS-tjeneste</p><br>",
