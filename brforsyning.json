@@ -1,19 +1,37 @@
 {
-  "brandName": "Brønderslev Forsyning",
-  "schemata": ["dandas", "danvand","varme","privat", "bbr", "ejerkort"],
-  "enabledExtensions": ["streetView", "coordinates", "session"],
-  "showLayerGroupCheckbox": true,
-  "enabledPrints": ["brforsyning"],
-  "searchModules": ["google", "danish"],
-  "enabledSearch": "danish",
-  "searchConfig": {
-    "komkode": ["810"]
-  },
-  "popupDraggable": true,
-  "extensionConfig": {
-    "session": {
-      "autoLogin": true,
-      "autoLoginMaxAge": 630720000000
-    }
-  }
+	"brandName": "Brønderslev Forsyning",
+	"schemata": [
+		"dandas",
+		"danvand",
+		"varme",
+		"privat",
+		"bbr",
+		"ejerkort"
+	],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"session"
+	],
+	"showLayerGroupCheckbox": true,
+	"enabledPrints": [
+		"brforsyning"
+	],
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"enabledSearch": "danish",
+	"searchConfig": {
+		"komkode": [
+			"810"
+		]
+	},
+	"popupDraggable": true,
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		}
+	}
 }
