@@ -165,6 +165,7 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		},
+		
 		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/topo20_hoeje_maalebordsblade_DAF",
@@ -172,10 +173,52 @@
 				"dtk_hoeje_maalebordsblade"
 			],
 			"id": "topo20_hoeje_maalebordsblade_DAF",
-			"name": "Høje målebordsblade2",
+			"name": "Høje målebordsblade",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-			"abstract": "<p>Høje målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, baggrundskort, WMS-tjeneste</p><br>",
+			"abstract": "<p>Høje målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/topo20_lave_maalebordsblade_DAF",
+			"layers": [
+				"dtk_lave_maalebordsblade"
+			],
+			"id": "topo20_lave_maalebordsblade_DAF",
+			"name": "Lave målebordsblade",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Lave målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/topo4cm_1953_1976_DAF",
+			"layers": [
+				"dtk_4cm_1953_1976"
+			],
+			"id": "topo4cm_1953_1976_DAF",
+			"name": "Topo4cm (1953-1976)",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Topografisk 4cm kort, 1953-1976</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/topo4cm_1980_2001_DAF",
+			"layers": [
+				"dtk_4cm_1980_2001"
+			],
+			"id": "topo4cm_1980_2001_DAF",
+			"name": "Topo4cm (1980_2001)",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Topografisk 4cm kort, 1980-2002</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		}
