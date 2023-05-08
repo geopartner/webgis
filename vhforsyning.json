@@ -165,7 +165,6 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		},
-		
 		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/topo20_hoeje_maalebordsblade_DAF",
@@ -173,7 +172,7 @@
 				"dtk_hoeje_maalebordsblade"
 			],
 			"id": "topo20_hoeje_maalebordsblade_DAF",
-			"name": "Høje målebordsblade",
+			"name": "Høje målebordsblade (1862-1899)",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Høje målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
@@ -187,10 +186,24 @@
 				"dtk_lave_maalebordsblade"
 			],
 			"id": "topo20_lave_maalebordsblade_DAF",
-			"name": "Lave målebordsblade",
+			"name": "Lave målebordsblade (1901-1971)",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Lave målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/topo25_preussen_maalebordsblade_DAF",
+			"layers": [
+				"dtk_preussen_maalebordsblade"
+			],
+			"id": "topo25_preussen_maalebordsblade_DAF",
+			"name": "Preussiske målebordsblade (1877-1912)",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Preussiske målebordsblade</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
@@ -201,7 +214,7 @@
 				"dtk_4cm_1953_1976"
 			],
 			"id": "topo4cm_1953_1976_DAF",
-			"name": "Topo4cm (1953-1976)",
+			"name": "Topografisk 4cm (1953-1976)",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Topografisk 4cm kort, 1953-1976</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
@@ -215,7 +228,7 @@
 				"dtk_4cm_1980_2001"
 			],
 			"id": "topo4cm_1980_2001_DAF",
-			"name": "Topo4cm (1980_2001)",
+			"name": "Topografisk 4cm (1980-2001)",
 			"description": "Forvaltningskort fra Dataforsyningen",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Topografisk 4cm kort, 1980-2002</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
