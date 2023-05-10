@@ -1,0 +1,141 @@
+<!-- override standard styles -->
+<style>
+    body {
+        background-color: white;
+    }
+    .leaflet-control-graphicscale {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        white-space: nowrap;
+    }
+    #legend, #header, #date-time, #scale-box {
+        -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    }
+    #pane1 {
+        position: absolute;
+        width: {{printWidth}};
+        height: {{printHeight}};
+        display: block;
+        overflow: hidden;
+        top: 30px;
+        left: 30px;
+        border: 1px solid black
+    }
+    #container1 {
+        position: relative;
+        width: 200%;
+        height: 200%;
+        left:-50%;
+        top:-50%;
+        display: inline-block;
+    }
+    #header {
+        display: {{_showHeader}};
+        position: absolute;
+        width: 500px;
+        height: 80px;
+        background-color: white;
+        bottom: 0px;
+        right: 0px;
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+    }
+    #logo {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-bottom: 0;
+        border-right: 0;
+    }
+    #logoimg {
+        height: 55px;
+        margin-right: auto;
+        margin-left: auto;        
+    }
+   
+    #date-time {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        font-size: 0.8em;
+    }
+    #legend {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        padding: 10px;
+        background-color: white;
+        -webkit-transform: scale(0.6);
+        -webkit-transform-origin:left top;
+        display: {{_showLegend}};
+    }
+    #scale {
+        position: absolute;
+        left: 4px;
+        bottom: 40px;
+        font-size: 0.8em;
+    }
+    #scalebar {
+        position: absolute;
+        left: 4px;
+        bottom: 19px;
+    }
+    #north {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+    }
+    #northimg {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .brandName {
+        font-size: 10px;
+        margin: 0;
+        text-align: center;
+    }
+</style>
+<!-- map -->
+<div id="pane1">
+    <div id="container1">
+        <div id="map"></div>
+    </div>
+    <div id="logo">
+        <table cellpadding="1" cellspacing="1">
+            <tr>
+                <td style="padding-right:10px;align:top;">
+                    <b id="title"></b>
+                    <p id="comment"></p>
+                </td>
+                <td style="padding:10px;align:top;">
+                    <!-- <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/provas.svg">-->
+                </td>
+                <td style="padding:1px;align:top;">
+                    <p class="brandName">Finderup-Hanning Vandværk</p>
+                    <p class="brandName">Fårborgvej 3a</p>
+                    <p class="brandName">6900 Skjern</p>
+                    <p class="brandName">20 91 65 46</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="north">
+        <div id="northimg">
+            <img style="width: 40px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
+        </div>
+    </div>
+    <div id="legend"></div>
+    <div id="scalebar"></div>
+    <div id="scale"></div>
+    <div id="date-time">Udskrevet {{printDataTime}}</div>
+    
+</div>
