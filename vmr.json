@@ -104,7 +104,8 @@
             "adresseid": "1",
             "esrnr": "1",
             "vejret": "2",
-            "tilbagemelding": "2"
+            "tilbagemelding": "2",
+            "bfenr": "1"
           },
           "hidden": [
             "lat",
@@ -152,7 +153,8 @@
             "adresseid": "1",
             "esrnr": "1",
             "vejret": "2",
-            "tilbagemelding": "2"
+            "tilbagemelding": "2",
+            "bfenr": "1"
           },
           "hidden": [
             "lat",
