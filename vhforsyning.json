@@ -41,7 +41,8 @@
 		"streetView",
 		"coordinates",
 		"session",
-		"editor"
+		"editor",
+		"conflict"
 	],
 	"df": {
 		"datafordeler": {
