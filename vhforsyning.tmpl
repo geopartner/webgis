@@ -26,8 +26,8 @@
         position: relative;
         width: 200%;
         height: 200%;
-        left: -50%;
-        top: -50%;
+        left:-50%;
+        top:-50%;
         display: inline-block;
     }
     #header {
@@ -54,8 +54,9 @@
     #logoimg {
         height: 55px;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: auto;        
     }
+   
     #date-time {
         position: absolute;
         bottom: 0;
@@ -70,73 +71,71 @@
         padding: 10px;
         background-color: white;
         -webkit-transform: scale(0.6);
-        -webkit-transform-origin: left top;
+        -webkit-transform-origin:left top;
         display: {{_showLegend}};
-        #scale {
-            position: absolute;
-            left: 4px;
-            font-size: 0.8em;
-            bottom: 40px;
-        }
-
-        #scalebar {
-            position: absolute;
-            left: 4px;
-            bottom: 19px;
-        }
-
-        #north {
-            position: absolute;
-            top: 0;
-            right: 0;
-            height: 50px;
-            width: 50px;
-            background-color: white;
-        }
-
-        #northimg {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-        }
-
-        .brandName {
-            font-size: 10px;
-            margin: 0;
-            text-align: center;
-        }
+    }
+    #scale {
+        position: absolute;
+        left: 4px;
+        bottom: 40px;
+        font-size: 0.8em;
+    }
+    #scalebar {
+        position: absolute;
+        left: 4px;
+        bottom: 19px;
+    }
+    #north {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+    }
+    #northimg {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .brandName {
+        font-size: 10px;
+        margin: 0;
+        text-align: center;
+    }
 </style>
 <!-- map -->
 <div id="pane1">
     <div id="container1">
-        <div id="map" />
+        <div id="map"></div>
     </div>
     <div id="logo">
         <table cellpadding="1" cellspacing="1">
             <tr>
                 <td style="padding-right:10px;align:top;">
-                    <b id="title" />
-                    <p id="comment" />
+                    <b id="title"></b>
+                    <p id="comment"></p>
                 </td>
-                <td style="padding:1px;align:top;">
-                    <img id="logoimg"
-                        src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/Vesthimmerlands_forsyning_logopng-2.png">
+                <td style="padding:10px;align:top;">
+                    <!-- <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/broenderslevforsyninglogo.jpg"> -->
                 </td>
                 <td style="padding:1px;align:top;">
                     <p class="brandName">Vesthimmerlands Forsyning</p>
                     <p class="brandName">Stengårdsvej 33, 9670 Løgstør</p>
                     <p class="brandName">98 68 32 00</p>
+                    <p class="brandName">info@vhforsyning.dk</p>
                 </td>
             </tr>
         </table>
     </div>
     <div id="north">
         <div id="northimg">
-            <img style="width: 40px" src="http://www.clipartbest.com/cliparts/Rcd/dgL/RcddgLgc9.png">
+            <img style="width: 40px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
         </div>
     </div>
-    <div id="scalebar" />
-    <div id="scale" />
-    <div id="legend" />
+    <div id="legend"></div>
+    <div id="scalebar"></div>
+    <div id="scale"></div>
     <div id="date-time">Udskrevet {{printDataTime}}</div>
+    
 </div>
