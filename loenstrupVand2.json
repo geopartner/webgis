@@ -1,5 +1,8 @@
 {
   "brandName": "Lønstrup Vandværk",
+  "schemata": [
+		"gc2_io_dk_matrikel"
+   ],
   "enabledExtensions": ["streetView", "coordinates", "session"],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["vandvaerk_loenstrupvand2"],
