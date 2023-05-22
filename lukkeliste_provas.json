@@ -1,0 +1,16 @@
+{
+  "brandName": "Provas Lukkeliste",
+
+  "enabledPrints": ["vandvaerk2"],
+  "enabledExtensions": ["session", "blueidea", "conflictSearch"],
+  "enabledSearch": "danish",
+  "extensionConfig": {
+    "session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 604800000
+    },
+    "blueidea": {
+      "userid": "882ffd30-b65a-4455-9b83-599a48fcdcf2"
+    }
+  }
+}
