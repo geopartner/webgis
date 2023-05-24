@@ -1,6 +1,6 @@
 {
   "brandName": "Provas",
-  "schemata": ["dandas", "danvand", "privat", "bbr", "ejerkort", "public"],
+  "schemata": ["dandas", "danvand", "privat", "bbr", "ejerkort", "public", "ler_aws"],
   "enabledExtensions": ["streetView", "coordinates", "session"],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["provas"],
