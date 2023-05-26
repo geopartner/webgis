@@ -34,7 +34,7 @@
 			"autoLoginMaxAge": 2500000
 		},
 		"streetView": {
-			"cowi": "https://cmv.cowi.com/?u=VesthimmerlandFors&p=449012FC&project=DDG%20Vesthimmerlands%20Forsyning&maximize=DDG%20Latest&x=522870&y=6309943&srid=25832"
+			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=VesthimmerlandFors&p=449012FC&origin=desktop&cmd=state&project=DDG%20Vesthimmerlands%20Forsyning&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
 		}
 	},
 	"popupDraggable": true,
