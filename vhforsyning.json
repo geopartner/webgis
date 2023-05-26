@@ -32,6 +32,9 @@
 		"_session": {
 			"autoLogin": true,
 			"autoLoginMaxAge": 2500000
+		},
+		"streetView": {
+			"cowi": "https://cmv.cowi.com/?u=VesthimmerlandFors&p=449012FC&project=DDG%20Vesthimmerlands%20Forsyning&maximize=DDG%20Latest&x=522870&y=6309943&srid=25832"
 		}
 	},
 	"popupDraggable": true,
