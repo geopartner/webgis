@@ -14,6 +14,7 @@
 		"dktl",
 		"ler_aws",
 		"bbr",
+		"mat",
 		"geofa"
 	],
 	"cssFiles": [
