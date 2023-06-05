@@ -11,7 +11,8 @@
 		"gc2_io_dk_kortforsyningen",
 		"gc2_io_dk_geodanmark",
 		"dktl",
-		"bbr"
+		"bbr",
+		"mat"
 	],
 	"title": "Skovgaard Energy A/S - Map Connect",
 	"_cssFiles": [
