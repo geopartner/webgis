@@ -42,6 +42,7 @@
 		"streetView",
 		"coordinates",
 		"session",
-		"editor"
+		"editor",
+		"conflictSearch"
 	]
 }
