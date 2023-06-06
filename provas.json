@@ -1,6 +1,14 @@
 {
   "brandName": "Provas",
-  "schemata": ["dandas", "danvand", "privat", "bbr", "ejerkort", "public", "ler_aws"],
+  "schemata": [
+    "dandas",
+    "danvand",
+    "danvand_privat",
+    "bbr",
+    "ejerkort",
+    "public",
+    "ler_aws"
+  ],
   "enabledExtensions": ["streetView", "coordinates", "session", "blueidea"],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["provas"],
@@ -11,15 +19,15 @@
   },
   "popupDraggable": true,
   "extensionConfig": {
-		"_session": {
-			"autoLogin": true,
-			"autoLoginMaxAge": 630720000000
-		},
+    "_session": {
+      "autoLogin": true,
+      "autoLoginMaxAge": 630720000000
+    },
     "blueidea": {
       "userid": "882ffd30-b65a-4455-9b83-599a48fcdcf2"
-    },	  
-		"streetView": {
-			"cowi": "https://cmv.cowi.com/?u=CMVprovas&p=9A5E978&project=Provas%20gadefoto&&origin=desktop&cmd=state&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
-		}
-	}
+    },
+    "streetView": {
+      "cowi": "https://cmv.cowi.com/?u=CMVprovas&p=9A5E978&project=Provas%20gadefoto&&origin=desktop&cmd=state&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
+    }
+  }
 }
