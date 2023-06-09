@@ -1,5 +1,6 @@
 {
-  "brandName": "Provas",
+  "brandName": "Provas - konfiguration med alle ledninger synlige",
+  "title": "Provas A/S - WebGIS kort",
   "schemata": [
     "dandas",
     "danvand",
@@ -8,7 +9,8 @@
     "ejerkort",
     "public",
     "ler_aws",
-    "graveassistent_provas"
+    "graveassistent_provas",
+    "tag:redigerbarelag"
   ],
   "enabledExtensions": [
     "graveAssistent",
