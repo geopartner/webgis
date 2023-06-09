@@ -26,7 +26,7 @@
   },
   "popupDraggable": true,
   "extensionConfig": {
-    "_session": {
+    "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 630720000000
     },
