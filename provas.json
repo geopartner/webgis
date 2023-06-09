@@ -9,7 +9,13 @@
     "public",
     "ler_aws"
   ],
-  "enabledExtensions": ["streetView", "coordinates", "session", "blueidea"],
+  "enabledExtensions": [
+    "graveAssistent",
+    "streetView",
+    "coordinates",
+    "session",
+    "blueidea"
+  ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["provas"],
   "searchModules": ["google", "danish"],
