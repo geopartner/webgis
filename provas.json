@@ -7,8 +7,7 @@
     "bbr",
     "ejerkort",
     "public",
-    "ler_aws",
-    "graveassistent_provas"
+    "ler_aws"
   ],
   "enabledExtensions": [
     "graveAssistent",
