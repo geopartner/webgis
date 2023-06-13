@@ -1,0 +1,37 @@
+{
+	"schemata": [
+		"public",
+		"ler2"
+	],
+	"brandName": "Region Hovedstaden",
+	"enabledPrints": [
+		"regionh"
+	],
+	"_activeLayers": [
+		"bomiva.andenledning",
+		"bomiva.andenkomponent_pkt"
+	],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"session"
+	],
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		}
+	},
+	"showLayerGroupCheckbox": true,
+	"popupDraggable": true,
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"enabledSearch": "danish",
+	"_searchConfig": {
+		"komkode": [
+			"779"
+		]
+	}
+}
