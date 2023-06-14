@@ -23,7 +23,7 @@
 	"removeDisabledLayersFromLegend": true,
 	"searchConfig": {
 		"komkode": [
-			"820"
+			"820", "846", "849", "840"
 		],
 		"esrSearchActive": true,
 		"sfeSearchActive": true,
