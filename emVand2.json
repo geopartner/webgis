@@ -1,0 +1,12 @@
+{
+  "brandName": "Em Vandværk",
+  "enabledExtensions": ["streetView", "coordinates"],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["vandvaerk2"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": ["860"]
+  },
+  "popupDraggable": true
+}
