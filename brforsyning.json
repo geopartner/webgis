@@ -1,5 +1,6 @@
 {
   "brandName": "Brønderslev Forsyning",
+  "title": "Brønderslev Forsyning - WebGIS kort",
   "schemata": [
     "dandas",
     "danvand",
