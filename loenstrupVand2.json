@@ -3,7 +3,7 @@
   "schemata": [
 		"gc2_io_dk_matrikel"
    ],
-  "enabledExtensions": ["streetView", "coordinates", "session"],
+  "enabledExtensions": ["streetView", "coordinates", "session", "editor"],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["vandvaerk_loenstrupvand2"],
   "searchModules": ["google", "danish"],
