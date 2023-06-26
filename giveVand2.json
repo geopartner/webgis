@@ -1,7 +1,7 @@
 {
     "brandName": "Give Vandværk A.m.b.a",
     "schemata": [],
-    "enabledExtensions": ["streetView", "coordinates"],
+    "enabledExtensions": ["streetView", "coordinates", "session", "editor"],
     "showLayerGroupCheckbox": true,
     "enabledPrints": ["vandvaerk_givevand2"],
     "searchModules": ["google", "danish"],
