@@ -1,0 +1,14 @@
+{
+    "brandName": "Kelstrup Strand Vandværk",
+    "schemata": [],
+    "enabledExtensions": ["streetView", "coordinates"],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk_bislevvand2"],
+    "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "komkode": ["510", "621"]
+    },
+    "popupDraggable": true
+  }
+  

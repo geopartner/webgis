@@ -1,0 +1,14 @@
+{
+    "brandName": "Øsby-Årøsund Vandværk",
+    "schemata": [],
+    "enabledExtensions": ["streetView", "coordinates"],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": [],
+    "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "komkode": ["510", "621"]
+    },
+    "popupDraggable": true
+  }
+  
