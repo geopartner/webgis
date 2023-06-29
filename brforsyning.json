@@ -11,7 +11,7 @@
     "mat",
     "ler"
   ],
-  "enabledExtensions": ["streetView", "coordinates", "session", "blueidea"],
+  "enabledExtensions": ["streetView", "coordinates", "session", "blueidea", "editor"],
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["brforsyning"],
   "searchModules": ["google", "danish"],
