@@ -3,14 +3,8 @@
 		"public",
 		"ler2"
 	],
-	"brandName": "Dansk Salt",
-	"enabledPrints": [
-		"dansksalt"
-	],
-	"_activeLayers": [
-		"bomiva.andenledning",
-		"bomiva.andenkomponent_pkt"
-	],
+	"brandName": "Dansk Salt A/S",
+	"enabledPrints": ["dansksalt"],
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
