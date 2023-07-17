@@ -1,0 +1,14 @@
+{
+    "brandName": "Davinde vandværk",
+    "schemata": [],
+    "enabledExtensions": ["streetView", "coordinates"],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": ["vandvaerk2"],
+    "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+      "komkode": ["461","430","450"]
+    },
+    "popupDraggable": true
+  }
+  
