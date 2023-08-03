@@ -288,7 +288,7 @@
 			"type": "wms",
 			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
 			"layers": [
-				"DK-DDOland2004_25CM_UTM32ETRS89"
+				"DK-DDOland2004_25cm_UTM32ETRS89"
 			],
 			"id": "DDO_land_2004",
 			"name": "DDO land 2004",
@@ -318,7 +318,7 @@
 			"type": "wms",
 			"url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
 			"layers": [
-				"DK-DDOland1999_40CM_UTM32ETRS89"
+				"DK-DDOland1999_40cm_UTM32ETRS89"
 			],
 			"id": "DDO_land_1999",
 			"name": "DDO land 1999",
