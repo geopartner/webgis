@@ -13,7 +13,8 @@
     "dktl",
     "bbr",
     "mat",
-    "tag:observationslag"
+    "tag:observationslag",
+    "tag:projektlag"
   ],
   "title": "Skovgaard Energy",
   "_cssFiles": ["tbd"],
