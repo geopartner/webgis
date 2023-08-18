@@ -79,7 +79,6 @@
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 630720000000
-    },
     }
   }
 }
