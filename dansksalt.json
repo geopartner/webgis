@@ -1,7 +1,8 @@
 {
 	"schemata": [
 		"public",
-		"ler2"
+		"ler2",
+		"ejerkort"
 	],
 	"brandName": "Dansk Salt A/S",
 	"enabledPrints": ["dansksalt"],
@@ -14,7 +15,13 @@
 		"session": {
 			"autoLogin": true,
 			"autoLoginMaxAge": 630720000000
-		}
+		},
+	"streetView": {
+            "ignorelist": [
+                "mapillary",
+                "cowi"
+            ]
+        }
 	},
 	"showLayerGroupCheckbox": true,
 	"popupDraggable": true,
