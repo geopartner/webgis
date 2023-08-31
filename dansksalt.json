@@ -30,7 +30,7 @@
 		"danish"
 	],
 	"enabledSearch": "danish",
-	"_searchConfig": {
+	"searchConfig": {
 		"komkode": [
 			"779", "846", "840", "820"
 		]
