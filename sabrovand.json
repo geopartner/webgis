@@ -1,6 +1,10 @@
 {
   "brandName": "Sabro vand",
-  "enabledExtensions": [
+  "schemata": [
+		"public",
+		"danvand"
+	],
+"enabledExtensions": [
     "streetView",
     "coordinates"
   ],
