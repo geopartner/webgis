@@ -1,14 +1,20 @@
 {
-  "brandName": "Hammerum Vandværk",
+  "brandName": "Sabro vand",
   "enabledExtensions": [
     "streetView",
-    "coordinates",
-    "session",
-    "editor"
+    "coordinates"
   ],
+	"extensionConfig": {
+		"streetView": {
+            "ignorelist": [
+                "mapillary",
+                "cowi"
+            ]
+        }
+	},
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
-    "vandvaerk_hammerumvand2"
+    "vandvaerk_sabrovand2"
   ],
   "searchModules": [
     "google",
@@ -17,8 +23,8 @@
   "enabledSearch": "danish",
   "searchConfig": {
     "komkode": [
-      "657",
-      "756"
+      "751",
+      "710"
     ]
   },
   "popupDraggable": true
