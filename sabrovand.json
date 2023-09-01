@@ -6,16 +6,21 @@
 	],
 "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+    "session",
+    "blueidea"
   ],
-	"extensionConfig": {
-		"streetView": {
-            "ignorelist": [
-                "mapillary",
-                "cowi"
-            ]
-        }
-	},
+  "extensionConfig": {
+    "blueidea": {
+      "userid": "ecf8340f-800d-41fc-98c6-2e7d56b5f580"
+    },
+    "streetView": {
+          "ignorelist": [
+              "mapillary",
+              "cowi"
+          ]
+      }
+  },
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
     "vandvaerk2"
@@ -31,5 +36,6 @@
       "710"
     ]
   },
+  
   "popupDraggable": true
 }
