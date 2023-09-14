@@ -115,9 +115,9 @@
 			"layers": [
 				"orto_foraar_12_5"
 			],
-			"id": "ortofoto_foraar",
+			"id": "ortofoto_foraar-daf",
 			"name": "GeoDanmark ortofoto forår (seneste) - DATAFORDELEREN",
-			"description": "Seneste ortofoto forår fra GeoDanmark",
+			"description": "Seneste ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
 			"maxZoom": 22,
