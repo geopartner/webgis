@@ -125,12 +125,125 @@
 		},
 		{
 			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2022_12_5cm"
+			],
+			"id": "geodanmark_2022_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2022_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2022_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2021_12_5cm"
+			],
+			"id": "geodanmark_2021_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2021_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2021_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2020_12_5cm"
+			],
+			"id": "geodanmark_2020_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2020_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2020_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2019_12_5cm"
+			],
+			"id": "geodanmark_2019_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2019_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2019_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2018_12_5cm"
+			],
+			"id": "geodanmark_2018_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2018_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2018_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2017_12_5cm"
+			],
+			"id": "geodanmark_2017_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2017_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2017_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2016_12_5cm"
+			],
+			"id": "geodanmark_2016_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2016_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2016_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2015_12_5cm"
+			],
+			"id": "geodanmark_2015_12_5cm-daf",
+			"name": "GeoDanmark ortofoto forår (geodanmark_2015_12_5cm) - DATAFORDELEREN",
+			"description": "geodanmark_2015_12_5cm ortofoto forår fra GeoDanmark hentet fra Datafordeleren",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
 			"url": "/api/dataforsyningen/orto_foraar_DAF",
 			"layers": [
 				"orto_foraar_12_5"
 			],
 			"id": "ortofoto_foraar",
-			"name": "GeoDanmark ortofoto forår (seneste)",
+			"name": "GeoDanmark ortofoto forår (seneste), Dataforsyning",
 			"description": "Seneste ortofoto forår fra GeoDanmark",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
