@@ -25,7 +25,10 @@
 	"removeDisabledLayersFromLegend": true,
 	"searchConfig": {
 		"komkode": [
-			"820", "846", "849", "840"
+			"820",
+			"846",
+			"849",
+			"840"
 		],
 		"esrSearchActive": true,
 		"sfeSearchActive": true,
@@ -79,7 +82,8 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar_DAF",
+			"_url": "/api/dataforsyningen/orto_foraar_DAF",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
 			"layers": [
 				"orto_foraar_12_5"
 			],
@@ -93,7 +97,8 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar_DAF",
+			"_url": "/api/dataforsyningen/orto_foraar_DAF",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
 			"layers": [
 				"geodanmark_2019_12_5cm"
 			],
@@ -176,25 +181,5 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		}
-	],
-	"_baseLayers": [
-		{
-			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar_temp",
-			"layers": [
-				"quickorto"
-			],
-			"id": "ortofoto_foraar_temp_DF",
-			"name": "GeoDanmark ortofoto forår (quickorto)",
-			"description": "Ortofoto forår fra Dataforsyningen",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
-		{
-            		"id": "osm",
-            		"name": "Open Street Maps"
-        	}
 	]
 }
