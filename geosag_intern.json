@@ -15,7 +15,8 @@
 		"ler_aws",
 		"bbr",
 		"mat",
-		"geofa"
+		"geofa",
+		"ledninger"
 	],
 	"cssFiles": [
 		"geosag_intern.css"
