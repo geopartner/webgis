@@ -224,26 +224,6 @@
             "attribution":"&copy; Open Street Map"
          }
       },      
-      {
-        "id": "stamenToner",
-        "name": "Stamen Toner",
-        "abstract":"<p>Kortet hentes fra Stamen Toner.</p><br>",
-        "config":{
-          "maxZoom":21,
-          "maxNativeZoom":19,
-          "attribution":"&copy; Stamen Toner"
-        }
-      },      
-      {
-        "id": "stamenTonerLite",
-        "name": "Stamen Toner Light",
-        "abstract":"<p>Kortet hentes fra Stamen Toner.</p><br>",
-        "config":{
-          "maxZoom":21,
-          "maxNativeZoom":19,
-          "attribution":"&copy; Stamen Toner"
-        }
-      },
        {
         "type": "wms",
         "url": "https://services.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?username=XMERXHKAVN&password=Geop1234!",

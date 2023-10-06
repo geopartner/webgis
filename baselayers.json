@@ -104,26 +104,6 @@
          }
       },      
       {
-        "id": "stamenToner",
-        "name": "Stamen Toner",
-        "abstract":"<p>Kortet hentes fra Stamen Toner.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/YpYDEbo6C8BX34a?x=2553&y=827&a=true&file=stamen_toner_dark.png&scalingup=0'>",
-        "config":{
-          "maxZoom":19,
-          "maxNativeZoom":19,
-          "attribution":"&copy; Stamen Toner"
-        }
-      },      
-      {
-        "id": "stamenTonerLite",
-        "name": "Stamen Toner Light",
-        "abstract":"<p>Kortet hentes fra Stamen Toner.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/YpYDEbo6C8BX34a?x=2553&y=827&a=true&file=stamen_toner_light.png&scalingup=0'>",
-        "config":{
-          "maxZoom":19,
-          "maxNativeZoom":19,
-          "attribution":"&copy; Stamen Toner"
-        }
-      },
-      {
          "id": "kortforsyningen.topo25", 
          "name": "Klassisk 4cm kort", 
          "db": "baselayers", 
