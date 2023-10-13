@@ -4,7 +4,9 @@
 		"ler2"
 	],
 	"brandName": "EV Infra",
-	"enabledPrints": [],
+	"enabledPrints": [
+		"print"
+	],
 	"_activeLayers": [],
 	"enabledExtensions": [
 		"streetView",
