@@ -1,0 +1,35 @@
+{
+	"schemata": [
+		"public",
+		"ler2"
+	],
+	"brandName": "Herning Bioenergi",
+	"enabledPrints": [
+		"hrbioenergi"
+	],
+	"_activeLayers": [],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"session"
+	],
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		}
+	},
+	"showLayerGroupCheckbox": true,
+	"popupDraggable": false,
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"enabledSearch": "danish",
+	"_searchConfig": {
+		"komkode": [
+			"760",
+			"657"
+		]
+	}
+}
