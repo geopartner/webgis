@@ -20,7 +20,7 @@
 		}
 	},
 	"showLayerGroupCheckbox": true,
-	"popupDraggable": false,
+	"popupDraggable": true,
 	"searchModules": [
 		"google",
 		"danish"
