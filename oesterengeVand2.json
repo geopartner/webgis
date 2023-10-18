@@ -1,0 +1,13 @@
+{
+  "brandName": "Østerenge Vandværk",
+  "schemata": [],
+  "enabledExtensions": ["streetView", "coordinates"],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["vandvaerk_oesterengevand2"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": ["851"]
+  },
+  "popupDraggable": true
+}
