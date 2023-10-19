@@ -28,7 +28,7 @@
     ],
     "extensionConfig": {
         "session": {
-          "autoLogin": true,
+          "autoLogin": false,
           "autoLoginMaxAge": 630720000000
         }
     },
