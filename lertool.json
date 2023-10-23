@@ -20,7 +20,7 @@
       "autoLoginMaxAge": 604800000
     }
   },
-  "extensionConfig": {
+  _"extensionConfig": {
     "graveAssistent": {
       "schema": "koelkaer"
     }
