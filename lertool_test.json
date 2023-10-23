@@ -14,7 +14,7 @@
     ]
   },
   "enabledSearch": "danish",
-  "_extensionConfig": {
+  "extensionConfig": {
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 604800000
