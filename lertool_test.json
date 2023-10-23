@@ -18,6 +18,9 @@
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 604800000
+    },
+    "graveAssistent": {
+      "schema": "geopartner_test"
     }
   }
 }
