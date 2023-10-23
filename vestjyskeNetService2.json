@@ -9,6 +9,7 @@
 		"session"
 	],
 	"showLayerGroupCheckbox": true,
+	"removeDisabledLayersFromLegend": true,
 	"enabledPrints": [
 		"el_vestjyskeNetService2"
 	],
@@ -135,14 +136,7 @@
 		"el.v_fiber",
 		"el.v_styrekabel",
 		"el.v_komponenter",
-		"el.mast_dobbeltsystem",
-		"el.v_ledning",
-		"el.v_mast",
-		"el.mast_forgrening",
-		"el.transporthoejde",
-		"el.v_transformer",
 		"el.v_slukkespole",
-		"el.station",
-		"el.Linjefelter_60_kV"
+		"el.station"
 	]
 }
