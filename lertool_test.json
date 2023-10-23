@@ -1,6 +1,6 @@
 {
   "brandName": "Graveassistent",
-  
+  "schemata": ["geopartner_test"],
   "enabledPrints": [
     "vandvaerk2"
   ],
