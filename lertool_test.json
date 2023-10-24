@@ -1,6 +1,6 @@
 {
   "brandName": "Graveassistent",
-  
+  "schemata": ["geopartner_test"],
   "enabledPrints": [
     "vandvaerk2"
   ],
@@ -14,10 +14,13 @@
     ]
   },
   "enabledSearch": "danish",
-  "_extensionConfig": {
+  "extensionConfig": {
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 604800000
+    },
+    "graveAssistent": {
+      "schema": "geopartner_test"
     }
   }
 }
