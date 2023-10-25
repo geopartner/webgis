@@ -1,0 +1,28 @@
+{
+    "brandName": "Symboldemo",
+    "enabledExtensions": ["symbols"],
+    "extensionConfig": {
+      "symbols": {
+        "files": [
+          {
+            "file": "symbols_demo_A.json",
+            "title": "Gruppe 1",
+            "desc": "forklaring til symboler 1"
+          },
+          {
+              "file": "symbols_demo_E.json",
+              "title": "Gruppe 2",
+              "desc": "forklaring til symboler 2"
+            }
+        ],
+        "symbolOptions": {
+          "rotate": true,
+          "scale": true,
+          "delete": true,
+          "onlyOne": false,
+          "validate": false
+        }
+      }
+    }
+  }
+  
