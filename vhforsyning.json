@@ -23,18 +23,19 @@
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
 	"removeDisabledLayersFromLegend": true,
-	"searchConfig": {
-		"komkode": [
-			"820",
-			"846",
-			"849",
-			"840"
-		],
-		"sortByScore": true,
-		"esrSearchActive": true,
-		"sfeSearchActive": true,
-		"advanced": false
-	},
+	    "searchConfig": {
+	        "size": 10,
+	        "komkode": [
+	            "820",
+	            "846",
+	            "849",
+	            "840"
+	        ],
+	        "esrSearchActive": true,
+	        "sfeSearchActive": true,
+	        "advanced": false,
+	        "sortByScore": true
+	    },
 	"extensionConfig": {
 		"_session": {
 			"autoLogin": true,
