@@ -21,7 +21,7 @@
       "autoLogin": true,
       "autoLoginMaxAge": 604800000
     }
-  }
+  },
   "extensionConfig": {
 		"graveAssistent": {
       			"schema": "geopartner"
