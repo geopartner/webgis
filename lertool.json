@@ -24,7 +24,7 @@
   }
   "extensionConfig": {
 		"graveAssistent": {
-      			"schema": "graveassistent_provas"
+      			"schema": "geopartner"
     		}
 	}
 }
