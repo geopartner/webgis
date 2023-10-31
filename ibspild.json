@@ -30,7 +30,10 @@
         "session": {
           "autoLogin": true,
           "autoLoginMaxAge": 630720000000
-        }
+        },
+	"graveAssistent": {
+		"schema": "ibspildevand"
+	}
     },
         "df" : {
         "username" : "XMERXHKAVN",
