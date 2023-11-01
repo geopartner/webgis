@@ -84,7 +84,5 @@
     "sortByScore": true
   },
   "activateMainTab": "graveAssistent",
-  "enabledSearch": "danish",
-  "extensionConfig": {
-  }
+  "enabledSearch": "danish"
 }
