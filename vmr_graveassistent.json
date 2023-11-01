@@ -1,5 +1,13 @@
 {
   "brandName": "VMR",
+  "schemata": [
+		"graveassistent_vmr"
+	],
+  "extensionConfig": {
+		"graveAssistent": {
+      			"schema": "graveassistent_vmr"
+    		}
+	},
   "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
   "df": {
     "username": "XMERXHKAVN",
