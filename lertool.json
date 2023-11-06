@@ -1,6 +1,6 @@
 {
   "brandName": "Graveassistent",
-  "schemata": [
+  "_schemata": [
 		"geopartner"
 	],
   "enabledPrints": [
@@ -16,13 +16,13 @@
     ]
   },
   "enabledSearch": "danish",
-  "_extensionConfig": {
+  "extensionConfig": {
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 604800000
     }
   },
-  "extensionConfig": {
+  "_extensionConfig": {
 		"graveAssistent": {
       			"schema": "geopartner"
     		}
