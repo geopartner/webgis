@@ -1,0 +1,13 @@
+{
+  "brandName": "Aastruplund vandværk",
+  "schemata": [],
+  "enabledExtensions": ["streetView", "coordinates"],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["vandvaerk_aastruplundvandvand2"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": ["615"]
+  },
+  "popupDraggable": true
+}
