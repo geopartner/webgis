@@ -3,7 +3,7 @@
   "schemata": [],
   "enabledExtensions": ["streetView", "coordinates"],
   "showLayerGroupCheckbox": true,
-  "enabledPrints": ["vandvaerk_aastruplundvandvand2"],
+  "enabledPrints": ["vandvaerk_aastruplundvand2"],
   "searchModules": ["google", "danish"],
   "enabledSearch": "danish",
   "searchConfig": {
