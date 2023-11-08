@@ -2,14 +2,16 @@
 	"schemata": [
 		"public",
 		"ler2",
-		"ejerfortegnelse"
+		"ejerfortegnelse",
+		"fremmedledninger"
 	],
 	"brandName": "Dansk Salt A/S",
 	"enabledPrints": ["dansksalt"],
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
-		"session"
+		"session",
+		"graveAssistent"
 	],
 	"extensionConfig": {
 		"session": {
@@ -21,7 +23,10 @@
                 "mapillary",
                 "cowi"
             ]
-        }
+        },
+	"graveAssistent": {
+			"schema": "fremmedledninger"
+	  }
 	},
 	"showLayerGroupCheckbox": true,
 	"popupDraggable": true,
