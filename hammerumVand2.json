@@ -9,5 +9,5 @@
     "komkode": ["657", "756"]
   },
   "popupDraggable": true,
-  "cssFiles": ["css_editor-hide-delete-button.css"]
+  "cssFiles": ["css_hide-delete-button.css"]
 }
