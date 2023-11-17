@@ -3,7 +3,26 @@
 	"enabledPrints": [
 		"vandvaerk2"
 	],
-  "initZoomCenter": "/7/9.7943/56.0015/"
+  	"initZoomCenter": "/7/9.7943/56.0015/",
+	"activeLayers": [
+	    	"dandas.ddg_stikramme_polygon",
+		"dandas.opmaalt_omrids",
+		"dandas.projekt_omrids",
+		"dandas.ddg_knude_text",
+		"dandas.ddg_ramme_linestring",
+		"dandas.ddg_stikramme_linestring",
+		"dandas.ddg_stikknude",
+		"dandas.ddg_knude",
+		"dandas.ledninger_og_stik_med_tv",
+		"dandas.ddg_ledning",
+		"dandas.ddg_ramme_polygon",
+		"dandas.ddg_strompil",
+		"dandas.vw_bagfald",
+		"dandas.ddg_stik",
+		"dandas.ddg_ledning_text",
+		"dandas.ddg_stikknude_text",
+		"dandas.maptv_obs",
+	],
 	"brandName": "Map Status - Geopartner A/S",
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
@@ -14,12 +33,12 @@
 		"advanced": false
 	},
 	"extensionConfig": {
-  	"streetView": {
-              "ignorelist": [
-                  "mapillary",
-                  "cowi"
-              ]
-          }
+	  	"streetView": {
+	              "ignorelist": [
+	                  "mapillary",
+	                  "cowi"
+	              ]
+	          }
 	},
 	"popupDraggable": true,
 	"featureInfoTableOnMap": false,
