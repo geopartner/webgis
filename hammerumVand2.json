@@ -1,25 +1,13 @@
 {
   "brandName": "Hammerum Vandværk",
-  "enabledExtensions": [
-    "streetView",
-    "coordinates",
-    "session",
-    "editor"
-  ],
+  "enabledExtensions": ["streetView", "coordinates", "session", "editor"],
   "showLayerGroupCheckbox": true,
-  "enabledPrints": [
-    "vandvaerk_hammerumvand2"
-  ],
-  "searchModules": [
-    "google",
-    "danish"
-  ],
+  "enabledPrints": ["vandvaerk_hammerumvand2"],
+  "searchModules": ["google", "danish"],
   "enabledSearch": "danish",
   "searchConfig": {
-    "komkode": [
-      "657",
-      "756"
-    ]
+    "komkode": ["657", "756"]
   },
-  "popupDraggable": true
+  "popupDraggable": true,
+  "cssFiles": ["css_editor-hide-delete-button.css"]
 }
