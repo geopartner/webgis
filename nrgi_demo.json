@@ -1,0 +1,13 @@
+{
+  "brandName": "NRGI",
+  "schemata": [],
+  "enabledExtensions": ["streetView", "coordinates"],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": ["print2"],
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": ["370"]
+  },
+  "popupDraggable": true
+}
