@@ -1,35 +1,38 @@
 {
-  "brandName": "NRGI",
-  "schemata": [],
-  "startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere – Ny webkortløsning til intern brug</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect- dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se ejerkort og øvrige detaljerede oplysninger. Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil.jpg' width='550px' height='412px'/><br>",
-	"enabledExtensions": [
-		"streetView",
-		"coordinates"
-	],
-  "showLayerGroupCheckbox": true,
-	"aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect - dokumentation</a><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
-	"enabledPrints": [
-		"vandvaerk2"
-	],
-  "searchModules": ["google", "danish"],
-  "enabledSearch": "danish",
-  "searchConfig": {
-		"size": 15,
-		"esrSearchActive": false,
-		"sfeSearchActive": false,
-		"advanced": false
-	},
-  "extensionConfig": {
-		"session": {
-			"autoLogin": true,
-			"autoLoginMaxAge": 630720000000
-		},
-  "streetView": {
+    "brandName": "NRGI",
+    "schemata": [],
+    "startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere – Ny webkortløsning til intern brug</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect- dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se ejerkort og øvrige detaljerede oplysninger. Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil.jpg' width='550px' height='412px'/><br>",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates"
+    ],
+    "showLayerGroupCheckbox": true,
+    "aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect - dokumentation</a><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
+    "enabledPrints": [
+        "vandvaerk2"
+    ],
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "size": 15,
+        "esrSearchActive": false,
+        "sfeSearchActive": false,
+        "advanced": false
+    },
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        },
+        "streetView": {
             "ignorelist": [
                 "mapillary",
                 "cowi"
             ]
-        },
-	},
-  "popupDraggable": true
+        }
+    },
+    "popupDraggable": true
 }
