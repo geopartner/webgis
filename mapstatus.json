@@ -3,6 +3,9 @@
 		"dandas"
 	],
 	"activeLayers": [
+	  "dandas"
+	],
+	"_activeLayers": [
 	  "t:dandas.ddg_stikramme_polygon",
 	  "t:dandas.opmaalt_omrids",
 	  "t:dandas.projekt_omrids",
