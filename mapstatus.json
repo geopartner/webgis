@@ -20,7 +20,6 @@
 	  "dandas.ddg_ledning_text",
 	  "dandas.ddg_stikknude_text",
 	  "dandas.maptv_obs"
-	]
 	],
 	"aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Map Status - dokumentation</a><br><p>Geopartners Map Status er leveret til talrige spildevandsselskaber og entreprenører. Denne udgave er en grundopsætning af lag til gennemgang af spildevandsleverancer, der kan anvendes i dagligdagen.</p><p>Skulle du i løsningen savne adgang til lag, links eller funktioner, så send en mail til os, <a href='mailto:support@geopartner.dk' target='_blank'>Geopartner supportmail</a></p><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række tilgængelige spildevandstemaer, læse informationer om disse, se video og rapportfiler, samt tegne, tage mål, udskrive kort, mv.</p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
 	"enabledPrints": [
