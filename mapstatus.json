@@ -3,7 +3,7 @@
 		"dandas"
 	],
 	"activeLayers": [
-	  "dandas"
+	  "dandas.*"
 	],
 	"_activeLayers": [
 	  "t:dandas.ddg_stikramme_polygon",
