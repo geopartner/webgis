@@ -13,12 +13,18 @@
 		"coordinates",
 		"session"
 	],
-	"extensionConfig": {
-		"session": {
-			"autoLogin": true,
-			"autoLoginMaxAge": 630720000000
-		}
-	},
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        },
+        "streetView": {
+            "ignorelist": [
+                "mapillary",
+                "cowi"
+            ]
+        }
+    },
 	"showLayerGroupCheckbox": true,
 	"popupDraggable": true,
 	"searchModules": [
