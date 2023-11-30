@@ -4,9 +4,6 @@
 		"gc2_io_dk_matrikel",
 		"tag:forbrugsmaaler"
 	],
-	"cssFiles": [
-		"vestforbraending_forbrugsmaaler.css"
-	],
 	"brandName": "Vestforbrænding A/S, forbrugsmålere",
 	"aboutBox": "Denne web-GIS benyttes til at håndtere forbrugsmålere hos I/S Vestforbrænding - du skal logge ind for at kunne benytte funktionerne.",
 	"startUpModal": "Denne web-GIS benyttes til at håndtere forbrugsmålere hos I/S Vestforbrænding - du skal logge ind for at kunne benytte funktionerne.",
