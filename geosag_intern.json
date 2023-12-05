@@ -63,7 +63,8 @@
 				"Basis_kort",
 				"Stednavne_basiskort",
 				"Vejnavne_basiskort",
-				"Husnummer"
+				"Husnummer",
+				"Adm-graense"
 			],
 			"id": "ForvaltningskortDF",
 			"name": "Forvaltningskort",
