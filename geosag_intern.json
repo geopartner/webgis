@@ -79,10 +79,8 @@
 			"layers": [
 				"Basis_kort",
 				"Matrikel",
-				"Matrikelskel",
 				"Matrikel-foreloebig",
-				"Matrikel-tekst",
-				"Matrikeltekst"
+				"Matrikel-tekst"
 			],
 			"id": "ForvaltningskortDFMatrikel",
 			"name": "Forvaltningskort, Matrikler",
@@ -90,7 +88,7 @@
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
 			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
 			"maxZoom": 22,
-			"maxNativeZoom": 20
+			"maxNativeZoom": 22
 		},
 		{
 			"type": "wms",
