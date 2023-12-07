@@ -121,8 +121,8 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar_DAF",
-			"_url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"_url": "/api/dataforsyningen/orto_foraar_DAF",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
 			"layers": [
 				"orto_foraar_12_5"
 			],
