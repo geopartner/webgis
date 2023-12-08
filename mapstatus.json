@@ -19,6 +19,7 @@
 	  "t:dandas.ddg_stik",
 	  "t:dandas.ddg_ledning_text",
 	  "t:dandas.ddg_stikknude_text",
+	  "t:dandas.gp_delledning_ler.",
 	  "t:dandas.maptv_obs"
 	],
 	"removeDisabledLayersFromLegend": true,
