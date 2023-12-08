@@ -1,0 +1,128 @@
+/* Begin of section regarding TABs for anlægsregister  */
+
+/*envidrfit-like styles */
+
+.info-dialog-content {
+	background-color: rgb(255, 255, 255);
+	overflow: scroll;
+}
+span p {
+	color: #000;
+}
+span label {
+	color: #555;
+}
+.feltBeskrivelse {
+	color: #808080;
+	font-size: 8pt;
+	white-space: nowrap;
+}
+
+.row-display {
+	display: table-cell;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+ 
+/**
+*/
+
+.boxOutPanel {
+	background-color: #f2f2f2;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+/*   some changes regarding size of info-box */
+.leaflet-popup-content-wrapper {
+	width: 700px;
+}
+
+.leaflet-popup-content {
+	width: 670px !important;
+}
+
+.alternative-info-container-right {
+	width: 660px;
+}
+
+/* Then some settings regardign the TABs itself */
+.info-tabbed {
+	overflow-x: hidden;
+	/* so we could easily hide the radio inputs */
+	margin: 32px 0;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ccc;
+}
+
+.info-tabbed [type="radio"] {
+	/* hiding the inputs */
+	display: none;
+}
+
+.info-tabs {
+	display: flex;
+	align-items: stretch;
+	list-style: none;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.info-tab>label {
+	display: block;
+	margin-bottom: -1px;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	background: #eee;
+	color: #666;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.info-tab:hover label {
+	border-top-color: #333;
+	color: #333;
+}
+
+.info-tab-content {
+	display: none;
+	color: #777;
+}
+
+/* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
+.info-tabbed [type="radio"]:nth-of-type(1):checked~.info-tabs .info-tab:nth-of-type(1) label,
+.info-tabbed [type="radio"]:nth-of-type(2):checked~.info-tabs .info-tab:nth-of-type(2) label,
+.info-tabbed [type="radio"]:nth-of-type(3):checked~.info-tabs .info-tab:nth-of-type(3) label,
+.info-tabbed [type="radio"]:nth-of-type(4):checked~.info-tabs .info-tab:nth-of-type(4) label,
+.info-tabbed [type="radio"]:nth-of-type(5):checked~.info-tabs .info-tab:nth-of-type(5) label,
+.info-tabbed [type="radio"]:nth-of-type(6):checked~.info-tabs .info-tab:nth-of-type(6) label,
+.info-tabbed [type="radio"]:nth-of-type(7):checked~.info-tabs .info-tab:nth-of-type(7) label,
+.info-tabbed [type="radio"]:nth-of-type(8):checked~.info-tabs .info-tab:nth-of-type(8) label {
+	border-bottom-color: #fff;
+	border-top-color: #B721FF;
+	background: #fff;
+	color: #222;
+}
+
+.info-tabbed [type="radio"]:nth-of-type(1):checked~.info-tab-content:nth-of-type(1),
+.info-tabbed [type="radio"]:nth-of-type(2):checked~.info-tab-content:nth-of-type(2),
+.info-tabbed [type="radio"]:nth-of-type(3):checked~.info-tab-content:nth-of-type(3),
+.info-tabbed [type="radio"]:nth-of-type(4):checked~.info-tab-content:nth-of-type(4),
+.info-tabbed [type="radio"]:nth-of-type(5):checked~.info-tab-content:nth-of-type(5),
+.info-tabbed [type="radio"]:nth-of-type(6):checked~.info-tab-content:nth-of-type(6),
+.info-tabbed [type="radio"]:nth-of-type(7):checked~.info-tab-content:nth-of-type(7) {
+	display: block;
+}
+
+
+
+
+
+
+/* End of section regarding TABs  */
