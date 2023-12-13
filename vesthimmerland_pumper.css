@@ -2,10 +2,19 @@
 
 /*envidrfit-like styles */
 
+
 .info-dialog-content {
 	background-color: rgb(255, 255, 255);
-	overflow: scroll;
+	max-height: 500px;
+	min-height: 500px;
+	overflow-y: scroll;
 }
+
+summary{
+ display:list-item !important;
+  }
+  
+
 span p {
 	color: #000;
 }
@@ -24,8 +33,9 @@ span label {
 	vertical-align: baseline;
 }
  
-/**
-*/
+summary:hover {
+	cursor: pointer;
+}
 
 .boxOutPanel {
 	background-color: #f2f2f2;
@@ -34,6 +44,10 @@ span label {
 	padding: 10px;
 	margin-bottom: 10px;
 
+}
+.boxOutPanel table {
+	margin-left: 25px;
+	background-color: #f2f2f2;
 }
 /*   some changes regarding size of info-box */
 .leaflet-popup-content-wrapper {
