@@ -10,18 +10,23 @@
 	overflow-y: scroll;
 }
 
-summary{
- display:list-item !important;
-  }
-  
+summary {
+	display: list-item !important;
+}
+
+h4 {
+	margin-left: 25px;
+}
 
 span p {
 	color: #000;
 }
+
 span label {
 	color: #555;
 	font-size: 12px;
 }
+
 .feltBeskrivelse {
 	color: #808080;
 	font-size: 8pt;
@@ -33,23 +38,26 @@ span label {
 	white-space: nowrap;
 	vertical-align: baseline;
 }
- 
+
 summary:hover {
 	cursor: pointer;
 }
 
 .boxOutPanel {
-	background-color: #f2f2f2;
+	background-color: #888;
 	border: 1px solid #e6e6e6;
-	border-radius: 3px;
+	border-radius: 5px;
 	padding: 10px;
-	margin-bottom: 10px;
+	margin: 10px;
 
 }
+
 .boxOutPanel table {
-	margin-left: 25px;
-	background-color: #f2f2f2;
+	margin: 25px;
+
+	width: 100%;
 }
+
 /*   some changes regarding size of info-box */
 .leaflet-popup-content-wrapper {
 	width: 700px;
@@ -107,7 +115,7 @@ summary:hover {
 
 .info-tab-content {
 	display: none;
-	color: #777;
+	color: #000;
 }
 
 /* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
