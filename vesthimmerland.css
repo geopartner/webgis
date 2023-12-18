@@ -35,7 +35,6 @@
 
 .col2 {
 	grid-column: 2 / 3;
-	border-left:solid red 1px;
 	padding-left: 50px;
 }
 
