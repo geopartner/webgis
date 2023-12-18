@@ -1,13 +1,64 @@
 /* Begin of section regarding TABs for anlægsregister  */
 
-/*envidrfit-like styles */
 
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 8rem auto 10em auto;
+	align-items:center ;
+	grid-template-rows: auto;
+	
+}
+.grid-item-left {
+	text-align: left;
+}
+
+ 
+.col1 {
+	grid-column: 1 / 2;
+	text-align: right;
+	margin-right: 8px;
+}
+.col2 {
+	grid-column: 2 / 3;
+	text-align: left;
+}
+
+.col3 {
+	grid-column: 3 / 4;
+	text-align: right;
+	margin-right: 8px;
+}
+
+.col4 {
+	grid-column: 4 / 5;
+	text-align: left;
+} *
+
+
+.col-rest {
+	grid-column: 2 / 5;
+}
+
+.allow-y-scroll {
+	overflow-y: scroll;
+}
+/*envidrfit-like styles */
 
 .info-dialog-content {
 	background-color: rgb(255, 255, 255);
-	max-height: 500px;
+	max-height: 600px;
 	min-height: 500px;
 	overflow-y: scroll;
+}
+
+ 
+
+.info-dialog-content > label {
+	width: 30%;
+    text-align: right;
+    padding-right: 20px;
 }
 
 summary {
@@ -32,7 +83,9 @@ span label {
 	font-size: 8pt;
 	white-space: nowrap;
 }
-
+.float-right{
+	float:right
+}
 .row-display {
 	display: table-cell;
 	white-space: nowrap;
@@ -44,12 +97,11 @@ summary:hover {
 }
 
 .boxOutPanel {
-	background-color: #b3b3b3;
+	background-color: #888;
 	border: 1px solid #e6e6e6;
 	border-radius: 5px;
 	padding: 10px;
 	margin: 10px;
-
 }
 
 .boxOutPanel table {
