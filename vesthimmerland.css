@@ -16,13 +16,13 @@
 }
 
 .item-label{
-	color:rgb(168,168,168);
-	margin-bottom: 2px;
+	color:rgb(57, 57, 57);
+	margin-bottom: 2px!important;
 }
 
 .item-value{
 	color: rgb(189, 189, 189);
-	margin-bottom: 8px;
+	margin-bottom: 8px!important;
 }
 
  
@@ -30,6 +30,7 @@
 	grid-column: 1 / 2;
 	padding-right: 10px;
 	font-size: 12px;
+	border-right: solid red 1px;
 }
 
 .col2 {
