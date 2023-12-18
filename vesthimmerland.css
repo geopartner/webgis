@@ -8,6 +8,7 @@
 	grid-template-columns: 8rem auto 10em auto;
 	align-items:center ;
 	grid-template-rows: auto;
+	font-size: 12px;
 	
 }
 .grid-item-left {
@@ -18,27 +19,31 @@
 .col1 {
 	grid-column: 1 / 2;
 	text-align: right;
-	margin-right: 8px;
+	padding-right: 10px;
+	font-size: 12px;
 }
 .col2 {
 	grid-column: 2 / 3;
 	text-align: left;
+	color: rgb(189, 189, 189);
 }
 
 .col3 {
 	grid-column: 3 / 4;
+	padding-right: 10px;
 	text-align: right;
-	margin-right: 8px;
 }
 
 .col4 {
 	grid-column: 4 / 5;
 	text-align: left;
-} *
+	color: rgb(189, 189, 189);
+} 
 
 
 .col-rest {
 	grid-column: 2 / 5;
+	color: rgb(189, 189, 189);
 }
 
 .allow-y-scroll {
