@@ -5,7 +5,7 @@
 
 .grid-container {
 	display: grid;
-	grid-template-columns: auto  auto;
+	grid-template-columns: 50%  50%;
 	align-items:center ;
 	grid-template-rows: auto;
 	font-size: 12px;
@@ -23,6 +23,7 @@
 .item-value{
 	color: rgb(189, 189, 189);
 	margin-bottom: 8px!important;
+	word-wrap: break-word;
 }
 
  
@@ -30,11 +31,12 @@
 	grid-column: 1 / 2;
 	padding-right: 10px;
 	font-size: 12px;
-	border-right: solid red 1px;
+	/* border-right: solid red 0.5px; */
 }
 
 .col2 {
 	grid-column: 2 / 3;
+	border-left:solid red 0.5px;
 	padding-left: 50px;
 }
 
