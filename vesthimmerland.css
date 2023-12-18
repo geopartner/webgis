@@ -31,12 +31,17 @@
 	grid-column: 1 / 2;
 	padding-right: 10px;
 	font-size: 12px;
+	border-right-width: thin;
+	border-right-color: red;
+	border-right-style: solid;
 	/* border-right: solid red 0.5px; */
 }
 
 .col2 {
 	grid-column: 2 / 3;
-	border-left:solid red 0.5px;
+	border-left-width: thin;
+	border-left-color: red;
+	border-left-style: solid;
 	padding-left: 50px;
 }
 
