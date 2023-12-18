@@ -17,7 +17,7 @@
         	"tag:dvg"
 	],
 	"cssFiles": [
-		"vesthimmerland_pumper.css"
+		"vesthimmerland.css"
 	],
 	"_aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a><br><p>Geopartners Webkortløsning der er solgt til mange af vores kunder, bliver udrullet til internt brug under navnet ’GP Kort’. Den første udgave indeholder en grundopsætning af lag der kan anvendes i dagligdagen. Sammen med udrulningen af GP Kort findes en online manual til rådighed på linket oven over.</p><p>Skulle du i løsningen savne adgang til lag, links eller funktioner, så opret en Sysaid på det. Der er mere end 400 eksterne lag tilgængeligt, så der er filtreret på forhånd. Måske mangler der lag som du er vant til at kigge, men det vil kunne aktiveres med din henvendelse.</p></p><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort, stedfæstede sager i kort, genveje til Docunote, ois, bbr mm.</p><p><b>Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
 	"enabledPrints": [
