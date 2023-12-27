@@ -3,6 +3,8 @@
 	overflow: auto;
 	border: 1px silver solid;
 	margin: 0 auto;
+	container-type: inline-size;
+	container-name: featureinfo;
 }
 
 /*--------------------------------------------------------------
@@ -13,13 +15,14 @@ Grid display smaller devices
 	align-items: center;
 	max-width: 300px;
 	font-size: 12px;
-	column-gap: 1px;
 }
 
 /* col1 forbeholdes info med line-break. Ellers virker right border ikke */
 .col1 {
+
 	width: 90%;
 	font-size: 12px;
+
 }
 
 .col2 {
@@ -68,11 +71,12 @@ Grid display for larger screens
 		color: rgb(189, 189, 189);
 	}
 }
+
 /*--------------------------------------------------------------
 Grid display when dialog is resized
 --------------------------------------------------------------*/
 
-@container (min-width: 50em) {
+@container featureinfo (min-width: 50em) {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 50% 50%;
