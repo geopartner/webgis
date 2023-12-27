@@ -1,5 +1,5 @@
 .leaflet-popup {
-	resize: vertical;
+	resize: horizontal;
 	overflow: auto;
 	border: 1px silver solid;
 	margin: 0 auto;
