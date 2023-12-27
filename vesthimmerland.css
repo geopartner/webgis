@@ -1,6 +1,6 @@
 .leaflet-popup {
 	resize: horizontal;
-	overflow: auto;
+	overflow-y: auto;
 	border: 1px silver solid;
 	margin: 0 auto;
 	container-type: inline-size; 
