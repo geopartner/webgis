@@ -1,7 +1,9 @@
 .leaflet-popup {
 	resize: horizontal;
 	border: 1px silver solid;
-	min-width: 250px;
+	overflow:auto;
+	
+	width: 500px;
 	margin: 0 auto;
 	container-type: inline-size; 
 	container-name: featureinfo;
@@ -18,10 +20,8 @@ Grid display smaller devices
 
 /* col1 forbeholdes info med line-break. Ellers virker right border ikke */
 .col1 {
-
 	width: 90%;
 	font-size: 12px;
-
 }
 
 .col2 {
@@ -142,7 +142,7 @@ Generel items for all devices
 	background-color: rgb(255, 255, 255);
 	max-height: 600px;
 	min-height: 500px;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
 
 
