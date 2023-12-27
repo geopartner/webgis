@@ -1,13 +1,4 @@
-/* .leaflet-popup {
-	resize: horizontal;
-	border: 1px silver solid;
-	overflow:auto;
-	width: 500px;
-	max-width: 700px;
-	margin: 0 auto;
-	container-type: inline-size; 
-	container-name: featureinfo;
-} */
+
 
 /*--------------------------------------------------------------
 Grid display smaller devices
@@ -35,6 +26,13 @@ Grid display smaller devices
 }
 .leaflet-popup-content-wrapper {
 	width: 300px;
+	resize: horizontal;
+	border: 1px silver solid;
+	overflow:auto;
+	max-width: 700px;
+	margin: 0 auto;
+	container-type: inline-size; 
+	container-name: featureinfo;
  } 
 
 /*--------------------------------------------------------------
