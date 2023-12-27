@@ -1,13 +1,13 @@
-.leaflet-popup {
+/* .leaflet-popup {
 	resize: horizontal;
 	border: 1px silver solid;
 	overflow:auto;
-	
 	width: 500px;
+	max-width: 700px;
 	margin: 0 auto;
 	container-type: inline-size; 
 	container-name: featureinfo;
-}
+} */
 
 /*--------------------------------------------------------------
 Grid display smaller devices
@@ -16,6 +16,7 @@ Grid display smaller devices
 	display: block;
 	align-items: center;
 	font-size: 12px;
+	width: 300px;
 }
 
 /* col1 forbeholdes info med line-break. Ellers virker right border ikke */
@@ -41,7 +42,7 @@ Grid display for larger screens
 @media screen and (min-width: 50em) {
 	.grid-container {
 		display: grid;
-		width: 100%;
+		width: 700px;
 		grid-template-columns: 50% 50%;
 		align-items: center;
 		grid-template-rows: auto;
