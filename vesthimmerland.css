@@ -71,7 +71,9 @@ Grid display for larger screens
 	}
 	/*   some changes regarding size of info-box */
    .leaflet-popup-content-wrapper {
-	  width: 500px;
+	width: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
    } 
 }
 
