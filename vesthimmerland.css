@@ -1,7 +1,7 @@
  .leaflet-popup {
 	resize: horizontal;
 	border: 1px silver solid;
-	container-type: inline-size; 
+ 	container-type: inline-size; 
 	container-name: featureinfo;
 } 
 
@@ -18,10 +18,14 @@ Grid display smaller devices
 /* col1 forbeholdes info med line-break. Ellers virker right border ikke */
 .col1 {
 	width: 90%;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 .col2 {
 	width: 90%;
+	padding-right: 8px;
+	padding-left: 8px;
 }
 
 
@@ -29,17 +33,7 @@ Grid display smaller devices
 	width: 90%;
 	color: rgb(189, 189, 189);
 }
-/* .leaflet-popup-content-wrapper {
-	width: 300px;
-	resize: horizontal;
-	border: 1px silver solid;
-
-	max-width: 700px;
-	margin: 0 auto;
-	container-type: inline-size; 
-	container-name: featureinfo;
- }  */
-
+ 
 /*--------------------------------------------------------------
 Grid display for larger screens
 --------------------------------------------------------------*/
@@ -58,7 +52,6 @@ Grid display for larger screens
 	/* col1 forbeholdes info med line-break. Ellers virker right border ikke */
 	.col1 {
 		grid-column: 1 / 2;
-		padding-right: 10px;
 		font-size: 12px;
 		border-right-width: thin;
 		border-right-color: red;
@@ -67,7 +60,7 @@ Grid display for larger screens
 
 	.col2 {
 		grid-column: 2 / 3;
-		padding-left: 50px;
+		padding-left: 10px;
 		font-size: 12px;
 	}
 
@@ -78,7 +71,7 @@ Grid display for larger screens
 	}
 	/*   some changes regarding size of info-box */
    .leaflet-popup-content-wrapper {
-	  width: 700px;
+	  width: 500px;
    } 
 }
 
@@ -152,7 +145,7 @@ Generel items for all devices
 	background-color: rgb(255, 255, 255);
 	max-height: 600px;
 	min-height: 500px;
-	/* overflow-y: scroll; */
+    overflow-y: scroll; 
 }
 
 
@@ -279,6 +272,7 @@ summary:hover {
 .info-tab-content {
 	display: none;
 	color: #000;
+	overflow-y: scroll;
 }
 
 /* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
