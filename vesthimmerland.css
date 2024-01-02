@@ -1,9 +1,9 @@
- .leaflet-popup {
+.leaflet-popup {
 	resize: horizontal;
 	border: 1px silver solid;
  	container-type: inline-size; 
 	container-name: featureinfo;
-}
+} 
 
 leaflet-popup-close-button {
     right: -24px;
@@ -75,9 +75,7 @@ Grid display for larger screens
 	}
 	/*   some changes regarding size of info-box */
    .leaflet-popup-content-wrapper {
-	width: 700px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+	width: 700px;	
    } 
 }
 
@@ -237,7 +235,7 @@ summary:hover {
 .info-tabbed {
 	overflow-x: hidden;
 	/* so we could easily hide the radio inputs */
-	margin: 32px 0;
+	margin-top: 16px;
 	padding-bottom: 16px;
 	border-bottom: 1px solid #ccc;
 }
@@ -278,7 +276,6 @@ summary:hover {
 .info-tab-content {
 	display: none;
 	color: #000;
-	overflow-y: scroll;
 }
 
 /* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
