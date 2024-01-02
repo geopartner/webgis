@@ -3,7 +3,11 @@
 	border: 1px silver solid;
  	container-type: inline-size; 
 	container-name: featureinfo;
-} 
+}
+
+leaflet-popup-close-button {
+    right: -24px;
+}
 
 /*--------------------------------------------------------------
 Grid display smaller devices
