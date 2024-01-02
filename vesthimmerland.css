@@ -45,6 +45,7 @@ Grid display for larger screens
 		grid-column: 1 / 2;
 		font-size: 12px;
 		background-image: linear-gradient(to left, rgb(255, 0, 0) 1px, transparent 1px);
+		min-height: 40px;
 	}
 
 	.col2 {
