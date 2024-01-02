@@ -205,9 +205,9 @@ summary:hover {
 	margin-left: 1em;
 }
 
-/* .leaflet-popup-content {
-	width: 670px !important;
-} */
+.leaflet-popup-content {
+	width: 550px !important;
+} 
 
 /* .alternative-info-container-right {
 	width: 550px;
