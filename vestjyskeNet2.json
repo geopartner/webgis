@@ -1,8 +1,8 @@
 {
 	"schemata": [
 		"el",
-		"dktl",
-		"ejerkort"
+		"_dktl",
+		"_ejerkort"
 	],
 	"brandName": "Vestjyske Net",
 	"enabledExtensions": [
