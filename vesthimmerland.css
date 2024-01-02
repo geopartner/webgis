@@ -23,7 +23,7 @@ Grid display smaller devices
 
 
 .col-all {
-	width: 90%;
+	width: 100%;
 	color: rgb(189, 189, 189);
 }
 
@@ -34,7 +34,7 @@ Grid display for larger screens
 @media screen and (min-width: 50em) {
 	.grid-container {
 		display: grid;
-		width: 600px;
+		width: 550px;
 		grid-template-columns: 50% 50%;
 		align-items: center;
 		grid-template-rows: auto;
@@ -43,7 +43,6 @@ Grid display for larger screens
 
 	.col1 {
 		grid-column: 1 / 2;
-		font-size: 12px;
 		background-image: linear-gradient(to left, rgb(255, 0, 0) 1px, transparent 1px);
 		min-height: 40px;
 	}
@@ -51,8 +50,7 @@ Grid display for larger screens
 	.col2 {
 		grid-column: 2 / 3;
 		padding-left: 10px;
-		font-size: 12px;
-	}
+ 	}
 
 
 	.col-all {
@@ -202,9 +200,6 @@ summary:hover {
 	resize: none;
 	overflow-y: auto;
 }
-
-
-
 
 .popup-title {
 	margin-left: 1em;
