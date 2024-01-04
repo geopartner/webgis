@@ -10,7 +10,7 @@
       {
         "name": "overview",
         "db": "vandvaerker",
-        "host": "https://mapgogc2test.geopartner.dk",
+        "host": "https://mapgogc2.geopartner.dk",
         "heading": "Løsning",
         "index": {
           "name": "public/overview",
