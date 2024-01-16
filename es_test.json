@@ -1,0 +1,28 @@
+{
+  "brandName": "Elastic test",
+
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "size": 4,
+    "placeholderText": "Søg adresse, matrikel eller kundenavn",
+    "extraSearches": [
+      {
+        "name": "overview",
+        "db": "vandvaerker",
+        "host": "https://mapgogc2.geopartner.dk",
+        "heading": "Løsning",
+        "index": {
+          "name": "public/overview",
+          "field": "navn",
+          "key": "gid"
+        },
+        "relation": {
+          "name": "public.overview",
+          "key": "gid",
+          "geom": "the_geom"
+        }
+      }
+    ]
+  }
+}

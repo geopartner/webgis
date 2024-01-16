@@ -1,8 +1,8 @@
 {
    "schemata": [
          "edc_videbaek",
-	 "dktl",
-         "ejerfortegnelse",
+	 "_dktl",
+         "_ejerfortegnelse",
          "gc2_io_dk_danmarksarealinformation",
          "gc2_io_dk_distrikter",
          "gc2_io_dk_dkjord",
