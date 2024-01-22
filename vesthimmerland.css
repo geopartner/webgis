@@ -154,6 +154,7 @@ summary:hover {
 	border-radius: 5px;
 	padding: 10px;
 	margin: 10px;
+	min-width: 95%;
 }
 
 
