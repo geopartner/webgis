@@ -27,6 +27,9 @@ Grid display smaller devices
 	color: rgb(189, 189, 189);
 }
 
+.leaflet-popup-content {
+	width: 260px !important;
+} 
 /*--------------------------------------------------------------
 Grid display for larger screens
 --------------------------------------------------------------*/
@@ -58,10 +61,10 @@ Grid display for larger screens
 		color: rgb(189, 189, 189);
 	}
 
-	/*   some changes regarding size of info-box */
-	/* .leaflet-popup-content-wrapper {
-		width: 700px;
-	} */
+	.leaflet-popup-content {
+		width: 520px !important;
+	} 
+	
 }
 
 /*--------------------------------------------------------------
@@ -205,13 +208,8 @@ summary:hover {
 	margin-left: 1em;
 }
 
-.leaflet-popup-content {
-	width: 550px !important;
-} 
 
-/* .alternative-info-container-right {
-	width: 550px;
-} */
+ 
 
 /* Then some settings regardign the TABs itself */
 .info-tabbed {
