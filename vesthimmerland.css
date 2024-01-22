@@ -37,6 +37,7 @@ Grid display for larger screens
 @media screen and (min-width: 50em) {
 	.grid-container {
 		display: grid;
+		width: 520px;
 		grid-template-columns: 50% 50%;
 		align-items: center;
 		grid-template-rows: auto;
