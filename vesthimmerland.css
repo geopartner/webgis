@@ -37,7 +37,6 @@ Grid display for larger screens
 @media screen and (min-width: 50em) {
 	.grid-container {
 		display: grid;
-		width: 550px;
 		grid-template-columns: 50% 50%;
 		align-items: center;
 		grid-template-rows: auto;
@@ -99,7 +98,7 @@ Generel items for all devices
 .info-dialog-content {
 	background-color: rgb(255, 255, 255);
 	max-height: 600px;
-	min-height: 520px;
+	/* min-height: 520px; */
 	overflow-y: auto;
 }
 
