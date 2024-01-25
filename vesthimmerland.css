@@ -148,8 +148,11 @@ summary:hover {
 	cursor: pointer;
 }
 
+/*
+background-color: #888; 
+*/
+
 .boxOutPanel {
-	background-color: #888; 
 	border: 1px solid #a7a7a7;
 	border-radius: 5px;
 	padding: 10px;
