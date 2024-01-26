@@ -72,7 +72,7 @@ Grid display for larger screens
 Generel items for all devices
 --------------------------------------------------------------*/
 
-.form-control select  {
+.form-control > select  {
   background-image:
     linear-gradient(45deg, transparent 50%, gray 50%),
     linear-gradient(135deg, gray 50%, transparent 50%),
