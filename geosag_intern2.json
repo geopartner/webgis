@@ -139,17 +139,17 @@
 
 		{
 			"type": "wms",
-			"url": "/api/dataforsyningen/dhm_DAF&TRANSPARENT=TRUE",
-			"layers": [
-				"dhm_kurve_traditionel"
-			],
+			"url": "/api/dataforsyningen/dhm_DAF",
+			"layers": [ "dhm_kurve_traditionel" ],
 			"id": "dhm_kurve_traditionel",
-			"name": "Kurver 2,5 m ækvidistance -3",
+			"name": "Kurver 2,5 m ækvidistance -4",
 			"description": "DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
+			"minZoom": 8,
 			"maxZoom": 22,
-			"maxNativeZoom": 20
+			"maxNativeZoom": 20,
+			"transparent": true
 		},
 
 		
