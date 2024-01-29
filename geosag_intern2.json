@@ -142,11 +142,11 @@
 				"dhm_kurve_traditionel"
 			],
 			"id": "dhm_kurve_traditionel",
-			"name": "Kurver 2,5 m ækvidistance -6",
+			"name": "Kurver 2,5 m ækvidistance -8",
 			"description": "Kurverne er afledt fra Danmarks Højdemodel og beregnet til at give et overblik over terrænformer i et ca. målforhold på 1:25.000. Der er udeladt mange detaljer og antallet af punkter i de enkelte kurver er reduceret.",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-			"minZoom": 8,
+			"minZoom": 14,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": true
@@ -162,7 +162,7 @@
 			"description": "Kurverne er afledt fra Danmarks Højdemodel og beregnet til visning i et målforhold omkring 1:5.000, der er udeladt mindre detaljer og fjernet punkter.",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-			"minZoom": 8,
+			"minZoom": 17,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": true
@@ -178,7 +178,7 @@
 			"description": "Kurverne er afledt fra Danmarks Højdemodel og beregnet så der gengives flest mulige detaljer fra højdemodellen.",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-			"minZoom": 8,
+			"minZoom": 18,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": true
@@ -190,11 +190,11 @@
 				"dhm_overflade_skyggekort"
 			],
 			"id": "dhm_overflade_skyggekort",
-			"name": "Kurver 2,5 m ækvidistance -5",
+			"name": "DHM/Overflade_skyggekort",
 			"description": "DHM/Overflade_skyggekort er et afledt produkt af DHM/Overflade.",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Den 3-dimensionelle virkning fremkommer ved at simulere en lyskilde fra en nordvestlig retning og beregner hvilke områder, der ligger i lys eller skygge og hvor meget.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-			"minZoom": 8,
+			"minZoom": 7,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": true
@@ -206,11 +206,11 @@
 				"dhm_terraen_skyggekort"
 			],
 			"id": "dhm_terraen_skyggekort",
-			"name": "Kurver 2,5 m ækvidistance -5",
+			"name": "DHM/Terræn_skyggekort",
 			"description": "DHM/Terræn_skyggekort er et afledt produkt af DHM/Terræn.",
 			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
 			"abstract": "<p>Den 3-dimensionelle virkning fremkommer ved at simulere en lyskilde fra en nordvestlig retning og beregner hvilke områder, der ligger i lys eller skygge og hvor meget.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-			"minZoom": 8,
+			"minZoom": 7,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
 			"transparent": true
