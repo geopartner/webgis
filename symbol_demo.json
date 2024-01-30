@@ -1,6 +1,7 @@
 {
-    "brandName": "Symboldemo",
+    "brandName": "Skilteplan",
     "enabledExtensions": ["symbols"],
+    "title": "Skilteplan, Geopartner A/S",
     "extensionConfig": {
       "symbols": {
         "files": [
