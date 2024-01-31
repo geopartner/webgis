@@ -29,12 +29,11 @@
   "searchConfig": {
     "komkode": ["510"],
     "size": 4,
-    "placeholderText": "Søg adresse, matrikel eller kundenavn",
+    "placeholderText": "Søg adresse, matrikel eller knude",
     "extraSearches": [
       {
         "name": "ddg_knude",
         "db": "provas",
-        "host": "https://mapgogc2.geopartner.dk",
         "heading": "DANDAS - Knude",
         "index": {
           "name": "dandas/ddg_knude",
