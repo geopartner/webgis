@@ -181,6 +181,7 @@ if __name__ == "__main__":
             exit(1)
     except Exception as e:
         print(f"Error: {e}")
+        print(f"Error in config: {cfg}")
         exit(1)
 
     # Check if all templates are valid
@@ -192,4 +193,5 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"Error: {e}")
+        print(f"Error in template: {tmpl}")
         exit(1)
