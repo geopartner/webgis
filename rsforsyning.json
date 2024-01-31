@@ -186,5 +186,5 @@
 			"transparent": false
 		}
 	],
-	"initFunction": "function(){if (navigator.serviceWorker.controller) {navigator.serviceWorker.controller.postMessage({action: `addUrlIgnoredForCaching`,payload: `jsonplaceholder.typicode`});setTimeout(() => {fetch('arkiv01.forsyning.lan').then(() => {}).then(() => {});}, 3000);} else {throw new Error(`Unable to invoke the service worker controller`);}}"
+	"initFunction": "function(){if (navigator.serviceWorker.controller) {navigator.serviceWorker.controller.postMessage({action: `addUrlIgnoredForCaching`,payload: `arkiv01.forsyning.lan`});setTimeout(() => {fetch('arkiv01.forsyning.lan').then(() => {}).then(() => {});}, 3000);} else {throw new Error(`Unable to invoke the service worker controller`);}}"
 }
