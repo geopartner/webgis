@@ -190,5 +190,5 @@
 	"cssFiles": [
 		"video_full_width.css"
 	],
-	"featureInfoTableOnMap": false
+	"featureInfoTableOnMap": true
 }
