@@ -27,10 +27,28 @@
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
 	"searchConfig": {
-		"size": 15,
+		"size": 5,
 		"esrSearchActive": true,
 		"sfeSearchActive": true,
-		"advanced": false
+		"advanced": false,
+		"placeholderText": "Søg adresse, matrikel, esr, bfe eller sagsnummer",
+		"extraSearches": [
+		  {
+			"name": "cases",
+			"db": "geosag",
+			"heading": "Sagsnummer",
+			"index": {
+			  "name": "public/cases",
+			  "field": "sagsnummer",
+			  "key": "gid"
+			},
+			"relation": {
+			  "name": "public.cases",
+			  "key": "gid",
+			  "geom": "the_geom"
+			}
+		  }
+		]
 	},
 	"extensionConfig": {
 		"session": {
