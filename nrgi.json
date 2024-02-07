@@ -9,7 +9,7 @@
         "session"
     ],
     "showLayerGroupCheckbox": true,
-    "aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect - dokumentation</a><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
+    "aboutBox": "<h1>Velkommen</h1><br>To be completed...<br>",
     "enabledPrints": [
         "vandvaerk2"
     ],
