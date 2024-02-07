@@ -32,16 +32,31 @@
     "placeholderText": "Søg adresse, matrikel eller knude",
     "extraSearches": [
       {
-        "name": "ddg_knude",
+        "name": "dandas.gp_knude_ler",
         "db": "provas",
-        "heading": "DANDAS - Knude",
+        "heading": "Knude - DanDas",
         "index": {
-          "name": "dandas/ddg_knude",
+          "name": "dandas/gp_knude_ler",
           "field": "knudenavn",
           "key": "ogc_fid"
         },
         "relation": {
-          "name": "dandas.ddg_knude",
+          "name": "dandas.gp_knude_ler",
+          "key": "ogc_fid",
+          "geom": "the_geom"
+        }
+      },
+      {
+        "name": "danvand.gp_komponent_pkt_ler",
+        "db": "provas",
+        "heading": "Knude - DanVand",
+        "index": {
+          "name": "danvand/gp_komponent_pkt_ler",
+          "field": "knudenavn",
+          "key": "ogc_fid"
+        },
+        "relation": {
+          "name": "danvand.gp_komponent_pkt_ler",
           "key": "ogc_fid",
           "geom": "the_geom"
         }
