@@ -32,7 +32,7 @@
     "placeholderText": "Søg adresse, matrikel eller knude",
     "extraSearches": [
       {
-        "name": "dandas.gp_knude_ler",
+        "name": "dandas_gp_knude_ler",
         "db": "provas",
         "heading": "Knude - DanDas",
         "index": {
@@ -47,7 +47,7 @@
         }
       },
       {
-        "name": "danvand.gp_komponent_pkt_ler",
+        "name": "danvand_gp_komponent_pkt_ler",
         "db": "provas",
         "heading": "Knude - DanVand",
         "index": {
