@@ -1,5 +1,8 @@
 #startup-message-modalLabel,
 #burger-btn,
+#about-btn,
+#mapcontrols-history-forward,
+#mapcontrols-history-backward,
 #about-modalLabel {
     visibility: hidden;
 }
