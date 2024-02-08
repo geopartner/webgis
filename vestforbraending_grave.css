@@ -1,0 +1,5 @@
+#startup-message-modalLabel,
+.burger-btn,
+#about-modalLabel {
+    visibility: hidden;
+}
