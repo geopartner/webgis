@@ -15,7 +15,8 @@
 		"matrikel_datahub",
 		"ledninger",
 		"mim_pg_noise",
-		"dhm"
+		"dhm",
+		"forvaltning2"
 	],
 	"_schemata": [
 		"geofa"
