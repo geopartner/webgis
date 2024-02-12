@@ -14,7 +14,8 @@
 		"bbr",
 		"matrikel_datahub",
 		"ledninger",
-		"mim_pg_noise"
+		"mim_pg_noise",
+		"dhm"
 	],
 	"_schemata": [
 		"geofa"
