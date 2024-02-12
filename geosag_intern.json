@@ -15,7 +15,7 @@
 		"matrikel_datahub",
 		"ledninger"
 	],
-	"schemata": [
+	"_schemata": [
 		"geofa"
 	],
 	"cssFiles": [
