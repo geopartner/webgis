@@ -13,7 +13,8 @@
 		"ler_aws",
 		"bbr",
 		"matrikel_datahub",
-		"ledninger"
+		"ledninger",
+		"mim_pg_noise"
 	],
 	"_schemata": [
 		"geofa"
