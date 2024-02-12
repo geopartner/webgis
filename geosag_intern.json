@@ -13,8 +13,10 @@
 		"ler_aws",
 		"bbr",
 		"matrikel_datahub",
-		"geofa",
 		"ledninger"
+	],
+	"schemata": [
+		"geofa"
 	],
 	"cssFiles": [
 		"geosag_intern.css"
