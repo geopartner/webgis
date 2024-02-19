@@ -53,6 +53,7 @@
         "index": {
           "name": "danvand/knude_es",
           "field": "text_search",
+          "suffix_field": "suffix",
           "key": "ogc_fid"
         },
         "relation": {
