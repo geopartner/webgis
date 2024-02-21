@@ -89,7 +89,12 @@ Generel items for all devices
 	word-wrap: break-word;
 }
 
-
+.item-value-multiline {
+	border: 1px solid #a7a7a7;
+}
+.item-value-multiline:empty {
+	border: none;
+}
 
 .allow-y-scroll {
 	overflow-y: scroll;
