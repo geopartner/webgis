@@ -171,7 +171,6 @@
       "transparent": false
     }
   ],
-  "initFunction": "function(){navigator.serviceWorker.controller.postMessage({action: `addUrlIgnoredForCaching`,payload: `arkiv01.forsyning.lan`}); fetch('https://arkiv01.forsyning.lan/kloakfilm/B%C3%B8lling/Projects/B%C3%B8lling/Video/').then(() => {console.log('ok')}).catch((e) => {throw new Error(`Der er ikke adgang til arkiv01`);})}",
   "leftSlideWidths": [300, 400, 550],
   "cssFiles": ["video_full_width.css"],
   "featureInfoTableOnMap": true
