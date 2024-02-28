@@ -6,7 +6,115 @@
   "extensionConfig": {
 		"graveAssistent": {
       			"schema": "graveassistent_vmr"
-    		}
+    		},
+        "documentCreate": {
+            "GC2key": "446be0f3af69b565ac769b78773fb892",
+            "GC2user": "vmr",
+            "maxZoom": 19,
+            "metaTag": "documentCreate",
+            "fileIdentCol": "fileident",
+            "defaulttable": "vmr.vw_spildevand",
+            "tables": [
+                {
+                    "table": "vw_spildevand",
+                    "cosmeticbackgroundlayer": "vmr.spildevand_wms_niras",
+                    "docunotecaseutilitytype": "Spildevand",
+                    "optional": [],
+                    "defaults": {
+                        "henvendelsesdato": "_DATETIME",
+                        "sagsstatus": "Ny",
+                        "forsyningstype": "Spildevand",
+                        "adresse": "_SEARCH",
+                        "adgangsadresseid": "1",
+                        "adresseid": "1",
+                        "esrnr": "1",
+                        "vejret": "2",
+                        "tilbagemelding": "2",
+                        "bfenr": "1"
+                    },
+                    "hidden": [
+                        "lat",
+                        "lng",
+                        "henvendelsesdato",
+                        "prioritet",
+                        "problemtype",
+                        "ejendomstype",
+                        "vejret",
+                        "anmeldertype",
+                        "kontaktperson",
+                        "sagsnavn",
+                        "ansvarlig",
+                        "adresse",
+                        "forsyningstype",
+                        "sagsstatus",
+                        "adgangsadresseid",
+                        "adresseid",
+                        "esrnr",
+                        "casenumber",
+                        "kontakt_tele",
+                        "kontakt_mail",
+                        "fileident",
+                        "tilbagemelding",
+                        "bfenr"
+                    ],
+                    "geom_ext": {
+                        "x": "lat",
+                        "y": "lng"
+                    },
+                    "filterCol": "adresse",
+                    "filterExp": "="
+                },
+                {
+                    "table": "vw_vand",
+                    "cosmeticbackgroundlayer": "vmr.vand_wms_niras",
+                    "docunotecaseutilitytype": "Vand",
+                    "optional": [],
+                    "defaults": {
+                        "henvendelsesdato": "_DATETIME",
+                        "sagsstatus": "Ny",
+                        "forsyningstype": "Vand",
+                        "adresse": "_SEARCH",
+                        "adgangsadresseid": "1",
+                        "adresseid": "1",
+                        "esrnr": "1",
+                        "vejret": "2",
+                        "tilbagemelding": "2",
+                        "bfenr": "1"
+                    },
+                    "hidden": [
+                        "lat",
+                        "lng",
+                        "henvendelsesdato",
+                        "prioritet",
+                        "problemtype",
+                        "ejendomstype",
+                        "vejret",
+                        "anmeldertype",
+                        "kontaktperson",
+                        "sagsnavn",
+                        "ansvarlig",
+                        "adresse",
+                        "forsyningstype",
+                        "sagsstatus",
+                        "adgangsadresseid",
+                        "adresseid",
+                        "esrnr",
+                        "casenumber",
+                        "kontakt_tele",
+                        "kontakt_mail",
+                        "fileident",
+                        "tilbagemelding",
+                        "bfenr"
+                    ],
+                    "geom_ext": {
+                        "x": "lat",
+                        "y": "lng"
+                    },
+                    "filterCol": "adresse",
+                    "filterExp": "="
+                }
+            ]
+        }
 	},
   "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
   "df": {
@@ -77,7 +185,7 @@
     }
   ],
   "enabledPrints": ["vandvaerk2"],
-  "enabledExtensions": ["graveAssistent", "session"],
+  "enabledExtensions": ["documentCreate", "graveAssistent", "session"],
   "searchConfig": {
     "size": 20,
     "komkode": ["710", "730", "791", "846"],
