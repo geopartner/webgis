@@ -1,38 +1,44 @@
 {
-	"schemata": [
-		"public",
-		"ler2"
-	],
-	"brandName": "SDU",
-	"enabledPrints": [
-		"sdu"
-	],
-	"_activeLayers": [
-		"bomiva.andenledning",
-		"bomiva.andenkomponent_pkt"
-	],
-	"enabledExtensions": [
-		"streetView",
-		"coordinates",
-		"editor",
-		"session"
-	],
-	"extensionConfig": {
-		"session": {
-			"autoLogin": true,
-			"autoLoginMaxAge": 630720000000
-		}
-	},
-	"showLayerGroupCheckbox": true,
-	"popupDraggable": false,
-	"searchModules": [
-		"google",
-		"danish"
-	],
-	"enabledSearch": "danish",
-	"_searchConfig": {
-		"komkode": [
-			"779"
-		]
-	}
+    "schemata": [
+        "public",
+        "ler2"
+    ],
+    "brandName": "SDU",
+    "enabledPrints": [
+        "sdu"
+    ],
+    "_activeLayers": [
+        "bomiva.andenledning",
+        "bomiva.andenkomponent_pkt"
+    ],
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "editor",
+        "session"
+    ],
+    "extensionConfig": {
+        "streetView": {
+            "ignorelist": [
+                "mapillary",
+                "cowi"
+            ]
+        },
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        }
+    },
+    "showLayerGroupCheckbox": true,
+    "popupDraggable": false,
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish",
+    "_searchConfig": {
+        "komkode": [
+            "779"
+        ]
+    }
 }
