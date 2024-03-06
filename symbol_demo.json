@@ -11,7 +11,7 @@
             "desc": "Her lægges skilte til advarsler"
           },
             {
-            "file": "symbols_demo_B.json",
+            "file": "symbols_demo_b.json",
             "title": "DM&E",
             "desc": "Her lægges skilte fra import fra DM&E skiltemodul"
           },
