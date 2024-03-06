@@ -10,6 +10,11 @@
             "title": "Advarsler",
             "desc": "Her lægges skilte til advarsler"
           },
+            {
+            "file": "symbols_demo_B.json",
+            "title": "DM&E",
+            "desc": "Her lægges skilte fra import fra DM&E skiltemodul"
+          },
           {
               "file": "symbols_demo_E.json",
               "title": "Motorvej",
