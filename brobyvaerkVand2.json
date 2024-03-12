@@ -1,35 +1,34 @@
-{    
-    "brandName": "Brobyværk Andelsvandværk",
-    "enabledPrints": [
-      "vandvaerk_brobyvaerk2"
-    ],
-    "enabledExtensions": [
-      "streetView",
-      "coordinates",
-      "editor",
-        "session"
-    ],
-    "enabledSearch":"danish"
-    ,
-    "searchConfig": {
-      "komkode": [
-        "430",
-        "420"
-      ]
-    },
-    "baseLayers":[
-        {
-         "id":"geodk.bright",
-         "name":"Topografisk kort",
-         "db":"baselayers", 
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
+{
+	"brandName": "Brobyværk Andelsvandværk",
+	"enabledPrints": [
+		"vandvaerk_brobyvaerk2"
+	],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"editor",
+		"session"
+	],
+	"enabledSearch": "danish",
+	"searchConfig": {
+		"komkode": [
+			"430",
+			"420"
+		]
+	},
+	"baseLayers": [
+		{
+			"id": "geodk.bright",
+			"name": "Topografisk kort",
+			"db": "baselayers",
+			"host": "https://dk.gc2.io",
+			"abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+			"config": {
+				"maxZoom": 21,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+			}
+		},
 		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/forvaltning2",
@@ -49,7 +48,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
@@ -76,145 +75,145 @@
 			"maxNativeZoom": 22,
 			"transparent": false
 		},
-      {
-        "type": "wms",
-        "url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=4aacd5977eb46ca012c260ecb608c65c",
-        "layers": [
-            "Basis_ortofoto"
-        ],
-        "id": "Luftfoto_nyeste",
-        "name":"Luftfoto nyeste",
-        "description": "Luftfotokort fra kortforsyningen",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract":"<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 22,
-        "maxNativeZoom": 20,
-            "_overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                }
-            ]
-        },      
-        {
-         "id":"luftfotoserier.geodanmark_2018_12_5cm",
-         "name":"Luftfoto 2018",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2018 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         },
-            "overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                }
-            ]
-      },
-      {
-         "id":"luftfotoserier.geodanmark_2017_12_5cm",
-         "name":"Luftfoto 2017",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2017 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         },
-            "overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                }
-            ]
-      },
-      {
-         "id": "kortforsyningen.dtk_skaermkort_daempet",
-         "name":"Skærmkort - dæmpet",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Skærmkort, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering."
-         }
-      },
-       {
-        "type": "wms",
-        "url": "/api/datafordeler/DKtopokort/dtk_25/1.0.0/WMS",
-        "layers": [
-            "dtk25"
-        ],
-        "id": "DTK_Kort25",
-        "name": "Klassisk 4cm kort",
-        "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-        "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
-        "minZoom": 4,
-        "maxZoom": 24,
-        "maxNativeZoom": 20
-      },
-      {
-        "type": "wms",
-        "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-        "layers": [
-          "geodanmark_2020_12_5cm"
-        ],
-        "id": "geodanmark_2020_12_5cm_Test",
-        "name": "TEST geodanmark_2020_12_5cm",
-        "description": "geodanmark_2020_12_5cm",
-        "attribution": "Styrelsen for Dataforsyning og Effektivisering",
-        "minZoom": 8,
-        "maxZoom": 22,
-        "maxNativeZoom": 22,
-        "transparent": true
-      }
-	    ]
-  }
+		{
+			"type": "wms",
+			"url": "https://services.kortforsyningen.dk/service?SERVICENAME=forvaltning2&token=4aacd5977eb46ca012c260ecb608c65c",
+			"layers": [
+				"Basis_ortofoto"
+			],
+			"id": "Luftfoto_nyeste",
+			"name": "Luftfoto nyeste",
+			"description": "Luftfotokort fra kortforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 22,
+			"maxNativeZoom": 20,
+			"_overlays": [
+				{
+					"id": "public.mvw_adgangsadresser",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				},
+				{
+					"id": "public.mvw_vejnavne",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				}
+			]
+		},
+		{
+			"id": "luftfotoserier.geodanmark_2018_12_5cm",
+			"name": "Luftfoto 2018",
+			"db": "baselayers",
+			"host": "https://dk.gc2.io",
+			"abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2018 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
+			"config": {
+				"maxZoom": 21,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+			},
+			"overlays": [
+				{
+					"id": "public.mvw_adgangsadresser",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				},
+				{
+					"id": "public.mvw_vejnavne",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				}
+			]
+		},
+		{
+			"id": "luftfotoserier.geodanmark_2017_12_5cm",
+			"name": "Luftfoto 2017",
+			"db": "baselayers",
+			"host": "https://dk.gc2.io",
+			"abstract": "<p>Oprettede luftfoto (ortofoto) marts/april 2017 (12,5 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
+			"config": {
+				"maxZoom": 21,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+			},
+			"overlays": [
+				{
+					"id": "public.mvw_adgangsadresser",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				},
+				{
+					"id": "public.mvw_vejnavne",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				}
+			]
+		},
+		{
+			"id": "kortforsyningen.dtk_skaermkort_daempet",
+			"name": "Skærmkort - dæmpet",
+			"db": "baselayers",
+			"host": "https://dk.gc2.io",
+			"abstract": "<p>Skærmkort, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
+			"config": {
+				"maxZoom": 21,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering."
+			}
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/DKtopokort/dtk_25/1.0.0/WMS",
+			"layers": [
+				"dtk25"
+			],
+			"id": "DTK_Kort25",
+			"name": "Klassisk 4cm kort",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"geodanmark_2020_12_5cm"
+			],
+			"id": "geodanmark_2020_12_5cm_Test",
+			"name": "TEST geodanmark_2020_12_5cm",
+			"description": "geodanmark_2020_12_5cm",
+			"attribution": "Styrelsen for Dataforsyning og Effektivisering",
+			"minZoom": 8,
+			"maxZoom": 22,
+			"maxNativeZoom": 22,
+			"transparent": true
+		}
+	]
+}

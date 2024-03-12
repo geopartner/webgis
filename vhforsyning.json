@@ -12,9 +12,9 @@
 		"gc2_io_dk_geodanmark",
 		"gc2_io_dk_plandatadk",
 		"gc2_io_dk_kulturarvsstyrelsen",
-        	"tag:ddg",
-        	"tag:dvg"
-	], 
+		"tag:ddg",
+		"tag:dvg"
+	],
 	"cssFiles": [
 		"vesthimmerland.css"
 	],
@@ -27,20 +27,20 @@
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
 	"removeDisabledLayersFromLegend": true,
-	    "searchConfig": {
-	        "size": 10,
-		"placeholderText":"Søg adresse, matrikel eller ejendomsnummer",
-	        "komkode": [
-	            "820",
-	            "846",
-	            "849",
-	            "840"
-	        ],
-	        "esrSearchActive": true,
-	        "sfeSearchActive": true,
-	        "advanced": false,
-	        "sortByScore": true
-	    },
+	"searchConfig": {
+		"size": 10,
+		"placeholderText": "Søg adresse, matrikel eller ejendomsnummer",
+		"komkode": [
+			"820",
+			"846",
+			"849",
+			"840"
+		],
+		"esrSearchActive": true,
+		"sfeSearchActive": true,
+		"advanced": false,
+		"sortByScore": true
+	},
 	"extensionConfig": {
 		"_session": {
 			"autoLogin": true,
@@ -161,7 +161,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",

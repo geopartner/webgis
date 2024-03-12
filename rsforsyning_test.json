@@ -157,7 +157,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
@@ -186,7 +186,11 @@
 		}
 	],
 	"initFunction": "function(){if (navigator.serviceWorker.controller) {navigator.serviceWorker.controller.postMessage({action: `addUrlIgnoredForCaching`,payload: `arkiv01.forsyning.lan`});setTimeout(() => {fetch('https://arkiv01.forsyning.lan/kloakfilm/B%C3%B8lling/Projects/B%C3%B8lling/Video/').then(() => {}).then(() => {});}, 3000);} else {throw new Error(`Unable to invoke the service worker controller`);}}",
-	"leftSlideWidths": [300, 400, 550],
+	"leftSlideWidths": [
+		300,
+		400,
+		550
+	],
 	"cssFiles": [
 		"video_full_width.css"
 	],

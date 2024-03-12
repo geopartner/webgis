@@ -1,17 +1,17 @@
 {
-  "baseLayers": [
-    {
-         "id":"geodk.bright",
-         "name":"Topografisk kort",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
-         "config":{
-            "maxZoom":21,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
+	"baseLayers": [
+		{
+			"id": "geodk.bright",
+			"name": "Topografisk kort",
+			"db": "baselayers",
+			"host": "https://dk.gc2.io",
+			"abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+			"config": {
+				"maxZoom": 21,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+			}
+		},
 		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/forvaltning2",
@@ -31,7 +31,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/Matrikel/MatrikelGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
@@ -59,7 +59,7 @@
 			"transparent": false
 		},
 		{
-			"type": "wms",		
+			"type": "wms",
 			"url": "/api/dataforsyningen/forvaltning2",
 			"layers": [
 				"Basis_ortofoto"
@@ -72,8 +72,8 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
-        {
-			"type": "wms",		
+		{
+			"type": "wms",
 			"url": "/api/dataforsyningen/orto_foraar_temp",
 			"layers": [
 				"quickorto"
@@ -85,63 +85,62 @@
 			"abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
 			"maxZoom": 22,
 			"maxNativeZoom": 20
-        },
-    {
-        "id": "havnedemo.aabenraa_2017",
-        "name": "Aabenraa havn 2017",
-        "db": "demo",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 26,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; Sensorsurvey"
-        }
-      },
-    {
-        "id": "havnedemo.roenne_210521_rev0",
-        "name": "Rønne havn, Maj 2021",
-        "db": "demo",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 26,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; Sensorsurvey"
-        }
-      },
-    {
-        "id": "havnedemo.roenne_060821_rev0",
-        "name": "Rønne havn, August 2021",
-        "db": "demo",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 26,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; Sensorsurvey"
-        }
-      },
-    {
-        "id": "havnedemo.roenne_140921_rev0",
-        "name": "Rønne havn, September 2921",
-        "db": "demo",
-        "host": "https://mapgogc2.geopartner.dk",
-        "config": {
-          "maxZoom": 26,
-          "maxNativeZoom": 19,
-          "attribution": "&copy; Sensorsurvey"
-        }
-      }
-  ],
-  "brandName": "HavneDemo",
-  "enabledPrints": [
-    "vandvaerk2"
-  ],
-  "searchConfig": {
-  },
-  "enabledExtensions": [
-    "streetView",
-    "layerSearch",
-    "coordinates",
-    "session",
-    "editor"
-  ]
+		},
+		{
+			"id": "havnedemo.aabenraa_2017",
+			"name": "Aabenraa havn 2017",
+			"db": "demo",
+			"host": "https://mapgogc2.geopartner.dk",
+			"config": {
+				"maxZoom": 26,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Sensorsurvey"
+			}
+		},
+		{
+			"id": "havnedemo.roenne_210521_rev0",
+			"name": "Rønne havn, Maj 2021",
+			"db": "demo",
+			"host": "https://mapgogc2.geopartner.dk",
+			"config": {
+				"maxZoom": 26,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Sensorsurvey"
+			}
+		},
+		{
+			"id": "havnedemo.roenne_060821_rev0",
+			"name": "Rønne havn, August 2021",
+			"db": "demo",
+			"host": "https://mapgogc2.geopartner.dk",
+			"config": {
+				"maxZoom": 26,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Sensorsurvey"
+			}
+		},
+		{
+			"id": "havnedemo.roenne_140921_rev0",
+			"name": "Rønne havn, September 2921",
+			"db": "demo",
+			"host": "https://mapgogc2.geopartner.dk",
+			"config": {
+				"maxZoom": 26,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Sensorsurvey"
+			}
+		}
+	],
+	"brandName": "HavneDemo",
+	"enabledPrints": [
+		"vandvaerk2"
+	],
+	"searchConfig": {},
+	"enabledExtensions": [
+		"streetView",
+		"layerSearch",
+		"coordinates",
+		"session",
+		"editor"
+	]
 }
