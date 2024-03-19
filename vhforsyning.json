@@ -12,8 +12,7 @@
 		"gc2_io_dk_geodanmark",
 		"gc2_io_dk_plandatadk",
 		"gc2_io_dk_kulturarvsstyrelsen",
-		drift,
-		public,
+		"drift",
 		"tag:ddg",
 		"tag:dvg"
 	],
