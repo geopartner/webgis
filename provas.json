@@ -3,7 +3,9 @@
    "title":"Provas A/S - WebGIS kort",
    "schemata":[
       "dandas",
+	  "dandas_gp",
       "danvand",
+	  "danvand_gp",
       "danvand_privat",
       "oitkabler",
       "bbr",
