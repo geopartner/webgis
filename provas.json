@@ -44,16 +44,16 @@
       "placeholderText":"Søg adresse, matrikel eller knude",
       "extraSearches":[
          {
-            "name":"dandas_knude_es",
+            "name":"dandas_gp_knude_es",
             "db":"provas",
             "heading":"Knude - DanDas",
             "index":{
-               "name":"dandas/knude_es",
+               "name":"dandas_gp/knude_es",
                "field":"text_search",
                "key":"ogc_fid"
             },
             "relation":{
-               "name":"dandas.knude_es",
+               "name":"dandas_gp.knude_es",
                "key":"ogc_fid",
                "geom":"the_geom"
             }
