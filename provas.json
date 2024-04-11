@@ -59,16 +59,16 @@
             }
          },
          {
-            "name":"danvand_knude_es",
+            "name":"danvand_gp_knude_es",
             "db":"provas",
             "heading":"Knude - DanVand",
             "index":{
-               "name":"danvand/knude_es",
+               "name":"danvand_gp/knude_es",
                "field":"text_search",
                "key":"ogc_fid"
             },
             "relation":{
-               "name":"danvand.knude_es",
+               "name":"danvand_gp.knude_es",
                "key":"ogc_fid",
                "geom":"the_geom"
             }
