@@ -1,5 +1,6 @@
 {
     "schemata": [
+        "matrikel_datahub",
         "tag:matrikelconflict"
     ],
     "cssFiles": [
