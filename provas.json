@@ -95,30 +95,7 @@
       "graveAssistent":{
          "schema":"graveassistent_provas"
       }
-   }
-	
-  // ===================================================
-  // Configuration of which base layers are available
-  //
-  // GC2 has the following pre-defined base layers
-  //
-  // osm
-  // googleStreets
-  // googleHybrid
-  // googleSatellite
-  // dtkSkaermkort
-  // dtkSkaermkortDaempet
-  // hereNormalNightGrey
-  // ===================================================
-  df: {
-    datafordeler: {
-      username: "XMERXHKAVN",
-      password: "Geop1234!",
-    },
-    dataforsyningen: {
-      token: "4aacd5977eb46ca012c260ecb608c65c",
-    },
-  },
+   },
   baseLayers: [
     {
       type: "wms",
