@@ -51,16 +51,6 @@
 	},
 	"baseLayers": [
 		{
-			"id": "osm",
-			"name": "Topografisk kort - Open Street Map",
-			"abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
-			"config": {
-				"maxZoom": 23,
-				"maxNativeZoom": 19,
-				"attribution": "&copy; Open Street Map"
-			}
-		},
-		{
 			"type": "wms",
 			"url": "/api/dataforsyningen/forvaltning2",
 			"layers": [
@@ -77,6 +67,16 @@
 			"minZoom": 7,
 			"maxZoom": 26,
 			"maxNativeZoom": 23
+		},
+		{
+			"id": "osm",
+			"name": "Topografisk kort - Open Street Map",
+			"abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
+			"config": {
+				"maxZoom": 23,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Open Street Map"
+			}
 		},
 		{
 			"type": "wms",
