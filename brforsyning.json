@@ -12,6 +12,7 @@
 		"br_bl_termografi",
 		"ler"
 	],
+	"initFunction": "function(){$('#add-legend-btn').click()}",
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
