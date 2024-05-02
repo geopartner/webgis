@@ -2,6 +2,7 @@
    "brandName":"Provas - konfiguration med alle ledninger synlige",
    "title":"Provas A/S - WebGIS kort",
    "schemata":[
+      "public",
       "_dandas",
 	  "dandas_gp",
       "_danvand",
@@ -12,7 +13,6 @@
 	  "oitkabler_gp",
       "bbr",
       "ejerkort",
-      "public",
       "ler_aws",
       "lukkeliste",
       "mat",
