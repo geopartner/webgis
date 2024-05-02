@@ -75,6 +75,7 @@
     "komkode": ["710", "730", "791", "846"]
   },
   "activateMainTab": "documentCreate",
+  "showOffcanvas": true,
   "enabledSearch": "danish",
   "extensionConfig": {
     "session": {
