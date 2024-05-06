@@ -1,14 +1,37 @@
 {
-    "brandName": "Hammelev Vandværk",
-    "schemata": [],
-    "enabledExtensions": ["streetView", "coordinates"],
-    "showLayerGroupCheckbox": true,
-    "enabledPrints": [],
-    "searchModules": ["google", "danish"],
-    "enabledSearch": "danish",
-    "searchConfig": {
-      "komkode": ["510", "621"]
-    },
-    "popupDraggable": true
-  }
-  
+	"brandName": "Hammelev Vandværk",
+	"schemata": [
+		"lukkeliste"
+	],
+	"enabledExtensions": [
+		"session",
+		"streetView",
+		"coordinates",
+		"blueidea"
+	],
+	"showLayerGroupCheckbox": true,
+	"enabledPrints": [],
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"extensionConfig": {
+		"blueidea": {
+			"userid": "82c18292-3b7f-4fb3-9543-af17584177e2"
+		},
+		"streetView": {
+			"ignorelist": [
+				"mapillary",
+				"cowi"
+			]
+		}
+	},
+	"enabledSearch": "danish",
+	"searchConfig": {
+		"komkode": [
+			"510",
+			"621"
+		]
+	},
+	"popupDraggable": true
+}
