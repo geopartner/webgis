@@ -4,6 +4,7 @@
 		"lukkeliste"
 	],
 	"enabledExtensions": [
+		"session",
 		"streetView",
 		"coordinates",
 		"blueidea"
