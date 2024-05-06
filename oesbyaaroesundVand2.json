@@ -1,14 +1,36 @@
 {
-    "brandName": "Øsby-Årøsund Vandværk",
-    "schemata": [],
-    "enabledExtensions": ["streetView", "coordinates"],
-    "showLayerGroupCheckbox": true,
-    "enabledPrints": [],
-    "searchModules": ["google", "danish"],
-    "enabledSearch": "danish",
-    "searchConfig": {
-      "komkode": ["510", "621"]
-    },
-    "popupDraggable": true
-  }
-  
+	"brandName": "Øsby-Årøsund Vandværk",
+	"schemata": [
+		"lukkeliste"
+	],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"blueidea"
+	],
+	"showLayerGroupCheckbox": true,
+	"enabledPrints": [],
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"extensionConfig": {
+		"blueidea": {
+			"userid": "e6ff774f-80c4-4bae-b1cb-53b57f0e58c4"
+		},
+		"streetView": {
+			"ignorelist": [
+				"mapillary",
+				"cowi"
+			]
+		}
+	},
+	"enabledSearch": "danish",
+	"searchConfig": {
+		"komkode": [
+			"510",
+			"621"
+		]
+	},
+	"popupDraggable": true
+}
