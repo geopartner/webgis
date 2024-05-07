@@ -114,7 +114,7 @@
       "esrSearchActive": true,
       "sfeSearchActive": true
   },
-  "activateMainTab": "draw",
+  "activateMainTab": "geosag",
   "showOffcanvas": true,
   "enabledSearch": "danish"
 }    
