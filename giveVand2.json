@@ -1,14 +1,33 @@
 {
-    "brandName": "Give Vandværk A.m.b.a",
-    "schemata": [],
-    "enabledExtensions": ["streetView", "coordinates"],
-    "showLayerGroupCheckbox": true,
-    "enabledPrints": ["vandvaerk_givevand2"],
-    "searchModules": ["google", "danish"],
-    "enabledSearch": "danish",
-    "searchConfig": {
-      "komkode": ["630"]
-    },
-    "popupDraggable": true
-  }
-  
+	"brandName": "Give Vandværk A.m.b.a",
+	"schemata": [],
+	"enabledExtensions": [
+		"session",
+		"editor",
+		"streetView",
+		"coordinates"
+	],
+	"showLayerGroupCheckbox": true,
+	"enabledPrints": [
+		"vandvaerk_givevand2"
+	],
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"extensionConfig": {
+		"streetView": {
+			"ignorelist": [
+				"mapillary",
+				"cowi"
+			]
+		}
+	},
+	"enabledSearch": "danish",
+	"searchConfig": {
+		"komkode": [
+			"630"
+		]
+	},
+	"popupDraggable": true
+}
