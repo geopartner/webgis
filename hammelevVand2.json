@@ -1,8 +1,6 @@
 {
 	"brandName": "Hammelev Vandværk",
 	"schemata": [
-		"danvand_privat_gp",
-		"hammelev",
 		"lukkeliste"
 	],
 	"enabledExtensions": [
