@@ -30,7 +30,7 @@
 	"removeDisabledLayersFromLegend": true,
 	"searchConfig": {
 		"size": 10,
-		"placeholderText": "Søg adresse, matrikel eller ejendomsnummer",
+		"placeholderText": "Søg adresse, matrikel eller ejendomsnummer.",
 		"komkode": [
 			"820",
 			"846",
