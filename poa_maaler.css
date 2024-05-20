@@ -1,0 +1,4 @@
+/* remove delete button from maalere */
+.popup-delete-btn {
+  visibility: hidden;
+}
