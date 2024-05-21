@@ -35,6 +35,7 @@
 			"autoLoginMaxAge": 630720000000
 		}
 	},
+	"popupDraggable": true,
 	"featureInfoTableOnMap": false,
 	"startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere om Map Connect – En internetbaseret kortløsning</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Map Connect - dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se eksterne datakilder fra de offentlige registre og ejerkort.</b></p><br><p><a target='blank' href='https://geopartner.dk/ydelser/kortloesning/'>Læs mere om Map Connect her</a></p><br><img style='margin-left: auto;margin-right: auto;width: 456px;display: block;' src='https://raw.githubusercontent.com/geopartner/webgis/master/logo/SEGES_logo_1.png' width='465px'/><br>",
 	"enabledPrints": [
