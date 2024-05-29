@@ -1,14 +1,38 @@
 {
-    "brandName": "Kelstrup Strand Vandværk",
-    "schemata": [],
-    "enabledExtensions": ["streetView", "coordinates"],
-    "showLayerGroupCheckbox": true,
-    "enabledPrints": [],
-    "searchModules": ["google", "danish"],
-    "enabledSearch": "danish",
-    "searchConfig": {
-      "komkode": ["510", "621"]
-    },
-    "popupDraggable": true
-  }
+	"brandName": "Kelstrup Strand Vandværk",
+	"schemata": [
+		"lukkeliste"
+	],
+	"enabledExtensions": [
+		"session",
+		"streetView",
+		"coordinates",
+		"blueidea"
+	],
+	"showLayerGroupCheckbox": true,
+	"enabledPrints": [],
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"extensionConfig": {
+		"blueidea": {
+			"userid": "ccb07689-ed6a-42d4-a650-a935756db415"
+		},
+		"streetView": {
+			"ignorelist": [
+				"mapillary",
+				"cowi"
+			]
+		}
+	},
+	"enabledSearch": "danish",
+	"searchConfig": {
+		"komkode": [
+			"510",
+			"621"
+		]
+	},
+	"popupDraggable": true
+}
   

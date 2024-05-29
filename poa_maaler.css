@@ -1,0 +1,18 @@
+/* remove delete button from maalere */
+.popup-delete-btn {
+  visibility: hidden;
+}
+
+/* remove marker, when editing */
+.awesome-marker-shadow {
+  visibility: hidden;
+}
+.awesome-marker-icon-blue {
+  visibility: hidden;
+}
+.awesome-marker {
+  visibility: hidden;
+}
+.leaflet-marker-draggable {
+  visibility: hidden;
+}
