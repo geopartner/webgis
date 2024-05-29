@@ -1,0 +1,29 @@
+{
+  "brandName": "Lemvig Vand & Spildevand",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "665"
+
+    ]
+  },
+  "popupDraggable": true
+}
