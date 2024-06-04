@@ -47,7 +47,7 @@
             "_ny_cowi": "https://cmv.cowi.com/?msid=5cf1fdce-12ca-4b12-a668-ff9210f60167&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner std. Opsætning&vlayers=GeoDanmark OrtoPhoto 2018;DDG2018 Complete&maximize=DDG2018 Complete&hlayers=DDS2018 Complete&dssLayers=DDS2018 Complete&assLayers=DDG2018 Complete&ssTrigger=SINGLE_CLICK",
             "_old_cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner_DDG&vlayers=GeoDanmark OrtoPhoto 2020;DDG2020 Complete&maximize=DDG2020 Complete&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG2020 Complete&ssTrigger=SINGLE_CLICK",
             "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner_DDG&vlayers=GeoDanmark OrtoPhoto 2020;DDG Latest&maximize=DDG Latest&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG Latest&ssTrigger=SINGLE_CLICK"
-        }
+        },
 		"conflictSearch": {
 			"startBuffer":0
 		}
