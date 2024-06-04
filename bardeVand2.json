@@ -1,19 +1,31 @@
-{    
-    "brandName": "Barde Vandværk",
-    "enabledPrints": [
-      "vandvaerk_bardevand2"
-    ],
-    "enabledExtensions": [
-      "streetView",
-      "coordinates",
-      "editor",
-        "session"
-    ],
-    "enabledSearch":"danish",
-    "showLayerGroupCheckbox": true,
-    "searchConfig": {
-      "komkode": [
-        "760"
-      ]
-    }
-  }
+{
+  "brandName": "Barde Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_bardevand2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "760"
+
+    ]
+  },
+  "popupDraggable": true
+}

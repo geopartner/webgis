@@ -23,7 +23,7 @@
     "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
-    "featureInfoTableOnMap": true,
+    "featureInfoTableOnMap": false,
     "removeDisabledLayersFromLegend": true,
     "searchConfig": {
         "komkode": [
