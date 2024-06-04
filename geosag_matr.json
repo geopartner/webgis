@@ -3,6 +3,9 @@
         "matrikel_datahub",
         "tag:matrikelconflict"
     ],
+	"activeLayers": [
+		"public.aabne_sager"
+	],
     "cssFiles": [
         "geosag_intern.css"
     ],
