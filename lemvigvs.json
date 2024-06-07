@@ -2,7 +2,8 @@
   "brandName": "Lemvig Vand & Spildevand",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+    "session"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [],
