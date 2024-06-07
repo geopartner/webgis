@@ -119,8 +119,7 @@
 				"MatrikelSkel_Gaeldende",
 				"StrandbeskyttelseFlade_Gaeldende",
 				"KlitfredningFlade_Gaeldende",
-				"FredskovFlade_Gaeldende",
-				"Ejerlav_Gaeldende"
+				"FredskovFlade_Gaeldende"
 			],
 			"styles": [
 				"Sorte_centroider",
@@ -128,8 +127,7 @@
 				"Sorte_skel",
 				"default",
 				"default",
-				"default",
-				"ejerlav_gaeldende_transparent"
+				"default"
 			],
 			"id": "Matriklen-DAF",
 			"name": "Matrikelkort",
