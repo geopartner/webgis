@@ -139,7 +139,7 @@
 			"minZoom": 8,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
-			"transparent": false
+			"transparent": true
 		},
 		{
 			"type": "wms",
