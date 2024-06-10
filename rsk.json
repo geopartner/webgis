@@ -20,10 +20,10 @@
         "rsk"
     ],
     "_initZoomCenter": "/10/8.5378/55.9972",
-    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan (under change 2)",
+    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan (under change 3)",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
-    "featureInfoTableOnMap": true,
+    "featureInfoTableOnMap": false,
     "removeDisabledLayersFromLegend": true,
     "searchConfig": {
         "komkode": [
