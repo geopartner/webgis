@@ -1,16 +1,31 @@
-{    
-    "brandName": "Søndervig Vandværk",
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-    "searchConfig": {
-      "komkode": [
-        "760"
-      ]
-    },
-    "showLayerGroupCheckbox": true,
-    "enabledPrints": ["vandvaerk_soendervig2"],
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish" 
-  }
+{
+  "brandName": "Søndervig Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_soendervig2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "760"
+
+    ]
+  },
+  "popupDraggable": true
+}
