@@ -1,7 +1,8 @@
 {
     "schemata": [
         "public",
-        "rsk"
+        "rsk",
+        "rksk"
     ],
     "_schemata": [
         "public",
