@@ -1,6 +1,10 @@
 {
     "schemata": [
         "public",
+        "rsk"
+    ],
+    "_schemata": [
+        "public",
         "rsk",
         "rksk",
         "hs_fjv",
