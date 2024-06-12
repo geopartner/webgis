@@ -4,7 +4,16 @@
         "rksk",
         "hs_fjv",
         "rah",
-        "r_fjv"
+        "r_fjv",
+        "rksk_anlag",
+        "rksk_asfalt",
+        "rksk_fortov",
+        "rsf_spv",
+        "rsf_vand",
+        "sk_fjv",
+        "sp_fjv",
+        "t_el_fjv",
+		"ve"
     ],
     "_schemata": [
         "public",
@@ -28,7 +37,7 @@
         "rsk"
     ],
     "_initZoomCenter": "/10/8.5378/55.9972",
-    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan (ny version-3)",
+    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan (ny version-4)",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
     "featureInfoTableOnMap": true,
