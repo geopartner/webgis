@@ -2,7 +2,8 @@
     "schemata": [
         "public",
         "rksk",
-        "hs_fjv"
+        "hs_fjv",
+        "rah"
     ],
     "_schemata": [
         "public",
@@ -26,7 +27,7 @@
         "rsk"
     ],
     "_initZoomCenter": "/10/8.5378/55.9972",
-    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan (ny version-1)",
+    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan (ny version-2)",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
     "featureInfoTableOnMap": true,
