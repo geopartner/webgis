@@ -8,9 +8,12 @@
     "enabledPrints": [
         "rsk"
     ],
-	"template": "embed.tmpl",
-	"_autoPanPopup": true,
-	"baselayerDrawer": true,
+    "template": "embed.tmpl",
+    "activeLayers": [
+        "rksk.projektomraade_all_non_edit"
+    ],
+    "_autoPanPopup": true,
+    "baselayerDrawer": true,
     "brandName": "Ringkøbing-Skjern Kommune, Offentlig Koordineringsplan",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
