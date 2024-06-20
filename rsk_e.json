@@ -16,6 +16,7 @@
         "rksk.projektomraade_all_non_edit"
     ],
     "autoPanPopup": true,
+    "activateMainTab": "info",
     "baselayerDrawer": true,
     "brandName": "Ringkøbing-Skjern Kommune, Offentlig Koordineringsplan",
     "enabledSearch": "danish",
