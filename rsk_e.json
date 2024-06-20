@@ -20,7 +20,7 @@
     "enabledPrints": [
         "rsk"
     ],
-    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan",
+    "brandName": "Ringkøbing-Skjern Kommune, Offentlig Koordineringsplan",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
     "featureInfoTableOnMap": true,
@@ -32,14 +32,14 @@
         "sfeSearchActive": true,
         "advanced": false
     },
-    "extensionConfig": {
+    "_extensionConfig": {
         "session": {
             "autoLogin": false,
             "autoLoginMaxAge": 250000
         }
     },
     "popupDraggable": true,
-    "enabledExtensions": [
+    "_enabledExtensions": [
         "session",
         "editor"
     ],
