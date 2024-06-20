@@ -52,6 +52,7 @@
     "baseLayers": [
         {
             "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/forvaltningskort.png",
             "type": "wms",
             "url": "/api/dataforsyningen/forvaltning2",
             "layers": [
@@ -70,6 +71,7 @@
         },
         {
             "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/orto.png",
             "type": "wms",
             "_url": "/api/dataforsyningen/orto_foraar_DAF",
             "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
@@ -86,6 +88,7 @@
         },
         {
             "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/nfkort.png",
             "type": "wms",
             "url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
             "layers": [
@@ -115,6 +118,7 @@
         },
         {
             "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/nfkort.png",
             "id": "osm",
             "name": "Topografisk kort - Open Street Map",
             "abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
