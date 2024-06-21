@@ -11,7 +11,7 @@
     "enabledPrints": [
         "rsk"
     ],
-    "template": "embed.tmpl",
+    "template": "default.tmpl",
     "activeLayers": [
         "rksk.projektomraade_all_non_edit"
     ],
