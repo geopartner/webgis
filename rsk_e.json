@@ -30,7 +30,16 @@
         "sfeSearchActive": true,
         "advanced": false
     },
+    "extensionConfig": {
+        "session": {
+            "autoLogin": false,
+            "autoLoginMaxAge": 25000
+        }
+    },
     "popupDraggable": true,
+    "enabledExtensions": [
+        "session"
+    ],
     "df": {
         "datafordeler": {
             "username": "XMERXHKAVN",
