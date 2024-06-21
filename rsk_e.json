@@ -13,7 +13,7 @@
     ],
     "template": "default.tmpl",
     "activeLayers": [
-        "rksk.projektomraade_all_non_edit"
+        "v:rksk.projektomraade_all_non_edit"
     ],
     "autoPanPopup": true,
     "activateMainTab": "info",
