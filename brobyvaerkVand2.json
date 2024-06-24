@@ -16,7 +16,7 @@
 			"420"
 		]
 	},
-	"baseLayers": [
+	"_baseLayers": [
 		{
 			"id": "geodk.bright",
 			"name": "Topografisk kort",
