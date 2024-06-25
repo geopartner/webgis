@@ -1,0 +1,75 @@
+{
+    "brandName": "HSPV",
+    "title": "Hedensted Spildevand A/S - WebGIS kort",
+    "schemata": [
+        "public",
+        "dandas",
+        "bbr",
+        "ejerkort"
+    ],
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session"
+    ],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": [
+        "hspv"
+    ],
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "komkode": [
+            "766"
+        ],
+        "size": 4,
+        "placeholderText": "Søg adresse, matrikel eller knude",
+        "_extraSearches": [
+            {
+                "name": "dandas_gp_knude_es",
+                "db": "provas",
+                "heading": "Knude - DanDas",
+                "index": {
+                    "name": "dandas_gp/knude_es",
+                    "field": "text_search",
+                    "key": "ogc_fid"
+                },
+                "relation": {
+                    "name": "dandas_gp.knude_es",
+                    "key": "ogc_fid",
+                    "geom": "the_geom"
+                }
+            },
+            {
+                "name": "danvand_gp_knude_es",
+                "db": "provas",
+                "heading": "Knude - DanVand",
+                "index": {
+                    "name": "danvand_gp/knude_es",
+                    "field": "text_search",
+                    "key": "ogc_fid"
+                },
+                "relation": {
+                    "name": "danvand_gp.knude_es",
+                    "key": "ogc_fid",
+                    "geom": "the_geom"
+                }
+            }
+        ]
+    },
+    "_searchConfig": {
+        "komkode": [
+            "510"
+        ]
+    },
+    "popupDraggable": true,
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 65000000
+        }
+    }
+}
