@@ -1,5 +1,5 @@
 {
-    "brandName": "HSPV",
+    "brandName": "Hedensted Spildevand A/S - WebGIS kort",
     "title": "Hedensted Spildevand A/S - WebGIS kort",
     "schemata": [
         "public",
@@ -68,7 +68,6 @@
     "popupDraggable": true,
     "featureInfoTableOnMap": true,
     "autoPanPopup": true,
-    "activateMainTab": "layer",
     "extensionConfig": {
         "session": {
             "autoLogin": true,
