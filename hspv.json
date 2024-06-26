@@ -66,6 +66,9 @@
         ]
     },
     "popupDraggable": true,
+    "featureInfoTableOnMap": true,
+    "autoPanPopup": true,
+    "activateMainTab": "layer",
     "extensionConfig": {
         "session": {
             "autoLogin": true,
