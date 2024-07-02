@@ -281,15 +281,525 @@
         },
         {
             "type": "wms",
-            "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
             "layers": [
                 "DK-DDOland1954_25cm_UTM32ETRS89"
             ],
-            "id": "DDO_land_1954",
-            "name": "DDO land 1954",
-            "description": "DDO land 1954",
+            "id": "DK-DDOland1954_25cm_UTM32ETRS89",
+            "name": "DK-DDOland1954_25cm_UTM32ETRS89",
+            "description": "DK-DDOland1954_25cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
-            "abstract": "<p>Copyright: Hexagon. Opløsning 25cm.</p><br>",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland1954_25cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDObasis2013_25cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDObasis2013_25cm_UTM32ETRS89",
+            "name": "DK-DDObasis2013_25cm_UTM32ETRS89",
+            "description": "DK-DDObasis2013_25cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDObasis2013_25cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOby2018_5cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOby2018_5cm_UTM32ETRS89",
+            "name": "DK-DDOby2018_5cm_UTM32ETRS89",
+            "description": "DK-DDOby2018_5cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOby2018_5cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland1992_16cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland1992_16cm_UTM32ETRS89",
+            "name": "DK-DDOland1992_16cm_UTM32ETRS89",
+            "description": "DK-DDOland1992_16cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland1992_16cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland1995_80cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland1995_80cm_UTM32ETRS89",
+            "name": "DK-DDOland1995_80cm_UTM32ETRS89",
+            "description": "DK-DDOland1995_80cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland1995_80cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland1999_40cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland1999_40cm_UTM32ETRS89",
+            "name": "DK-DDOland1999_40cm_UTM32ETRS89",
+            "description": "DK-DDOland1999_40cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland1999_40cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2002_40cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2002_40cm_UTM32ETRS89",
+            "name": "DK-DDOland2002_40cm_UTM32ETRS89",
+            "description": "DK-DDOland2002_40cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2002_40cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2004_25cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2004_25cm_UTM32ETRS89",
+            "name": "DK-DDOland2004_25cm_UTM32ETRS89",
+            "description": "DK-DDOland2004_25cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2004_25cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2006_25cm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2006_25cm_UTM32ETRS89",
+            "name": "DK-DDOland2006_25cm_UTM32ETRS89",
+            "description": "DK-DDOland2006_25cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2006_25cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2008_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2008_125mm_UTM32ETRS89",
+            "name": "DK-DDOland2008_125mm_UTM32ETRS89",
+            "description": "DK-DDOland2008_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2008_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2010_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2010_125mm_UTM32ETRS89",
+            "name": "DK-DDOland2010_125mm_UTM32ETRS89",
+            "description": "DK-DDOland2010_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2010_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2012_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2012_125mm_UTM32ETRS89",
+            "name": "DK-DDOland2012_125mm_UTM32ETRS89",
+            "description": "DK-DDOland2012_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2012_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2014_12CM_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2014_12CM_UTM32ETRS89",
+            "name": "DK-DDOland2014_12CM_UTM32ETRS89",
+            "description": "DK-DDOland2014_12CM_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2014_12CM_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2015_25CM_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2015_25CM_UTM32ETRS89",
+            "name": "DK-DDOland2015_25CM_UTM32ETRS89",
+            "description": "DK-DDOland2015_25CM_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2015_25CM_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2016_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2016_125mm_UTM32ETRS89",
+            "name": "DK-DDOland2016_125mm_UTM32ETRS89",
+            "description": "DK-DDOland2016_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2016_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2020_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2020_125mm_UTM32ETRS89",
+            "name": "DK-DDOland2020_125mm_UTM32ETRS89",
+            "description": "DK-DDOland2020_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2020_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2022_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2022_125mm_UTM32ETRS89",
+            "name": "DK-DDOland2022_125mm_UTM32ETRS89",
+            "description": "DK-DDOland2022_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2022_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DTK_Kort100_UTM32ETRS89"
+            ],
+            "id": "DK-DTK_Kort100_UTM32ETRS89",
+            "name": "DK-DTK_Kort100_UTM32ETRS89",
+            "description": "DK-DTK_Kort100_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DTK_Kort100_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DTK_Kort25_UTM32ETRS89"
+            ],
+            "id": "DK-DTK_Kort25_UTM32ETRS89",
+            "name": "DK-DTK_Kort25_UTM32ETRS89",
+            "description": "DK-DTK_Kort25_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DTK_Kort25_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DTK_Kort50_UTM32ETRS89"
+            ],
+            "id": "DK-DTK_Kort50_UTM32ETRS89",
+            "name": "DK-DTK_Kort50_UTM32ETRS89",
+            "description": "DK-DTK_Kort50_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DTK_Kort50_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-FOTORTO_2010_10cm_UTM32ETRS89"
+            ],
+            "id": "DK-FOTORTO_2010_10cm_UTM32ETRS89",
+            "name": "DK-FOTORTO_2010_10cm_UTM32ETRS89",
+            "description": "DK-FOTORTO_2010_10cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-FOTORTO_2010_10cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-FOTORTO_2011_10cm_UTM32ETRS89"
+            ],
+            "id": "DK-FOTORTO_2011_10cm_UTM32ETRS89",
+            "name": "DK-FOTORTO_2011_10cm_UTM32ETRS89",
+            "description": "DK-FOTORTO_2011_10cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-FOTORTO_2011_10cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-FOTORTO_2012_10cm_UTM32ETRS89"
+            ],
+            "id": "DK-FOTORTO_2012_10cm_UTM32ETRS89",
+            "name": "DK-FOTORTO_2012_10cm_UTM32ETRS89",
+            "description": "DK-FOTORTO_2012_10cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-FOTORTO_2012_10cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-FOTORTO_2013_10cm_UTM32ETRS89"
+            ],
+            "id": "DK-FOTORTO_2013_10cm_UTM32ETRS89",
+            "name": "DK-FOTORTO_2013_10cm_UTM32ETRS89",
+            "description": "DK-FOTORTO_2013_10cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-FOTORTO_2013_10cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-FOTORTO_2014_10cm_UTM32ETRS89"
+            ],
+            "id": "DK-FOTORTO_2014_10cm_UTM32ETRS89",
+            "name": "DK-FOTORTO_2014_10cm_UTM32ETRS89",
+            "description": "DK-FOTORTO_2014_10cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-FOTORTO_2014_10cm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2015_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2015_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2015_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2015_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2015_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2016_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2016_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2016_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2016_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2016_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2017_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2017_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2017_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2017_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2017_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2018_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2018_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2018_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2018_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2018_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2019_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2019_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2019_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2019_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2019_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2020_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2020_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2020_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2020_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2020_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2021_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2021_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2021_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2021_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2021_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2022_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2022_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2022_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2022_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2022_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_GEODKORTO2023_125mm_UTM32ETRS89"
+            ],
+            "id": "DK_GEODKORTO2023_125mm_UTM32ETRS89",
+            "name": "DK_GEODKORTO2023_125mm_UTM32ETRS89",
+            "description": "DK_GEODKORTO2023_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_GEODKORTO2023_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK_HxIP-ORTO2018_30cm_UTM32ETRS89"
+            ],
+            "id": "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
+            "name": "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
+            "description": "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK_HxIP-ORTO2018_30cm_UTM32ETRS89.</p><br>",
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20
