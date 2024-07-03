@@ -1,8 +1,9 @@
 {
     "schemata": [
         "public",
-        "tag:Offentlig"
+        "off"
     ],
+    "activateMainTab": "info",
     "_aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a><br><p>Geopartners Webkortløsning der er solgt til mange af vores kunder, bliver udrullet til internt brug under navnet ’GP Kort’. Den første udgave indeholder en grundopsætning af lag der kan anvendes i dagligdagen. Sammen med udrulningen af GP Kort findes en online manual til rådighed på linket oven over.</p><p>Skulle du i løsningen savne adgang til lag, links eller funktioner, så opret en Sysaid på det. Der er mere end 400 eksterne lag tilgængeligt, så der er filtreret på forhånd. Måske mangler der lag som du er vant til at kigge, men det vil kunne aktiveres med din henvendelse.</p></p><p>Det er muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Ved at logge ind på løsningen er det tillige muligt at se ejerkort, stedfæstede sager i kort, genveje til Docunote, ois, bbr mm.</p><p><b>Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil2.jpg' width='550px' height='412px'/><br>",
     "_startUpModal": "<h1>Velkommen</h1><p><a href='#' data-toggle='modal' data-target='#about-modal' data-dismiss='modal'><i class='material-icons'>question_answer</i>&nbsp;&nbsp;&nbsp;Læs mere om GP Kort – Ny webkortløsning til intern brug</a></p><p><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med GP Kort - dokumentation</a></p>Det er her muligt at se forskellige baggrundskort, som topografiske kort og historiske luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><br><p><b>VIGTIGT: Ved at logge ind på løsningen er det tillige muligt at se ejerkort og øvrige detaljerede oplysninger. Se efter dit login i login huskeren (geosag webgis) <a href='http://app01/passworddatabase/' target='blank'>på dette link</a>.</b></p><br><img src='https://static.geopartner.dk/images/geosag_intern/gpbil.jpg' width='550px' height='412px'/><br>",
     "startupModalSupressionTemplates": [
@@ -11,14 +12,7 @@
     "enabledPrints": [
         "rsk"
     ],
-    "template": "default.tmpl",
-    "activeLayers": [
-        "rksk.projektomraade_all_non_edit"
-    ],
-    "autoPanPopup": true,
-    "activateMainTab": "info",
-    "baselayerDrawer": true,
-    "brandName": "Ringkøbing-Skjern Kommune, Offentlig Koordineringsplan",
+    "brandName": "Ringkøbing-Skjern Kommune, Koordineringsplan",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": false,
     "featureInfoTableOnMap": true,
@@ -33,12 +27,13 @@
     "extensionConfig": {
         "session": {
             "autoLogin": false,
-            "autoLoginMaxAge": 25000
+            "autoLoginMaxAge": 250000
         }
     },
     "popupDraggable": true,
     "enabledExtensions": [
-        "session"
+        "session",
+        "editor"
     ],
     "df": {
         "datafordeler": {
@@ -85,6 +80,36 @@
             "abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto forår</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20
+        },
+        {
+            "inDrawer": false,
+            "type": "wms",
+            "url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
+            "layers": [
+                "Centroide_Gaeldende",
+                "OptagetVej_Gaeldende",
+                "MatrikelSkel_Gaeldende",
+                "StrandbeskyttelseFlade_Gaeldende",
+                "KlitfredningFlade_Gaeldende",
+                "FredskovFlade_Gaeldende"
+            ],
+            "styles": [
+                "Sorte_centroider",
+                "Sort_OptagetVej",
+                "Sorte_skel",
+                "default",
+                "default",
+                "default"
+            ],
+            "id": "Matriklen-DAF",
+            "name": "Matrikelkort",
+            "description": "Matriklen (Datafordeleren)",
+            "attribution": "&copy; Geodatastyrelsen, Datafordeleren",
+            "abstract": "<p>Dagligt ajourført matrikelkort. Der vises følgende lag:</p><ul><li>Centroide</li><li>Matrikelskel</li><li>Optaget vej</li><li>Strandbeskyttelse</li><li>Klitfredning</li><li>Fredskov</li></ul><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": false
         },
         {
             "inDrawer": true,
