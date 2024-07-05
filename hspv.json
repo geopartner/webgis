@@ -4,8 +4,9 @@
     "schemata": [
         "public",
         "dandas",
-        "bbr",
-        "ejerkort"
+        "bbr_datahub",
+        "ejerkort",
+        "matrikel_datahub"
     ],
     "enabledExtensions": [
         "streetView",
@@ -27,33 +28,18 @@
         ],
         "size": 4,
         "placeholderText": "Søg adresse, matrikel eller knude",
-        "_extraSearches": [
+        "extraSearches": [
             {
-                "name": "dandas_gp_knude_es",
-                "db": "provas",
+                "name": "dandas_knude_es",
+                "db": "hspv",
                 "heading": "Knude - DanDas",
                 "index": {
-                    "name": "dandas_gp/knude_es",
+                    "name": "dandas/knude_es",
                     "field": "text_search",
                     "key": "ogc_fid"
                 },
                 "relation": {
-                    "name": "dandas_gp.knude_es",
-                    "key": "ogc_fid",
-                    "geom": "the_geom"
-                }
-            },
-            {
-                "name": "danvand_gp_knude_es",
-                "db": "provas",
-                "heading": "Knude - DanVand",
-                "index": {
-                    "name": "danvand_gp/knude_es",
-                    "field": "text_search",
-                    "key": "ogc_fid"
-                },
-                "relation": {
-                    "name": "danvand_gp.knude_es",
+                    "name": "dandas.knude_es",
                     "key": "ogc_fid",
                     "geom": "the_geom"
                 }
