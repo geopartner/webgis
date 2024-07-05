@@ -5,6 +5,7 @@
         "public",
         "dandas",
         "ejerkort",
+		"bbr_datahub",
         "matrikel_datahub"
     ],
     "enabledExtensions": [
