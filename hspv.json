@@ -5,8 +5,7 @@
         "public",
         "dandas",
         "ejerkort",
-        "matrikel_datahub",
-        "bbr_datahub"
+        "matrikel_datahub"
     ],
     "enabledExtensions": [
         "streetView",
