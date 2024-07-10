@@ -1,11 +1,35 @@
-{  
+{
+	"schemata": [
+		"ler2"
+	],
   "brandName": "Skårup Fjernvarme",
-  "enabledPrints": ["skarupfjv"],
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-  "searchConfig": { 
-        "komkode": "479"
-  }
-} 
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "skarupfjv"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "479"
+
+    ]
+  },
+  "popupDraggable": true
+}
+
