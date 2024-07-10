@@ -4,8 +4,8 @@
     "schemata": [
         "public",
         "dandas",
-        "ejerkort",
-		"bbr_datahub",
+        "bbr_datahub",
+        "ejerkort_datahub",
         "matrikel_datahub"
     ],
     "enabledExtensions": [
