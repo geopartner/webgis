@@ -12,6 +12,7 @@
       "_oitkabler",
 	  "oitkabler_gp",
       "bbr",
+      "bbr_datahub",
       "ejerkort",
       "ler_aws",
       "lukkeliste",
