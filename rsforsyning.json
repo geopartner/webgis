@@ -2,7 +2,7 @@
 	"schemata": [
 		"public",
 		"bbr",
-		"ejerkort",
+		"ejerkort_datahub",
 		"gc2_io_dk_plandatadk",
 		"dandas",
 		"danvand",
