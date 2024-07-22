@@ -2,6 +2,7 @@
 	"schemata": [
 		"public",
 		"ler2",
+		"ejerfortegnelse",
 		"ejerkort_datahub",
 		"fremmedledninger"
 	],
