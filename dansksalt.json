@@ -1,44 +1,48 @@
 {
-	"schemata": [
-		"public",
-		"ler2",
-		"ejerfortegnelse",
-		"ejerkort_datahub",
-		"fremmedledninger"
-	],
-	"brandName": "Dansk Salt A/S",
-	"enabledPrints": ["dansksalt"],
-	"enabledExtensions": [
-		"streetView",
-		"coordinates",
-		"session",
-		"graveAssistent"
-	],
-	"extensionConfig": {
-		"session": {
-			"autoLogin": true,
-			"autoLoginMaxAge": 630720000000
-		},
-	"streetView": {
+    "schemata": [
+        "public",
+        "ler2",
+        "ejerkort_datahub",
+        "fremmedledninger"
+    ],
+    "brandName": "Dansk Salt A/S",
+    "enabledPrints": [
+        "dansksalt"
+    ],
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "graveAssistent"
+    ],
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        },
+        "streetView": {
             "ignorelist": [
                 "mapillary",
                 "cowi"
             ]
         },
-	"graveAssistent": {
-			"schema": "fremmedledninger"
-	  }
-	},
-	"showLayerGroupCheckbox": true,
-	"popupDraggable": true,
-	"searchModules": [
-		"google",
-		"danish"
-	],
-	"enabledSearch": "danish",
-	"searchConfig": {
-		"komkode": [
-			"779", "846", "840", "820"
-		]
-	}
+        "graveAssistent": {
+            "schema": "fremmedledninger"
+        }
+    },
+    "showLayerGroupCheckbox": true,
+    "popupDraggable": true,
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "komkode": [
+            "779",
+            "846",
+            "840",
+            "820"
+        ]
+    }
 }
