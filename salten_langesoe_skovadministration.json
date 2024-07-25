@@ -3,7 +3,6 @@
         "ejendomskort"
     ],
     "template": "default.tmpl",
-    "aboutBox": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Kortløsningen - dokumentation</a><br><p>Det er her muligt at evaluere Geopartners 'Map Ejerkort' for at se ejeroplysninger og ejendommenes sammens&aelig;tninger i hele Danmark. Kortet er dagligt ajourf&oslash;rt og landsd&aelig;kkende. Ring gerne for yderligere oplysnigner p&aring; tlf. 28581660 eller <a href='mailto:lkm@geopartner.dk'>lkm@geopartner.dk</a>.</p><p>Se flere oplysnigner om Map Ejerkort p&aring; <a href='https://geopartner.dk/ydelser/map-ejerkort-se-ejere-paa-ejendomme-i-dk/' target='_blank' rel='noopener'>geopartners hjemmeside</a></p><p>&nbsp;</p><p><img style='display: block; margin-left: auto; margin-right: auto;' src='http://static.geopartner.dk/images/geopartner_landinspektoerer.png'/></p>",
     "brandName": "Map Ejerkort (SLS A/S)",
     "enabledSearch": "danish",
     "searchConfig": {
@@ -12,7 +11,6 @@
         "advanced": true
     },
     "featureInfoTableOnMap": true,
-    "startUpModal": "<h1>Velkommen</h1><a target='blank' href='https://gp-vidi-da.readthedocs.io/da/latest/index.html'><i class='material-icons'>input</i>&nbsp;&nbsp;&nbsp;Kom godt i gang med Kortløsningen - dokumentation</a><br><p>Det er her muligt at evaluere Geopartners 'Map Ejerkort' for at se ejeroplysninger og ejendommenes sammens&aelig;tninger i hele Danmark. Kortet er dagligt ajourf&oslash;rt og landsd&aelig;kkende. Ring gerne for yderligere oplysnigner p&aring; tlf. 28581660 eller <a href='mailto:lkm@geopartner.dk'>lkm@geopartner.dk</a>.</p><p>Se flere oplysnigner om Map Ejerkort p&aring; <a href='https://geopartner.dk/ydelser/map-ejerkort-se-ejere-paa-ejendomme-i-dk/' target='_blank' rel='noopener'>geopartners hjemmeside</a></p><p>&nbsp;</p><p><img style='display: block; margin-left: auto; margin-right: auto;' src='http://static.geopartner.dk/images/geopartner_landinspektoerer.png'/></p>",
     "enabledExtensions": [
         "streetView",
         "coordinates",

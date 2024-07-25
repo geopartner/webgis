@@ -1,5 +1,6 @@
 {
   "brandName": "VMR",
+  "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
   "schemata": [
 		"graveassistent_vmr"
 	],
@@ -116,7 +117,6 @@
             ]
         }
 	},
-  "aboutBox": "<p>Denne side udstiller data fra VMR</p>",
   "df": {
     "username": "XMERXHKAVN",
     "password": "Geop1234!"
