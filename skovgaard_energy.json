@@ -1,7 +1,7 @@
 {
   "schemata": [
     "public",
-    "ejerkort",
+    "ejerkort_datahub",
     "gc2_io_dk_danmarksarealinformation",
     "gc2_io_dk_dkjord",
     "gc2_io_dk_kulturarvsstyrelsen",
