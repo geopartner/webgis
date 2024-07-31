@@ -121,23 +121,23 @@
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -156,23 +156,23 @@
             "abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -191,23 +191,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -226,23 +226,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -261,23 +261,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -296,23 +296,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -331,23 +331,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -366,23 +366,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -401,23 +401,23 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -460,23 +460,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -495,23 +495,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -530,23 +530,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -565,23 +565,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -600,23 +600,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -635,23 +635,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -670,23 +670,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -705,23 +705,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -740,23 +740,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -775,23 +775,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -810,23 +810,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -845,23 +845,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -880,23 +880,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -915,23 +915,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -950,23 +950,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -985,23 +985,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1020,23 +1020,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1100,23 +1100,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1135,23 +1135,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1170,23 +1170,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1205,23 +1205,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1240,23 +1240,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1275,23 +1275,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1310,23 +1310,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1345,23 +1345,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1380,23 +1380,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1415,23 +1415,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1450,23 +1450,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1485,23 +1485,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1520,23 +1520,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1555,23 +1555,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
@@ -1590,23 +1590,23 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20,
-              overlays: [
+              "overlays": [
                 {
-                  id: "public.mvw_adgangsadresser",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_adgangsadresser",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
                 {
-                  id: "public.mvw_vejnavne",
-                  db: "mapconnectbase",
-                  host: "https://mapgogc2.geopartner.dk",
-                  config: {
-                    maxZoom: 21,
-                    maxNativeZoom: 19,
+                  "id": "public.mvw_vejnavne",
+                  "db": "mapconnectbase",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "maxZoom": 21,
+                    "maxNativeZoom": 19,
                   },
                 },
               ],
