@@ -128,8 +128,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -137,10 +137,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -163,8 +163,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -172,10 +172,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -198,8 +198,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -207,10 +207,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -233,8 +233,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -242,10 +242,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -268,8 +268,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -277,10 +277,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -303,8 +303,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -312,10 +312,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -338,8 +338,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -347,10 +347,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -373,8 +373,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -382,10 +382,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -408,8 +408,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -417,10 +417,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -467,8 +467,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -476,10 +476,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -502,8 +502,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -511,10 +511,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -537,8 +537,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -546,10 +546,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -572,8 +572,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -581,10 +581,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -607,8 +607,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -616,10 +616,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -642,8 +642,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -651,10 +651,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -677,8 +677,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -686,10 +686,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -712,8 +712,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -721,10 +721,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -747,8 +747,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -756,10 +756,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -782,8 +782,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -791,10 +791,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -817,8 +817,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -826,10 +826,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -852,8 +852,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -861,10 +861,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -887,8 +887,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -896,10 +896,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -922,8 +922,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -931,10 +931,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -957,8 +957,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -966,10 +966,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -992,8 +992,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1001,10 +1001,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1027,8 +1027,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1036,10 +1036,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1107,8 +1107,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1116,10 +1116,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1142,8 +1142,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1151,10 +1151,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1177,8 +1177,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1186,10 +1186,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1212,8 +1212,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1221,10 +1221,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1247,8 +1247,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1256,10 +1256,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1282,8 +1282,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1291,10 +1291,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1317,8 +1317,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1326,10 +1326,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1352,8 +1352,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1361,10 +1361,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1387,8 +1387,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1396,10 +1396,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1422,8 +1422,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1431,10 +1431,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1457,8 +1457,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1466,10 +1466,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1492,8 +1492,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1501,10 +1501,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1527,8 +1527,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1536,10 +1536,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1562,8 +1562,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1571,10 +1571,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -1597,8 +1597,8 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
+                    "maxNativeZoom": 19
+                  }
                 },
                 {
                   "id": "public.mvw_vejnavne",
@@ -1606,10 +1606,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 19,
-                  },
-                },
-              ],
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         }
     ]
 }
