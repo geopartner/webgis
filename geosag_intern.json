@@ -17,7 +17,8 @@
         "ledninger",
         "mim_pg_noise",
         "dhm",
-        "forvaltning2"
+        "forvaltning2",
+        "ebr_datahub"
     ],
     "_schemata": [
         "bbr"
