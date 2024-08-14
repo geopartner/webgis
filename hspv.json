@@ -29,7 +29,7 @@
             "766"
         ],
         "size": 4,
-        "placeholderText": "Søg adresse, matrikel eller knude",
+        "placeholderText": "Søg adresse, matrikel, knude eller graveforespørgsel",
         "extraSearches": [
             {
                 "name": "dandas_knude_es",
@@ -43,6 +43,21 @@
                 "relation": {
                     "name": "dandas.knude_es",
                     "key": "ogc_fid",
+                    "geom": "the_geom"
+                }
+            },
+            {
+                "name": "dandas_ler_es",
+                "db": "hspv",
+                "heading": "LER - Graveforespørgsel",
+                "index": {
+                    "name": "dandas/ler_es",
+                    "field": "text_search",
+                    "key": "gid"
+                },
+                "relation": {
+                    "name": "dandas.ler_es",
+                    "key": "gid",
                     "geom": "the_geom"
                 }
             }
