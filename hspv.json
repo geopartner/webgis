@@ -14,7 +14,7 @@
         "session"
     ],
     "showLayerGroupCheckbox": true,
-    "showOffcanvas": true,
+    "showOffcanvas": "mobile",
     "removeDisabledLayersFromLegend": false,
     "enabledPrints": [
         "hspv"
