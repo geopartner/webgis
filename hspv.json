@@ -48,7 +48,7 @@
         ]
     },
     "popupDraggable": true,
-    "featureInfoTableOnMap": true,
+    "featureInfoTableOnMap": false,
     "autoPanPopup": true,
     "extensionConfig": {
         "session": {
