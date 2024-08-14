@@ -38,7 +38,41 @@
 		],
 		"esrSearchActive": true,
 		"sfeSearchActive": true,
-		"advanced": false
+		"advanced": false,
+		"size": 4,
+		"placeholderText": "Søg adresse, matrikel eller knuder",
+		"extraSearches": [
+			{
+			   "name":"dandas_gp_knude_es",
+			   "db":"rsforsyning",
+			   "heading":"Knude - DanDas",
+			   "index":{
+				  "name":"dandas_gp/knude_es",
+				  "field":"text_search",
+				  "key":"ogc_fid"
+			   },
+			   "relation":{
+				  "name":"dandas_gp.knude_es",
+				  "key":"ogc_fid",
+				  "geom":"the_geom"
+			   }
+			},
+			{
+			   "name":"danvand_gp_knude_es",
+			   "db":"rsforsyning",
+			   "heading":"Knude - DanVand",
+			   "index":{
+				  "name":"danvand_gp/knude_es",
+				  "field":"text_search",
+				  "key":"ogc_fid"
+			   },
+			   "relation":{
+				  "name":"danvand_gp.knude_es",
+				  "key":"ogc_fid",
+				  "geom":"the_geom"
+			   }
+			}
+		 ]
 	},
 	"extensionConfig": {
 		"_session": {
