@@ -54,7 +54,13 @@
         "session": {
             "autoLogin": true,
             "autoLoginMaxAge": 65000000
-        }
+        },
+        "streetView": {
+			"ignorelist": [
+				"mapillary",
+				"cowi"
+			]
+		}
     },
     "baseLayers": [
         {
