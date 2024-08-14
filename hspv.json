@@ -14,7 +14,7 @@
         "session"
     ],
     "showLayerGroupCheckbox": true,
-    "removeDisabledLayersFromLegend": true,
+    "removeDisabledLayersFromLegend": false,
     "enabledPrints": [
         "hspv"
     ],
