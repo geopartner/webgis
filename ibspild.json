@@ -7,6 +7,10 @@
 		"ibspildevand"
 	],
 	"brandName": "Ikast-Brande Spildevand",
+	"title": "Ikast-Brande Spildevand",
+	"cssFiles": [
+		"ibspild.css"
+	],
 	"enabledPrints": [
 		"ibspildprint"
 	],
