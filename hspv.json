@@ -29,7 +29,7 @@
             "766"
         ],
         "size": 4,
-        "placeholderText": "Søg adresse, matrikel, knude eller graveforespørgsel",
+        "placeholderText": "Søg adr., matr., knude eller graveforesp.",
         "extraSearches": [
             {
                 "name": "dandas_knude_es",
