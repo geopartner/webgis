@@ -1,8 +1,12 @@
 {
   "brandName": "Stoholm varmeværk",
-  "searchConfig": {
-    "komkode": "791"
-  },
+  "schemata": [
+	"stoholmvarme_ler2"
+],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
     "varmevaerk_stoholmvarme2"
@@ -11,5 +15,20 @@
     "google",
     "danish"
   ],
-  "enabledSearch": "danish"
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "791"
+
+    ]
+  },
+  "popupDraggable": true
 }
