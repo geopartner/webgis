@@ -4,6 +4,7 @@
 	"schemata": [
 		"public",
 		"dandas",
+        "gc2_io_dk_dar",
 		"bbr_datahub",
 		"ejerkort_datahub",
 		"matrikel_datahub"
