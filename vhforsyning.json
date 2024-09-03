@@ -28,8 +28,8 @@
 	"showLayerGroupCheckbox": true,
 	"removeDisabledLayersFromLegend": true,
 	"searchConfig": {
-		"size": 10,
-		"placeholderText": "Søg adresse, matrikel eller ejendomsnummer",
+		"size": 6,
+		"placeholderText": "Søg adr., matr., ejd.nr. eller graveforesp.",
 		"komkode": [
 			"820",
 			"846",
@@ -39,7 +39,24 @@
 		"esrSearchActive": true,
 		"sfeSearchActive": true,
 		"advanced": false,
-		"sortByScore": true
+		"sortByScore": true,
+		"extraSearches": [
+            {
+                "name": "dandas_ler_es",
+                "db": "vhforsyning",
+                "heading": "LER - Graveforespørgsel",
+                "index": {
+                    "name": "dandas/ler_es",
+                    "field": "text_search",
+                    "key": "gid"
+                },
+                "relation": {
+                    "name": "dandas.ler_es",
+                    "key": "gid",
+                    "geom": "the_geom"
+                }
+            }
+        ]
 	},
 	"extensionConfig": {
 		"_session": {
