@@ -29,7 +29,7 @@
 	"removeDisabledLayersFromLegend": true,
 	"searchConfig": {
 		"size": 6,
-		"placeholderText": "Søg adr., matr., ejd.nr. eller graveforesp.",
+		"placeholderText": "Søg adr., matr., ejd.nr., knude eller graveforesp.",
 		"komkode": [
 			"820",
 			"846",
@@ -53,6 +53,36 @@
                 "relation": {
                     "name": "dandas.ler_es",
                     "key": "gid",
+                    "geom": "the_geom"
+                }
+            },
+			{
+                "name": "dandas_knude_es",
+                "db": "vhforsyning",
+                "heading": "Knude - DanDas",
+                "index": {
+                    "name": "dandas/knude_es",
+                    "field": "text_search",
+                    "key": "ogc_fid"
+                },
+                "relation": {
+                    "name": "dandas.knude_es",
+                    "key": "ogc_fid",
+                    "geom": "the_geom"
+                }
+            },
+			{
+                "name": "danvand_knude_es",
+                "db": "vhforsyning",
+                "heading": "Knude - DanVand",
+                "index": {
+                    "name": "danvand/knude_es",
+                    "field": "text_search",
+                    "key": "ogc_fid"
+                },
+                "relation": {
+                    "name": "danvand.knude_es",
+                    "key": "ogc_fid",
                     "geom": "the_geom"
                 }
             }
