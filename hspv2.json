@@ -102,7 +102,7 @@
             ]
         },
         {
-            "groupName": "GeoDanmark forår ortofoto 2023-2015 + quickorto",
+            "groupName": "GeoDanmark forår ortofoto 2023-2015 + quick-orto",
             "layers": [
                 "ortofoto_foraar",
                 "ortofoto_foraar_temp_DF",
@@ -211,7 +211,7 @@
                 "DK-DDOland2020_125mm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2020_125mm_UTM32ETRS89",
-            "name": "DK-DDOland2020_125mm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2020",
             "description": "DK-DDOland2020_125mm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2020_125mm_UTM32ETRS89.</p><br>",
@@ -226,7 +226,7 @@
                 "DK_HxIP-ORTO2018_30cm_UTM32ETRS89"
             ],
             "id": "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
-            "name": "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2018",
             "description": "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK_HxIP-ORTO2018_30cm_UTM32ETRS89.</p><br>",
@@ -241,7 +241,7 @@
                 "DK-DDOland2016_125mm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2016_125mm_UTM32ETRS89",
-            "name": "DK-DDOland2016_125mm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2016",
             "description": "DK-DDOland2016_125mm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2016_125mm_UTM32ETRS89.</p><br>",
@@ -256,7 +256,7 @@
                 "DK-DDOland2015_25CM_UTM32ETRS89"
             ],
             "id": "DK-DDOland2015_25CM_UTM32ETRS89",
-            "name": "DK-DDOland2015_25CM_UTM32ETRS89",
+            "name": "Hexagon DDO land 2015",
             "description": "DK-DDOland2015_25CM_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2015_25CM_UTM32ETRS89.</p><br>",
@@ -271,7 +271,7 @@
                 "DK-DDOland2014_12CM_UTM32ETRS89"
             ],
             "id": "DK-DDOland2014_12CM_UTM32ETRS89",
-            "name": "DK-DDOland2014_12CM_UTM32ETRS89",
+            "name": "Hexagon DDO land 2014",
             "description": "DK-DDOland2014_12CM_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2014_12CM_UTM32ETRS89.</p><br>",
@@ -286,7 +286,7 @@
                 "DK-DDObasis2013_25cm_UTM32ETRS89"
             ],
             "id": "DK-DDObasis2013_25cm_UTM32ETRS89",
-            "name": "DK-DDObasis2013_25cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2013",
             "description": "DK-DDObasis2013_25cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDObasis2013_25cm_UTM32ETRS89.</p><br>",
@@ -301,7 +301,7 @@
                 "DK-DDOland2012_125mm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2012_125mm_UTM32ETRS89",
-            "name": "DK-DDOland2012_125mm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2012",
             "description": "DK-DDOland2012_125mm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2012_125mm_UTM32ETRS89.</p><br>",
@@ -316,7 +316,7 @@
                 "DK-DDOland2010_125mm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2010_125mm_UTM32ETRS89",
-            "name": "DK-DDOland2010_125mm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2010",
             "description": "DK-DDOland2010_125mm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2010_125mm_UTM32ETRS89.</p><br>",
@@ -331,7 +331,7 @@
                 "DK-DDOland2008_125mm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2008_125mm_UTM32ETRS89",
-            "name": "DK-DDOland2008_125mm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2008",
             "description": "DK-DDOland2008_125mm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2008_125mm_UTM32ETRS89.</p><br>",
@@ -346,7 +346,7 @@
                 "DK-DDOland2006_25cm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2006_25cm_UTM32ETRS89",
-            "name": "DK-DDOland2006_25cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2006",
             "description": "DK-DDOland2006_25cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2006_25cm_UTM32ETRS89.</p><br>",
@@ -361,7 +361,7 @@
                 "DK-DDOland2004_25cm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2004_25cm_UTM32ETRS89",
-            "name": "DK-DDOland2004_25cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2004",
             "description": "DK-DDOland2004_25cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2004_25cm_UTM32ETRS89.</p><br>",
@@ -376,7 +376,7 @@
                 "DK-DDOland2002_40cm_UTM32ETRS89"
             ],
             "id": "DK-DDOland2002_40cm_UTM32ETRS89",
-            "name": "DK-DDOland2002_40cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2002",
             "description": "DK-DDOland2002_40cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland2002_40cm_UTM32ETRS89.</p><br>",
@@ -391,7 +391,7 @@
                 "DK-DDOland1999_40cm_UTM32ETRS89"
             ],
             "id": "DK-DDOland1999_40cm_UTM32ETRS89",
-            "name": "DK-DDOland1999_40cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 1999",
             "description": "DK-DDOland1999_40cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland1999_40cm_UTM32ETRS89.</p><br>",
@@ -406,7 +406,7 @@
                 "DK-DDOland1995_80cm_UTM32ETRS89"
             ],
             "id": "DK-DDOland1995_80cm_UTM32ETRS89",
-            "name": "DK-DDOland1995_80cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 1995",
             "description": "DK-DDOland1995_80cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland1995_80cm_UTM32ETRS89.</p><br>",
@@ -421,7 +421,7 @@
                 "DK-DDOland1954_25cm_UTM32ETRS89"
             ],
             "id": "DK-DDOland1954_25cm_UTM32ETRS89",
-            "name": "DK-DDOland1954_25cm_UTM32ETRS89",
+            "name": "Hexagon DDO land 1954",
             "description": "DK-DDOland1954_25cm_UTM32ETRS89",
             "attribution": "&copy; Hexagon.",
             "abstract": "<p>Copyright: Hexagon. DK-DDOland1954_25cm_UTM32ETRS89.</p><br>",
@@ -451,7 +451,7 @@
                 "quickorto"
             ],
             "id": "ortofoto_foraar_temp_DF",
-            "name": "GeoDanmark ortofoto forår (quickorto)",
+            "name": "GeoDanmark ortofoto forår (quick-orto)",
             "description": "Ortofoto forår fra Dataforsyningen",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
