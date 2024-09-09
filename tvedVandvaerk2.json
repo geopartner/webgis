@@ -1,15 +1,31 @@
 {
-    "brandName": "Tved Vandværk",
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-    "searchConfig": {
-      "komkode": [
-        "479"
-      ]
-    },
-    "enabledPrints": ["tvedvandvaerk"],
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish" 
-  }
+  "brandName": "Tved Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "tvedvandvaerk"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "479"
+
+    ]
+  },
+  "popupDraggable": true
+}
