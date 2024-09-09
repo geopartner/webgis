@@ -1,15 +1,35 @@
-{    
- "schemata": [
-        "tvedvand"
-    ],
+{
   "brandName": "Tved Vandværk",
-  
-  "enabledPrints": ["tvedvand"],
-  "enabledExtensions": [
-        "streetView",
-        "coordinates"
-    ],
   "template": "default.tmpl",
-  "enabledSearch":"danish",
-  "searchConfig":{"komkode":"621"}  
+  "schemata": [
+	"tvedvand"
+],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "tvedvand"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "621"
+
+    ]
+  },
+  "popupDraggable": true
 }
