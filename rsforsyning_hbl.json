@@ -1,6 +1,7 @@
 {
 	"schemata": [
 		"public",
+		"bbr",
 		"bbr_datahub",
 		"ejerkort_datahub",
 		"gc2_io_dk_plandatadk",
