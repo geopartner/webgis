@@ -1,18 +1,31 @@
-{  
+{
   "brandName": "Markvang Vandværk",
-  "enabledPrints": [
-    "vandvaerk2"
-  ],
   "enabledExtensions": [
     "streetView",
     "coordinates"
   ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
   "searchConfig": {
     "komkode": [
       "710"
+
     ]
   },
-  "searchModules":["google","danish"],
-  "enabledSearch":"danish" 
+  "popupDraggable": true
 }
- 
