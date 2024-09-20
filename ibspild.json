@@ -42,7 +42,10 @@
 		},
 		"graveAssistent": {
 			"schema": "ibspildevand"
-		}
+		},
+        	"streetView": {
+            		"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=Ikast-Brande_Spildevand&p=408069B8&origin=desktop&cmd=state&project=Ikast-Brande%20Spildevand_Denmark&vlayers=GeoDanmark OrtoPhoto 2020;DDG Latest&maximize=DDG Latest&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG Latest&ssTrigger=SINGLE_CLICK"
+        	}
 	},
 	"df": {
 		"username": "XMERXHKAVN",
