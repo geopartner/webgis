@@ -1,0 +1,24 @@
+{
+    "brandName": "Skilteplan",
+    "enabledExtensions": ["symbols"],
+    "title": "Skilteplan, Geopartner A/S",
+    "extensionConfig": {
+      "symbols": {
+        "files": [
+          {
+            "file": "symbol_advarselstavler.json",
+            "title": "Advarselstavler",
+            "desc": "Advarselstavler"
+          }
+        ],
+        "symbolOptions": {
+          "rotate": true,
+          "scale": true,
+          "delete": true,
+          "onlyOne": false,
+          "validate": false
+        }
+      }
+    }
+  }
+  
