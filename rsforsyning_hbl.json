@@ -73,7 +73,10 @@
 		},
 		"blueidea": {
 			"userid": "c03148ba-b481-46e8-b3a5-4be1d95c19b9"
-		}
+		},
+        "streetView": {
+            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=RS_Forsyning&p=41D5E840&origin=desktop&cmd=state&project=RS%20Forsyning_Denmark&vlayers=GeoDanmark OrtoPhoto 2020;DDG Latest&maximize=DDG Latest&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG Latest&ssTrigger=SINGLE_CLICK"
+        }
 	},
 	"popupDraggable": true,
 	"enabledExtensions": [
