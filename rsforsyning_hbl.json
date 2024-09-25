@@ -73,13 +73,7 @@
 		},
 		"blueidea": {
 			"userid": "c03148ba-b481-46e8-b3a5-4be1d95c19b9"
-		},
-		"streetView": {
-				  "ignorelist": [
-						"mapillary",
-						"cowi"
-				  ]
-			  }
+		}
 	},
 	"popupDraggable": true,
 	"enabledExtensions": [
