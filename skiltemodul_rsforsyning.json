@@ -6,10 +6,40 @@
       "symbols": {
         "files": [
           {
-            "file": "symbol_advarselstavler.json",
+            "file": "rsf_symbol_advarselstavler.json",
             "title": "Advarselstavler",
-            "desc": "Advarselstavler"
-          }
+            "desc": ""
+          },
+          {
+            "file": "rsf_symbol_forbudstavler.json",
+            "title": "Advarselstavler",
+            "desc": ""
+          },
+          {
+            "file": "rsf_symbol_paabudstavler.json",
+            "title": "Advarselstavler",
+            "desc": ""
+          },
+          {
+            "file": "rsf_symbol_vigepligtstavler.json",
+            "title": "Advarselstavler",
+            "desc": ""
+          },
+          {
+            "file": "rsf_symbol_oplysningstavler.json",
+            "title": "Advarselstavler",
+            "desc": ""
+          },			  
+          {
+            "file": "rsf_symbol_undertavler.json",
+            "title": "Advarselstavler",
+            "desc": ""
+          },	
+          {
+            "file": "rsf_symbol_kant_og_baggrundsafmaerkning.json",
+            "title": "Advarselstavler",
+            "desc": ""
+          },		  
         ],
         "symbolOptions": {
           "rotate": true,
