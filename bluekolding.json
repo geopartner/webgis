@@ -21,6 +21,7 @@
     "searchConfig": {
         "komkode": "621"
     },
+    "showLayerGroupCheckbox": true,
     "enabledSearch": "danish",
     "searchConfig": {
         "esrSearchActive": true,
