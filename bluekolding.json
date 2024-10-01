@@ -24,6 +24,8 @@
     "showLayerGroupCheckbox": true,
     "activateMainTab": "search",
     "enabledSearch": "danish",
+    "showOffcanvas": "mobile",
+    "removeDisabledLayersFromLegend": false,
     "searchConfig": {
         "esrSearchActive": true,
         "sfeSearchActive": true
