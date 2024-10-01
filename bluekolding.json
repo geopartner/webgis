@@ -22,7 +22,7 @@
         "komkode": "621"
     },
     "showLayerGroupCheckbox": true,
-    "activateMainTab": "search"
+    "activateMainTab": "search",
     "enabledSearch": "danish",
     "searchConfig": {
         "esrSearchActive": true,
