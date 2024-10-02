@@ -21,7 +21,20 @@
     "searchConfig": {
         "komkode": "621"
     },
+	"extensionConfig": {
+		"_session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 2500000
+		},
+        	"streetView": {
+            		"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVbluekolding&p=2B91C92C&origin=desktop&cmd=state&project=Bluekolding&vlayers=GeoDanmark OrtoPhoto 2020;DDG Latest&maximize=DDG Latest&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG Latest&ssTrigger=SINGLE_CLICK"
+        	}
+	},
+    "showLayerGroupCheckbox": true,
+    "activateMainTab": "search",
     "enabledSearch": "danish",
+    "showOffcanvas": "mobile",
+    "removeDisabledLayersFromLegend": false,
     "searchConfig": {
         "esrSearchActive": true,
         "sfeSearchActive": true
