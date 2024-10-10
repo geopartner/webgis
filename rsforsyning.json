@@ -14,7 +14,8 @@
 		"gadelys",
         "groen_omr_gp",
 		"ler",
-		"lukkeliste"
+		"lukkeliste",
+		"gisdata"
 	],
 	"enabledPrints": [
 		"rsforsyning"
