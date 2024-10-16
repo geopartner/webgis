@@ -1,8 +1,9 @@
 {
-  "brandName": "Novi",
+  "brandName": "NOVI Science Park",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+	"session"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
