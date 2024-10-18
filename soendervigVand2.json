@@ -1,7 +1,7 @@
 {
-	"schemata": [
-		"soendervigvand_ler2",
-	],
+  "schemata": [
+    "soendervigvand_ler2"
+  ],
   "brandName": "Søndervig Vandværk",
   "enabledExtensions": [
     "streetView",
@@ -16,18 +16,17 @@
     "danish"
   ],
   "extensionConfig": {
-		  "streetView": {
-				  "ignorelist": [
-						  "mapillary",
-						  "cowi"
-				  ]
-			  }
+    "streetView": {
+      "ignorelist": [
+        "mapillary",
+        "cowi"
+      ]
+    }
   },
   "enabledSearch": "danish",
   "searchConfig": {
     "komkode": [
       "760"
-
     ]
   },
   "popupDraggable": true
