@@ -1,4 +1,7 @@
 {
+	"schemata": [
+		"soendervigvand_ler2",
+	],
   "brandName": "Søndervig Vandværk",
   "enabledExtensions": [
     "streetView",
