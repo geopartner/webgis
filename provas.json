@@ -17,7 +17,8 @@
       "lukkeliste",
       "matrikel_datahub",
       "graveassistent_provas",
-      "tag:redigerbarelag"
+      "tag:redigerbarelag",
+      "deklarationer"
    ],
    "enabledExtensions":[
       "graveAssistent",
