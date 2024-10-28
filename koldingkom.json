@@ -22,7 +22,7 @@
             "mapillary",
             "cowi"
         ]
-    },
+    }
 	},
     "showLayerGroupCheckbox": true,
     "activateMainTab": "info",
