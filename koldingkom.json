@@ -1,0 +1,38 @@
+{
+    "schemata": [
+        "bk_dandas"
+    ],
+    "brandName": "Kolding kommune",
+    "aboutBox": "<p>Map COnnect kortløsning til illustration af kolding kommunes ledninger, deklarationer mm.</p>",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session"
+    ],
+    "searchConfig": {
+        "komkode": "621"
+    },
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 2500000
+		},
+    "streetView": {
+        "ignorelist": [
+            "mapillary",
+            "cowi"
+        ]
+    },
+	},
+    "showLayerGroupCheckbox": true,
+    "activateMainTab": "info",
+    "enabledSearch": "danish",
+    "showOffcanvas": "mobile",
+    "removeDisabledLayersFromLegend": true,
+    "searchConfig": {
+        "esrSearchActive": false,
+        "sfeSearchActive": false
+    },
+    "featureInfoTableOnMap": false,
+    "template": "default.tmpl"
+}
