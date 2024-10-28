@@ -1,6 +1,7 @@
 {
     "schemata": [
-        "bk_dandas"
+        "bk_dandas",
+	"mapstatus_koldingkom_internbyg"
     ],
     "brandName": "Kolding kommune",
     "aboutBox": "<p>Map COnnect kortløsning til illustration af kolding kommunes ledninger, deklarationer mm.</p>",
