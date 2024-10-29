@@ -5,7 +5,7 @@
 	"public"
     ],
     "brandName": "Kolding kommune",
-    "aboutBox": "<p>Map COnnect kortløsning til illustration af kolding kommunes ledninger, deklarationer mm.</p>",
+    "aboutBox": "<p>Map Connect kortløsning til illustration af kolding kommunes ledninger, deklarationer mm.</p>",
     "enabledExtensions": [
         "streetView",
         "coordinates",
