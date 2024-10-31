@@ -1,0 +1,31 @@
+{
+  "schemata": [
+    "test"
+  ],
+  "brandName": "Test",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk2.tmpl"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+    "streetView": {
+      "ignorelist": [
+        "mapillary",
+        "cowi"
+      ]
+    }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": []
+  },
+  "popupDraggable": true
+}
