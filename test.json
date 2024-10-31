@@ -5,7 +5,8 @@
   "brandName": "Test",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+	"editor"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
