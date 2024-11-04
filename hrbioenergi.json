@@ -10,8 +10,7 @@
 	"_activeLayers": [],
 	"enabledExtensions": [
 		"streetView",
-		"coordinates",
-		"session"
+		"coordinates"
 	],
     "extensionConfig": {
         "session": {
