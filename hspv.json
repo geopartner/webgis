@@ -9,7 +9,8 @@
         "gc2_io_dk_kulturarvsstyrelsen",
         "bbr_datahub",
         "ejerkort_datahub",
-        "matrikel_datahub"
+        "matrikel_datahub",
+		"mapinfo"
     ],
     "enabledExtensions": [
         "streetView",
