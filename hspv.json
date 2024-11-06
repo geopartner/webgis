@@ -15,7 +15,8 @@
     "enabledExtensions": [
         "streetView",
         "coordinates",
-        "session"
+        "session",
+		"editor"
     ],
     "showLayerGroupCheckbox": true,
     "showOffcanvas": "mobile",
