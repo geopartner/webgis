@@ -13,6 +13,11 @@
         "session",
         "editor"
     ],
+    "_activeLayers": [
+        "schema.lag1",
+        "v:schema.lag2"
+    ],
+    "expandFirstInLayerTree": true,
     "showLayerGroupCheckbox": true,
     "showOffcanvas": "mobile",
     "removeDisabledLayersFromLegend": true,
