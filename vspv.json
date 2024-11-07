@@ -357,16 +357,6 @@
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20
-        },
-        {
-            "id": "osm",
-            "name": "Topografisk kort - Open Street Map",
-            "abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
-            "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
-                "attribution": "&copy; Open Street Map"
-            }
         }
     ]
 }
