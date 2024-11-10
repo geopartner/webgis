@@ -10,7 +10,9 @@
         "bbr_datahub",
         "ejerkort_datahub",
         "matrikel_datahub",
-		"mapinfo"
+		"mapinfo",
+	    "deklarationer",
+	    "ejf_datahub"
     ],
     "enabledExtensions": [
         "streetView",
