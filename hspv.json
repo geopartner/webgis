@@ -108,7 +108,6 @@
         {
             "groupName": "GeoDanmark forår ortofoto 2023-2015 + quick-orto",
             "layers": [
-                "ortofoto_foraar",
                 "ortofoto_foraar_temp_DF",
                 "ortofoto_foraar_2023",
                 "ortofoto_foraar_2022",
