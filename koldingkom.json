@@ -2,6 +2,7 @@
     "schemata": [
         "bk_dandas",
 	"mapstatus_koldingkom_internbyg",
+	"mapstatus_dd_kolding_kommune",
 	"public"
     ],
     "brandName": "Kolding kommune",
