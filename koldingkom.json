@@ -11,6 +11,7 @@
     "enabledExtensions": [
         "streetView",
         "coordinates",
+        "editor",
         "session"
     ],
     "searchConfig": {
