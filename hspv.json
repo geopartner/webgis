@@ -10,18 +10,19 @@
         "bbr_datahub",
         "ejerkort_datahub",
         "matrikel_datahub",
-		"plandata_datahub",
-		"mapinfo",
-		"kloak_30062008",
-		"kloak_07052010",
-	    "deklarationer",
-	    "ejf_datahub"
+        "plandata_datahub",
+        "mapinfo",
+        "kloak_30062008",
+        "kloak_07052010",
+        "deklarationer",
+        "ejf_datahub",
+        "flyfoto"
     ],
     "enabledExtensions": [
         "streetView",
         "coordinates",
         "session",
-		"editor"
+        "editor"
     ],
     "showLayerGroupCheckbox": true,
     "showOffcanvas": "mobile",
