@@ -46,7 +46,7 @@
                     "key": "ogc_fid"
                 },
                 "relation": {
-                    "name": "dandas.knude_es",
+                    "name": "dandas.ddg_knude",
                     "key": "ogc_fid",
                     "geom": "the_geom"
                 }
