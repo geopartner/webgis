@@ -34,7 +34,7 @@
             "630"
         ],
         "size": 6,
-        "placeholderText": "Søg adr., matr. eller DanDas-knude .",
+        "placeholderText": "Søg adr., matr.nr. eller DanDas-knude.",
         "extraSearches": [
             {
                 "name": "dandas_knude",
