@@ -34,7 +34,24 @@
             "630"
         ],
         "size": 6,
-        "placeholderText": "Søg adr., matr.  [, knude eller graveforesp.]",
+        "placeholderText": "Søg adr., matr. eller DanDas-knude .",
+        "extraSearches": [
+            {
+                "name": "dandas_knude_es",
+                "db": "vspv",
+                "heading": "Knude - DanDas",
+                "index": {
+                    "name": "dandas/knude_es",
+                    "field": "text_search",
+                    "key": "ogc_fid"
+                },
+                "relation": {
+                    "name": "dandas.knude_es",
+                    "key": "ogc_fid",
+                    "geom": "the_geom"
+                }
+            }
+        ],
         "_extraSearches": [
             {
                 "name": "dandas_knude_es",
