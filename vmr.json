@@ -179,7 +179,8 @@
             "kontakt_mail",
             "fileident",
             "tilbagemelding",
-            "bfenr"
+            "bfenr",
+            "gid"
           ],
           "geom_ext": {
             "x": "lat",
