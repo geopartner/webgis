@@ -42,7 +42,7 @@
                 "heading": "Knude - DanDas",
                 "index": {
                     "name": "dandas/ddg_knude",
-                    "field": "text_search",
+                    "field": "knudenavn",
                     "key": "ogc_fid"
                 },
                 "relation": {
