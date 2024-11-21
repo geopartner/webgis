@@ -26,8 +26,7 @@
       "coordinates",
       "session",
       "blueidea",
-      "editor",
-      "symbols"
+      "editor"
    ],
    "showLayerGroupCheckbox":true,
    "enabledPrints":[
@@ -96,52 +95,6 @@
       },
       "graveAssistent":{
          "schema":"graveassistent_provas"
-      },
-	   "symbols": {
-			"files": [
-			{
-				"file": "rsf_symbol_advarselstavler.json",
-				"title": "Advarselstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_forbudstavler.json",
-				"title": "Forbudstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_paabudstavler.json",
-				"title": "Påbudstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_vigepligtstavler.json",
-				"title": "Vigepligtstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_oplysningstavler.json",
-				"title": "Oplysningstavler",
-				"desc": ""
-			},			  
-			{
-				"file": "rsf_symbol_undertavler.json",
-				"title": "Undertavler",
-				"desc": ""
-			},	
-			{
-				"file": "rsf_symbol_kant_og_baggrundsafmaerkning.json",
-				"title": "Afmærkning",
-				"desc": ""
-			}		  
-			],
-			"symbolOptions": {
-				"rotate": true,
-				"scale": true,
-				"delete": true,
-				"onlyOne": true,
-				"validate": false
-			}
-	   }
+      }
    }
 }
