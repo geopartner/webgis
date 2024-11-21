@@ -26,7 +26,8 @@
       "coordinates",
       "session",
       "blueidea",
-      "editor"
+      "editor",
+      "symbols"
    ],
    "showLayerGroupCheckbox":true,
    "enabledPrints":[
