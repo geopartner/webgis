@@ -4,7 +4,8 @@
     "vandvaerk2"
   ],
   "enabledExtensions": [
-    "geosag"
+    "geosag",
+    "session"
   ],
   "activeLayers": [
     "matrikeludpegning.matrikel",
