@@ -139,7 +139,7 @@
 				"rotate": true,
 				"scale": true,
 				"delete": true,
-				"onlyOne": false,
+				"onlyOne": true,
 				"validate": false
 			}
 	   }
