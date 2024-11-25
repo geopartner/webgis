@@ -1,0 +1,14 @@
+#offcanvas-edit-bottom {
+ height: 40vh !important;
+}
+
+/* Ny Vidi */
+#edit-tool-group, .btn-outline-secondary, .offcanvas-header {
+  display:none !important;
+}
+.leaflet-top {
+  top: 0 !important
+}
+.offcanvas-body img {
+  width: 100%
+}
