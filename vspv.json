@@ -334,51 +334,6 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20
-        },
-        {
-            "type": "wms",
-            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
-            "layers": [
-                "DK-DTK_Kort100_UTM32ETRS89"
-            ],
-            "id": "DK-DTK_Kort100_UTM32ETRS89",
-            "name": "DTK Kort100",
-            "description": "DK-DTK_Kort100_UTM32ETRS89",
-            "attribution": "&copy; Hexagon.",
-            "abstract": "<p>Copyright: Hexagon. DK-DTK_Kort100_UTM32ETRS89.</p><br>",
-            "minZoom": 4,
-            "maxZoom": 24,
-            "maxNativeZoom": 20
-        },
-        {
-            "type": "wms",
-            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
-            "layers": [
-                "DK-DTK_Kort50_UTM32ETRS89"
-            ],
-            "id": "DK-DTK_Kort50_UTM32ETRS89",
-            "name": "DTK Kort50",
-            "description": "DK-DTK_Kort50_UTM32ETRS89",
-            "attribution": "&copy; Hexagon.",
-            "abstract": "<p>Copyright: Hexagon. DK-DTK_Kort50_UTM32ETRS89.</p><br>",
-            "minZoom": 4,
-            "maxZoom": 24,
-            "maxNativeZoom": 20
-        },
-        {
-            "type": "wms",
-            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
-            "layers": [
-                "DK-DTK_Kort25_UTM32ETRS89"
-            ],
-            "id": "DK-DTK_Kort25_UTM32ETRS89",
-            "name": "DTK Kort25",
-            "description": "DK-DTK_Kort25_UTM32ETRS89",
-            "attribution": "&copy; Hexagon.",
-            "abstract": "<p>Copyright: Hexagon. DK-DTK_Kort25_UTM32ETRS89.</p><br>",
-            "minZoom": 4,
-            "maxZoom": 24,
-            "maxNativeZoom": 20
         }
     ]
 }
