@@ -94,9 +94,11 @@
             "autoLoginMaxAge": 65000000
         },
         "streetView": {
+			"_cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVgeopartner&p=75FE4592&origin=desktop&cmd=state&project=Geopartner_DDG&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
+			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVVejleSpildevand&p=18D12728&origin=desktop&cmd=state&project=Vejle%20Spildevand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
             "ignorelist": [
                 "mapillary",
-                "cowi"
+                "_cowi"
             ]
         }
     },
