@@ -15,7 +15,8 @@
         "groen_omr_gp",
 		"ler",
 		"lukkeliste",
-		"gisdata"
+		"gisdata",
+		"matrikel_datahub"
 	],
 	"enabledPrints": [
 		"rsforsyning"
