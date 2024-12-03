@@ -1,18 +1,35 @@
 {
-    "brandName": "JN Data",
-    "enabledPrints": [
-      "jndata"
-    ],
-    "enabledExtensions": [
-      "streetView",
-      "coordinates",
-      "session"
-    ],
-    "searchConfig": {
-      "komkode": [
-        "740","157"
-      ]
-    },
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish"
-  }
+  "schemata": [
+    "ler2"
+  ],
+  "brandName": "JN Data",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+    "session"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "jndata"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "740",
+	  "157"
+    ]
+  },
+  "popupDraggable": true
+}
