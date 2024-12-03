@@ -33,7 +33,10 @@
     "session": {
       "autoLogin": true,
       "autoLoginMaxAge": 630720000000
-    }
+    },
+    "conflictSearch": {
+			"poolSize": 8
+		}
   },
   "popupDraggable": true,
   "featureInfoTableOnMap": false,

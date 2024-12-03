@@ -8,7 +8,11 @@
         "session",
         "editor"
    ],
-   
+   "extensionConfig": {
+		"conflictSearch": {
+			"poolSize": 8
+		}
+	},
    "template":"default.tmpl",
    "baseLayers":[
       {

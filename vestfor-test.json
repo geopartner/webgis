@@ -30,6 +30,9 @@
 				"mapillary",
 				"cowi"
 			]
+		},
+		"conflictSearch": {
+			"poolSize": 8
 		}
 	},
 	"baseLayers": [

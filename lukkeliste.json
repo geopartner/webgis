@@ -11,6 +11,9 @@
     },
     "blueidea": {
       "userid": "d7a12844-5fc9-4316-9af7-b841fcc3d399"
-    }
+    },
+    "conflictSearch": {
+			"poolSize": 8
+		}
   }
 }
