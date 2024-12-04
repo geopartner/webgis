@@ -41,6 +41,7 @@
                 "name": "dandas_knude",
                 "db": "vspv",
                 "heading": "Knude - DanDas",
+		"zoom": 20,
                 "index": {
                     "name": "dandas/ddg_knude",
                     "field": "knudenavn",
