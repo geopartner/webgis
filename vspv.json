@@ -42,7 +42,7 @@
                 "name": "dandas_knude",
                 "db": "vspv",
                 "heading": "Knude - DanDas",
-		"zoom": 20,
+                "zoom": 20,
                 "index": {
                     "name": "dandas/ddg_knude",
                     "field": "knudenavn",
@@ -51,38 +51,6 @@
                 "relation": {
                     "name": "dandas.ddg_knude",
                     "key": "ogc_fid",
-                    "geom": "the_geom"
-                }
-            }
-        ],
-        "_extraSearches": [
-            {
-                "name": "dandas_knude_es",
-                "db": "hspv",
-                "heading": "Knude - DanDas",
-                "index": {
-                    "name": "dandas/knude_es",
-                    "field": "text_search",
-                    "key": "ogc_fid"
-                },
-                "relation": {
-                    "name": "dandas.knude_es",
-                    "key": "ogc_fid",
-                    "geom": "the_geom"
-                }
-            },
-            {
-                "name": "dandas_ler_es",
-                "db": "hspv",
-                "heading": "LER - Graveforespørgsel",
-                "index": {
-                    "name": "dandas/ler_es",
-                    "field": "text_search",
-                    "key": "gid"
-                },
-                "relation": {
-                    "name": "dandas.ler_es",
-                    "key": "gid",
                     "geom": "the_geom"
                 }
             }
@@ -97,7 +65,7 @@
             "autoLoginMaxAge": 65000000
         },
         "streetView": {
-			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVVejleSpildevand&p=18D12728&origin=desktop&cmd=state&project=Vejle%20Spildevand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
+            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVVejleSpildevand&p=18D12728&origin=desktop&cmd=state&project=Vejle%20Spildevand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
             "ignorelist": [
                 "mapillary"
             ]
