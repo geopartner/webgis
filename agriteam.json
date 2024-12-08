@@ -29,7 +29,8 @@
 			"autoLoginMaxAge": 630720000000
 		},
 		"conflictSearch": {
-			"poolSize": 8
+			"poolSize": 8,
+			"buffer": 40
 		}
 	},
 	"featureInfoTableOnMap": true,
