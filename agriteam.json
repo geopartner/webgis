@@ -30,7 +30,7 @@
 		},
 		"conflictSearch": {
 			"poolSize": 8,
-			"buffer": 40
+			"startBuffer": 40
 		}
 	},
 	"featureInfoTableOnMap": true,
