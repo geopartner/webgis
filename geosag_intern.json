@@ -161,7 +161,7 @@
             "maxNativeZoom": 20
         },
         {
-            "type": "wmts",
+            "type": "WMTS",
             "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=4aacd5977eb46ca012c260ecb608c65c&",
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
