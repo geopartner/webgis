@@ -162,11 +162,11 @@
         },
         {
             "type": "WMTS",
-            "url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=4aacd5977eb46ca012c260ecb608c65c&",
+            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
             "id": "ortofoto_foraar_wmts",
-            "name": "GeoDanmark ortofoto forår 4 (seneste, WMTS)",
+            "name": "GeoDanmark ortofoto forår 5 (seneste, WMTS)",
             "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
