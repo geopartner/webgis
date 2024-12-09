@@ -166,13 +166,13 @@
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
             "id": "ortofoto_foraar_wmts",
-            "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
+            "name": "GeoDanmark ortofoto forår 2 (seneste, WMTS)",
             "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
-            "minZoom": 8,
-            "maxZoom": 20,
-            "maxNativeZoom": 19
+            "minZoom": 4,
+            "maxZoom": 24,
+            "_maxNativeZoom": 19
         },
         {
             "type": "wms",
