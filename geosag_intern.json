@@ -96,11 +96,11 @@
 
         {
             "type": "WMTS",
-            "url": "/api/dataforsyningen/wmts/forvaltning2",
+            "url": "https://api.dataforsyningen.dk/wmts/forvaltning2",
             "tileMatrixSet": "View1",
             "layer": "Forvaltning2",
             "id": "ForvaltningskortDF1",
-            "name": "Forvaltningskort (WMTS) 2",
+            "name": "Forvaltningskort (WMTS) 3",
             "description": "Forvaltningskort (WMTS) fra Dataforsyningen",
             "attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.",
             "abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
