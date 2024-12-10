@@ -36,8 +36,8 @@
 			"id": "ForvaltningskortDF",
 			"name": "Forvaltningskort",
 			"description": "Forvaltningskort fra Dataforsyningen",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
+			"attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
@@ -46,28 +46,27 @@
 			"name": "Topografisk kort",
 			"db": "baselayers",
 			"host": "https://dk.gc2.io",
-			"abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+			"abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Klimadatastyrelsen og Danske kommuner.'. </p><br>",
 			"config": {
 				"maxZoom": 21,
 				"maxNativeZoom": 19,
-				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+				"attribution": "&copy; Klimadatastyrelsen og Danske kommuner."
 			}
 		},
-		{
-			"type": "wms",
-			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-			"layers": [
-				"orto_foraar_12_5"
-			],
-			"id": "ortofoto_foraar",
-			"name": "GeoDanmark ortofoto forår (seneste)",
-			"description": "Seneste ortofoto forår fra GeoDanmark",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-			"abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		}
+        {
+            "type": "WMTS",
+            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
+            "tileMatrixSet": "DFD_GoogleMapsCompatible",
+            "layer": "orto_foraar_webm",
+            "id": "ortofoto_foraar_wmts0",
+            "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
+            "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        }
 	],
 	"searchConfig": {
 		"komkode": [
