@@ -174,7 +174,7 @@
                     "config": {
                         "minZoom": 8,
                         "maxZoom": 21,
-                        "maxNativeZoom": 21
+                        "maxNativeZoom": 20
                     }
                 },
                 {
@@ -184,7 +184,7 @@
                     "config": {
                         "minZoom": 8,
                         "maxZoom": 21,
-                        "maxNativeZoom": 21
+                        "maxNativeZoom": 20
                     }
                 }
             ]
