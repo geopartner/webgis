@@ -78,8 +78,8 @@
             "id": "ForvaltningskortDF",
             "name": "Forvaltningskort",
             "description": "Forvaltningskort fra Dataforsyningen",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-            "abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li><li>Adm-graense</li></ul></p><br>",
+            "attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.",
+            "abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li><li>Adm-graense</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 22
         },
@@ -95,8 +95,8 @@
             "id": "ForvaltningskortDFMatrikel",
             "name": "Forvaltningskort, Matriklen",
             "description": "Forvaltningskort fra Dataforsyningen overlejret med Matriklekortet",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner samt Geodatastyrelsen.",
-            "abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner samt Geodatastyrelsen.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Matrikel</li><li>Matrikel-foreloebig</li><li>Matrikel-tekst</li></ul></p><br>",
+            "attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner samt Geodatastyrelsen.",
+            "abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner samt Geodatastyrelsen.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Matrikel</li><li>Matrikel-foreloebig</li><li>Matrikel-tekst</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 22
         },
@@ -130,33 +130,18 @@
             "transparent": false
         },
         {
-            "type": "wms",
-            "url": "/api/dataforsyningen/orto_foraar_DAF",
-            "_url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-            "layers": [
-                "orto_foraar_12_5"
-            ],
-            "id": "ortofoto_foraar",
-            "name": "GeoDanmark ortofoto forår (seneste)",
-            "description": "Seneste ortofoto forår fra GeoDanmark",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-            "abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
-            "maxZoom": 22,
-            "maxNativeZoom": 20
-        },
-        {
             "type": "WMTS",
             "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
-            "id": "ortofoto_foraar_wmts",
+            "id": "ortofoto_foraar_wmts0",
             "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
             "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
             "minZoom": 8,
             "maxZoom": 22,
-            "maxNativeZoom": 19
+            "maxNativeZoom": 20
         },
         {
             "type": "wms",
@@ -167,8 +152,8 @@
             "id": "ortofoto_foraar_temp_DF",
             "name": "GeoDanmark ortofoto forår (quickorto)",
             "description": "Ortofoto forår fra Dataforsyningen",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-            "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Klimadatastyrelsen.'. </p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20
         },
@@ -405,8 +390,8 @@
             ],
             "id": "DTK_Kort100",
             "name": "Klassisk 1 cm kort",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-            "abstract": "<p>Klassisk 1 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner. Hexagon.",
+            "abstract": "<p>Klassisk 1 cm kort</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20
@@ -419,8 +404,8 @@
             ],
             "id": "DTK_Kort50",
             "name": "Klassisk 2 cm kort",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-            "abstract": "<p>Klassisk 2 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner. Hexagon.",
+            "abstract": "<p>Klassisk 2 cm kort</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20
@@ -433,8 +418,8 @@
             ],
             "id": "DTK_Kort25",
             "name": "Klassisk 4 cm kort",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner. Hexagon.",
-            "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner. Hexagon.",
+            "abstract": "<p>Klassisk 4 cm kort</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Copyright: Hexagon.</p><br>",
             "minZoom": 4,
             "maxZoom": 24,
             "maxNativeZoom": 20
