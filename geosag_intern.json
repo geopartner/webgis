@@ -157,7 +157,7 @@
             "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
             "minZoom": 8,
             "maxZoom": 22,
-            "maxNativeZoom": 19
+            "maxNativeZoom": 20
         },
         {
             "type": "WMTS",
@@ -165,7 +165,7 @@
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
             "id": "ortofoto_foraar_wmts1",
-            "name": "GeoDanmark ortofoto forår (seneste, WMTS, ovelays)",
+            "name": "GeoDanmark ortofoto forår (seneste, WMTS, overlays)",
             "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark, overlay med Vejnavne og Husnummer.",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li>Vejnavne<li></li>Husnummer<li></li></ul></p><br>",
@@ -179,7 +179,7 @@
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
                         "maxZoom": 21,
-                        "maxNativeZoom": 19
+                        "maxNativeZoom": 20
                     }
                 },
                 {
@@ -188,7 +188,7 @@
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
                         "maxZoom": 21,
-                        "maxNativeZoom": 19
+                        "maxNativeZoom": 21
                     }
                 }
             ]
