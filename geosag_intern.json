@@ -178,6 +178,7 @@
                     "db": "mapconnectbase",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
+                        "minZoom": 8,
                         "maxZoom": 21,
                         "maxNativeZoom": 21
                     }
@@ -187,6 +188,7 @@
                     "db": "mapconnectbase",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
+                        "minZoom": 8,
                         "maxZoom": 21,
                         "maxNativeZoom": 21
                     }
