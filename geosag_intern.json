@@ -154,42 +154,6 @@
             "maxNativeZoom": 20
         },
         {
-            "type": "WMTS",
-            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
-            "tileMatrixSet": "DFD_GoogleMapsCompatible",
-            "layer": "orto_foraar_webm",
-            "id": "ortofoto_foraar_wmts1",
-            "name": "GeoDanmark ortofoto forår (seneste, WMTS, overlays)",
-            "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark, overlay med Vejnavne og Husnummer.",
-            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
-            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li>Vejnavne<li></li>Husnummer<li></li></ul></p><br>",
-            "minZoom": 8,
-            "maxZoom": 22,
-            "maxNativeZoom": 20,
-            "overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "minZoom": 8,
-                        "maxZoom": 21,
-                        "maxNativeZoom": 20
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "minZoom": 8,
-                        "maxZoom": 21,
-                        "maxNativeZoom": 20
-                    }
-                }
-            ]
-        },
-        {
             "type": "wms",
             "url": "/api/dataforsyningen/orto_foraar_temp",
             "layers": [
