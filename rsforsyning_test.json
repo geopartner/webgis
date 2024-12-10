@@ -81,21 +81,20 @@
 			"maxZoom": 22,
 			"maxNativeZoom": 20
 		},
-		{
-			"type": "wms",
-			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-			"layers": [
-				"orto_foraar_12_5"
-			],
-			"id": "ortofoto_foraar",
-			"name": "GeoDanmark ortofoto forår (seneste)",
-			"description": "Seneste ortofoto forår fra GeoDanmark",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto forår</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
+        {
+            "type": "WMTS",
+            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
+            "tileMatrixSet": "DFD_GoogleMapsCompatible",
+            "layer": "orto_foraar_webm",
+            "id": "ortofoto_foraar_wmts0",
+            "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
+            "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
 		{
 			"type": "wms",
 			"_url": "/api/dataforsyningen/orto_foraar_DAF",
