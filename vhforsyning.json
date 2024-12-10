@@ -1,47 +1,47 @@
 {
-	"schemata": [
-		"public",
-		"_dandas",
-		"_danvand",
-		"diverse",
-		"ejerkort_datahub",
-		"bbr_datahub",
-		"gc2_io_dk_dar",
-		"gc2_io_dk_danmarksarealinformation",
-		"gc2_io_dk_dkjord",
-		"gc2_io_dk_geodanmark",
-		"gc2_io_dk_plandatadk",
-		"gc2_io_dk_kulturarvsstyrelsen",
-		"drift",
-		"ler",
-		"tag:ddg",
-		"tag:dvg"
-	],
-	"cssFiles": [
-		"vesthimmerland.css"
-	],
-	"enabledPrints": [
-		"vhforsyning"
-	],
-	"_initZoomCenter": "/10/8.5378/55.9972",
-	"brandName": "Vesthimmerlands Forsyning",
-	"enabledSearch": "danish",
-	"showLayerGroupCheckbox": true,
-	"removeDisabledLayersFromLegend": true,
-	"searchConfig": {
-		"size": 6,
-		"placeholderText": "Søg adr., matr., ejd.nr., knude eller graveforesp.",
-		"komkode": [
-			"820",
-			"846",
-			"849",
-			"840"
-		],
-		"esrSearchActive": true,
-		"sfeSearchActive": true,
-		"advanced": false,
-		"sortByScore": true,
-		"extraSearches": [
+    "schemata": [
+        "public",
+        "_dandas",
+        "_danvand",
+        "diverse",
+        "ejerkort_datahub",
+        "bbr_datahub",
+        "gc2_io_dk_dar",
+        "gc2_io_dk_danmarksarealinformation",
+        "gc2_io_dk_dkjord",
+        "gc2_io_dk_geodanmark",
+        "gc2_io_dk_plandatadk",
+        "gc2_io_dk_kulturarvsstyrelsen",
+        "drift",
+        "ler",
+        "tag:ddg",
+        "tag:dvg"
+    ],
+    "cssFiles": [
+        "vesthimmerland.css"
+    ],
+    "enabledPrints": [
+        "vhforsyning"
+    ],
+    "_initZoomCenter": "/10/8.5378/55.9972",
+    "brandName": "Vesthimmerlands Forsyning",
+    "enabledSearch": "danish",
+    "showLayerGroupCheckbox": true,
+    "removeDisabledLayersFromLegend": true,
+    "searchConfig": {
+        "size": 6,
+        "placeholderText": "Søg adr., matr., ejd.nr., knude eller graveforesp.",
+        "komkode": [
+            "820",
+            "846",
+            "849",
+            "840"
+        ],
+        "esrSearchActive": true,
+        "sfeSearchActive": true,
+        "advanced": false,
+        "sortByScore": true,
+        "extraSearches": [
             {
                 "name": "dandas_ler_es",
                 "db": "vhforsyning",
@@ -57,7 +57,7 @@
                     "geom": "the_geom"
                 }
             },
-			{
+            {
                 "name": "dandas_knude_es",
                 "db": "vhforsyning",
                 "heading": "Knude - DanDas",
@@ -72,7 +72,7 @@
                     "geom": "the_geom"
                 }
             },
-			{
+            {
                 "name": "danvand_knude_es",
                 "db": "vhforsyning",
                 "heading": "Knude - DanVand",
@@ -88,80 +88,65 @@
                 }
             }
         ]
-	},
-	"extensionConfig": {
-		"_session": {
-			"autoLogin": true,
-			"autoLoginMaxAge": 2500000
-		},
-		"streetView": {
-			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=VesthimmerlandFors&p=449012FC&origin=desktop&cmd=state&project=DDG%20Vesthimmerlands%20Forsyning&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
-		},
-		"conflictSearch": {
-			"poolSize": 8
-		}
-	},
-	"popupDraggable": true,
-	"featureInfoTableOnMap": true,
-	"enabledExtensions": [
-		"streetView",
-		"coordinates",
-		"session",
-		"editor",
-		"conflictSearch"
-	],
-	"df": {
-		"datafordeler": {
-			"username": "XMERXHKAVN",
-			"password": "Geop1234!"
-		},
-		"dataforsyningen": {
-			"token": "4aacd5977eb46ca012c260ecb608c65c"
-		}
-	},
-	"baseLayers": [
-		{
-			"type": "wms",
-			"url": "/api/dataforsyningen/forvaltning2",
-			"layers": [
-				"Basis_kort",
-				"Stednavne_basiskort",
-				"Vejnavne_basiskort",
-				"Husnummer"
-			],
-			"id": "ForvaltningskortDF",
-			"name": "Forvaltningskort",
-			"description": "Forvaltningskort fra Dataforsyningen",
-			"attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.",
-			"abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
-		{
-			"id": "osm",
-			"name": "Topografisk kort - Open Street Map",
-			"abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
-			"config": {
-				"maxZoom": 23,
-				"maxNativeZoom": 19,
-				"attribution": "&copy; Open Street Map"
-			}
-		},
-		{
-			"type": "wms",
-			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-			"layers": [
-				"orto_foraar_12_5"
-			],
-			"id": "ortofoto_foraar",
-			"name": "GeoDanmark ortofoto forår (seneste)",
-			"description": "Seneste ortofoto forår fra GeoDanmark",
-			"attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, nyeste udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto forår</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
+    },
+    "extensionConfig": {
+        "_session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 2500000
+        },
+        "streetView": {
+            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=VesthimmerlandFors&p=449012FC&origin=desktop&cmd=state&project=DDG%20Vesthimmerlands%20Forsyning&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
+        },
+        "conflictSearch": {
+            "poolSize": 8
+        }
+    },
+    "popupDraggable": true,
+    "featureInfoTableOnMap": true,
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "conflictSearch"
+    ],
+    "df": {
+        "datafordeler": {
+            "username": "XMERXHKAVN",
+            "password": "Geop1234!"
+        },
+        "dataforsyningen": {
+            "token": "4aacd5977eb46ca012c260ecb608c65c"
+        }
+    },
+    "baseLayers": [
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/forvaltning2",
+            "layers": [
+                "Basis_kort",
+                "Stednavne_basiskort",
+                "Vejnavne_basiskort",
+                "Husnummer"
+            ],
+            "id": "ForvaltningskortDF",
+            "name": "Forvaltningskort",
+            "description": "Forvaltningskort fra Dataforsyningen",
+            "attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.",
+            "abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "id": "osm",
+            "name": "Topografisk kort - Open Street Map",
+            "abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
+            "config": {
+                "maxZoom": 23,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; Open Street Map"
+            }
+        },
         {
             "type": "WMTS",
             "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
@@ -176,91 +161,91 @@
             "maxZoom": 22,
             "maxNativeZoom": 20
         },
-		{
-			"type": "wms",
-			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
-			"layers": [
-				"geodanmark_2019_12_5cm"
-			],
-			"id": "ortofoto_2019_foraar",
-			"name": "GeoDanmark ortofoto forår (2019)",
-			"description": "Ortofoto forår 2019 fra GeoDanmark",
-			"attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>geodanmark_2019_12_5cm</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
-		{
-			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar",
-			"layers": [
-				"jylland2010_20cm"
-			],
-			"id": "jylland2010_foraar",
-			"name": "GeoDanmark ortofoto Jylland forår (2010)",
-			"description": "Ortofoto forår 2010 fra GeoDanmark",
-			"attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>jylland2010_20cm</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
-		{
-			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar",
-			"layers": [
-				"jylland2007_20cm"
-			],
-			"id": "jylland2007_foraar",
-			"name": "GeoDanmark ortofoto Jylland forår (2007)",
-			"description": "Ortofoto forår 2007 fra GeoDanmark",
-			"attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>jylland2007_20cm</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
-		{
-			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar",
-			"layers": [
-				"jylland2004_40cm"
-			],
-			"id": "jylland2004_foraar",
-			"name": "GeoDanmark ortofoto Jylland forår (2004)",
-			"description": "Ortofoto forår 2004 fra GeoDanmark",
-			"attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
-			"abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>jylland2004_40cm</li></ul></p><br>",
-			"maxZoom": 22,
-			"maxNativeZoom": 20
-		},
-		{
-			"type": "wms",
-			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
-			"layers": [
-				"Centroide_Gaeldende",
-				"OptagetVej_Gaeldende",
-				"MatrikelSkel_Gaeldende",
-				"StrandbeskyttelseFlade_Gaeldende",
-				"KlitfredningFlade_Gaeldende",
-				"FredskovFlade_Gaeldende"
-			],
-			"styles": [
-				"Sorte_centroider",
-				"Sort_OptagetVej",
-				"Sorte_skel",
-				"default",
-				"default",
-				"default"
-			],
-			"id": "Matriklen-DAF",
-			"name": "Matrikelkort",
-			"description": "Matriklen (Datafordeleren)",
-			"attribution": "&copy; Geodatastyrelsen, Datafordeleren",
-			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
-			"minZoom": 8,
-			"maxZoom": 22,
-			"maxNativeZoom": 22,
-			"transparent": false
-		}
-	]
+        {
+            "type": "wms",
+            "_url": "/api/dataforsyningen/orto_foraar_DAF",
+            "url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+            "layers": [
+                "geodanmark_2019_12_5cm"
+            ],
+            "id": "ortofoto_2019_foraar",
+            "name": "GeoDanmark ortofoto forår (2019)",
+            "description": "Ortofoto forår 2019 fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>geodanmark_2019_12_5cm</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar",
+            "layers": [
+                "jylland2010_20cm"
+            ],
+            "id": "jylland2010_foraar",
+            "name": "GeoDanmark ortofoto Jylland forår (2010)",
+            "description": "Ortofoto forår 2010 fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>jylland2010_20cm</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar",
+            "layers": [
+                "jylland2007_20cm"
+            ],
+            "id": "jylland2007_foraar",
+            "name": "GeoDanmark ortofoto Jylland forår (2007)",
+            "description": "Ortofoto forår 2007 fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>jylland2007_20cm</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar",
+            "layers": [
+                "jylland2004_40cm"
+            ],
+            "id": "jylland2004_foraar",
+            "name": "GeoDanmark ortofoto Jylland forår (2004)",
+            "description": "Ortofoto forår 2004 fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, ældre udgave fra GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>jylland2004_40cm</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
+            "layers": [
+                "Centroide_Gaeldende",
+                "OptagetVej_Gaeldende",
+                "MatrikelSkel_Gaeldende",
+                "StrandbeskyttelseFlade_Gaeldende",
+                "KlitfredningFlade_Gaeldende",
+                "FredskovFlade_Gaeldende"
+            ],
+            "styles": [
+                "Sorte_centroider",
+                "Sort_OptagetVej",
+                "Sorte_skel",
+                "default",
+                "default",
+                "default"
+            ],
+            "id": "Matriklen-DAF",
+            "name": "Matrikelkort",
+            "description": "Matriklen (Datafordeleren)",
+            "attribution": "&copy; Geodatastyrelsen, Datafordeleren",
+            "abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": false
+        }
+    ]
 }
