@@ -65,6 +65,9 @@
             "ignorelist": [
                 "mapillary"
             ]
+        },
+        "coordinates": {
+            "lockUtmZoneTo": 32
         }
     },
     "baseLayers": [
