@@ -25,6 +25,7 @@
     ],
     "_initZoomCenter": "/10/8.5378/55.9972",
     "brandName": "Vesthimmerlands Forsyning",
+    "initFunction": "function(){setTimeout(function(){$('#about-modal').modal('show');}, 100);}",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
     "removeDisabledLayersFromLegend": true,
