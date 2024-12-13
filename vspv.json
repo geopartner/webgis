@@ -109,7 +109,19 @@
                 "maxZoom": 21,
                 "maxNativeZoom": 19,
                 "attribution": "&copy; Open Street Map"
-            }
+            },
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -123,7 +135,19 @@
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Skærmkort - dæmpet</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "WMTS",
@@ -137,7 +161,19 @@
             "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
             "minZoom": 8,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -151,7 +187,19 @@
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -166,7 +214,19 @@
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -181,7 +241,19 @@
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -196,7 +268,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -211,7 +295,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -226,7 +322,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -241,7 +349,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -256,7 +376,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -271,7 +403,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -286,7 +430,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -301,7 +457,19 @@
             "abstract": "<p>Sdykort, GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Sydkort, Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -316,7 +484,19 @@
             "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -331,7 +511,19 @@
             "abstract": "<p>GeoDanmark Ortofoto sommer, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -346,7 +538,19 @@
             "abstract": "<p>GeoDanmark Ortofoto sommer, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -361,7 +565,19 @@
             "abstract": "<p>GeoDanmark Ortofoto sommer, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         },
         {
             "type": "wms",
@@ -376,7 +592,19 @@
             "abstract": "<p>GeoDanmark Ortofoto sommer, nyeste udgave fra forvaltningstjenesten.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Ortofotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
             "minZoom": 4,
             "maxZoom": 22,
-            "maxNativeZoom": 20
+            "maxNativeZoom": 20,
+              "overlays": [
+                {
+                  "id": "public.kommuneinddeling",
+                  "db": "vspv",
+                  "host": "https://mapgogc2.geopartner.dk",
+                  "config": {
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
+                  }
+                }
+              ]
         }
     ]
 }
