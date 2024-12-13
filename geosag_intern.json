@@ -63,6 +63,9 @@
         },
         "conflictSearch": {
             "poolSize": 8
+        },
+        "coordinates": {
+            "lockUtmZoneTo": 32
         }
     },
     "popupDraggable": true,
