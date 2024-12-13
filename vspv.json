@@ -95,10 +95,10 @@
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
-                    "maxNativeZoom": 7,
-                  },
+                    "maxNativeZoom": 7
+                  }
                 }
-              ],
+              ]
         },
         {
             "id": "osm",
