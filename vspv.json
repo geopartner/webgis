@@ -94,8 +94,9 @@
                   "db": "vspv",
                   "host": "https://mapgogc2.geopartner.dk",
                   "config": {
-                    "maxZoom": 21,
-                    "maxNativeZoom": 7
+                    "minZoom": 7,
+                    "maxZoom": 22,
+                    "maxNativeZoom": 19
                   }
                 }
               ]
