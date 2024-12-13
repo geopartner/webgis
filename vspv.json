@@ -92,7 +92,7 @@
                 {
                   "id": "public.kommuneinddeling",
                   "db": "vspv",
-                  "hos"t: "https://mapgogc2.geopartner.dk",
+                  "host": "https://mapgogc2.geopartner.dk",
                   "config": {
                     "maxZoom": 21,
                     "maxNativeZoom": 7,
