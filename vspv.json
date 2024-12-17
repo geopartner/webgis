@@ -8,7 +8,7 @@
         "ejerkort_datahub",
         "matrikel_datahub",
         "plandata_datahub",
-        "tinglysning_datahub"
+        "dktl"
     ],
     "enabledExtensions": [
         "streetView",
