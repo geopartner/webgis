@@ -20,6 +20,7 @@
 		}
 	},
 	"featureInfoTableOnMap": true,
+	"showLayerGroupCheckbox": true,
 	"enabledExtensions": [
 		"conflictSearch",
 		"streetView",
