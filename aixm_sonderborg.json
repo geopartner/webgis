@@ -125,6 +125,22 @@
 			"minZoom": 4,
 			"maxZoom": 24,
 			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "https://mapgogc2.geopartner.dk/ows/aixm/public/",
+			"layers": [
+				"public.worldmap"
+			],
+			"id": "worldmap",
+			"name": "Verdenskort",
+			"description": "Oversigtskort, verden",
+			"abstract": "<p>Oversigtskort</p><br>",
+			"minZoom": 0,
+			"maxZoom": 22,
+			"maxNativeZoom": 22,
+			"transparent": false
 		}
+		
 	]
 }
