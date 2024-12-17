@@ -445,6 +445,20 @@
 			"abstract": "<p>Topografisk 4cm kort, 1980-2002</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
 			"maxZoom": 22,
 			"maxNativeZoom": 20
+		},
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/topo25_preussen_maalebordsblade_DAF",
+			"layers": [
+				"dtk_preussen_maalebordsblade"
+			],
+			"id": "topo25_preussen_maalebordsblade_DAF",
+			"name": "Preussiske målebordsblade (1877-1912)",
+			"description": "Preussiske målebordsblade (1877-1912)",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Preussiske målebordsblade (1877-1912)</p><p>&copy; Indeholder data fra Styrelsen for Dataforsyning og Infrastruktur, Historiske baggrundskort, WMS-tjeneste</p><br>",
+			"maxZoom": 22,
+			"maxNativeZoom": 20
 		}
 	]
 }
