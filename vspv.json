@@ -7,7 +7,8 @@
         "bbr_datahub",
         "ejerkort_datahub",
         "matrikel_datahub",
-        "plandata_datahub"
+        "plandata_datahub",
+        "tinglysning_datahub"
     ],
     "enabledExtensions": [
         "streetView",
