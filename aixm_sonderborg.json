@@ -128,9 +128,9 @@
 		},
 		{
 			"type": "wms",
-			"url": "https://mapgogc2.geopartner.dk/ows/aixm/public/",
+			"url": "https://mapgogc2.geopartner.dk/ows/aixm/baggrund/",
 			"layers": [
-				"public.worldmap"
+				"baggrund.worldmap"
 			],
 			"id": "worldmap",
 			"name": "Verdenskort",
@@ -139,7 +139,7 @@
 			"minZoom": 0,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
-			"transparent": false
+			"transparent": true
 		}
 		
 	]
