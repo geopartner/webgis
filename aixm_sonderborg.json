@@ -133,13 +133,13 @@
 				"baggrund.blank"
 			],
 			"id": "blank",
-			"name": "B",
+			"name": "Hvid baggrund",
 			"description": "Ingen baggrund",
 			"abstract": "<p>Hvid baggrund</p><br>",
 			"minZoom": 0,
 			"maxZoom": 22,
 			"maxNativeZoom": 22,
-			"transparent": false
+			"transparent": false
 		}
 		
 	]
