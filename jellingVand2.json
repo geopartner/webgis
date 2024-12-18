@@ -4,16 +4,31 @@
     "tag:_matrikel"
   ],
   "brandName": "Jelling Vandværk",
-  "enabledPrints": [
-    "vandvaerk_jellingvand2"
-  ],
   "enabledExtensions": [
     "streetView",
     "coordinates"
   ],
   "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_jellingvand2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+    "streetView": {
+      "ignorelist": [
+        "mapillary",
+        "cowi"
+      ]
+    }
+  },
   "enabledSearch": "danish",
   "searchConfig": {
-    "komkode": "630"
-  }
+    "komkode": [
+      "630"
+    ]
+  },
+  "popupDraggable": true
 }
