@@ -10,6 +10,19 @@
         "plandata_datahub",
         "dktl"
     ],
+    "activeLayers": [
+        "dandas.ddg_knude",
+        "dandas.ddg_knude_txtboks",
+        "dandas.ddg_knude_txt",
+        "dandas.ddg_ledning",
+        "dandas.ddg_ledning_strompil",
+        "dandas.ddg_ledning_hpil",
+        "dandas.ddg_ledning_txt",
+        "dandas.ddg_bygvaerk",
+        "dandas.ddg_bygvaerk_txtboks",
+        "dandas.ddg_bygvaerk_txt",
+        "dandas.ddg_bassin"
+    ],
     "enabledExtensions": [
         "streetView",
         "coordinates",
@@ -89,18 +102,18 @@
             "abstract": "<p>Forvaltningskort + teknik-supplement.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li><li>Teknik</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 22,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "id": "osm",
@@ -111,18 +124,18 @@
                 "maxNativeZoom": 19,
                 "attribution": "&copy; Open Street Map"
             },
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -137,18 +150,18 @@
             "abstract": "<p>Skærmkort - dæmpet</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "WMTS",
@@ -163,18 +176,18 @@
             "minZoom": 8,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -189,18 +202,18 @@
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -216,18 +229,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -243,18 +256,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -270,18 +283,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -297,18 +310,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -324,18 +337,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -351,18 +364,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -378,18 +391,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -405,18 +418,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -432,18 +445,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -459,18 +472,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -486,18 +499,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -513,18 +526,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -540,18 +553,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -567,18 +580,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         },
         {
             "type": "wms",
@@ -594,18 +607,18 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20,
-              "overlays": [
+            "overlays": [
                 {
-                  "id": "public.kommuneinddeling",
-                  "db": "vspv",
-                  "host": "https://mapgogc2.geopartner.dk",
-                  "config": {
-                    "minZoom": 7,
-                    "maxZoom": 22,
-                    "maxNativeZoom": 19
-                  }
+                    "id": "public.kommuneinddeling",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
                 }
-              ]
+            ]
         }
     ]
 }
