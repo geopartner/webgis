@@ -91,7 +91,7 @@
       "defaulttable": "vmr.vw_spildevand",
       "tables": [
         {
-          "table": "vmr.vw_spildevand",
+          "table": "vw_spildevand",
           "cosmeticbackgroundlayer": "vmr.spildevand_wms_niras",
           "docunotecaseutilitytype": "Spildevand",
           "optional": [],
@@ -141,7 +141,7 @@
           "filterExp": "="
         },
         {
-          "table": "vmr.vw_vand",
+          "table": "vw_vand",
           "cosmeticbackgroundlayer": "vmr.vand_wms_niras",
           "docunotecaseutilitytype": "Vand",
           "optional": [],
