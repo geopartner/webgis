@@ -1,0 +1,30 @@
+{
+  "brandName": "Towii Renewables A/S",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "print2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+    "streetView": {
+      "ignorelist": [
+        "mapillary",
+        "cowi"
+      ]
+    }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "665", "760", "575", "510", "730"
+    ]
+  },
+  "popupDraggable": true
+}
