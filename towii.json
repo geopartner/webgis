@@ -2,6 +2,7 @@
   "brandName": "Towii Renewables A/S",
   "enabledExtensions": [
     "streetView",
+	"session",
     "coordinates"
   ],
   "showLayerGroupCheckbox": true,
