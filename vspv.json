@@ -113,7 +113,16 @@
                         "maxZoom": 22,
                         "maxNativeZoom": 19
                     }
-                }
+                },
+				{
+					"id": "public.mvw_vejnavne",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 21,
+						"maxNativeZoom": 19
+					}
+				}
             ]
         },
         {
