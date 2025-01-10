@@ -83,6 +83,7 @@
             "autoLoginMaxAge": 65000000
         },
         "streetView": {
+            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=Hedensted_Spildevand&p=1DE72E76&origin=desktop&cmd=state&project=Hedensted%20Spildevand_Denmark&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
             "ignorelist": [
                 "mapillary",
                 "cowi"
