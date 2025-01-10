@@ -40,6 +40,7 @@
         "google",
         "danish"
     ],
+    "initFunction": "function(){$('#coordinates-system-utm').click()",
     "enabledSearch": "danish",
     "searchConfig": {
         "komkode": [
