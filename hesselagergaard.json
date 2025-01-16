@@ -1,0 +1,32 @@
+{
+  "brandName": "Hesselagergaard Gods",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates",
+	"session"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "print2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "479"
+
+    ]
+  },
+  "popupDraggable": true
+}
