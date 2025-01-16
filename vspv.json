@@ -94,7 +94,7 @@
             "layers": [
                 "Basis_kort",
                 "Stednavne_basiskort",
-                "Vejnavne_basiskort",
+                "_Vejnavne_basiskort",
                 "Husnummer",
                 "Teknik"
             ],
@@ -121,7 +121,7 @@
 					"db": "mapconnectbase",
 					"host": "https://mapgogc2.geopartner.dk",
 					"config": {
-						"minZoom": 21,
+						"minZoom": 17,
 						"maxZoom": 22,
 						"maxNativeZoom": 21
 					}
