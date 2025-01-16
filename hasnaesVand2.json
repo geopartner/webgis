@@ -2,7 +2,8 @@
   "brandName": "Hasnæs Vandværk",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+	"session"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
