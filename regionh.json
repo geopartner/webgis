@@ -14,7 +14,8 @@
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
-		"session"
+		"session",
+		"editor"
 	],
 	"extensionConfig": {
 		"session": {
