@@ -3,6 +3,7 @@
 		"?"
 	],
 	"activateMainTab": "info",
+	"showOffcanvas": "mobile",
 	"removeDisabledLayersFromLegend": true,
 	"enabledPrints": [
 		"vandvaerk2"
