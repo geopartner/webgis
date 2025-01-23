@@ -27,7 +27,7 @@
 		}
 	},
 	"popupDraggable": true,
-	"featureInfoTableOnMap": false,
+	"featureInfoTableOnMap": true,
 	"enabledExtensions": [
 		"streetView",
 		"coordinates"
