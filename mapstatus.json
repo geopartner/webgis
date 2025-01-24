@@ -1,6 +1,9 @@
 {
-	"_activeLayers": [
-		"?"
+	"activeLayers": [
+		"tag:mapstatus_dandas",
+		"tag:mapstatus_oevrige_forsyningsarter",
+		"tag:mapstatus_tv",
+		"tag:mapstatus_projektplan"		
 	],
 	"activateMainTab": "info",
 	"showOffcanvas": "mobile",
