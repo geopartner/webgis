@@ -33,6 +33,7 @@
 	"featureInfoTableOnMap": true,
 	"enabledExtensions": [
 		"streetView",
+		"editor",
 		"coordinates"
 	],
 	"baseLayers": [
