@@ -4,6 +4,7 @@
 		"ejerfortegnelse",
 		"ejerkort_datahub",
 		"dhm",
+		"matrikel_datahub",
 		"gc2_io_dk_danmarksarealinformation",
 		"gc2_io_dk_distrikter",
 		"gc2_io_dk_dkjord",
@@ -12,7 +13,6 @@
 		"gc2_io_dk_kulturarvsstyrelsen",
 		"gc2_io_dk_landbrugsdrift",
 		"gc2_io_dk_naturdatabasen",
-		"gc2_io_dk_matrikel",
 		"gc2_io_dk_naturerhvervsstyrelsen",
 		"gc2_io_dk_plandatadk",
 		"gc2_io_dk_geus"
