@@ -1,0 +1,37 @@
+{
+    "schemata": [
+	"public"
+    ],
+    "brandName": "Tårnby Forsyning",
+    "aboutBox": "<p>Map Connect kortløsning til illustration af Tårnby Forsynings ledninger, mm.</p>",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "editor",
+    ],
+    "searchConfig": {
+        "komkode": "185"
+    },
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 2500000
+		},
+    "streetView": {
+        "ignorelist": [
+            "cowi"
+        ]
+    }
+	},
+    "showLayerGroupCheckbox": true,
+    "activateMainTab": "info",
+    "enabledSearch": "danish",
+    "showOffcanvas": "mobile",
+    "removeDisabledLayersFromLegend": true,
+    "searchConfig": {
+        "esrSearchActive": false,
+        "sfeSearchActive": false
+    },
+    "featureInfoTableOnMap": false,
+    "template": "default.tmpl"
+}
