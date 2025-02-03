@@ -42,7 +42,7 @@
         "google",
         "danish"
     ],
-    "initFunction": "function(){setTimeout(function(){$('#coordinates-system-utm').click();}, 10000);}",
+    "initFunction": "function(){setTimeout(function(){$('#coordinates-system-utm').click();}, 1000);}",
     "enabledSearch": "danish",
     "searchConfig": {
         "komkode": [
