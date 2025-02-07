@@ -1,0 +1,91 @@
+{
+    "brandName": "Viborg Kommune",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "symbols"
+    ],
+    "showLayerGroupCheckbox": true,
+    "enabledPrints": [
+        "viborg_kommune"
+    ],
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "extensionConfig": {
+        "streetView": {
+            "ignorelist": [
+                "cowi"
+            ]
+        },
+        "symbols": {
+            "files": [
+                {
+                    "file": "symbol_advarselstavler.json",
+                    "title": "Advarselstavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_vigepligtstavler.json",
+                    "title": "Vigepligtstavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_forbudstavler.json",
+                    "title": "Forbudstavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_paabudstavler.json",
+                    "title": "Påbudstavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_oplysningstavler.json",
+                    "title": "Oplysningstavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_servicetavler.json",
+                    "title": "Servicetavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_afmaerkning.json",
+                    "title": "Afmærkning",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_undertavler.json",
+                    "title": "Undertaveler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_midlertidige_tavler.json",
+                    "title": "Midlertidige tavler",
+                    "desc": ""
+                },
+                {
+                    "file": "symbol_viborg_kommune_custom.json",
+                    "title": "Brugerdefinerede symboler",
+                    "desc": ""
+                }
+            ],
+            "symbolOptions": {
+                "rotate": true,
+                "scale": true,
+                "delete": true,
+                "onlyOne": false,
+                "validate": false
+            }
+        }
+    },
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "komkode": [
+            "791"
+        ]
+    },
+    "popupDraggable": true
+}
