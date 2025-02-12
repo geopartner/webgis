@@ -1,0 +1,136 @@
+{
+    "brandName": "Odense Kommune, Koordineringsplan",
+    "title": "Odense Kommune, Koordineringsplan",
+    "schemata": [
+        "plan",
+        "k_plan",
+        "public"
+    ],
+    "_activeLayers": [
+        "",
+        ""
+    ],
+	"aboutBox": "<p>Dette er Geopartners Map Connct webgis platform. Her kan du se de korttemaer du har fået opsat i Map Connect. Det er derudover muligt at se forskellige baggrundskort, som topografiske kort og luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Der er udarbejdet en brugermanual hvor man kan finde information om hvorledes at webgis platformen anvendes. Vejledningen kan ses på <a href='https://vidi.readthedocs.io/da/latest/' target='_blank'>vidi.readthedocs.io</a> </p><p>Geopartner A/S er ikke ansvarlig for misbrug af oplysninger eller for fejl i de oplysninger, der stilles til rådighed.</p><p>For yderligere oplysninger og kontaktinformationer besøg <a href='https://www.geopartner.dk' target='_blank'>www.geopartner.dk</a></p>",
+    "startUpModal": "<p>Dette er Geopartners Map Connct webgis platform. Her kan du se de korttemaer du har fået opsat i Map Connect. Det er derudover muligt at se forskellige baggrundskort, som topografiske kort og luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><p>Der er udarbejdet en brugermanual hvor man kan finde information om hvorledes at webgis platformen anvendes. Vejledningen kan ses på <a href='https://vidi.readthedocs.io/da/latest/' target='_blank'>vidi.readthedocs.io</a> </p><p>Geopartner A/S er ikke ansvarlig for misbrug af oplysninger eller for fejl i de oplysninger, der stilles til rådighed.</p><p>For yderligere oplysninger og kontaktinformationer besøg <a href='https://www.geopartner.dk' target='_blank'>www.geopartner.dk</a></p>",
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "editor"
+    ],
+    "activateMainTab": "info",
+    "startupModalSupressionTemplates": [
+        "embed.tmpl"
+    ],
+    "enabledPrints": [
+        "odense_kom"
+    ],
+    "enabledSearch": "danish",
+    "showLayerGroupCheckbox": false,
+    "featureInfoTableOnMap": true,
+    "removeDisabledLayersFromLegend": true,
+    "searchConfig": {
+        "komkode": [
+            "461"
+        ],
+        "sfeSearchActive": true,
+        "advanced": false
+    },
+    "extensionConfig": {
+        "session": {
+            "autoLogin": false,
+            "autoLoginMaxAge": 250000
+        }
+    },
+    "popupDraggable": true,
+    "showOffcanvas": "mobile",
+    "expandFirstInLayerTree": true,
+    "df": {
+        "datafordeler": {
+            "username": "XMERXHKAVN",
+            "password": "Geop1234!"
+        },
+        "dataforsyningen": {
+            "token": "4aacd5977eb46ca012c260ecb608c65c"
+        }
+    },
+    "baseLayers": [
+        {
+            "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/forvaltningskort.png",
+            "type": "wms",
+            "url": "/api/dataforsyningen/forvaltning2",
+            "layers": [
+                "Basis_kort",
+                "Stednavne_basiskort",
+                "Vejnavne_basiskort",
+                "Husnummer"
+            ],
+            "id": "ForvaltningskortDF",
+            "name": "Forvaltningskort",
+            "description": "Forvaltningskort fra Dataforsyningen",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+            "abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/orto.png",
+            "type": "WMTS",
+            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
+            "tileMatrixSet": "DFD_GoogleMapsCompatible",
+            "layer": "orto_foraar_webm",
+            "id": "ortofoto_foraar_wmts0",
+            "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
+            "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "inDrawer": false,
+            "type": "wms",
+            "url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
+            "layers": [
+                "Centroide_Gaeldende",
+                "OptagetVej_Gaeldende",
+                "MatrikelSkel_Gaeldende",
+                "StrandbeskyttelseFlade_Gaeldende",
+                "KlitfredningFlade_Gaeldende",
+                "FredskovFlade_Gaeldende"
+            ],
+            "styles": [
+                "Sorte_centroider",
+                "Sort_OptagetVej",
+                "Sorte_skel",
+                "default",
+                "default",
+                "default"
+            ],
+            "id": "Matriklen-DAF",
+            "name": "Matrikelkort",
+            "description": "Matriklen (Datafordeleren)",
+            "attribution": "&copy; Geodatastyrelsen, Datafordeleren",
+            "abstract": "<p>Dagligt ajourført matrikelkort. Der vises følgende lag:</p><ul><li>Centroide</li><li>Matrikelskel</li><li>Optaget vej</li><li>Strandbeskyttelse</li><li>Klitfredning</li><li>Fredskov</li></ul><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": false
+        },
+        {
+            "inDrawer": true,
+            "thumbnail": "https://mapcentia.github.io/vidi_configs_common/nfkort.png",
+            "id": "osm",
+            "name": "Topografisk kort - Open Street Map",
+            "abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; Open Street Map"
+            }
+        }
+    ]
+}
