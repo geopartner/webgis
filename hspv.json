@@ -26,7 +26,7 @@
     ],
     "showLayerGroupCheckbox": true,
     "showOffcanvas": "mobile",
-    "removeDisabledLayersFromLegend": false,
+    "removeDisabledLayersFromLegend": true,
     "enabledPrints": [
         "hspv"
     ],

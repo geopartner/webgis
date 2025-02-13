@@ -76,7 +76,7 @@
     "extensionConfig": {
         "session": {
             "autoLogin": true,
-            "autoLoginMaxAge": 65000000
+            "autoLoginMaxAge": 630720000000
         },
         "streetView": {
             "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=CMVVejleSpildevand&p=18D12728&origin=desktop&cmd=state&project=Vejle%20Spildevand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
@@ -108,7 +108,7 @@
             "maxNativeZoom": 22,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -140,7 +140,7 @@
             },
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -166,7 +166,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -192,7 +192,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -218,7 +218,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -245,7 +245,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -272,7 +272,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -299,7 +299,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -326,7 +326,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -353,7 +353,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -380,7 +380,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -407,7 +407,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -434,7 +434,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -461,7 +461,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -488,7 +488,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -515,7 +515,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -542,7 +542,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -569,7 +569,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -596,7 +596,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
@@ -623,7 +623,7 @@
             "maxNativeZoom": 20,
             "overlays": [
                 {
-                    "id": "public.kommuneinddeling",
+                    "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
                     "host": "https://mapgogc2.geopartner.dk",
                     "config": {
