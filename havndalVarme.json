@@ -1,0 +1,32 @@
+{
+  "schemata": [
+    "havndalvarme_ler2",
+  ],
+  "brandName": "Havndal Fjernvarme",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk_havndalvarme"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+    "streetView": {
+      "ignorelist": [
+        "cowi"
+      ]
+    }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "730"
+    ]
+  },
+  "popupDraggable": true
+}
