@@ -142,6 +142,18 @@
                 "maxNativeZoom": 26,
                 "attribution": "&copy; SDFE & MapCentia ApS"
             }
+	"overlays": [
+                {
+                    "id": "public.kommunegraense_inverteret",
+                    "db": "vspv",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "minZoom": 7,
+                        "maxZoom": 22,
+                        "maxNativeZoom": 19
+                    }
+                }
+            ]		    
         },
         {
             "id": "osm",
