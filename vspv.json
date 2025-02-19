@@ -141,7 +141,7 @@
                 "maxZoom": 30,
                 "maxNativeZoom": 26,
                 "attribution": "&copy; SDFE & MapCentia ApS"
-            }
+            },
 	"overlays": [
                 {
                     "id": "public.kommunegraense_inverteret",
