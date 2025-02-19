@@ -43,7 +43,7 @@
         "danish"
     ],
     "_initFunction": "function(){setTimeout(function(){$('#coordinates-system-utm').click();}, 1000);}",
-    "initFunction": "setTimeout(function(){$('#add-legend-btn').click();}, 1000);",
+    "initFunction": "setTimeout(function(){$("#add-legend-btn").prop("checked", false);}, 1000);",
     "enabledSearch": "danish",
     "searchConfig": {
         "komkode": [
