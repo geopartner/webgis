@@ -129,6 +129,20 @@
 				}
             ]
         },
+	    {
+            "type": "gc2",
+            "id": "geodk.bright-01052019",
+            "name": "Forvaltningskort, printervenlig reduceret kortudgave",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Forvaltningskort i printervenlig udgave (hurtig version). NB: Kortet er ikke daglig ajourført.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li><li>Teknik</li></ul></p><br>",
+            "config": {
+                "minZoom": 8,
+                "maxZoom": 30,
+                "maxNativeZoom": 26,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
         {
             "id": "osm",
             "name": "Topografisk kort - Open Street Map",
