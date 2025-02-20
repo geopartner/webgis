@@ -6,6 +6,7 @@
         "session",
         "symbols"
     ],
+    "showOffcanvas": true,
     "showLayerGroupCheckbox": true,
     "enabledPrints": [
         "viborg_kommune"
