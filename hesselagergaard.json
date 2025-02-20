@@ -2,7 +2,7 @@
   "schemata": [
         "ler2"
     ],
-	"brandName": "Hesselagergaard Gods",
+  "brandName": "Hesselagergaard Gods",
   "enabledExtensions": [
     "streetView",
     "coordinates",
@@ -14,7 +14,7 @@
   "activeLayers": [
     "ler2.vw_afloebskomponent",
     "ler2.vw_afloebsledning"
-  ]
+  ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
     "vandvaerk2"
