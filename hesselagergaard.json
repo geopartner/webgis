@@ -24,13 +24,18 @@
     "danish"
   ],
   "extensionConfig": {
-		  "streetView": {
-				  "ignorelist": [
-						  "mapillary",
-						  "cowi"
-				  ]
-			  }
+     "session": {
+	"autoLogin": true,
+	"autoLoginMaxAge": 630720000000
+    },
+    "streetView": {
+      "ignorelist": [
+        "mapillary",
+	"cowi"
+      ]
+    }
   },
+  "removeDisabledLayersFromLegend": true,
   "enabledSearch": "danish",
   "searchConfig": {
     "komkode": [
