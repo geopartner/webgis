@@ -9,6 +9,8 @@
     "session",
     "editor"
   ],
+  "initZoomCenter": "/13/10.7678/55.1397/",
+  "activateMainTab": "info",
   "activeLayers": [
     "ler2.vw_afloebskomponent",
     "ler2.vw_afloebsledning"
