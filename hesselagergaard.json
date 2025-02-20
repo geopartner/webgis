@@ -9,7 +9,8 @@
     "session",
     "editor"
   ],
-  "initZoomCenter": "/13/10.7678/55.1397/",
+  "showOffcanvas": "mobile",
+  "initZoomCenter": "/14/10.7651/55.1562/",
   "activateMainTab": "info",
   "activeLayers": [
     "ler2.vw_afloebskomponent",
