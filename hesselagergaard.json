@@ -5,7 +5,8 @@
 	"brandName": "Hesselagergaard Gods",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+    "session"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
