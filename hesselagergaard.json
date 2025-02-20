@@ -6,7 +6,8 @@
   "enabledExtensions": [
     "streetView",
     "coordinates",
-    "session"
+    "session",
+    "editor"
   ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
