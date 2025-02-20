@@ -1,5 +1,8 @@
 {
-  "brandName": "Hesselagergaard Gods",
+  "schemata": [
+        "ler2"
+    ],
+	"brandName": "Hesselagergaard Gods",
   "enabledExtensions": [
     "streetView",
     "coordinates"
