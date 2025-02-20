@@ -3,6 +3,7 @@
     "enabledExtensions": [
         "streetView",
         "coordinates",
+        "session",
         "symbols"
     ],
     "showLayerGroupCheckbox": true,
@@ -81,11 +82,13 @@
             }
         }
     },
+    "initZoomCenter": "/12/9.4201/56.4408/",
     "enabledSearch": "danish",
     "searchConfig": {
         "komkode": [
             "791"
         ]
     },
-    "popupDraggable": true
+    "popupDraggable": true,
+    "activateMainTab": "symbols"
 }
