@@ -11,6 +11,11 @@
   ],
   "showOffcanvas": "mobile",
   "initZoomCenter": "/14/10.7651/55.1562/",
+  "activateMainTab": "info",
+  "activeLayers": [
+    "ler2.vw_afloebskomponent",
+    "ler2.vw_afloebsledning"
+  ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
     "vandvaerk2"
