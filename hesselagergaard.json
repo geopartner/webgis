@@ -31,8 +31,7 @@
     },
     "streetView": {
       "ignorelist": [
-        "mapillary",
-	"cowi"
+	        "cowi"
       ]
     }
   },
