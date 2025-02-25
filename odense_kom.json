@@ -3,7 +3,6 @@
     "title": "Odense Kommune, Koordineringsplan",
     "schemata": [
         "plan",
-        "k_plan",
         "_skabelon",
         "forsyning_a",
         "forsyning_c",
@@ -21,8 +20,8 @@
         "session",
         "editor"
     ],
-    "activateMainTab": "info",
-    "startupModalSupressionTemplates": [
+    "_activateMainTab": "info",
+    "_startupModalSupressionTemplates": [
         "embed.tmpl"
     ],
     "enabledPrints": [
