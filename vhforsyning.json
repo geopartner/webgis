@@ -29,6 +29,7 @@
     "brandName": "Vesthimmerlands Forsyning",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
+    "showNoValueInInfo": true,
     "removeDisabledLayersFromLegend": true,
     "searchConfig": {
         "size": 6,
