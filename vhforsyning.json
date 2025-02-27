@@ -93,9 +93,9 @@
         ]
     },
     "extensionConfig": {
-        "_session": {
+        "session": {
             "autoLogin": true,
-            "autoLoginMaxAge": 2500000
+            "autoLoginMaxAge": 630720000000
         },
         "streetView": {
             "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=VesthimmerlandFors&p=449012FC&origin=desktop&cmd=state&project=DDG%20Vesthimmerlands%20Forsyning&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK"
