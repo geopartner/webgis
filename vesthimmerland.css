@@ -60,9 +60,10 @@ Grid display for larger screens
 		grid-column: 1 / 3;
 		color: rgb(189, 189, 189);
 	}
-
+/*--------------------------------------------------------------
 	.leaflet-popup-content {
 		width: 520px !important;
+--------------------------------------------------------------*/	
 	} 
 	
 }
@@ -70,7 +71,7 @@ Grid display for larger screens
 
 /*--------------------------------------------------------------
 Generel items for all devices
---------------------------------------------------------------*/
+
 
 
 .grid-item-left {
