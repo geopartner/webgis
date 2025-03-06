@@ -106,7 +106,7 @@
             "abstract": "<p>Forvaltningskort + teknik-supplement.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li><li>Teknik</li></ul></p><br>",
             "maxZoom": 22,
             "maxNativeZoom": 22,
-            "_overlays": [
+            "overlays": [
                 {
                     "id": "public.kommunegraense_inverteret",
                     "db": "vspv",
