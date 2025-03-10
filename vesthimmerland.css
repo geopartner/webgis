@@ -31,7 +31,7 @@ Grid display smaller devices
   width: 520px !important;	
 }
 .leaflet-popup-content {
-    width: unset;
+    width: unset !important;
 }
 /*
 .leaflet-popup-content {
