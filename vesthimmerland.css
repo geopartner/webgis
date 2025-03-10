@@ -26,10 +26,10 @@ Grid display smaller devices
 	width: 100%;
 	color: rgb(189, 189, 189);
 }
-
+/*
 .leaflet-popup-content {
 	width: 260px;
-} 
+} */
 /*--------------------------------------------------------------
 Grid display for larger screens
 --------------------------------------------------------------*/
