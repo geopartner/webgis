@@ -26,6 +26,10 @@ Grid display smaller devices
 	width: 100%;
 	color: rgb(189, 189, 189);
 }
+
+.drift-width {
+  width: 520px !important;	
+}
 /*
 .leaflet-popup-content {
 	width: 260px;
