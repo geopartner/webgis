@@ -30,6 +30,9 @@ Grid display smaller devices
 .drift-width {
   width: 520px !important;	
 }
+.leaflet-popup-content {
+    width: unset;
+}
 /*
 .leaflet-popup-content {
 	width: 260px;
