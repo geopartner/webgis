@@ -1,3 +1,15 @@
+.leaflet-popup-content-wrapper {
+    width: 700px;
+}
+
+.leaflet-popup-content {
+    width: 670px !important;
+}
+
+.alternative-info-container-right {
+	width: 660px;
+}
+
 /*--------------------------------------------------------------
 Grid display smaller devices
 --------------------------------------------------------------*/
@@ -27,12 +39,7 @@ Grid display smaller devices
 	color: rgb(189, 189, 189);
 }
 
-.drift-width {
-  width: 520px !important;	
-}
-.leaflet-popup-content {
-    width: unset !important;
-}
+ 
 /*
 .leaflet-popup-content {
 	width: 260px;
