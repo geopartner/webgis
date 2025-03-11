@@ -1,8 +1,8 @@
 {
 	"schemata": [
 		"public",
-		"dandas_gp",
-		"danvand_gp",
+		"dandas",
+		"danvand",
 		"lukkeliste_vand"
 	],
 	"enabledPrints": [
