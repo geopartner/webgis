@@ -1,0 +1,39 @@
+{
+	"schemata": [
+		"public",
+		"dandas_gp",
+		"danvand_gp",
+		"lukkeliste_vand"
+	],
+	"enabledPrints": [
+		"billundvand"
+	],
+	"brandName": "Billund Vand & Energi",
+	"enabledSearch": "danish",
+	"showLayerGroupCheckbox": true,
+	"removeDisabledLayersFromLegend": true,
+	"searchConfig": {
+		"komkode": [
+			"530"
+		]
+	},
+	"extensionConfig": {
+		"_session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 2500000
+		},
+        "streetView": {
+            "ignorelist": [
+               "cowi"
+		    ]
+        }
+	},
+	"popupDraggable": true,
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"session",
+		"editor",
+		"blueidea"
+	]
+}
