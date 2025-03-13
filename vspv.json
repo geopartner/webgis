@@ -29,7 +29,8 @@
         "streetView",
         "coordinates",
         "session",
-        "editor"
+        "editor",
+	"directions"
     ],
     "expandFirstInLayerTree": true,
     "showLayerGroupCheckbox": true,
@@ -83,8 +84,9 @@
             "ignorelist": [
                 "mapillary"
             ]
-        },
+        },	    
         "coordinates": {
+	    "default": "utm",
             "lockUtmZoneTo": 32
         }
     },
