@@ -1,17 +1,32 @@
 {
-    "brandName": "Pederstrup Vandværk",
-    "enabledPrints": [
-      "vandvaerk2"
-    ],
-    "enabledExtensions": [
-      "streetView",
-      "coordinates"
-    ],
-    "searchConfig": {
-      "komkode": [
-        "740"
-      ]
-    },
-    "searchModules":["google","danish"],
-    "enabledSearch":"danish"
-  }
+  "brandName": "Pederstrup Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "extensionConfig": {
+		  "streetView": {
+				  "ignorelist": [
+						  "mapillary",
+						  "cowi"
+				  ]
+			  }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "740"
+
+    ]
+  },
+  "popupDraggable": true
+}
+
