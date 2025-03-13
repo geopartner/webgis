@@ -77,7 +77,8 @@
         "coordinates",
         "session",
         "editor",
-		"upload"
+	"upload",
+	"directions"
     ],
     "baseLayers": [
         {
