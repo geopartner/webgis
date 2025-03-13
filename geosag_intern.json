@@ -76,7 +76,8 @@
         "streetView",
         "coordinates",
         "session",
-        "editor"
+        "editor",
+		"upload"
     ],
     "baseLayers": [
         {

@@ -62,7 +62,8 @@
         "streetView",
         "coordinates",
         "session",
-        "editor"
+        "editor",
+		"upload"
     ],
     "activateMainTab": "conflict",
     "baseLayers": [
