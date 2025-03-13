@@ -23,7 +23,7 @@
 		"autoLoginMaxAge": 2500000
 	},
         "streetView": {
-            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=23A0AB50&p=23A0AB50&origin=desktop&cmd=state&project=DDG%20Billund%20Vand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
+            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=BillundVand&p=23A0AB50&origin=desktop&cmd=state&project=DDG%20Billund%20Vand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
             "ignorelist": [
                 "mapillary"
             ]
