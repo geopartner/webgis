@@ -3,7 +3,7 @@
 		"public",
 		"dandas",
 		"danvand",
-		"lukkeliste_vand"
+		"lukkeliste"
 	],
 	"popupDraggable": true,
     "autoPanPopup": true,
@@ -26,18 +26,21 @@
 			"530"
 		]
 	},
-	"extensionConfig": {
-	"_session": {
-		"autoLogin": true,
-		"autoLoginMaxAge": 65000000
-	},
+    "extensionConfig": {
+        "_session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 65000000
+        },
+        "blueidea": {
+            "userid": "14150ecb-da61-40d3-b350-b14dded97e65"
+        },
         "streetView": {
             "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=BillundVand&p=23A0AB50&origin=desktop&cmd=state&project=DDG%20Billund%20Vand&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
             "ignorelist": [
                 "mapillary"
             ]
         }
-	},
+    },
     "baseLayerGroups": [
         {
             "groupName": "Hexagon DDO ortofoto 2022-1995 + 1954",
