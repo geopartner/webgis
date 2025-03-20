@@ -31,6 +31,9 @@
     "enabledPrints": [
         "hspv"
     ],
+    "cssFiles": [
+        "hspv.css"
+    ],
     "searchModules": [
         "google",
         "danish"
