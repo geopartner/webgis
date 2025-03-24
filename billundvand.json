@@ -43,7 +43,7 @@
     },
     "baseLayerGroups": [
         {
-            "groupName": "Hexagon DDO ortofoto 2022-1995 + 1954",
+            "groupName": "Hexagon DDO ortofoto 1954 + 1995 - 2024 ",
             "layers": [
                 "DK-DDOland2024_125mm_UTM32ETRS89",
                 "DK-DDOland2022_125mm_UTM32ETRS89",
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "groupName": "GeoDanmark forår ortofoto 2023-2015 + quick-orto",
+            "groupName": "GeoDanmark forår ortofoto 2015-2023 + quick-orto",
             "layers": [
                 "ortofoto_foraar_temp_DF",
                 "ortofoto_foraar_2023",
