@@ -80,7 +80,7 @@
             ]
         },
         {
-            "groupName": "DKT Kort 100, 50 & 25",
+            "groupName": "DTK Kort 100, 50 & 25",
             "layers": [
                 "DK-DTK_Kort100_UTM32ETRS89",
                 "DK-DTK_Kort50_UTM32ETRS89",
