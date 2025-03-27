@@ -176,6 +176,21 @@
             "type": "wms",
             "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
             "layers": [
+                "DK-DDOland2024_125mm_UTM32ETRS89"
+            ],
+            "id": "DDO_land_2024",
+            "name": "DDO land 2024",
+            "description": "DDO land 2024",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. Opløsning 12,5cm.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Geopartner&Password=403A7D81",
+            "layers": [
                 "DK-DDOland2022_125mm_UTM32ETRS89"
             ],
             "id": "DDO_land_2022",
