@@ -8,11 +8,11 @@
 		"dandas_gp",
 		"danvand_gp",
 		"diverse_gp",
-		"el_spv_vand_gp",		
+		"el_spv_vand_gp",
 		"fas_data_gp",
 		"fiber",
 		"gadelys",
-        "groen_omr_gp",
+		"groen_omr_gp",
 		"ler",
 		"lukkeliste",
 		"gisdata",
@@ -33,38 +33,68 @@
 		"esrSearchActive": true,
 		"sfeSearchActive": true,
 		"advanced": false,
-		"size": 4,
+		"size": 10,
 		"placeholderText": "Søg adresse, matrikel eller knuder",
 		"extraSearches": [
 			{
-			   "name":"dandas_gp_knude_es",
-			   "db":"rsforsyning",
-			   "heading":"Knude - DanDas",
-			   "index": {
-				  "name":"dandas_gp/knude_es",
-				  "field":"text_search",
-				  "key":"ogc_fid"
-			   },
-			   "relation": {
-				  "name":"dandas_gp.knude_es",
-				  "key":"ogc_fid",
-				  "geom":"the_geom"
-			   }
+				"name": "dandas_gp_knude_es",
+				"db": "rsforsyning",
+				"heading": "Knude - DanDas",
+				"index": {
+					"name": "dandas_gp/knude_es",
+					"field": "text_search",
+					"key": "ogc_fid"
+				},
+				"relation": {
+					"name": "dandas_gp.knude_es",
+					"key": "ogc_fid",
+					"geom": "the_geom"
+				}
 			},
 			{
-			   "name":"danvand_gp_knude_es",
-			   "db":"rsforsyning",
-			   "heading":"Knude - DanVand",
-			   "index": {
-				  "name":"danvand_gp/knude_es",
-				  "field":"text_search",
-				  "key":"ogc_fid"
-			   },
-			   "relation": {
-				  "name":"danvand_gp.knude_es",
-				  "key":"ogc_fid",
-				  "geom":"the_geom"
-			   }
+				"name": "danvand_gp_knude_es",
+				"db": "rsforsyning",
+				"heading": "Knude - DanVand",
+				"index": {
+					"name": "danvand_gp/knude_es",
+					"field": "text_search",
+					"key": "ogc_fid"
+				},
+				"relation": {
+					"name": "danvand_gp.knude_es",
+					"key": "ogc_fid",
+					"geom": "the_geom"
+				}
+			},
+			{
+				"name": "dandas_gp_stikknude_es",
+				"db": "rsforsyning",
+				"heading": "Stikknude - DanVand",
+				"index": {
+					"name": "dandas_gp/stikknude_es",
+					"field": "text_search",
+					"key": "gid"
+				},
+				"relation": {
+					"name": "dandas_gp.stikknude_es",
+					"key": "ogc_fid",
+					"geom": "gid"
+				}
+			},
+			{
+				"name": "danvand_gp_bygvaerk_es",
+				"db": "rsforsyning",
+				"heading": "Bygværker - DanVand",
+				"index": {
+					"name": "danvand_gp/bygvaerk_es",
+					"field": "text_search",
+					"key": "ogc_fid"
+				},
+				"relation": {
+					"name": "danvand_gp.bygvaerk_es",
+					"key": "ogc_fid",
+					"geom": "the_geom"
+				}
 			}
 		]
 	},
@@ -76,46 +106,46 @@
 		"blueidea": {
 			"userid": "c03148ba-b481-46e8-b3a5-4be1d95c19b9"
 		},
-        "streetView": {
-            "cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=RS_Forsyning&p=41D5E840&origin=desktop&cmd=state&project=RS%20Forsyning_Denmark&vlayers=GeoDanmark OrtoPhoto 2020;DDG Latest&maximize=DDG Latest&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG Latest&ssTrigger=SINGLE_CLICK"
-        },
-	    "symbols": {
+		"streetView": {
+			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=RS_Forsyning&p=41D5E840&origin=desktop&cmd=state&project=RS%20Forsyning_Denmark&vlayers=GeoDanmark OrtoPhoto 2020;DDG Latest&maximize=DDG Latest&hlayers=DDS2020 Complete&dssLayers=DDS2020 Complete&assLayers=DDG Latest&ssTrigger=SINGLE_CLICK"
+		},
+		"symbols": {
 			"files": [
-			{
-				"file": "rsf_symbol_advarselstavler.json",
-				"title": "Advarselstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_forbudstavler.json",
-				"title": "Forbudstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_paabudstavler.json",
-				"title": "Påbudstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_vigepligtstavler.json",
-				"title": "Vigepligtstavler",
-				"desc": ""
-			},
-			{
-				"file": "rsf_symbol_oplysningstavler.json",
-				"title": "Oplysningstavler",
-				"desc": ""
-			},			  
-			{
-				"file": "rsf_symbol_undertavler.json",
-				"title": "Undertavler",
-				"desc": ""
-			},	
-			{
-				"file": "rsf_symbol_kant_og_baggrundsafmaerkning.json",
-				"title": "Afmærkning",
-				"desc": ""
-			}		  
+				{
+					"file": "rsf_symbol_advarselstavler.json",
+					"title": "Advarselstavler",
+					"desc": ""
+				},
+				{
+					"file": "rsf_symbol_forbudstavler.json",
+					"title": "Forbudstavler",
+					"desc": ""
+				},
+				{
+					"file": "rsf_symbol_paabudstavler.json",
+					"title": "Påbudstavler",
+					"desc": ""
+				},
+				{
+					"file": "rsf_symbol_vigepligtstavler.json",
+					"title": "Vigepligtstavler",
+					"desc": ""
+				},
+				{
+					"file": "rsf_symbol_oplysningstavler.json",
+					"title": "Oplysningstavler",
+					"desc": ""
+				},
+				{
+					"file": "rsf_symbol_undertavler.json",
+					"title": "Undertavler",
+					"desc": ""
+				},
+				{
+					"file": "rsf_symbol_kant_og_baggrundsafmaerkning.json",
+					"title": "Afmærkning",
+					"desc": ""
+				}
 			],
 			"symbolOptions": {
 				"rotate": true,
@@ -125,9 +155,9 @@
 				"validate": false
 			},
 			"options": {
-        		"extra": true
-      		}
-        }
+				"extra": true
+			}
+		}
 	},
 	"popupDraggable": true,
 	"enabledExtensions": [
