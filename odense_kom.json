@@ -17,8 +17,7 @@
         "streetView",
         "_coordinates",
         "session",
-        "editor",
-        "directions"
+        "editor"
     ],
     "_activateMainTab": "info",
     "_startupModalSupressionTemplates": [
