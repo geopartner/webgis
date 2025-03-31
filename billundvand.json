@@ -24,6 +24,43 @@
 	"searchConfig": {
 		"komkode": [
 			"530"
+		],
+		"esrSearchActive": true,
+		"sfeSearchActive": true,
+		"advanced": false,
+		"size": 10,
+		"placeholderText": "Søg adresse, matrikel eller knuder",
+		"extraSearches": [
+			{
+				"name": "dandas_knude_es",
+				"db": "billundvand",
+				"heading": "Knude - DanDas",
+				"index": {
+					"name": "dandas/knude_es",
+					"field": "text_search",
+					"key": "ogc_fid"
+				},
+				"relation": {
+					"name": "dandas.knude_es",
+					"key": "ogc_fid",
+					"geom": "the_geom"
+				}
+			},
+			{
+				"name": "danvand_ventil_es",
+				"db": "billundvand",
+				"heading": "Ventil - DanVand",
+				"index": {
+					"name": "danvand/ventil_es",
+					"field": "text_search",
+					"key": "gid"
+				},
+				"relation": {
+					"name": "danvand.ventil_es",
+					"key": "gid",
+					"geom": "the_geom"
+				}
+			}
 		]
 	},
     "extensionConfig": {
