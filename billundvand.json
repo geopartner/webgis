@@ -4,7 +4,8 @@
 		"dandas",
 		"danvand",
 		"lukkeliste",
-		"ejerkort_datahub"
+		"ejerkort_datahub",
+		"ler"
 	],
 	"popupDraggable": true,
     "autoPanPopup": true,
