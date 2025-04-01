@@ -3,7 +3,8 @@
 		"public",
 		"dandas",
 		"danvand",
-		"lukkeliste"
+		"lukkeliste",
+		"ejerkort_datahub"
 	],
 	"popupDraggable": true,
     "autoPanPopup": true,
