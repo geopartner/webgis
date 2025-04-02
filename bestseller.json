@@ -1,7 +1,8 @@
 {
 	"schemata": [
 		"public",
-		"ler2"
+		"ler2",
+		"fremmedledninger"
 	],
 	"brandName": "Bestseller",
 	"enabledPrints": [
