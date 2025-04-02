@@ -5,7 +5,9 @@
 		"danvand",
 		"lukkeliste",
 		"ejerkort_datahub",
-		"ler"
+		"ler",
+		"plandata_datahub",
+		"bbr_datahub"
 	],
 	"popupDraggable": true,
     "autoPanPopup": true,
