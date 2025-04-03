@@ -8,11 +8,13 @@
         "public",
         "odense_kommune"
     ],
+    "activeLayers": [
+        "DefaultOn"
+    ],
     "aboutBox": "<h2>Koordineringsplan - Odense Kommune</h2><p>Dette er Odense Kommunes Koordinerinsplans værktøj. Værktøjet er webgis-værktøj som stilles til rådighed for at de relevante aktører kan koordinere deres arbejder i forhold til hinanden, særligt i forhold til arbejde på/i og ved vej eller områder tilhørende Odense Kommune.</p><p>Der er skrevet en brugermanual til koordineringsplan-værktøjet. Vejledningen kan ses på <a href='https://vidi.readthedocs.io/da/latest/' target='_blank'>vidi.readthedocs.io/xxxxxx</a></p><p>Der er udarbejdet en generel brugermanual til webgis-værktøjet. Vejledningen kan ses på <a href='https://vidi.readthedocs.io/da/latest/' target='_blank'>vidi.readthedocs.io</a></p><p>For yderligere oplysninger om koordineringsplan-værktøjet kontakt venligst Xxxx Yyyyyyy på <a href='https://www.geopartner.dk' target='_blank'>et link eller noget til Odense Kommune</a><p>Geopartner A/S er ikke ansvarlig for misbrug af oplysninger eller for fejl i de oplysninger, der stilles til rådighed.</p><p>For yderligere oplysninger om webgis-værktøjet og kontaktinformationer besøg <a href='https://www.geopartner.dk' target='_blank'>www.geopartner.dk</a></p>",
     "startUpModal": "<h2>Koordineringsplan - Odense Kommune</h2><p>Dette er Odense Kommunes Koordinerinsplans værktøj. Værktøjet er webgis-værktøj som stilles til rådighed for at de relevante aktører kan koordinere deres arbejder i forhold til hinanden, særligt i forhold til arbejde på/i og ved vej eller områder tilhørende Odense Kommune.</p><p>Der er skrevet en brugermanual til koordineringsplan-værktøjet. Vejledningen kan ses på <a href='https://vidi.readthedocs.io/da/latest/' target='_blank'>vidi.readthedocs.io/xxxxxx</a></p><p>Der er udarbejdet en generel brugermanual til webgis-værktøjet. Vejledningen kan ses på <a href='https://vidi.readthedocs.io/da/latest/' target='_blank'>vidi.readthedocs.io</a></p><p>For yderligere oplysninger om koordineringsplan-værktøjet kontakt venligst Xxxx Yyyyyyy på <a href='https://www.geopartner.dk' target='_blank'>et link eller noget til Odense Kommune</a><p>Geopartner A/S er ikke ansvarlig for misbrug af oplysninger eller for fejl i de oplysninger, der stilles til rådighed.</p><p>For yderligere oplysninger om webgis-værktøjet og kontaktinformationer besøg <a href='https://www.geopartner.dk' target='_blank'>www.geopartner.dk</a></p>",
     "enabledExtensions": [
         "streetView",
-        "_coordinates",
         "session",
         "editor"
     ],
