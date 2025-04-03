@@ -1,0 +1,37 @@
+{
+	"schemata": [
+		"oestervang_sjaelland"
+    ],
+	"brandName": "Østervang Sjælland A/S",
+	"enabledPrints": [
+		"vandvaerk2"
+	],
+	"enabledExtensions": [
+		"streetView",
+		"coordinates",
+		"session"
+	],
+	"extensionConfig": {
+		"session": {
+			"autoLogin": true,
+			"autoLoginMaxAge": 630720000000
+		},
+    		"streetView": {
+          		"ignorelist": [
+              			"cowi"
+          		]
+      		}
+	},
+	"showLayerGroupCheckbox": true,
+	"popupDraggable": true,
+	"searchModules": [
+		"google",
+		"danish"
+	],
+	"enabledSearch": "danish",
+	"_searchConfig": {
+		"komkode": [
+			"336"
+		]
+	}
+}
