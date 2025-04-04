@@ -84,7 +84,7 @@
     },
     "baseLayerGroups": [
         {
-            "groupName": "Hexagon DDO ortofoto 1954 + 1995 - 2024 ",
+            "groupName": "Hexagon DDO ortofoto 1954 + 1995-2024",
             "layers": [
                 "DK-DDOland2024_125mm_UTM32ETRS89",
                 "DK-DDOland2022_125mm_UTM32ETRS89",
@@ -106,9 +106,10 @@
             ]
         },
         {
-            "groupName": "GeoDanmark forår ortofoto 2015-2023 + quick-orto",
+            "groupName": "GeoDanmark forår ortofoto 2015-2024 + quick-orto",
             "layers": [
                 "ortofoto_foraar_temp_DF",
+				"ortofoto_foraar_2024",
                 "ortofoto_foraar_2023",
                 "ortofoto_foraar_2022",
                 "ortofoto_foraar_2021",
@@ -480,6 +481,21 @@
             "description": "Ortofoto forår fra Dataforsyningen",
             "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Klimadatastyrelsen.'. </p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "geodanmark_2024_12_5cm"
+            ],
+            "id": "ortofoto_foraar_2024",
+            "name": "GeoDanmark ortofoto forår (2024)",
+            "description": "Ortofoto forår fra Dataforsyningen",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Klimadatastyrelsen.'. </p><br>",
+            "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20
         },

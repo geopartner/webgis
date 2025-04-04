@@ -95,8 +95,9 @@
     },
     "baseLayerGroups": [
         {
-            "groupName": "Hexagon DDO ortofoto 2022-1995 + 1954",
+            "groupName": "Hexagon DDO ortofoto 1954 + 1995-2024",
             "layers": [
+				"DK-DDOland2024_125mm_UTM32ETRS89",
                 "DK-DDOland2022_125mm_UTM32ETRS89",
                 "DK-DDOland2020_125mm_UTM32ETRS89",
                 "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
@@ -116,9 +117,10 @@
             ]
         },
         {
-            "groupName": "GeoDanmark forår ortofoto 2023-2015 + quick-orto",
+            "groupName": "GeoDanmark forår ortofoto 2015-2024 + quick-orto",
             "layers": [
                 "ortofoto_foraar_temp_DF",
+				"ortofoto_foraar_2024",
                 "ortofoto_foraar_2023",
                 "ortofoto_foraar_2022",
                 "ortofoto_foraar_2021",
@@ -131,7 +133,7 @@
             ]
         },
         {
-            "groupName": "DKT Kort 100, 50 & 25",
+            "groupName": "DTK Kort 100, 50 & 25",
             "layers": [
                 "DK-DTK_Kort100_UTM32ETRS89",
                 "DK-DTK_Kort50_UTM32ETRS89",
@@ -208,6 +210,21 @@
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Skærmkort - dæmpet</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><br>",
             "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "https://services.hxgncontent.com/streaming/wms?Username=Hedensted_Forsyning&Password=6434BD9C",
+            "layers": [
+                "DK-DDOland2024_125mm_UTM32ETRS89"
+            ],
+            "id": "DK-DDOland2024_125mm_UTM32ETRS89",
+            "name": "Hexagon DDO land 2024",
+            "description": "DK-DDOland2024_125mm_UTM32ETRS89",
+            "attribution": "&copy; Hexagon.",
+            "abstract": "<p>Copyright: Hexagon. DK-DDOland2024_125mm_UTM32ETRS89.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 24,
             "maxNativeZoom": 20
         },
         {
@@ -475,6 +492,21 @@
             "description": "Ortofoto forår fra Dataforsyningen",
             "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Klimadatastyrelsen.'. </p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "geodanmark_2024_12_5cm"
+            ],
+            "id": "ortofoto_foraar_2024",
+            "name": "GeoDanmark ortofoto forår (2024)",
+            "description": "Ortofoto forår fra Dataforsyningen",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Klimadatastyrelsen.'. </p><br>",
+            "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20
         },
