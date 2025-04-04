@@ -1,14 +1,28 @@
 {
   "brandName": "Vester Skerninge Vandværk",
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
   "enabledPrints": [
     "vandvaerk2"
   ],
+  "searchModules": [
+    "danish"
+  ],
+  "extensionConfig": {
+    "streetView": {
+      "ignorelist": [
+        "cowi"
+      ]
+    }
+  },
+  "enabledSearch": "danish",
   "searchConfig": {
     "komkode": [
-            "430",
-            "479"
-      ]
+      "430", "479"
+    ]
   },
-  "searchModules":["google","danish"],
-  "enabledSearch":"danish"
-} 
+  "popupDraggable": true
+}
