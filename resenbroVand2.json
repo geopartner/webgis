@@ -1,8 +1,30 @@
 {
   "brandName": "Resenbro vand",
-  "enabledPrints": ["vandvaerk2"],
-  "searchModules":["google","danish"],
-  "enabledSearch":"danish",
-  "searchConfig":{"komkode":"740"},
-  "showLayerGroupCheckbox": true
-} 
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "searchModules": [
+    "danish"
+  ],
+  "extensionConfig": {
+    "streetView": {
+      "ignorelist": [
+        "mapillary",
+        "cowi"
+      ]
+    }
+  },
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "740"
+    ]
+  },
+  "popupDraggable": true
+}
+
