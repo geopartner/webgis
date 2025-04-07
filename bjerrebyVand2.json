@@ -19,6 +19,5 @@
           "autoLogin": true,
           "autoLoginMaxAge": 630720000000
         }
-    },
-    "crs": "EPSG25832"  
+    }
   }
