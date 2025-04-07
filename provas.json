@@ -18,7 +18,8 @@
       "matrikel_datahub",
       "graveassistent_provas",
       "tag:redigerbarelag",
-      "deklarationer"
+      "deklarationer",
+"dar_datahub"
    ],
    "enabledExtensions":[
       "graveAssistent",
