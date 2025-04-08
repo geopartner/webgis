@@ -1,3 +1,7 @@
 #group-check-box-VGVtYWdydXBwZXIgLSB1bmRlciBvcGJ5Z25pbmc {
     visibility: hidden;
 }
+.js-close-modal-do-not-show {
+    display: none !important;
+}
+
