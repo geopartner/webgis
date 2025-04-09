@@ -2,8 +2,11 @@
   "brandName": "Poulstrup Vandværk",
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+    "session"
   ],
+  "showOffcanvas": "mobile",
+  "showLayerGroupCheckbox": true
   "searchConfig": {
     "komkode": [
       "860"
