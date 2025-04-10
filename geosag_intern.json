@@ -30,8 +30,8 @@
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
     "searchConfig": {
-        "size": 5,
-        "esrSearchActive": true,
+        "size": 8,
+        "esrSearchActive": false,
         "sfeSearchActive": true,
         "advanced": false,
         "placeholderText": "Søg adresse, matrikel, esr, bfe eller sagsnummer",
@@ -69,6 +69,8 @@
         }
     },
     "popupDraggable": true,
+    "autoPanPopup": true,
+    "showOffcanvas": "mobile",
     "featureInfoTableOnMap": true,
     "removeDisabledLayersFromLegend": true,
     "enabledExtensions": [
@@ -77,8 +79,8 @@
         "coordinates",
         "session",
         "editor",
-	"upload",
-	"directions"
+        "upload",
+        "directions"
     ],
     "baseLayers": [
         {
@@ -467,7 +469,7 @@
         {
             "type": "WMTS",
             "url": "https://api.dataforsyningen.dk/wmts/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
-			"_url": "api.dataforsyningen.dk/wmts/forvaltning2",
+            "_url": "api.dataforsyningen.dk/wmts/forvaltning2",
             "tileMatrixSet": "View1",
             "layer": "forvaltning2",
             "id": "ForvaltningskortDF1",
