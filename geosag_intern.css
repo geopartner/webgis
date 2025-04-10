@@ -15,5 +15,9 @@
 }
 
 .leaflet-popup-content{
+	width: 551px !important;
+}
+
+#modal-content{
 	width: 581px !important;
 }
