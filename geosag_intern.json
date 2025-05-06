@@ -31,7 +31,7 @@
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
     "searchConfig": {
-        "size": 8,
+        "size": 12,
         "esrSearchActive": false,
         "sfeSearchActive": true,
         "advanced": false,
