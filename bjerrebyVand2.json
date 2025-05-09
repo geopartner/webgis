@@ -18,9 +18,6 @@
         "session": {
           "autoLogin": true,
           "autoLoginMaxAge": 630720000000
-        },
-        "editor": {
-            "alwaysActive": false
         }
     }
   }
