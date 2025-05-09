@@ -20,7 +20,7 @@
           "autoLoginMaxAge": 630720000000
         },
         "editor": {
-            "alwaysActivate": false
+            "alwaysActive": false
         }
     }
   }
