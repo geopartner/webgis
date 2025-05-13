@@ -49,6 +49,10 @@
     "popupDraggable": true,
     "showOffcanvas": "mobile",
     "expandFirstInLayerTree": true,
+    "openLayerTreeGroups": [
+        "Projekter",
+        "Koordinering - Projektområder"
+    ],
     "df": {
         "datafordeler": {
             "username": "XMERXHKAVN",
