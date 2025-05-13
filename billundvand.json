@@ -7,7 +7,8 @@
 		"ejerkort_datahub",
 		"ler",
 		"plandata_datahub",
-		"bbr_datahub"
+		"bbr_datahub",
+		"matrikel_datahub"
 	],
 	"popupDraggable": true,
     "autoPanPopup": true,
