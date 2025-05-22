@@ -26,11 +26,5 @@
 		"danish"
 	],
 	"enabledSearch": "danish",
-	"_searchConfig": {
-		"komkode": [
-			"840",
-			"849",
-			"860"
-		]
-	}
+	"searchConfig": {}
 }
