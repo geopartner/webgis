@@ -20,10 +20,5 @@
 		}
 	},
 	"showLayerGroupCheckbox": true,
-	"popupDraggable": false,
-	"searchModules": [
-		"google",
-		"danish"
-	],
-	"enabledSearch": "danish"
+	"popupDraggable": false
 }
