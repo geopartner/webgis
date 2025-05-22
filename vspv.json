@@ -10,7 +10,7 @@
         "plandata_datahub",
         "dktl"
     ],
-    "_activeLayers": [
+    "activeLayers": [
         "dandas.ddg_knude",
         "dandas.ddg_knude_txtboks",
         "dandas.ddg_knude_txt",
