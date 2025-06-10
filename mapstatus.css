@@ -4,6 +4,9 @@
 
 .leaflet-popup-content {
     width: 670px !important;
+    margin: 7px 13px !important;
+    max-height: 350px;
+    overflow: auto;
 }
 
 .alternative-info-container-right {
