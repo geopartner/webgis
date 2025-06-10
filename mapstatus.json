@@ -6,7 +6,7 @@
 		"tag:mapstatus_projektplan"		
 	],
 	"activateMainTab": "info",
-	 "startUpModal":"<h1>MapConnect</h1><p>MapConnect er Geopartners webgis platform.<br> Her kan du se de korttemaer du har fået opsat i Map Connect. Det er derudover muligt at se forskellige baggrundskort, som topografiske kort og luftfoto-serier, tilføjeen række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><a target='blank' href='https://vidi-wiki.geopartner.dk/pages/gettingstarted/gettingstarted.html'><i class='material-icons'></i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect- dokumentation</a><h1>MapStatus</h1><p>MapStatus er en opsætning af MapConnect, til at understøtte projektering af ledningsanlæg, hvor der er behov for at sammenstille opmålingsdata med projekteringsgrundlaget.</p>",
+	 "startUpModal":"<h4>MapConnect</h4><p>MapConnect er Geopartners webgis platform.<br> Her kan du se de korttemaer du har fået opsat i Map Connect. Det er derudover muligt at se forskellige baggrundskort, som topografiske kort og luftfoto-serier, tilføjeen række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><a target='blank' href='https://vidi-wiki.geopartner.dk/pages/gettingstarted/gettingstarted.html'><i class='material-icons'></i>&nbsp;&nbsp;&nbsp;Kom godt i gang med MapConnect- dokumentation</a><h5>MapStatus</h5><p>MapStatus er en opsætning af MapConnect, til at understøtte projektering af ledningsanlæg, hvor der er behov for at sammenstille opmålingsdata med projekteringsgrundlaget.</p>",
 	"cssFiles": [
         "mapstatus.css"
         ],
