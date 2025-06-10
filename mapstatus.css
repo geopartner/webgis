@@ -1,0 +1,11 @@
+.leaflet-popup-content-wrapper {
+    width: 700px;
+}
+
+.leaflet-popup-content {
+    width: 670px !important;
+}
+
+.alternative-info-container-right {
+	width: 660px;
+}
