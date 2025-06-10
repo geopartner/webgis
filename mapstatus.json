@@ -6,6 +6,9 @@
 		"tag:mapstatus_projektplan"		
 	],
 	"activateMainTab": "info",
+	"cssFiles": [
+        "mapstatus.css"
+        ],
 	"showOffcanvas": "mobile",
 	"removeDisabledLayersFromLegend": true,
 	"enabledPrints": [
