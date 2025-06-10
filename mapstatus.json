@@ -6,6 +6,7 @@
 		"tag:mapstatus_projektplan"		
 	],
 	"activateMainTab": "info",
+	 "startUpModal":"",
 	"cssFiles": [
         "mapstatus.css"
         ],
