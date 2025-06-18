@@ -9,7 +9,7 @@
   ],
   "activeLayers": [
     "matrikeludpegning.matrikel",
-    "public.aabne_sager"
+    "public.aabne_sager",
     "public.lukkede_sager"
   ],
   "searchConfig": {
