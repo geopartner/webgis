@@ -5,3 +5,7 @@
 #group-check-box-QWZsw7hi {
     visibility: hidden;
 }
+
+input[type="checkbox"][data-gc2-subgroup-name="Tænde/Slukke systemer"] {
+  visibility: hidden;
+}
