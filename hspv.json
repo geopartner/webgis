@@ -26,6 +26,9 @@
         "editor"
     ],
     "showLayerGroupCheckbox": true,
+    "openLayerTreeGroups": [
+        "Afløb"
+    ],
     "showOffcanvas": "mobile",
     "removeDisabledLayersFromLegend": true,
     "enabledPrints": [
@@ -97,7 +100,7 @@
         {
             "groupName": "Hexagon DDO ortofoto 1954 + 1995-2024",
             "layers": [
-				"DK-DDOland2024_125mm_UTM32ETRS89",
+                "DK-DDOland2024_125mm_UTM32ETRS89",
                 "DK-DDOland2022_125mm_UTM32ETRS89",
                 "DK-DDOland2020_125mm_UTM32ETRS89",
                 "DK_HxIP-ORTO2018_30cm_UTM32ETRS89",
@@ -120,7 +123,7 @@
             "groupName": "GeoDanmark forår ortofoto 2015-2024 + quick-orto",
             "layers": [
                 "ortofoto_foraar_temp_DF",
-				"ortofoto_foraar_2024",
+                "ortofoto_foraar_2024",
                 "ortofoto_foraar_2023",
                 "ortofoto_foraar_2022",
                 "ortofoto_foraar_2021",
