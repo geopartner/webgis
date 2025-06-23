@@ -1,11 +1,9 @@
-#group-check-box-VGVtYWdydXBwZXIgLSB1bmRlciBvcGJ5Z25pbmc {
-    visibility: hidden;
-}
-
+/* Fjerner checkboksen til "Afløb" */
 #group-check-box-QWZsw7hi {
     visibility: hidden;
 }
 
+/* Skjuler checkboksen til "Tænde/Slukke systemer" under afløb */
 input[type="checkbox"][data-gc2-subgroup-name="Tænde/Slukke systemer"] {
   visibility: hidden;
 }
