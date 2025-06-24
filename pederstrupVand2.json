@@ -4,6 +4,22 @@
     "streetView",
     "coordinates"
   ],
+  "activeLayers": [
+    "pederstrupvand.droppes_ledningstekst",
+    "pederstrupvand.komponenter_slutmuffe",
+    "pederstrupvand.komponenter_boring",
+    "pederstrupvand.komponenter_reduktion",
+    "pederstrupvand.ledninger_hovedledning",
+    "pederstrupvand.ledninger_stikledning",
+    "pederstrupvand.komponenter_ventil",
+    "pederstrupvand.komponenter_afgrening",
+    "pederstrupvand.komponenter_stophane",
+    "pederstrupvand.komponenter_zoneventil",
+    "pederstrupvand.komponenter_malerbrond",
+    "pederstrupvand.komponenter_anboring",
+    "pederstrupvand.komponenter_brandhane",
+    "pederstrupvand.komponenter_tracetilslutning"
+  ],
   "showLayerGroupCheckbox": true,
   "enabledPrints": [
     "vandvaerk2"
