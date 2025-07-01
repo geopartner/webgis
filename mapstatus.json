@@ -38,7 +38,9 @@
 	"enabledExtensions": [
 		"streetView",
 		"editor",
-		"coordinates"
+		"coordinates",
+		"session",
+                "mapstatus"
 	],
 	"baseLayers": [
 		{
