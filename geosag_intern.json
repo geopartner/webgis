@@ -1,4 +1,7 @@
 {
+    "_schemata": [
+        "mim_pg_noise"
+    ],
     "schemata": [
         "public",
         "ejerkort_datahub",
@@ -14,7 +17,6 @@
         "ler_aws",
         "bbr_datahub",
         "matrikel_datahub",
-        "mim_pg_noise",
         "dhm",
         "forvaltning2"
     ],
