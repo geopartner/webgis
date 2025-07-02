@@ -15,6 +15,7 @@
         "google",
         "danish"
     ],
+    "statelessDraw": true,
     "extensionConfig": {
         "streetView": {
             "ignorelist": [
@@ -22,6 +23,7 @@
             ]
         },
         "symbols": {
+            "stateless": true,
             "files": [
                 {
                     "file": "symbol_advarselstavler.json",
