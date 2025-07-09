@@ -6,6 +6,7 @@
         "plan",
         "org_organisationen",
 		"org_virksomhed_a",
+		"org_vejmyndighed",
         "odense_kommune"
     ],
     "activeLayers": [
