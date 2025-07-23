@@ -18,7 +18,8 @@
         "bbr_datahub",
         "matrikel_datahub",
         "dhm",
-        "forvaltning2"
+        "forvaltning2",
+        "vejdirektoratet"
     ],
     "cssFiles": [
         "geosag_intern.css"
