@@ -5,8 +5,8 @@
         "public",
         "plan",
         "org_organisationen",
-		"org_virksomhed_a",
-		"org_vejmyndighed",
+        "org_virksomhed_a",
+        "org_vejmyndighed",
         "odense_kommune"
     ],
     "activeLayers": [
@@ -21,6 +21,9 @@
     ],
     "enabledPrints": [
         "odense_kom"
+    ],
+    "cssFiles": [
+        "css_hide-delete-button.css"
     ],
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
