@@ -466,7 +466,7 @@
             "abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
             "config": {
                 "maxZoom": 21,
-                "maxNativeZoom": 21,
+                "maxNativeZoom": 20,
                 "attribution": "&copy; Open Street Map"
             }
         },
