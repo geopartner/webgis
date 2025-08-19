@@ -9,7 +9,8 @@
 		"ler",
 		"plandata_datahub",
 		"bbr_datahub",
-		"matrikel_datahub"
+		"matrikel_datahub",
+		"deklarationer"
 	],
 	"popupDraggable": true,
     "autoPanPopup": true,
@@ -75,7 +76,7 @@
             "autoLoginMaxAge": 65000000
         },
         "blueidea": {
-            "userid": ""
+            "userid": "0a813f9c-b94e-48e5-ae9b-c91fcd2911ec"
         },
         "streetView": {
             "ignorelist": [
