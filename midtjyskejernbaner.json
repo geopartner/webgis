@@ -6,6 +6,8 @@
          "gc2_io_dk_danmarksarealinformation"
     ],
     "brandName": "Midtjyske jernbaner, ejerkort",
+  "showLayerGroupCheckbox": true,
+  "initZoomCenter": "/11/8.2013/56.575"
   
   "enabledPrints": ["print2"],
     
