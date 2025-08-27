@@ -5,8 +5,8 @@
 		"dandas_gp",
 		"danvand_gp",
 		"varme_gp",
-		"diverse_gp",
 		"oitkabler_gp",
+		"diverse_gp",
 		"bbr_datahub",
 		"ejerkort_datahub",
 		"matrikel_datahub",
@@ -46,6 +46,7 @@
 		},
 		"streetView": {
 				"ignorelist": [
+						"mapillary",
 						"cowi"
 					]
 		}
