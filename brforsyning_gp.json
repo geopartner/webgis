@@ -2,14 +2,10 @@
 	"brandName": "Brønderslev Forsyning",
 	"title": "Brønderslev Forsyning - WebGIS kort",
 	"schemata": [
-		"dandas",
-		"danvand",
-		"varme",
 		"dandas_gp",
 		"danvand_gp",
 		"varme_gp",
 		"oitkabler_gp",
-		"privat",
 		"bbr_datahub",
 		"ejerkort_datahub",
 		"matrikel_datahub",
@@ -49,7 +45,6 @@
 		},
 		"streetView": {
 				"ignorelist": [
-						"mapillary",
 						"cowi"
 					]
 		}
