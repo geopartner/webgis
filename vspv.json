@@ -8,7 +8,8 @@
         "ejerkort_datahub",
         "matrikel_datahub",
         "plandata_datahub",
-        "dktl"
+        "dktl",
+		"ejf_datahub"
     ],
     "activeLayers": [
         "dandas.ddg_knude",
