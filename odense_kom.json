@@ -8,6 +8,7 @@
         "org_virksomhed_a",
         "org_vejmyndighed",
         "org_vejdrift",
+        "org_trafikplan",
         "odense_kommune"
     ],
     "activeLayers": [
