@@ -4,6 +4,7 @@
     "schemata": [
         "public",
         "plan",
+        "org_anlaeg",
         "org_organisationen",
         "org_vejmyndighed",
         "org_vejdrift",
