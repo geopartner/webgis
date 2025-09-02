@@ -1,6 +1,7 @@
 {
 	"schemata": [
-		"dandas",
+		"dandas_gp",
+		"dandas_projekt",
 		"public",
 		"ler_aws",
 		"matrikel_datahub",
