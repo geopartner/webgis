@@ -5,10 +5,11 @@
         "public",
         "plan",
         "org_anlaeg",
+        "org_byrum",
         "org_organisationen",
-        "org_vejmyndighed",
-        "org_vejdrift",
         "org_trafikplan",
+        "org_vejdrift",
+        "org_vejmyndighed",
         "odense_kommune"
     ],
     "activeLayers": [
