@@ -120,7 +120,7 @@
             ]
         },
         {
-            "groupName": "GeoDanmark forår ortofoto 2015-2024 + quick-orto",
+            "groupName": "GeoDanmark forår ortofoto 2015-2024",
             "layers": [
                 "ortofoto_foraar_2024",
                 "ortofoto_foraar_2023",
