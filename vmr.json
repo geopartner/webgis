@@ -69,7 +69,6 @@
     }
   ],
   "enabledPrints": ["vandvaerk2"],
-//  "enabledExtensions": ["documentCreate", "session"],
   "searchConfig": {
     "size": 20,
     "komkode": ["710", "730", "791", "846"]
