@@ -76,6 +76,7 @@
   "activateMainTab": "documentCreate",
   "showOffcanvas": true,
   "enabledSearch": "danish",
+  "enabledExtensions": ["documentCreate", "session"],  
   "extensionConfig": {
     "session": {
       "autoLogin": true,
