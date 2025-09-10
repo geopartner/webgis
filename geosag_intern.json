@@ -1,5 +1,6 @@
 {
     "_schemata": [
+        "forvaltning2",
         "mim_pg_noise"
     ],
     "schemata": [
@@ -19,7 +20,6 @@
         "dar_datahub",
         "matrikel_datahub",
         "dhm",
-        "forvaltning2",
         "vejdirektoratet"
     ],
     "cssFiles": [
