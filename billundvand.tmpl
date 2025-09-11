@@ -1,4 +1,3 @@
-<!-- billund_header_table_logo.tmpl (v7.0 - Final, header visibility fixed) -->
 <style>
   /* ===== Map / Page area ===== */
   body { background:#fff; }
@@ -32,7 +31,7 @@
   #header {
     /* The "display: {{_showHeader}};" rule has been REMOVED to force the header to always be visible. */
     position: absolute;
-    width: 600px;     /* EDIT ME: header width */
+    width: 640px;     /* EDIT ME: header width */
     /* The fixed "height" property is correctly removed to allow upward expansion. */
     background-color: white;
     bottom: 0px;
@@ -42,12 +41,12 @@
   /* ===== Table layout inside header ===== */
   :root{
     /* Column widths - adjust to match your design */
-    --col-logo: 25%;   /* logo column */
+    --col-logo: 35%;   /* logo column */
     --col1: 25%;       /* Scale */
     --col2: 25%;       /* UTM32 */
     --col3: 25%;       /* DVR90 */
     /* CRITICAL CHANGE: Row heights are now fixed pixels to provide a baseline height. */
-    --hdr-top-row-height: 66px;
+    --hdr-top-row-height: 44px;
     --hdr-bot-row-height: 44px;
     /* Line thickness */
     --hdr-line: 1px;
@@ -99,7 +98,7 @@
     display:block;
     font-size:16px;
     font-weight:700;
-    margin:0 0 4px 0;
+    margin:0 0 2px 0;
     color:#000;
   }
   #comment{
@@ -119,7 +118,7 @@
     height:auto;
     max-height:80px;
     object-fit:contain;
-    padding: 5px;
+    padding: 2px;
     box-sizing: border-box;
   }
   
@@ -129,7 +128,7 @@
     font-size: 10px;
     font-weight: normal;
     color: #333;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
   }
   
   #scale, #coord, #kote {
