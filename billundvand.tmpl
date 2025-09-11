@@ -1,131 +1,191 @@
-<!-- override standard styles -->
 <style>
-    body {
-        background-color: white;
-    }
-    .leaflet-control-graphicscale {
-        box-shadow: none;
-        -webkit-box-shadow: none;
-        white-space: nowrap;
-    }
-    #legend, #header, #date-time, #scale-box {
-        -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
-        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
-    }
-    #pane1 {
-        position: absolute;
-        width: {{printWidth}};
-        height: {{printHeight}};
-        display: block;
-        overflow: hidden;
-        top: 30px;
-        left: 30px;
-        border: 1px solid black
-    }
-    #container1 {
-        position: relative;
-        width: 200%;
-        height: 200%;
-        left:-50%;
-        top:-50%;
-        display: inline-block;
-    }
-    #header {
-        display: {{_showHeader}};
-        position: absolute;
-        width: 500px;
-        height: 80px;
-        background-color: white;
-        bottom: 0px;
-        right: 0px;
-        border-top: 1px solid gray;
-        border-left: 1px solid gray;
-    }
-    #logo {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        padding: 10px;
-        background-color: white;
-        border: 1px solid black;
-        border-bottom: 0;
-        border-right: 0;
-    }
-    #logoimg {
-        height: 55px;
-        margin-right: auto;
-        margin-left: auto;        
-    }
-   
-    #date-time {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: white;
-        font-size: 0.8em;
-    }
-    #legend {
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        padding: 10px;
-        background-color: white;
-        -webkit-transform: scale(0.6);
-        -webkit-transform-origin:left top;
-        display: {{_showLegend}};
-    }
-    #scale {
-        position: absolute;
-        left: 4px;
-        bottom: 40px;
-        font-size: 0.8em;
-    }
-    #scalebar {
-        position: absolute;
-        left: 4px;
-        bottom: 19px;
-    }
-    #northimg {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-    .brandName {
-        font-size: 10px;
-        margin: 0;
-        text-align: center;
-    }
+  /* ===== Map / Page area ===== */
+  body { background:#fff; }
+  .leaflet-control-graphicscale { box-shadow:none; -webkit-box-shadow:none; white-space:nowrap; }
+
+  #pane1{
+    position:absolute;
+    width:{{printWidth}};
+    height:{{printHeight}};
+    top:30px; left:30px;            /* page margins */
+    overflow:hidden;
+    border:1px solid #000;
+  }
+  #container1{
+    position:relative;
+    width:200%; height:200%;
+    left:-50%; top:-50%;
+    display:inline-block;
+  }
+
+  #legend{
+    position:absolute; top:5px; left:5px;
+    padding:10px; background:#fff;
+    -webkit-transform:scale(0.6);
+    -webkit-transform-origin:left top;
+    display:{{_showLegend}};
+  }
+  #northimg{ position:absolute; top:10px; right:10px; }
+  #scalebar{ position:absolute; left:4px; bottom:19px; }
+
+  /* ===== Header anchored bottom-right ===== */
+  #header {
+    display: {{_showHeader}};
+    position: absolute;
+    width: 600px;     /* EDIT ME: header width */
+    height: 100px;    /* EDIT ME: header height */
+    background-color: white;
+    bottom: 0px;
+    right: 0px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+  }
+
+  /* ===== Table layout inside header ===== */
+  :root{
+    /* Column widths — adjust to match your design */
+    --col-logo: 25%;   /* logo column */
+    --col1: 25%;       /* Scale */
+    --col2: 25%;       /* UTM32 */
+    --col3: 25%;       /* DVR90 */
+
+    /* Row heights */
+    --hdr-top-row: 60%;   /* top row: logo+title/comment */
+    --hdr-bot-row: 40%;   /* bottom row: scale/UTM/DVR */
+
+    /* Line thickness */
+    --hdr-line: 2px;
+  }
+
+  #hdrTable{
+    position:absolute; inset:0;
+    width:100%; height:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    background:#000;
+  }
+
+  #hdrTable td{
+    border: var(--hdr-line) solid #fff;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 8px;
+    vertical-align:middle;
+    overflow:hidden; white-space:nowrap; text-overflow:ellipsis;
+  }
+
+  /* Column widths */
+  #hdrTable colgroup col.logo  { width: var(--col-logo); }
+  #hdrTable colgroup col.c1    { width: var(--col1); }
+  #hdrTable colgroup col.c2    { width: var(--col2); }
+  #hdrTable colgroup col.c3    { width: var(--col3); }
+
+  #hdrTable tr.top    { height: var(--hdr-top-row); }
+  #hdrTable tr.bottom { height: var(--hdr-bot-row); }
+
+  /* Title & Comment */
+  #title{
+    display:block;
+    font-size:16px;
+    font-weight:700;
+    line-height:1.1;
+    margin:0 0 2px 0;
+    color:#fff;
+  }
+  #comment{
+    display:block;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.1;
+    margin:0;
+    color:#fff;
+  }
+
+  /* Logo cell */
+  #hdrLogo {
+    display:block;
+    width:100%;
+    height:auto;
+    max-height:60px; /* adjust to fit row height */
+    object-fit:contain;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Text in bottom-row cells */
+  .label {
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 2px;
+  }
+  
+  #scale, #coord, #kote {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  #date-time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    font-size: 0.8em;
+    padding: 2px;
+  }
 </style>
-<!-- map -->
+
 <div id="pane1">
-    <div id="container1">
-        <div id="map"></div>
-    </div>
-    <div id="logo">
-        <table cellpadding="1" cellspacing="1">
-            <tr>
-                <td style="padding-right:10px;align:top;">
-                    <b id="title"></b>
-                    <p id="comment"></p>
-                </td>
-                <td style="padding:10px;align:top;">
-                    <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/billundvand.png">
-                </td>
-                <td style="padding:1px;align:top;">
-                    <td style="padding:1px;align:top;">
-						<p class="brandName">Billund Vand & Energi A/S</p>
-						<p class="brandName">Grindsted Landevej 40, 7200 Grindsted</p>
-						<p class="brandName">76 50 27 00</p>
-					</td>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div id="northimg">
-        <img style="width: 30px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
-    </div>
-    <div id="legend"></div>
-    <div id="scalebar"></div>
-    <div id="scale"></div>
-    <div id="date-time">Udskrevet {{printDataTime}}</div>
+  <div id="container1">
+    <div id="map"></div>
+  </div>
+
+  <!-- ===== Header (table-based with logo column) ===== -->
+  <div id="header" aria-label="Print header">
+    <table id="hdrTable" role="presentation">
+      <colgroup>
+        <col class="logo"><col class="c1"><col class="c2"><col class="c3">
+      </colgroup>
+
+      <!-- Top row: logo in first cell; title+comment spanning 3 cells -->
+      <tr class="top">
+        <td style="background-color:white; padding:0;">
+          <img id="hdrLogo" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/billundvand.png" alt="Logo">
+        </td>
+        <td colspan="3">
+          <!-- These elements will be populated by the WebGIS system -->
+          <b id="title"></b>
+          <p id="comment"></p>
+        </td>
+      </tr>
+
+      <!-- Bottom row: left cell empty; then scale, UTM, DVR -->
+      <tr class="bottom">
+        <td></td> <!-- This cell is intentionally left blank to match the design -->
+        <td>
+          <span class="label">Mål:</span>
+          <span id="scale"></span> <!-- System will populate scale -->
+        </td>
+        <td>
+          <span class="label">Koordinatsystem:</span>
+          <span id="coord">UTM32</span>
+        </td>
+        <td>
+          <span class="label">Kotesystem:</span>
+          <span id="kote">DVR90</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Other widgets (legend, north arrow, scalebar, date/time stays outside header) -->
+  <div id="northimg">
+    <img style="width:30px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
+  </div>
+  <div id="legend"></div>
+  <div id="scalebar"></div>
+  <div id="date-time">Udskrevet {{printDataTime}}</div>
 </div>
