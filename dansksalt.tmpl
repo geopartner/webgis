@@ -1,182 +1,142 @@
-<!-- billund_header_inverted.tmpl -->
-<!-- Inverted (black) header: PLAN = title, BESKRIVELSE = comment. Tegnnr intentionally omitted. -->
+<!-- override standard styles -->
 <style>
-  /* Base / carry-overs from your current template */
-  body { background-color: white; }
-  .leaflet-control-graphicscale { box-shadow: none; -webkit-box-shadow: none; white-space: nowrap; }
-  #legend, #header, #date-time, #scale-box {
-    -webkit-box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
-    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
-  }
-
-  #pane1 {
-    position: absolute;
-    width: {{printWidth}};
-    height: {{printHeight}};
-    display: block;
-    overflow: hidden;
-    top: 30px;
-    left: 30px;
-    border: 1px solid black;
-  }
-  #container1 {
-    position: relative;
-    width: 200%;
-    height: 200%;
-    left: -50%;
-    top: -50%;
-    display: inline-block;
-  }
-
-  /* New: SVG header container (same footprint as your old #logo/header area) */
-  #headerSvgWrap {
-    display: {{_showHeader}};
-    position: absolute;
-    width: 500px;
-    height: 80px;
-    bottom: 0;
-    right: 0;
-    /* Optional light borders like before; the SVG draws the actual black frame */
-    border-top: 1px solid gray;
-    border-left: 1px solid gray;
-    background: transparent;
-  }
-
-  /* Optional: keep these utilities */
-  #date-time {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    font-size: 0.8em;
-  }
-  #legend {
-    position: absolute;
-    top: 5px; left: 5px;
-    padding: 10px;
-    background-color: white;
-    -webkit-transform: scale(0.6);
-    -webkit-transform-origin: left top;
-    display: {{_showLegend}};
-  }
-  #scale { position: absolute; left: 4px; bottom: 40px; font-size: 0.8em; }
-  #scalebar { position: absolute; left: 4px; bottom: 19px; }
-  #northimg { position: absolute; top: 10px; right: 10px; }
+    body {
+        background-color: white;
+    }
+    .leaflet-control-graphicscale {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        white-space: nowrap;
+    }
+    #legend, #header, #date-time, #scale-box {
+        -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    }
+    #pane1 {
+        position: absolute;
+        width: {{printWidth}};
+        height: {{printHeight}};
+        display: block;
+        overflow: hidden;
+        top: 30px;
+        left: 30px;
+        border: 1px solid black
+    }
+    #container1 {
+        position: relative;
+        width: 200%;
+        height: 200%;
+        left:-50%;
+        top:-50%;
+        display: inline-block;
+    }
+    #header {
+        display: {{_showHeader}};
+        position: absolute;
+        width: 500px;
+        height: 80px;
+        background-color: white;
+        bottom: 0px;
+        right: 0px;
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+    }
+    #logo {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-bottom: 0;
+        border-right: 0;
+    }
+    #logoimg {
+        height: 55px;
+        margin-right: auto;
+        margin-left: auto;        
+    }
+   
+    #date-time {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        font-size: 0.8em;
+    }
+    #legend {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        padding: 10px;
+        background-color: white;
+        -webkit-transform: scale(0.6);
+        -webkit-transform-origin:left top;
+        display: {{_showLegend}};
+    }
+    #scale {
+        position: absolute;
+        left: 4px;
+        bottom: 40px;
+        font-size: 0.8em;
+    }
+    #scalebar {
+        position: absolute;
+        left: 4px;
+        bottom: 19px;
+    }
+    #north {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+    }
+    #northimg {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    .brandName {
+        font-size: 10px;
+        margin: 0;
+        text-align: center;
+    }
 </style>
-
+<!-- map -->
 <div id="pane1">
-  <div id="container1">
-    <div id="map"></div>
-  </div>
-
-  <!-- New: Single SVG header (white text/lines on black). Tegnnr omitted. -->
-  <div id="headerSvgWrap" aria-label="Print header">
-    <svg viewBox="0 0 1000 160" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <!-- Outer black panel with white stroke -->
-      <rect x="0" y="0" width="1000" height="160" fill="black" stroke="white" stroke-width="4"/>
-
-      <!-- Left logo box -->
-      <rect x="18" y="18" width="280" height="124" fill="black" stroke="white" stroke-width="3"/>
-      <!-- Replace href if the customer wants a different mark (PNG/SVG both fine) -->
-      <image id="hdrLogo"
-             x="30" y="30" width="255" height="100"
-             preserveAspectRatio="xMidYMid meet"
-             href="https://raw.githubusercontent.com/geopartner/webgis/master/logo/billundvand.png" />
-
-      <!-- Center title/comment box -->
-      <rect x="306" y="18" width="664" height="70" fill="black" stroke="white" stroke-width="3"/>
-      <!-- Title (PLAN) -->
-      <text id="hdrTitle"
-            x="324" y="44"
-            fill="white" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">
-        PLAN
-      </text>
-      <!-- Comment (BESKRIVELSE) -->
-      <text id="hdrComment"
-            x="324" y="78"
-            fill="white" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="400">
-        BESKRIVELSE
-      </text>
-
-      <!-- Bottom row (no Tegnnr cell) -->
-      <!-- Mål. -->
-      <rect x="306" y="96" width="190" height="46" fill="black" stroke="white" stroke-width="3"/>
-      <text x="318" y="112" fill="#bbbbbb" font-size="14" font-family="Arial, Helvetica, sans-serif">Mål.</text>
-      <text id="hdrScale" x="318" y="136" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif">1:(Scale)</text>
-
-      <!-- Koordinatsystem -->
-      <rect x="498" y="96" width="210" height="46" fill="black" stroke="white" stroke-width="3"/>
-      <text x="510" y="112" fill="#bbbbbb" font-size="14" font-family="Arial, Helvetica, sans-serif">Koordinatsystem.</text>
-      <text id="hdrCoord" x="510" y="136" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif">UTM32</text>
-
-      <!-- Kotesystem -->
-      <rect x="710" y="96" width="140" height="46" fill="black" stroke="white" stroke-width="3"/>
-      <text x="722" y="112" fill="#bbbbbb" font-size="14" font-family="Arial, Helvetica, sans-serif">Kotesystem.</text>
-      <text id="hdrKote" x="722" y="136" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif">DVR90</text>
-
-      <!-- Dato -->
-      <rect x="852" y="96" width="118" height="46" fill="black" stroke="white" stroke-width="3"/>
-      <text x="864" y="112" fill="#bbbbbb" font-size="14" font-family="Arial, Helvetica, sans-serif">Dato.</text>
-      <text id="hdrDate" x="864" y="136" fill="white" font-size="18" font-family="Arial, Helvetica, sans-serif">—</text>
-    </svg>
-  </div>
-
-  <!-- North arrow, legend, scalebar, scale, date (unchanged) -->
-  <div id="northimg">
-    <img style="width: 30px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
-  </div>
-  <div id="legend"></div>
-  <div id="scalebar"></div>
-  <div id="scale"></div>
-  <div id="date-time">Udskrevet {{printDataTime}}</div>
-
-  <!-- Hidden anchors to preserve your existing title/comment bindings (if any external code fills them) -->
-  <b id="title" style="display:none;"></b>
-  <p id="comment" style="display:none;"></p>
+    <div id="container1">
+        <div id="map"></div>
+    </div>
+    <div id="logo">
+        <table cellpadding="1" cellspacing="1">
+            <tr>
+                <td style="padding-right:10px;align:top;">
+                    <b id="title"></b>
+                    <p id="comment"></p>
+                </td>
+                <td style="padding:10px;align:top;">
+                    <!-- <img id="logoimg" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/broenderslevforsyninglogo.jpg">  --> 
+                </td>
+                <td style="padding:1px;align:top;">
+                    <p class="brandName">Dansk Salt A/S</p>
+                    <p class="brandName">Hadsundvej 17</p>
+                    <p class="brandName">9550 Mariager</p>
+                    <p class="brandName">Tlf. 96 68 79 99</p>
+                    <p class="brandName">www.nobian.com</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="north">
+        <div id="northimg">
+            <img style="width: 40px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
+        </div>
+    </div>
+    <div id="legend"></div>
+    <div id="scalebar"></div>
+    <div id="scale"></div>
+    <div id="date-time">Udskrevet {{printDataTime}}</div>
+    
 </div>
-
-<script>
-  // --- Populate header values from your existing print variables ---
-  // This mirrors your current usage: print title/comment/scale/date are often injected
-  // by the WebGIS print engine. We read both from globals and the {{ }} placeholders.
-
-  // Normalize templated placeholders that may come through literally:
-  function sanitize(val, fallback='') {
-    if (!val) return fallback;
-    const s = String(val).trim();
-    if (!s || s.startsWith('{{') && s.endsWith('}}')) return fallback;
-    return s;
-  }
-
-  // Title & comment: take from window or hidden nodes if your pipeline sets them
-  const titleFromDom = document.getElementById('title')?.textContent;
-  const commentFromDom = document.getElementById('comment')?.textContent;
-
-  const data = {
-    title: sanitize(window.printTitle || titleFromDom, 'PLAN'),
-    comment: sanitize(window.printComment || commentFromDom, 'BESKRIVELSE'),
-    // Scale: if your engine provides a number (e.g., 2000), prefix with "1:" for readability
-    scale: (function() {
-      const raw = sanitize(window.printScale || '{{_printScale}}', '');
-      if (!raw) return '1:(Scale)';
-      // ensure "1:" prefix if user passed just a number
-      return String(raw).startsWith('1:') ? raw : '1:' + raw;
-    })(),
-    coord: sanitize(window.printCoordSystem, 'UTM32'),
-    kote: sanitize(window.printKoteSystem, 'DVR90'),
-    date: sanitize(window.printDataTime || '{{printDataTime}}', new Date().toLocaleDateString('da-DK')),
-    logoHref: sanitize(window.printLogoHref, 'https://raw.githubusercontent.com/geopartner/webgis/master/logo/billundvand.png')
-  };
-
-  // Apply into the SVG
-  const setText = (id, value) => { const el = document.getElementById(id); if (el) el.textContent = value; };
-  const setAttr = (id, attr, value) => { const el = document.getElementById(id); if (el) el.setAttribute(attr, value); };
-
-  setAttr('hdrLogo', 'href', data.logoHref);
-  setText('hdrTitle', data.title);
-  setText('hdrComment', data.comment);
-  setText('hdrScale', data.scale);
-  setText('hdrCoord', data.coord);
-  setText('hdrKote', data.kote);
-  setText('hdrDate', data.date);
-</script>
