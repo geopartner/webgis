@@ -1,4 +1,4 @@
-<!-- billund_header_table_logo.tmpl (v5.2 - Final with all comments restored) -->
+<!-- billund_header_table_logo.tmpl (v6.0 - Final with upward expansion) -->
 <style>
   /* ===== Map / Page area ===== */
   body { background:#fff; }
@@ -34,7 +34,8 @@
     /* The "display: {{_showHeader}};" rule has been REMOVED to force the header to always be visible. */
     position: absolute;
     width: 600px;     /* EDIT ME: header width */
-    height: 110px;    /* EDIT ME: header height */
+    /* CRITICAL CHANGE: The fixed "height" property has been REMOVED. */
+    /* The container will now auto-size its height to fit the content, and since "bottom" is fixed, it will grow upwards. */
     background-color: white;
     bottom: 0px;
     right: 0px;
@@ -47,7 +48,7 @@
     --col1: 25%;       /* Scale */
     --col2: 25%;       /* UTM32 */
     --col3: 25%;       /* DVR90 */
-    /* Row heights */
+    /* Row heights - these now act as MINIMUM heights */
     --hdr-top-row: 60%;
     --hdr-bot-row: 40%;
     /* Line thickness */
