@@ -1,4 +1,4 @@
-<!-- billund_header_table_logo.tmpl (v4 - Final) -->
+<!-- billund_header_table_logo.tmpl (v5.2 - Final with all comments restored) -->
 <style>
   /* ===== Map / Page area ===== */
   body { background:#fff; }
@@ -47,11 +47,9 @@
     --col1: 25%;       /* Scale */
     --col2: 25%;       /* UTM32 */
     --col3: 25%;       /* DVR90 */
-
     /* Row heights */
     --hdr-top-row: 60%;
     --hdr-bot-row: 40%;
-
     /* Line thickness */
     --hdr-line: 1px;
   }
@@ -61,16 +59,27 @@
     width:100%; height:100%;
     border-collapse:collapse;
     table-layout:fixed;
-    background:#fff; /* White background for the table cells */
+    background:#fff;
   }
 
   #hdrTable td{
-    border: var(--hdr-line) solid #000; /* Black borders */
-    color:#000; /* Black text */
+    border: var(--hdr-line) solid #000;
+    color:#000;
     font-family: Arial, Helvetica, sans-serif;
     padding: 4px 8px;
     vertical-align:middle;
-    overflow:hidden; white-space:nowrap; text-overflow:ellipsis;
+    overflow:hidden; /* This will hide any overflow that still occurs */
+  }
+
+  /* Rule to prevent wrapping on specific cells */
+  .no-wrap {
+    white-space: nowrap;
+  }
+
+  /* Specific styling for the title/comment cell */
+  #title-cell {
+    vertical-align: top; /* Align content to the top */
+    white-space: normal; /* Allow text wrapping */
   }
 
   /* Specific styling for the merged logo cell */
@@ -79,7 +88,6 @@
     text-align: center;
   }
 
-  /* Column widths */
   #hdrTable colgroup col.logo  { width: var(--col-logo); }
   #hdrTable colgroup col.c1    { width: var(--col1); }
   #hdrTable colgroup col.c2    { width: var(--col2); }
@@ -93,7 +101,6 @@
     display:block;
     font-size:16px;
     font-weight:700;
-    line-height:1.1;
     margin:0 0 4px 0;
     color:#000;
   }
@@ -101,9 +108,11 @@
     display:block;
     font-size:12px;
     font-weight:400;
-    line-height:1.1;
-    margin:0;
+    line-height:1.2; /* Slightly increased line-height for readability */
     color:#000;
+    /* Allow long words to break if necessary to prevent overflow */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
 
   /* Logo cell */
@@ -111,7 +120,7 @@
     display:block;
     width:100%;
     height:auto;
-    max-height:80px; /* adjust to fit row height */
+    max-height:80px;
     object-fit:contain;
     padding: 5px;
     box-sizing: border-box;
@@ -122,7 +131,7 @@
     display: block;
     font-size: 10px;
     font-weight: normal;
-    color: #333; /* Dark gray for labels */
+    color: #333;
     margin-bottom: 2px;
   }
   
@@ -147,38 +156,34 @@
     <div id="map"></div>
   </div>
 
-  <!-- ===== Header (table-based with logo column) ===== -->
   <div id="header" aria-label="Print header">
     <table id="hdrTable" role="presentation">
       <colgroup>
         <col class="logo"><col class="c1"><col class="c2"><col class="c3">
       </colgroup>
 
-      <!-- Top row -->
       <tr class="top">
-        <!-- Logo Cell: Spans 2 rows -->
         <td id="logo-cell" rowspan="2">
           <img id="hdrLogo" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/billundvand.png" alt="Logo">
         </td>
-        <!-- Title/Comment Cell: Spans 3 columns -->
-        <td colspan="3">
+        <td id="title-cell" colspan="3">
           <!-- A non-breaking space (&nbsp;) is added as a fallback to prevent cell collapse if no title/comment is provided. -->
           <b id="title">&nbsp;</b>
           <p id="comment">&nbsp;</p>
         </td>
       </tr>
 
-      <!-- Bottom row: Contains only 3 cells now -->
       <tr class="bottom">
-        <td>
+        <!-- Add the .no-wrap class to each cell in the bottom row to prevent text from wrapping -->
+        <td class="no-wrap">
           <span class="label">Mål:</span>
           <span id="scale"></span>
         </td>
-        <td>
+        <td class="no-wrap">
           <span class="label">Koordinatsystem:</span>
           <span id="coord">UTM32</span>
         </td>
-        <td>
+        <td class="no-wrap">
           <span class="label">Kotesystem:</span>
           <span id="kote">DVR90</span>
         </td>
@@ -191,5 +196,6 @@
     <img style="width:30px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
   </div>
   <div id="legend"></div>
+  <div id="scalebar"></div>
   <div id="date-time">Udskrevet {{printDataTime}}</div>
 </div>
