@@ -34,7 +34,8 @@
 		"session",
 		"editor",
 		"graveAssistent",
-		"coordinates"
+		"coordinates",
+		"directions"
 	],
 	"extensionConfig": {
 		"session": {
