@@ -21,3 +21,8 @@
 .modal-content{
 	width: 581px !important;
 }
+
+
+#root_vejnavn{
+	disabled="disabled";
+}
