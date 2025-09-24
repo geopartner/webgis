@@ -22,12 +22,3 @@
 	width: 581px !important;
 }
 
-
-#root_vejnavn{
-	disabled: disabled;
-}
-
-/* Skjuler checkboksen til "Tænde/Slukke systemer" under afløb */
-input[type="text"][id="root_vejnavn"] {
-  disabled: disabled;
-}
