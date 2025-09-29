@@ -123,6 +123,7 @@ Generel items for all devices
 	max-height: 600px;
 	/* min-height: 520px; */
 	overflow-y: auto;
+	user-select: none;
 }
 
 
