@@ -81,9 +81,9 @@ Grid display for larger screens
 	} */
 	
 }
+ 
 
-
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------*/
 Generel items for all devices
 
 
@@ -95,6 +95,7 @@ Generel items for all devices
 .item-label {
 	color: rgb(57, 57, 57);
 	margin-bottom: 0 !important;
+	font-weight: bold;
 }
 
 .item-value {
@@ -102,6 +103,7 @@ Generel items for all devices
 	margin-bottom: 8px !important;
 	margin-top: 0 !important;
 	word-wrap: break-word;
+	font-weight: normal;
 }
 
 .item-value-multiline {
