@@ -7,3 +7,7 @@
 input[type="checkbox"][data-gc2-subgroup-name="Tænde/Slukke systemer"] {
   visibility: hidden;
 }
+
+.p-3 {
+    padding: 0.35rem !important;
+}
