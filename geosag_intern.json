@@ -1,7 +1,8 @@
 {
     "_schemata": [
         "forvaltning2",
-        "mim_pg_noise"
+        "mim_pg_noise",
+        "ler_aws"
     ],
     "schemata": [
         "public",
@@ -16,7 +17,6 @@
         "geodanmark_datahub",
         "tinglysning_datahub",
         "ler",
-        "ler_aws",
         "bbr_datahub",
         "dar_datahub",
         "matrikel_datahub",
