@@ -26,6 +26,7 @@
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
 	"removeDisabledLayersFromLegend": true,
+    "mode": 2,
 	"searchConfig": {
 		"komkode": [
 			"760"
