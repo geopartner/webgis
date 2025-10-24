@@ -41,6 +41,7 @@
     "enabledPrints": [
         "vspv"
     ],
+	"mode": 2,
     "searchModules": [
         "google",
         "danish"
