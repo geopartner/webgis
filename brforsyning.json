@@ -30,6 +30,7 @@
 		"google",
 		"danish"
 	],
+	"mode": 2,
 	"enabledSearch": "danish",
 	"searchConfig": {
 		"komkode": [
