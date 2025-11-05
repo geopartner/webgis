@@ -84,6 +84,7 @@
             ]
         }
     },
+	"mode": 2,
     "baseLayerGroups": [
         {
             "groupName": "GeoDanmark forår ortofoto 2015-2024 + quick-orto",
