@@ -2,17 +2,10 @@
 {
     "schemata": [
         "public",
-        "_dandas",
-        "_danvand",
-        "ejerkort_datahub",
-        "bbr_datahub",
         "drift"
     ],
     "cssFiles": [
         "favrskovforsyning.css"
-    ],
-    "enabledPrints": [
-        "vhforsyning"
     ],
     "startUpModal": "<h3>Favrskov Forsynings :</h3>",
     "aboutBox": "<h3>Favrskov Forsynings </h3>",
