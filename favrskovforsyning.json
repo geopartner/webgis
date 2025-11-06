@@ -14,7 +14,7 @@
     "enabledPrints": [
         "vhforsyning"
     ],
-    "startUpModal": "<h3>Favrskov Forsynings :</h3>
+    "startUpModal": "<h3>Favrskov Forsynings :</h3>",
     "aboutBox": "<h3>Favrskov Forsynings </h3>",
     "_initZoomCenter": "/10/8.5378/55.9972",
     "brandName": "Favrskov Forsyning",
