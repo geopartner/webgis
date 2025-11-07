@@ -39,8 +39,7 @@
 		"streetView",
 		"editor",
 		"coordinates",
-		"session",
-                "mapstatus"
+		"session" 
 	],
 	"baseLayers": [
 		{
