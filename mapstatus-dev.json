@@ -1,8 +1,7 @@
 {
 	"activeLayers": [
 		"dd_bluekolding.ledning_drift",
-		"dd_bluekolding.opmaalt_omrids",
-		"tag:mapstatus_dandas"
+		"dd_bluekolding.opmaalt_omrids"
 	],
 	"activateMainTab": "info",
 	"cssFiles": [
