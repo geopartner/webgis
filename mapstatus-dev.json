@@ -1,9 +1,7 @@
 {
 	"activeLayers": [
-		"dd_bluekolding:ledning_drift",
-		"dd_bluekolding:opmaalt_omrids",
-		"ledning_drift",
-		"opmaalt_omrids"
+		"v:dd_bluekolding:ledning_drift",
+		"dd_bluekolding:opmaalt_omrids"
 	],
 	"activateMainTab": "info",
 	"cssFiles": [
