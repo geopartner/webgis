@@ -116,7 +116,8 @@
             "849",
             "851",
             "860"],
-        "esrSearchActive": true,
-        "sfeSearchActive": true
+        "esrSearchActive": false,
+        "sfeSearchActive": true,
+        "placeholderText": "Søg adresse, matrikel, bfe eller sagsnummer"
     }
 }
