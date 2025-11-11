@@ -40,7 +40,7 @@
         "esrSearchActive": false,
         "sfeSearchActive": true,
         "advanced": false,
-        "placeholderText": "Søg adresse, matrikel, esr, bfe eller sagsnummer",
+        "placeholderText": "Søg adresse, matrikel, bfe eller sagsnummer",
         "extraSearches": [
             {
                 "name": "cases",
