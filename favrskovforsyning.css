@@ -1,3 +1,7 @@
+.leaflet-popup {
+   max-height: 40rem
+   overflow-y: auto;
+}
 .leaflet-popup-content-wrapper {
     width: 700px;
 }
