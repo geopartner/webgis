@@ -2,6 +2,7 @@
 {
     "schemata": [
         "public",
+        "dandas",
         "drift"
     ],
     "cssFiles": [
