@@ -13,6 +13,7 @@
     "showLayerGroupCheckbox": true,
     "showNoValueInInfo": true,
     "removeDisabledLayersFromLegend": true,
+	"mode": 2,
     "searchConfig": {
         "size": 6,
         "placeholderText": "Søg adr., matr., ejd.nr., knude eller graveforesp.",
@@ -63,7 +64,6 @@
         },
         "streetView": {
             "ignorelist": [
-                "mapillary",
                 "cowi"
             ]
         },
