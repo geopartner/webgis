@@ -8,8 +8,6 @@
     "cssFiles": [
         "favrskovforsyning.css"
     ],
-    "startUpModal": "<h3>Favrskov Forsynings :</h3>",
-    "aboutBox": "<h3>Favrskov Forsynings </h3>",
     "brandName": "Favrskov Forsyning",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
