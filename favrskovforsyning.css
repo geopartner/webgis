@@ -3,7 +3,7 @@
    overflow-y: auto;
 }
 .leaflet-popup-content-wrapper {
-    width: 450px;
+    width:700px;
 }
 
 .leaflet-popup-content {
