@@ -79,6 +79,9 @@
         "editor",
         "conflictSearch"
     ],
+	"enabledPrints": [
+		"favrskovforsyning"
+	],
     "df": {
         "datafordeler": {
             "username": "XMERXHKAVN",
