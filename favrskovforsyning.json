@@ -65,7 +65,6 @@
         "streetView": {
 			"cowi": "https://cmv.cowi.com/?msid=8edc21d8-6d50-4ef0-9bff-b3b0805864d5&u=Favrskov_Forsyning&p=1A998705&origin=desktop&cmd=state&project=Favrskov%20Forsyning&vlayers=GeoDanmark+OrtoPhoto+2020;DDG+Latest&maximize=DDG+Latest&hlayers=DDS2020+Complete&dssLayers=DDS2020+Complete&assLayers=DDG+Latest&ssTrigger=SINGLE_CLICK",
             "ignorelist": [
-                "cowi"
             ]
         },
         "conflictSearch": {
