@@ -1,4 +1,3 @@
-
 {
     "schemata": [
         "public",
@@ -6,10 +5,12 @@
         "drift"
     ],
     "cssFiles": [
-        "favrskovforsyning.css"
+
     ],
     "brandName": "Favrskov Forsyning",
     "enabledSearch": "danish",
+	"popupDraggable": true,
+    "autoPanPopup": true,
     "showLayerGroupCheckbox": true,
     "showNoValueInInfo": true,
     "removeDisabledLayersFromLegend": true,
@@ -71,8 +72,6 @@
             "poolSize": 8
         }
     },
-    "popupDraggable": true,
-    "featureInfoTableOnMap": false,
     "enabledExtensions": [
         "streetView",
         "coordinates",
