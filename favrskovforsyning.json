@@ -2,7 +2,8 @@
     "schemata": [
         "public",
         "dandas",
-        "drift"
+        "drift",
+		"matrikel_datahub"
     ],
     "cssFiles": [
 
