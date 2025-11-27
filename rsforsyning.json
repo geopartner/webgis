@@ -528,5 +528,5 @@
 			}
 		}
 	],
-	"featureInfoTableOnMap": true
+	"featureInfoTableOnMap": false
 }
