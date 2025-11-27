@@ -26,6 +26,8 @@
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
 	"removeDisabledLayersFromLegend": true,
+	"featureInfoTableOnMap": false,
+	"popupDraggable": true,
     "mode": 2,
 	"searchConfig": {
 		"komkode": [
@@ -160,7 +162,6 @@
 			}
 		}
 	},
-	"popupDraggable": true,
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
@@ -527,6 +528,6 @@
 				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
 			}
 		}
-	],
-	"featureInfoTableOnMap": true
+	]
+
 }
