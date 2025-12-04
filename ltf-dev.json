@@ -1,0 +1,32 @@
+{
+    "schemata": [
+        "danvand_gp",
+        "varme_gp",
+        "lukkeliste",
+        "lukkeliste_varme"
+    ],
+    "brandName": "MapCentia ApS",
+    "aboutBox": "<p>My awesome web map</p>",
+    "enabledExtensions": [
+        "conflictSearch",
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "offlineMap",
+        "blueidea"
+    ],
+    "extensionConfig": {
+        "blueidea": {
+            "userid": "5e881f78-6067-4295-8696-099445e2d58c",
+            "alarmkabel_art": 1
+        },
+        "streetView": {
+            "ignorelist": [
+                "mapillary",
+                "cowi"
+            ]
+        }
+    },
+    "template": "default.tmpl"
+}
