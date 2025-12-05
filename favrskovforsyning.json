@@ -4,7 +4,8 @@
         "dandas",
         "drift",
 		"diverse",
-		"matrikel_datahub"
+		"matrikel_datahub",
+
     ],
     "cssFiles": [
 
@@ -79,7 +80,8 @@
         "coordinates",
         "session",
         "editor",
-        "conflictSearch"
+        "conflictSearch",
+        "directions"
     ],
 	"enabledPrints": [
 		"favrskovforsyning"
