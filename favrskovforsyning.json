@@ -20,7 +20,7 @@
 	"mode": 2,
     "searchConfig": {
         "size": 6,
-        "placeholderText": "Søg adr., matr., ejd.nr., knude eller graveforesp.",
+        "placeholderText": "Søg adr., matr., ejd.nr., eller knude",
         "komkode": [
             "710"
         ],
@@ -31,7 +31,7 @@
         "extraSearches": [
             {
                 "name": "dandas_knude_es",
-                "db": "vhforsyning",
+                "db": "favrskovforsyning",
                 "heading": "Knude - DanDas",
                 "index": {
                     "name": "dandas/knude_es",
@@ -46,7 +46,7 @@
             },
             {
                 "name": "danvand_knude_es",
-                "db": "vhforsyning",
+                "db": "favrskovforsyning",
                 "heading": "Knude - DanVand",
                 "index": {
                     "name": "danvand/knude_es",
