@@ -43,21 +43,6 @@
                     "key": "ogc_fid",
                     "geom": "the_geom"
                 }
-            },
-            {
-                "name": "danvand_knude_es",
-                "db": "favrskovforsyning",
-                "heading": "Knude - DanVand",
-                "index": {
-                    "name": "danvand/knude_es",
-                    "field": "text_search",
-                    "key": "ogc_fid"
-                },
-                "relation": {
-                    "name": "danvand.knude_es",
-                    "key": "ogc_fid",
-                    "geom": "the_geom"
-                }
             }
         ]
     },
