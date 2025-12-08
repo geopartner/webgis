@@ -37,7 +37,7 @@
 		"sfeSearchActive": true,
 		"advanced": false,
 		"size": 10,
-		"placeholderText": "Søg adresse, matrikel eller knuder",
+		"placeholderText": "Søg adresse, matrikel, knuder, målerenheder og bygværker",
 		"extraSearches": [
 			{
 				"name": "dandas_gp_knude_es",
