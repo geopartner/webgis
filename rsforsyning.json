@@ -98,6 +98,21 @@
 					"key": "ogc_fid",
 					"geom": "the_geom"
 				}
+			},
+						{
+				"name": "danvand_gp_maalerenhed_es",
+				"db": "rsforsyning",
+				"heading": "Maalerenhed - DanVand",
+				"index": {
+					"name": "danvand_gp/maalerenhed_es",
+					"field": "text_search",
+					"key": "ogc_fid"
+				},
+				"relation": {
+					"name": "danvand_gp.maalerenhed_es",
+					"key": "ogc_fid",
+					"geom": "the_geom"
+				}
 			}
 		]
 	},
