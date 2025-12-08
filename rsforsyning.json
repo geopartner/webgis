@@ -275,27 +275,27 @@
 			"abstract": "<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
 			"minZoom": 4,
 			"maxZoom": 22,
-			"maxNativeZoom": 20,
-			"overlays": [
-				{
-					"id": "public.mvw_adgangsadresser",
-					"db": "mapconnectbase",
-					"host": "https://mapgogc2.geopartner.dk",
-					"config": {
-						"maxZoom": 21,
-						"maxNativeZoom": 19
-					}
-				},
-				{
-					"id": "public.mvw_vejnavne",
-					"db": "mapconnectbase",
-					"host": "https://mapgogc2.geopartner.dk",
-					"config": {
-						"maxZoom": 21,
-						"maxNativeZoom": 19
-					}
-				}
-			]
+			"maxNativeZoom": 20//,
+			//"overlays": [
+			//	{
+			//		"id": "public.mvw_adgangsadresser",
+			//		"db": "mapconnectbase",
+			//		"host": "https://mapgogc2.geopartner.dk",
+			//		"config": {
+			//			"maxZoom": 21,
+			//			"maxNativeZoom": 19
+			//		}
+			//	},
+			//	{
+			//		"id": "public.mvw_vejnavne",
+			//		"db": "mapconnectbase",
+			//		"host": "https://mapgogc2.geopartner.dk",
+			//		"config": {
+			//			"maxZoom": 21,
+			//			"maxNativeZoom": 19
+			//		}
+			//	}
+			//] 
 		},
 		{
 			"id": "luftfotoserier.geodanmark_2021_12_5cm",
@@ -308,7 +308,7 @@
 				"maxNativeZoom": 19,
 				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
 			},
-			"overlays": [
+			 "overlays": [
 				{
 					"id": "public.mvw_adgangsadresser",
 					"db": "mapconnectbase",
@@ -327,7 +327,7 @@
 						"maxNativeZoom": 19
 					}
 				}
-			]
+			] 
 		},
 		{
 			"id": "luftfotoserier.geodanmark_2020_12_5cm",
