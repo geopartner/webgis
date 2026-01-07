@@ -29,5 +29,9 @@
             ]
         }
     },
+    "dateFormats": {
+      "kort": "D. MMMM - YYYY",
+      "lang": "dddd DD.MM.YYYY HH:mm"
+    },
     "template": "default.tmpl"
 }
