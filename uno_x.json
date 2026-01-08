@@ -1,0 +1,31 @@
+{
+    "schemata": [
+        "public",
+        "ler2"
+
+    ],
+    "brandName": "Uno-X Mobility",
+    "enabledSearch": "danish",
+	"popupDraggable": true,
+    "autoPanPopup": true,
+    "showLayerGroupCheckbox": true,
+    "showNoValueInInfo": true,
+    "removeDisabledLayersFromLegend": true,
+	"mode": 2,
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        }
+    },
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "directions"
+    ],
+	"enabledPrints": [
+		"uno_x"
+	]
+}
