@@ -5,7 +5,8 @@
   ],
   "enabledExtensions": [
     "geosag",
-    "session"
+    "session",
+    "upload"
   ],
   "activeLayers": [
     "matrikeludpegning.matrikel",
@@ -120,3 +121,4 @@
   "showOffcanvas": true,
   "enabledSearch": "danish"
 }    
+
