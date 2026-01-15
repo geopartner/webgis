@@ -15,8 +15,7 @@
 		"streetView",
 		"coordinates",
 		"session",
-		"editor",
-		"offlineMap"
+		"editor"
 	],
 	"enabledExtensions": [
 		"streetView",
