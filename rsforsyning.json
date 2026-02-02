@@ -16,7 +16,8 @@
 		"ler",
 		"lukkeliste",
 		"gisdata",
-		"matrikel_datahub"
+		"matrikel_datahub",
+		"projekter"
 	],
 	"enabledPrints": [
 		"rsforsyning"
