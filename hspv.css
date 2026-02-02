@@ -5,11 +5,10 @@
 
 
 /* Fjerner toggle knappen til "Tænde/Slukke systemer", og skubber teksten lidt ind */
-li[data-gc2-subgroup-name="Tænde/Slukke systemer"] span.togglebutton {
-    display: none;
+input[type="checkbox"][data-gc2-subgroup-path="Tænde/Slukke systemer"] {
+      display: none;
 }
-
-li[data-gc2-subgroup-name="Tænde/Slukke systemer"] button.js-subgroup-toggle-button {
+li[data-gc2-subgroup-path="Tænde/Slukke systemer"] button.js-subgroup-toggle-button {
     margin-left: 16px;
 }
 
