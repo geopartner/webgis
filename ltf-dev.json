@@ -18,6 +18,12 @@
     "extensionConfig": {
         "blueidea": {
             "userid": "d6dfc3bb-21a0-48df-b25e-2ac6bb2d8671",
+            "afbrudt_ledning_tooltip": "Afbrudt ledning forsøg",
+            "afbrudt_ledning_farve": "#f30acc", 
+            "indirekte_ledning_tooltip": "Indirekte berørt ledning  forsøg",
+            "indirekte_ledning_farve": "#fff700",  
+           "ventil_forbundet_farve": "#00ff00",
+            "ventil_ikke_forbundet_farve": "#2600ff", 
             "alarmkabel_art": 1
         },
         "streetView": {
