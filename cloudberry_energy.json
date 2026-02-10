@@ -1,0 +1,52 @@
+{
+    "schemata": [
+        "public",
+        "ejerkort_datahub",
+        "gc2_io_dk_danmarksarealinformation",
+        "gc2_io_dk_dkjord",
+        "gc2_io_dk_kulturarvsstyrelsen",
+        "gc2_io_dk_plandatadk",
+        "gc2_io_dk_dagi",
+        "gc2_io_dk_kortforsyningen",
+        "gc2_io_dk_geodanmark",
+        "gc2_io_dk_landbrugsdrift",
+        "gc2_io_dk_dar",
+        "dktl",
+        "bbr_datahub",
+        "matrikel_datahub",
+        "projekter",
+        "projektafdeling",
+        "tag:observationslag",
+        "tag:projektlag",
+        "tag:analyselag"
+    ],
+    "title": "Cloudberry Energy",
+    "mode": 2,
+    "enabledPrints": [
+        "cloudberryenergy"
+    ],
+    "brandName": "Cloudberry Energy",
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "esrSearchActive": false,
+        "sfeSearchActive": false,
+        "advanced": false
+    },
+    "extensionConfig": {
+        "session": {
+            "autoLogin": true,
+            "autoLoginMaxAge": 630720000000
+        }
+    },
+    "popupDraggable": true,
+    "removeDisabledLayersFromLegend": true,
+    "showLayerGroupCheckbox": true,
+    "featureInfoTableOnMap": false,
+    "enabledExtensions": [
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "conflictSearch"
+    ]
+}
