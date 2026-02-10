@@ -1,0 +1,196 @@
+<style>
+  /* ===== Map / Page area ===== */
+  body { background:#fff; }
+  .leaflet-control-graphicscale { box-shadow:none; -webkit-box-shadow:none; white-space:nowrap; }
+
+  #pane1{
+    position:absolute;
+    width:{{printWidth}};
+    height:{{printHeight}};
+    top:30px; left:30px;            /* page margins */
+    overflow:hidden;
+    border:1px solid #000;
+  }
+  #container1{
+    position:relative;
+    width:200%; height:200%;
+    left:-50%; top:-50%;
+    display:inline-block;
+  }
+
+  #legend{
+    position:absolute; top:5px; left:5px;
+    padding:10px; background:#fff;
+    -webkit-transform:scale(0.6);
+    -webkit-transform-origin:left top;
+    display:{{_showLegend}};
+  }
+  #northimg{ position:absolute; top:10px; right:10px; }
+
+  /* ===== Header anchored bottom-right ===== */
+  #header {
+    /* The "display: {{_showHeader}};" rule has been REMOVED to force the header to always be visible. */
+    position: absolute;
+    width: 640px;     /* EDIT ME: header width */
+    /* The fixed "height" property is correctly removed to allow upward expansion. */
+    background-color: white;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  /* ===== Table layout inside header ===== */
+  :root{
+    /* Column widths - adjust to match your design */
+    --col-logo: 35%;   /* logo column */
+    --col1: 25%;       /* Scale */
+    --col2: 25%;       /* UTM32 */
+    --col3: 25%;       /* DVR90 */
+    /* CRITICAL CHANGE: Row heights are now fixed pixels to provide a baseline height. */
+    --hdr-top-row-height: 44px;
+    --hdr-bot-row-height: 44px;
+    /* Line thickness */
+    --hdr-line: 1px;
+  }
+
+  #hdrTable{
+    /* CRITICAL CHANGE: "position: absolute" and "inset: 0" have been REMOVED. */
+    /* The table is now a normal block element that gives its parent a height. */
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    background:#fff;
+  }
+
+  #hdrTable td{
+    border: var(--hdr-line) solid #000;
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 8px;
+    vertical-align:middle;
+    overflow:hidden;
+  }
+
+  .no-wrap {
+    white-space: nowrap;
+  }
+
+  #title-cell {
+    vertical-align: top;
+    white-space: normal;
+  }
+
+  #logo-cell {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  #hdrTable colgroup col.logo  { width: var(--col-logo); }
+  #hdrTable colgroup col.c1    { width: var(--col1); }
+  #hdrTable colgroup col.c2    { width: var(--col2); }
+  #hdrTable colgroup col.c3    { width: var(--col3); }
+
+  /* Table rows now use the fixed pixel heights */
+  #hdrTable tr.top    { height: var(--hdr-top-row-height); }
+  #hdrTable tr.bottom { height: var(--hdr-bot-row-height); }
+
+  /* Title & Comment */
+  #title{
+    display:block;
+    font-size:16px;
+    font-weight:700;
+    margin:0 0 2px 0;
+    color:#000;
+  }
+  #comment{
+    display:block;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.2;
+    color:#000;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Logo cell */
+  #hdrLogo {
+    display:block;
+    width:100%;
+    height:auto;
+    max-height:80px;
+    object-fit:contain;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  
+  /* Text in bottom-row cells */
+  .label {
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 1px;
+  }
+  
+  #scale, #coord, #kote {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  #date-time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    font-size: 0.8em;
+    padding: 2px;
+  }
+</style>
+
+<div id="pane1">
+  <div id="container1">
+    <div id="map"></div>
+  </div>
+
+  <div id="header" aria-label="Print header">
+    <table id="hdrTable" role="presentation">
+      <colgroup>
+        <col class="logo"><col class="c1"><col class="c2"><col class="c3">
+      </colgroup>
+
+      <tr class="top">
+        <td id="logo-cell" rowspan="2">
+          <img id="hdrLogo" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/cloudberry.svg" alt="Logo">
+        </td>
+        <td id="title-cell" colspan="3">
+          <!-- A non-breaking space (&nbsp;) is added as a fallback to prevent cell collapse if no title/comment is provided. -->
+          <b id="title">&nbsp;</b>
+          <p id="comment">&nbsp;</p>
+        </td>
+      </tr>
+
+      <tr class="bottom">
+        <!-- Add the .no-wrap class to each cell in the bottom row to prevent text from wrapping -->
+        <td class="no-wrap">
+          <span class="label">Mål:</span>
+          <span id="scale"></span>
+        </td>
+        <td class="no-wrap">
+          <span class="label">Koordinatsystem:</span>
+          <span id="coord">UTM32</span>
+        </td>
+        <td class="no-wrap">
+          <span class="label">Kotesystem:</span>
+          <span id="kote">DVR90</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Other widgets -->
+  <div id="northimg">
+    <img style="width:30px" src="https://raw.githubusercontent.com/geopartner/webgis/master/logo/NorthArrow_02.svg">
+  </div>
+  <div id="legend"></div>
+  <div id="date-time">Udskrevet {{printDataTime}}</div>
+</div>
