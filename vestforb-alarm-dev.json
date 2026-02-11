@@ -1,0 +1,251 @@
+{
+    "schemata": [
+        "ledningsplan_fjv",
+        "gc2_io_dk_dagi",
+        "matrikel_datahub",
+        "plandata_datahub",
+        "gc2_io_dk_dkjord",
+        "gc2_io_dk_geus",
+        "gc2_io_dk_danmarksarealinformation",
+        "gc2_io_dk_kulturarvsstyrelsen",
+        "ler_aws",
+        "bbr_datahub",
+        "dhm",
+        "vf_graveassistent",
+        "tag:fiber_alarm",
+        "tag:_tingbog",
+        "tag:fiber_ovrige",
+        "tag:el_ledning",
+        "tag:vand",
+        "tag:spildevand",
+        "tag:vedl"
+    ],
+    "cssFiles": [
+        "vestforbraending_forbrugsmaaler.css"
+    ],
+    "brandName": "Vestforbrænding I/S",
+    "aboutBox": "",
+    "startUpModal": "",
+    "enabledPrints": [
+        "vestforbraending_print",
+        "vestforbraending_print_simpel"
+    ],
+    "enabledExtensions": [
+        "conflictSearch",
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "alarm",
+        "upload"
+    ],
+    "extensionConfig": {
+        "streetView": {
+            "ignorelist": [
+                "mapillary",
+                "cowi"
+            ]
+        },
+        "blueidea": {
+            "userid": "d7a12844-5fc9-4316-9af7-b841fcc3d399",
+            "alarmkabel_distance": 75,
+            "alarmkabel_art": 1
+        },
+        "graveAssistent": {
+            "schema": "vf_graveassistent"
+        }
+    },
+    "baseLayers": [
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/forvaltning2",
+            "layers": [
+                "Basis_kort",
+                "Stednavne_basiskort",
+                "Vejnavne_basiskort",
+                "Husnummer"
+            ],
+            "id": "ForvaltningskortDF",
+            "name": "Forvaltningskort",
+            "description": "Forvaltningskort fra Dataforsyningen",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+            "abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "id": "osm",
+            "name": "Topografisk kort - Open Street Map",
+            "abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; Open Street Map"
+            }
+        },
+        {
+            "id": "geodk.bright",
+            "name": "Topografisk kort",
+            "db": "baselayers",
+            "host": "https://dk.gc2.io",
+            "abstract": "<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br>",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
+            }
+        },
+        {
+            "type": "WMTS",
+            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
+            "tileMatrixSet": "DFD_GoogleMapsCompatible",
+            "layer": "orto_foraar_webm",
+            "id": "ortofoto_foraar_wmts0",
+            "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
+            "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "WMTS",
+            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
+            "tileMatrixSet": "DFD_GoogleMapsCompatible",
+            "layer": "orto_foraar_webm",
+            "id": "ortofoto_foraar_wmts0_overlay",
+            "name": "GeoDanmark ortofoto forår (seneste, husnummer, vejnavne)",
+            "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+            "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
+            "minZoom": 8,
+            "maxZoom": 22,
+            "maxNativeZoom": 20,
+            "overlays": [
+                {
+                    "id": "public.mvw_adgangsadresser",
+                    "db": "mapconnectbase",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "maxZoom": 21,
+                        "maxNativeZoom": 19
+                    }
+                },
+                {
+                    "id": "public.mvw_vejnavne",
+                    "db": "mapconnectbase",
+                    "host": "https://mapgogc2.geopartner.dk",
+                    "config": {
+                        "maxZoom": 21,
+                        "maxNativeZoom": 19
+                    }
+                }
+            ]
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/dhm_DAF",
+            "layers": [
+                "dhm_kurve_traditionel"
+            ],
+            "id": "dhm_kurve_traditionel",
+            "name": "Kurver 2,5 m ækvidistance -8",
+            "description": "Kurverne er afledt fra Danmarks Højdemodel og beregnet til at give et overblik over terrænformer i et ca. målforhold på 1:25.000. Der er udeladt mange detaljer og antallet af punkter i de enkelte kurver er reduceret.",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.",
+            "abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.</p><br>",
+            "minZoom": 15,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": true
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/dhm_DAF",
+            "layers": [
+                "dhm_kurve_0_5_m"
+            ],
+            "id": "dhm_kurve_0_5_m",
+            "name": "Kurver 0,5 m ækvidistance",
+            "description": "Kurverne er afledt fra Danmarks Højdemodel og beregnet til visning i et målforhold omkring 1:5.000, der er udeladt mindre detaljer og fjernet punkter.",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.",
+            "abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.</p><br>",
+            "minZoom": 18,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": true
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/dhm_DAF",
+            "layers": [
+                "dhm_kurve_0_25_m"
+            ],
+            "id": "dhm_kurve_0_25_m",
+            "name": "Kurver 0,25 m ækvidistance",
+            "description": "Kurverne er afledt fra Danmarks Højdemodel og beregnet så der gengives flest mulige detaljer fra højdemodellen.",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.",
+            "abstract": "<p>DHM/Højdekurver viser højdeforholdene i det danske landskab gennem en række linjer, der hver angiver højde over havets overflade, også kaldet koter. DHM/Højdekurver er beregnet på baggrund af DHM/Terræn og er tilgængelig i ækvidistancerne 2,50 m, 0,50 m og 0,25 m</p><p>&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.</p><br>",
+            "minZoom": 19,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": true
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/dhm_DAF",
+            "layers": [
+                "dhm_overflade_skyggekort"
+            ],
+            "id": "dhm_overflade_skyggekort",
+            "name": "DHM/Overflade_skyggekort",
+            "description": "DHM/Overflade_skyggekort er et afledt produkt af DHM/Overflade.",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.",
+            "abstract": "<p>Den 3-dimensionelle virkning fremkommer ved at simulere en lyskilde fra en nordvestlig retning og beregner hvilke områder, der ligger i lys eller skygge og hvor meget.</p><p>&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.</p><br>",
+            "minZoom": 7,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": true
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/dhm_DAF",
+            "layers": [
+                "dhm_terraen_skyggekort"
+            ],
+            "id": "dhm_terraen_skyggekort",
+            "name": "DHM/Terræn_skyggekort",
+            "description": "DHM/Terræn_skyggekort er et afledt produkt af DHM/Terræn.",
+            "attribution": "&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.",
+            "abstract": "<p>Den 3-dimensionelle virkning fremkommer ved at simulere en lyskilde fra en nordvestlig retning og beregner hvilke områder, der ligger i lys eller skygge og hvor meget.</p><p>&copy; Styrelsen for Dataforsyning og Infrastruktur og Danske kommuner.</p><br>",
+            "minZoom": 7,
+            "maxZoom": 22,
+            "maxNativeZoom": 22,
+            "transparent": true
+        }
+    ],
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "komkode": [
+            "250",
+            "219",
+            "201",
+            "190",
+            "230",
+            "173",
+            "159",
+            "163",
+            "161",
+            "151",
+            "240"
+        ],
+        "esrSearchActive": false,
+        "sfeSearchActive": false,
+        "advanced": false
+    },
+    "featureInfoTableOnMap": true,
+    "showLayerGroupCheckbox": true,
+    "removeDisabledLayersFromLegend": true,
+    "popupDraggable": true,
+    "template": "default.tmpl"
+}
