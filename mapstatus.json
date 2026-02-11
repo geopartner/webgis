@@ -40,6 +40,15 @@
 		"session",
 		"mapstatus"
 	],
+	"activeLayers": [
+      "dd_friheden.opmaalt_omrids",
+      "dd_friheden.projektdata",
+      "dd_friheden.ddg_ledning_txt",
+      "dd_friheden.ledning_drift",
+      "dd_friheden.ddg_knude_txtboks",
+      "dd_friheden.ddg_knude_txt",
+      "dd_friheden.knude_drift"
+    ],
 	"baseLayers": [
 		{
 			"type": "wms",
