@@ -1,4 +1,8 @@
 {
+  "schemata": [
+		"ler2",
+		"public"
+	],
   "brandName": "Towii Renewables A/S",
   "enabledExtensions": [
     "streetView",
