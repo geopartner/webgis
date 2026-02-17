@@ -1,6 +1,7 @@
 {
   "schemata": [
-    "ler2"
+    "ler2",
+	"afsaetning"
   ],
   "brandName": "JN Data",
   "enabledExtensions": [
