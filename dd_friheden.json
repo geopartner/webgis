@@ -1,0 +1,146 @@
+{
+	"activeLayers": [
+		"tag:DefaultOn"
+	],
+	"activateMainTab": "info",
+	 "startUpModal":"<h4>Map Status</h4><p><b>Din adgang til opdaterede ledningsoplysninger.</b><p>Link til manual for brug af program: <a target='blank' href='https://vidi-wiki.geopartner.dk/pages/gettingstarted/gettingstarted.html'>Vejledning</a></p><p>Map Status er en opsætning af WebGIS, til at understøtte projektering af ledningsanlæg, hvor der er behov for at sammenstille opmålingsdata med projekteringsgrundlaget. Her kan du se lednignsplaner der er under opmåling i dit projekt.</p><p>Denne løsning er en basisadgang der er givet under forudsætning om et kørende opmålingsprojekt og stilles til rådighed i hele projektets opmålingsperiode. Det er muligt at forlænge brugsretten ud over projektperionde samt få udvidet adgang til TV-film, TV-rapporter og brøndrapporter.</p><p><b>Vigtigt, data kan IKKE bruges til: </b><ul><li>Ledningsoplysninger til gravearbejder</li><li>Lednignsoplysninger til påvisning</li><li>Grundlag for sagsbehandling i forsyninger</li></ul></p><p>Ved ibrugtagning af en vederlagsfri brugsret og lukning af denne dialog, accepteres automatisk samtykke til følgende vilkår <a href='#' data-bs-toggle='modal' data-bs-target='#about-modal'>klik her</a>.</p><p>Geopartner hæfter i ingen tilfælde for fejl eller mistolkning af data i WebGIS. Alle leverancer er baseret på bagvedliggende projekterings- og opmålingsdata der udleveres ved projektets afslutning. Geopartner kan i ingen tilfælde hæfte for oplysninger der er erhvervet gennem WebGIS kortet. Geopartner kan under ingen omstændigheder give garanti for oppetider eller support/hotline for WebGIS kortet. Ved tegning af aftale om brugsret for programmet henvises til Geopartners vilkår af kontrakt (Software As A Service, Map Status).</p>",
+	 "aboutBox":"<h3>Map Status</h3><p><b>Din adgang til opdaterede ledningsoplysninger.</b><br>Map Status er en opsætning af WebGIS, til at understøtte projektering af ledningsanlæg, hvor der er behov for at sammenstille opmålingsdata med projekteringsgrundlaget. Her kan du se lednignsplaner der er under opmåling i dit projekt.<br>Denne løsning er en basisadgang der er givet under forudsætning om et kørende opmålingsprojekt og stilles til rådighed i hele projektets opmålingsperiode. Det er muligt at forlænge brugsretten ud over projektperionde samt få udvidet adgang til TV-film, TV-rapporter og brøndrapporter.<br>Det er derudover muligt at se forskellige baggrundskort, som topografiske kort og luftfoto-serier, tilføje en række korttemaer, læse informationer om disse, samt tegne, tage mål, udskrive kort, mv.</p><b>Vigtigt: </b>Ved ibrugtagning af en vederlagsfri brugsret og lukning af denne dialog, accepteres automatisk samtykke til følgende vilkår: Geopartner hæfter i ingen tilfælde for fejl eller mistolkning af data i WebGIS. Alle leverancer er baseret på bagvedliggende opmålingsdata der udleveres ved projektets afslutning. Geopartner kan i ingen tilfælde hæfte for oplysninger der er erhvervet gennem WebGIS kortet. Geopartner kan under ingen omstændigheder give garanti for oppetider eller support/hotline for WebGIS kortet. Ved tegning af aftale om brugsret for programmet henvises til Geopartners vilkår af kontrakt (Software As A Service, Map Status).<br><br>Link til manual for brug af program: <a target='blank' href='https://vidi-wiki.geopartner.dk/pages/gettingstarted/gettingstarted.html'>Vejledning</a><h5>Brugsretten </h5><p>Bortset fra, hvad der måtte være udtrykkeligt tilladt i henhold til denne Aftale, er den til anvender tildelte brugsret betinget af følgende forbud:<ul><li>Anvender må ikke udbyde sin ret og adgang til at anvende Softwaren i underlicens,</li><li>Anvender må ikke give uautoriserede personer tilladelse eller adgang til at anvende Softwaren,</li><li>Anvender må ikke genudgive eller på anden måde præsentere indhold eller materiale fra Softwaren,</li><li>Anvender må ikke foretage ændringer i Softwaren, og</li><li>Anvender må ikke foretage reverse engineering, dekompilere eller disassemblere Softwaren.</li><li>Anvenders overtrædelse af de i punkt ovenfor nævnte forbud anses som væsentlig misligholdelse af brugsretten,</li><li>Anvender skal træffe de nødvendige sikkerhedsforanstaltninger for at sikre, at ingen uautoriseret person opnår adgang til Softwaren.</li><li>Anvender må ikke anvende Softwaren på en måde, der forårsager eller kan forårsage skade på Softwaren eller forringer tilgængeligheden af Softwaren.</li><li>Anvender er selv ansvarlig for at anskaffe og installere nødvendigt 3.parts programmel til fremvisning af det licenserede. Licenstager er bekendt med, at mulighederne for at anvende det licenserede afhænger af Licenstagers valg af browser-programmel. Geopartner sikrer, at almindeligt anvendte browsere understøttes. Licenstager vil ved henvendelse til Geopartner kunne få oplyst, hvilket browser-programmel, der kan anvendes til fremvisning af det leverede.</li><li>Geopartner er berettiget til at ændre sit programmel med den virkning, at anvedner er nødt til at anskaffe og installere nyt browser-programmel for at være i stand til at anvende det licenserede. Licenstager er ligeledes selv ansvarlig for, at opkobling til Geopartners server etableres samt for at vedligeholde og opretholde denne opkobling.</li></ul></p><h5>Supportydelser</h5><p><br>Geopartner kan under ingen omstændigheder give garanti for oppetider eller support/hotline for WebGIS kortet. Ved tegning af aftale om brugsret for programmet henvises til Geopartners vilkår af kontrakt (Software As A Service, Map Status). Der henvises nærmere i Geopartners aftaler til supportydelserne og vilkårene herfor i Geopartners IT support- og servicevilkår.</p><h5>Tredjepartssoftware</h5><p>Softwaren indeholder tredjepartssoftware og er underlagt de licensvilkår, som fremgår af <a target='blank' href='https://geopartner.dk/licenstyper'>licenstyper</a>.</p><h5>Informationssikkerhed</h5><p>Geopartner behandler informationssikkerhed med høj prioritet og har fastlagt en række sikkerhedsmæssige principper og foranstaltninger, som Licenstager til enhver tid kan finde nærmere beskrevet på Geopartners side om informationssikkerhed på <a target='blank' href='https://geopartner.dk/informationssikkerhed'>informationssikkerhed</a>. Anvender opfordres til løbende at holde sig orienteret herom.</p><h5>Immaterielle rettigheder</h5><p>Intet i nærværende brugsret har til formål at overdrage Immaterielle Rettigheder under nogen form mellem parterne. Alle Immaterielle Rettigheder til Softwaren og den hertil hørende dokumentation tilhører Geopartner.Anvender tildeles en tidsbegrænset brugsret til Brugerdata, som er genereret til anvender via projektleverancer og opmålingsopgaver. Geopartner kan udlevere en sikkehedskopi af data for et mindre gebyr.</p><h5>Ansvar</h5><p>Anvender anerkender, at Softwaren er et komplekst softwaresystem, og at komplekse softwaresystemer aldrig er helt fri for mangler eller programmeringsfejl. Med respekt for de øvrige bestemmelser i nærværende Aftale, giver Geopartner ingen garanti for, at Softwaren er helt fri for mangler eller programmeringsfejl. Anvender anerkender, at kompleks software aldrig er fuldstændigt fri for sårbarhed i relation til sikkerhed. Geopartner har truffet de fornødne sikkerhedsmæssige foranstaltninger i sit IT-kompleks. Geopartner kan dog ikke gøres ansvarlig for brud på datasikkerheden udover det ansvar, som Geopartner allerede selvstændigt har påtaget sig i forhold til ufravigelig lovgivning. Geopartner kan under ingen omstændigheder gøres erstatningsansvarlig, herunder for ethvert økonomisk tab, tab af data, tab af goodwill eller for indirekte tab. Geopartners erstatningsansvar er under alle omstændigheder begrænset til maksimalt 12 måneders licensvederlag. Anvender er eneansvarlig for alt indhold og materiale, som uploades, lagres eller på anden måde behandles via Softwaren. Geopartner påtager sig intet ansvar for rigtigheden, lovligheden eller eventuelle krænkelser af tredjemands rettigheder, herunder Immaterielle Rettigheder såsom ophavsret, varemærker eller forretningshemmeligheder, i det materiale, som Licenstager anvender i Softwaren. Anvender indestår for, at det materiale, som gøres tilgængeligt i Softwaren, ikke krænker tredjemands rettigheder eller i øvrigt er i strid med gældende lovgivning. Anvender forpligter sig til at holde Geopartner skadesløs for ethvert krav fra tredjemand, som måtte opstå i den forbindelse.</p>",
+	"cssFiles": [
+        "mapstatus.css"
+        ],
+	"showOffcanvas": "mobile",
+	"removeDisabledLayersFromLegend": true,
+	"enabledPrints": [
+		"vandvaerk2"
+	],
+	"initZoomCenter": "/7/9.7943/56.0015/",
+	"brandName": "Map Status - Geopartner A/S",
+	"enabledSearch": "danish",
+	"showLayerGroupCheckbox": true,
+	"searchConfig": {
+		"size": 15,
+		"esrSearchActive": true,
+		"sfeSearchActive": true,
+		"advanced": false
+	},
+	"extensionConfig": {
+		"streetView": {
+			"ignorelist": [
+				"mapillary",
+				"cowi"
+			]
+		}
+	},
+	"popupDraggable": true,
+	"featureInfoTableOnMap": true,
+	"enabledExtensions": [
+		"streetView",
+		"editor",
+		"coordinates",
+		"session",
+		"mapstatus"
+	],
+	"activeLayers": [
+      "dd_friheden.opmaalt_omrids",
+      "dd_friheden.projektdata",
+      "dd_friheden.ddg_ledning_txt",
+      "dd_friheden.ledning_drift",
+      "dd_friheden.ddg_knude_txtboks",
+      "dd_friheden.ddg_knude_txt",
+      "dd_friheden.knude_drift"
+    ],
+	"baseLayers": [
+		{
+			"type": "wms",
+			"url": "/api/dataforsyningen/forvaltning2",
+			"layers": [
+				"Basis_kort",
+				"Stednavne_basiskort",
+				"Vejnavne_basiskort",
+				"Husnummer"
+			],
+			"id": "ForvaltningskortDF",
+			"name": "Forvaltningskort",
+			"description": "Forvaltningskort fra Dataforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
+			"minZoom": 7,
+			"maxZoom": 24,
+			"maxNativeZoom": 20
+		},
+		{
+			"id": "osm",
+			"name": "Topografisk kort - Open Street Map",
+			"abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
+			"config": {
+				"maxZoom": 23,
+				"maxNativeZoom": 19,
+				"attribution": "&copy; Open Street Map"
+			}
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"layers": [
+				"Centroide_Gaeldende",
+				"OptagetVej_Gaeldende",
+				"MatrikelSkel_Gaeldende",
+				"StrandbeskyttelseFlade_Gaeldende",
+				"KlitfredningFlade_Gaeldende",
+				"FredskovFlade_Gaeldende"
+			],
+			"styles": [
+				"Sorte_centroider",
+				"Sort_OptagetVej",
+				"Sorte_skel",
+				"default",
+				"default",
+				"default"
+			],
+			"id": "Matriklen-DAF",
+			"name": "Matrikelkort",
+			"description": "Matrikelkort",
+			"attribution": "&copy; Geodatastyrelsen, Datafordeleren",
+			"abstract": "<p>Dagligt ajourført matrikelkort.</p><p>Ophavsretten til Matrikelkortet tilhører Geodatastyrelsen</p><p>Data og kort fra Matrklen er stillet til rådighed efter vilkårene beskrevet på https://datafordeler.dk/vejledning/brugervilkaar/ejendomsoplysninger-ebr-og-mat/</p><br>",
+			"minZoom": 8,
+			"maxZoom": 24,
+			"maxNativeZoom": 22,
+			"transparent": false
+		},
+		{
+			"type": "wms",
+			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"layers": [
+				"orto_foraar"
+			],
+			"id": "Luftfoto_nyeste",
+			"name": "Luftfoto nyeste",
+			"description": "Luftfotokort fra kortforsyningen",
+			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
+			"abstract": "<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
+			"minZoom": 4,
+			"maxZoom": 24,
+			"maxNativeZoom": 20,
+			"overlays": [
+				{
+					"id": "public.mvw_adgangsadresser",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 24,
+						"maxNativeZoom": 22
+					}
+				},
+				{
+					"id": "public.mvw_vejnavne",
+					"db": "mapconnectbase",
+					"host": "https://mapgogc2.geopartner.dk",
+					"config": {
+						"maxZoom": 24,
+						"maxNativeZoom": 22
+					}
+				}
+			]
+		}
+	]
+}
