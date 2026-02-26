@@ -4,6 +4,9 @@
         "mim_pg_noise",
         "ler_aws"
     ],
+    "startupModalSupressionTemplates": [
+        "embed.tmpl"
+    ],
     "schemata": [
         "public",
         "ejerkort_datahub",
