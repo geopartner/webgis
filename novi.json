@@ -9,6 +9,7 @@
   "enabledPrints": [
     "novi"
   ],
+  "mode": 2,
   "searchModules": [
     "google",
     "danish"
