@@ -22,7 +22,8 @@
         "dar_datahub",
         "matrikel_datahub",
         "dhm",
-        "vejdirektoratet"
+        "vejdirektoratet",
+        "llj"
     ],
     "cssFiles": [
         "geosag_intern.css"
