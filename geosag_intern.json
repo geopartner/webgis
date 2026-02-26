@@ -4,9 +4,6 @@
         "mim_pg_noise",
         "ler_aws"
     ],
-    "startupModalSupressionTemplates": [
-        "embed.tmpl"
-    ],
     "schemata": [
         "public",
         "ejerkort_datahub",
@@ -25,8 +22,7 @@
         "dar_datahub",
         "matrikel_datahub",
         "dhm",
-        "vejdirektoratet",
-        "llj"
+        "vejdirektoratet"
     ],
     "cssFiles": [
         "geosag_intern.css"
