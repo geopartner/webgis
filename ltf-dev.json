@@ -26,7 +26,7 @@
             "ventil_ikke_forbundet_farve": "#2600ff", 
         },
         "alarm": {
-            "alarmkabel_art": 1            
+            "alarmkabel_art": 1,            
         },
         "streetView": {
             "ignorelist": [
