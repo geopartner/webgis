@@ -24,7 +24,9 @@
             "indirekte_ledning_farve": "#fff700",  
            "ventil_forbundet_farve": "#00ff00",
             "ventil_ikke_forbundet_farve": "#2600ff", 
-            "alarmkabel_art": 1
+        },
+        "alarm": {
+            "alarmkabel_art": 1            
         },
         "streetView": {
             "ignorelist": [
