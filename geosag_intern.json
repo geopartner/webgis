@@ -1,7 +1,5 @@
 {
     "_schemata": [
-        "forvaltning2",
-        "mim_pg_noise",
         "ler_aws"
     ],
     "schemata": [
