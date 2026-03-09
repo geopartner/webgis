@@ -1,7 +1,4 @@
 {
-    "_schemata": [
-        "ler_aws"
-    ],
     "schemata": [
         "public",
         "geosag_intern",
@@ -88,6 +85,10 @@
         "upload",
         "directions"
     ],
+    "dateFormats": {
+      "kort": "D. MMMM - YYYY",
+      "lang": "dddd DD.MM.YYYY HH:mm"
+    },
     "baseLayers": [
         {
             "type": "wms",
