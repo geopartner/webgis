@@ -30,6 +30,13 @@
 				"cowi"
 			]
 		}
+		"mapstatus": {
+			"knudeType": [
+				"Brønd",
+				"Sandfang",
+				"Pumpestation"
+			]
+		}
 	},
 	"popupDraggable": true,
 	"featureInfoTableOnMap": true,
