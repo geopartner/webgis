@@ -29,6 +29,14 @@
 				"mapillary",
 				"cowi"
 			]
+		},
+		"mapstatus": {
+			"knudeType": [
+				"Brønd",
+				"Sandfang",
+				"Pumpestation",
+				"Andet"
+			]
 		}
 	},
 	"popupDraggable": true,
