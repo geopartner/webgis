@@ -1,3 +1,9 @@
-#group-check-box-xxxx {
+/* Fjerner check-boks for gruppen: Afløb */
+#group-check-box-QWZsw7hi {
+    visibility: hidden;
+}
+
+/* Fjerner check-boks for gruppen: Vandforsyning */
+#group-check-box-VmFuZGZvcnN5bmluZw {
     visibility: hidden;
 }
