@@ -1,16 +1,20 @@
 {    
     "brandName": "Hæstrup Vandværk",
-    "enabledPrints": [
-      "vandvaerk2"
-    ],
     "enabledExtensions": [
       "streetView",
       "coordinates"
     ],
-    "singleTiled": [ "haestrupvand.haestrupvand-composite"  ],
+	"mode": 2,
     "searchConfig": {
-      "komkode": "860"
+      "komkode": [
+        "860"
+      ]
     },
+    "enabledPrints": ["vandvaerk2"],
     "searchModules":["google","danish"],
-    "enabledSearch":"danish"
-  }
+    "enabledSearch":"danish", 
+    "showLayerGroupCheckbox": true
+}
+
+
+
