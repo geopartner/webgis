@@ -125,6 +125,7 @@
 			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20,
+			"singleTile": true,
 			"_overlays": [
 				{
 					"id": "public.mvw_adgangsadresser",
