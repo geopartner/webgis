@@ -147,22 +147,6 @@
 				}
 			]
 		},
-				{
-			"type": "wms",
-			"url": "/api/dataforsyningen/orto_foraar",
-			"layers": [
-				"orto_foraar"
-			],
-			"id": "Luftfoto_nyeste_test",
-			"name": "Luftfoto nyeste (test)",
-			"description": "Luftfotokort fra dataforsyningen",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-			"abstract": "<p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-			"minZoom": 4,
-			"maxZoom": 22,
-			"maxNativeZoom": 20,
-			"singleTile": true,
-		},
 		{
 			"type": "wms",
 			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
