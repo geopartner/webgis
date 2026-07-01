@@ -190,7 +190,7 @@
         },
         {
             "type": "wms",
-            "url": "/api/datafordeler/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
+            "url": "https://wms.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
             "layers": [
                 "dtk_skaermkort_daempet"
             ],
