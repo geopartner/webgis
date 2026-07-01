@@ -84,7 +84,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
@@ -228,7 +228,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/Dkskaermkort/topo_skaermkort/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"dtk_skaermkort_daempet"
 			],
@@ -252,7 +252,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "/api/datafordeler/DKtopokort/dtk_25/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"dtk25"
 			],
