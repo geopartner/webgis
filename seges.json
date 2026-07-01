@@ -140,7 +140,7 @@
 		{
 			"type": "wms",
 			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"geodanmark_2019_12_5cm"
 			],
@@ -154,7 +154,7 @@
 		{
 			"type": "wms",
 			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"geodanmark_2018_12_5cm"
 			],
@@ -168,7 +168,7 @@
 		{
 			"type": "wms",
 			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"geodanmark_2017_12_5cm"
 			],
@@ -182,7 +182,7 @@
 		{
 			"type": "wms",
 			"_url": "/api/dataforsyningen/orto_foraar_DAF",
-			"url": "/api/datafordeler/GeoDanmarkOrto/orto_foraar/1.0.0/WMS",
+			"url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
 			"layers": [
 				"geodanmark_2016_12_5cm"
 			],
