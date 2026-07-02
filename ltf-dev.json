@@ -18,7 +18,8 @@
     ],
     "extensionConfig": {
         "blueidea": {
-            "userid": "d6dfc3bb-21a0-48df-b25e-2ac6bb2d8671",
+            "_userid": "d6dfc3bb-21a0-48df-b25e-2ac6bb2d8671",
+            "userid": "d7a12844-5fc9-4316-9af7-b841fcc3d399",
             "afbrudt_ledning_tooltip": "Afbrudt ledning forsøg",
             "afbrudt_ledning_farve": "#f30acc", 
             "indirekte_ledning_tooltip": "Indirekte berørt ledning  forsøg",
