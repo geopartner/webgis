@@ -61,6 +61,7 @@
             "poolSize": 8
         }
     },
+	"initFunction": "function(){setTimeout(function(){$('#add-legend-btn').prop('checked', false);}, 1000);}",
     "enabledExtensions": [
         "streetView",
         "coordinates",
