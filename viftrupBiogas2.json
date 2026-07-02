@@ -12,28 +12,36 @@
       "id": "osm",
       "name": "Open Street Maps"
     },
-    {
-      "id": "luftfotoserier.geodanmark_2016_12_5cm",
-      "name": "Luftfoto 2016",
-      "db": "baselayers",
-      "host": "https://gc2.io",
-      "config": {
-        "maxZoom": 21,
-        "maxNativeZoom": 19,
-        "attribution": "&copy; SDFE & MapCentia ApS"
-      }
-    },
-    {
-      "id": "luftfotoserier.geodanmark_2017_12_5cm",
-      "name": "Luftfoto 2017",
-      "db": "baselayers",
-      "host": "https://gc2.io",
-      "config": {
-        "maxZoom": 21,
-        "maxNativeZoom": 19,
-        "attribution": "&copy; SDFE & MapCentia ApS"
-      }
-    }
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "geodanmark_2017_12_5cm"
+            ],
+            "id": "ortofoto_foraar_2017",
+            "name": "GeoDanmark ortofoto forår (2017)",
+            "description": "Ortofoto forår 2017 fra GeoDanmark",
+            "attribution": "&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>GeoDanmark Ortofoto forår, 2017 udgave fra Dataforsyningen.</p><p>&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.</p><p>Data stilles frit til rådighed for den offentlige sektor, private virksomheder, foreninger og til privat brug.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "geodanmark_2016_12_5cm"
+            ],
+            "id": "ortofoto_foraar_2016",
+            "name": "GeoDanmark ortofoto forår (2016)",
+            "description": "Ortofoto forår 2016 fra GeoDanmark",
+            "attribution": "&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>GeoDanmark Ortofoto forår, 2016 udgave fra Dataforsyningen.</p><p>&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.</p><p>Data stilles frit til rådighed for den offentlige sektor, private virksomheder, foreninger og til privat brug.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        }
   ],
   "brandName": "Viftrup Biogas",
   "enabledPrints": [
