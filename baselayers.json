@@ -1,120 +1,72 @@
-{   
-   "brandName":"Geopartner A/S",
-   "enabledExtensions":[
+{
+    "brandName": "Geopartner A/S",
+    "enabledExtensions": [
         "conflictSearch",
         "streetView",
         "layerSearch",
         "coordinates",
         "session",
         "editor"
-   ],
-   "extensionConfig": {
-		"conflictSearch": {
-			"poolSize": 8
-		}
-	},
-   "template":"default.tmpl",
-   "baseLayers":[
-      {
-         "id":"geodk.bright",
-         "name":"Topografisk kort",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Topografisk kort baseret på GeoDanmark data, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'. </p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/aqwPtJAKE9BzKes?x=2553&y=827&a=true&file=sagsbehandler_basiskort_eget.png&scalingup=0'>",
-         "config":{
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
-      {
-         "id":"luftfotoserier.geodanmark_2019_12_5cm",
-         "name":"Luftfoto 2019",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2019 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/zqoWbwDGiyCQ5zn?x=2553&y=827&a=true&file=luftfoto_2019.png&scalingup=0'>",
-         "config":{
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         },
-         "overlays":[
-            {
-               "id":"dar.adgangsadresser_husnr",
-               "db":"baselayers",
-               "host":"https://dk.gc2.io",
-               "config":{
-                  "maxZoom":19,
-                  "maxNativeZoom":19
-               }
-            },
-            {
-               "id":"geodk.vejmidte_brudt_m_navn",
-               "db":"baselayers",
-               "host":"https://dk.gc2.io",
-               "config":{
-                  "maxZoom":19,
-                  "maxNativeZoom":19
-               }
+    ],
+    "extensionConfig": {
+        "conflictSearch": {
+            "poolSize": 8
+        }
+    },
+    "template": "default.tmpl",
+    "baseLayers": [
+        {
+            "type": "wms",
+            "url": "https://wms.datafordeler.dk/Dkskaermkort/topo_skaermkort/1.0.0/wms?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
+            "layers": [
+                "dtk_skaermkort_daempet"
+            ],
+            "id": "dtk_skaermkort_daempet",
+            "name": "DTK/Skærmkort - Dæmpet",
+            "description": "DTK/Skærmkort - Dæmpet",
+            "attribution": "&copy; Klimadatastyrelsen",
+            "abstract": "<p>Skærmkort - Dæmpet</p><p>&copy; Klimadatastyrelsen</p><p>Klimadatastyrelsen har de immaterielle rettigheder til de frie geografiske data og fastsætter vilkår for brugsret til data.</p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "orto_foraar"
+            ],
+            "id": "orto_foraar",
+            "name": "GeoDanmark ortofoto forår (nyeste)",
+            "description": "Ortofoto forår 2026 fra GeoDanmark",
+            "attribution": "&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra Dataforsyningen.</p><p>&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.</p><p>Data stilles frit til rådighed for den offentlige sektor, private virksomheder, foreninger og til privat brug.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        },
+        {
+            "id": "osm",
+            "name": "Topografisk kort - Open Street Map",
+            "abstract": "<p>Kortet hentes fra Open Street Map.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/d66QC8j5mNi4xDS?x=2553&y=827&a=true&file=open_street_map.png&scalingup=0'>",
+            "config": {
+                "maxZoom": 19,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; Open Street Map"
             }
-         ]
-      },      
-      {
-         "id":"luftfotoserier.geodanmark_2018_12_5cm",
-         "name":"Luftfoto 2018",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2018 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/WzGweqNMZDKyx8E?x=2553&y=827&a=true&file=luftfoto_2018.png&scalingup=0'>",
-         "config":{
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
-      {
-         "id":"luftfotoserier.geodanmark_2017_12_5cm",
-         "name":"Luftfoto 2017",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Oprettede luftfoto (ortofoto) marts/april 2017 (15 cm pixels).</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/bXBDW6ssarLkWdZ?x=2553&y=827&a=true&file=luftfoto_2017.png&scalingup=0'>",
-         "config":{
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-         }
-      },
-      {
-         "id": "kortforsyningen.dtk_skaermkort_daempet",
-         "name":"Skærmkort - dæmpet",
-         "db":"baselayers",
-         "host":"https://dk.gc2.io",
-         "abstract":"<p>Skærmkort, som opdateres årligt.</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Styrelsen for Dataforsyning og Effektivisering.'. </p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/aqwPtJAKE9BzKes?x=2553&y=827&a=true&file=sagsbehandler_basiskort_eget.png&scalingup=0'>",
-         "config":{
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering."
-         }
-      },
-      {
-          "id": "osm",
-         "name":"Topografisk kort - Open Street Map",
-         "abstract":"<p>Kortet hentes fra Open Street Map.</p><br><img src='https://nextcloud.gc2.io/index.php/apps/files_sharing/publicpreview/d66QC8j5mNi4xDS?x=2553&y=827&a=true&file=open_street_map.png&scalingup=0'>",
-         "config":{
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Open Street Map"
-         }
-      },      
-      {
-         "id": "kortforsyningen.topo25", 
-         "name": "Klassisk 4cm kort", 
-         "db": "baselayers", 
-         "host": "https://gc2.io",
-         "config": {
-            "maxZoom":19,
-            "maxNativeZoom":19,
-            "attribution":"&copy; Styrelsen for Dataforsyning og Effektivisering." 
-         }
-      }
-   ]
+        },
+        {
+            "type": "wms",
+            "url": "https://wms.datafordeler.dk/DKtopokort/dtk_25/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
+            "layers": [
+                "dtk_25"
+            ],
+            "id": "dtk_25",
+            "name": "DTK25 - 1:25.000",
+            "description": "DTK25 Danmarks Topografiske Kortværk 1:25.000",
+            "attribution": "&copy; Klimadatastyrelsen",
+            "abstract": "<p>DTK25 - 1:25.000, seneste udgivne version.</p><p>&copy; Klimadatastyrelsen</p><p>Klimadatastyrelsen har de immaterielle rettigheder til de frie geografiske data og fastsætter vilkår for brugsret til data.</p><br>",
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        }
+    ]
 }

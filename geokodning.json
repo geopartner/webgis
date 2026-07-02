@@ -10,7 +10,8 @@
                 "maxNativeZoom": 19,
                 "attribution": "&copy; SDFE & MapCentia ApS"
             }
-        },{
+        },
+        {
             "id": "geodk.terminal",
             "name": "GeoDanmark - Terminal",
             "db": "baselayers",
@@ -22,26 +23,19 @@
             }
         },
         {
-            "id": "luftfotoserier.geodanmark_2016_12_5cm",
-            "name": "Luftfoto 2016",
-            "db": "baselayers",
-            "host": "https://gc2.io",
-            "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
-                "attribution": "&copy; SDFE & MapCentia ApS"
-            }
-        },
-        {
-            "id": "luftfotoserier.geodanmark_2017_12_5cm",
-            "name": "Luftfoto 2017",
-            "db": "baselayers",
-            "host": "https://gc2.io",
-            "config": {
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
-                "attribution": "&copy; SDFE & MapCentia ApS"
-            }
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "orto_foraar"
+            ],
+            "id": "orto_foraar",
+            "name": "GeoDanmark ortofoto forår (nyeste)",
+            "description": "Ortofoto forår (seneste) fra GeoDanmark",
+            "attribution": "&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra Dataforsyningen.</p><p>&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.</p><p>Data stilles frit til rådighed for den offentlige sektor, private virksomheder, foreninger og til privat brug.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
         }
     ],
     "brandName": "Geokodning SK",
@@ -51,10 +45,10 @@
     "enabledExtensions": [
         "coordinates"
     ],
-    "enabledSearch":"danish",
+    "enabledSearch": "danish",
     "singleTiled": [
         "geokodning.rel_jordstykke"
-      ],
+    ],
     "searchConfig": {
         "komkode": [
             "740"

@@ -1,35 +1,47 @@
 {
-  "baseLayers": [
-      {"id":"dtkSkaermkort","name":"Skærmkort"},
-      {"id":"dtkSkaermkortDaempet","name":"Skærmkort dæmpet"},
-      {"id":"geodkBright","name":"Geodanmark"},
-    
-    {
-      "id": "luftfotoserier.geodanmark_2017_12_5cm",
-      "name": "Luftfoto 2017",
-      "db": "baselayers",
-      "host": "https://gc2.io",
-      "config": {
-        "maxZoom": 21,
-        "maxNativeZoom": 19,
-        "attribution": "&copy; SDFE & MapCentia ApS"
-      }
-    }
-  ],
-  
-  "brandName": "MapGO, Guldborgsund",
-  
-  "enabledPrints": ["vandvaerk"],
-  
-  "enabledExtensions": [
+    "baseLayers": [
+        {
+            "id": "dtkSkaermkort",
+            "name": "Skærmkort"
+        },
+        {
+            "id": "dtkSkaermkortDaempet",
+            "name": "Skærmkort dæmpet"
+        },
+        {
+            "id": "geodkBright",
+            "name": "Geodanmark"
+        },
+        {
+            "type": "wms",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "layers": [
+                "orto_foraar"
+            ],
+            "id": "orto_foraar",
+            "name": "GeoDanmark ortofoto forår (nyeste)",
+            "description": "Ortofoto forår (seneste) fra GeoDanmark",
+            "attribution": "&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.",
+            "abstract": "<p>GeoDanmark Ortofoto forår, nyeste udgave fra Dataforsyningen.</p><p>&copy; (CC BY) Klimadatastyrelsen og Danske kommuner.</p><p>Data stilles frit til rådighed for den offentlige sektor, private virksomheder, foreninger og til privat brug.</p><br>",
+            "minZoom": 4,
+            "maxZoom": 22,
+            "maxNativeZoom": 20
+        }
+    ],
+    "brandName": "MapGO, Guldborgsund",
+    "enabledPrints": [
+        "vandvaerk"
+    ],
+    "enabledExtensions": [
         "MapGOMenu",
         "MapGOCollector",
         "session"
     ],
-  
-  "singleTiled": ["mapgo.v_incident_pkt", "mapgo.guldborgsund-stikp"],
-  
-  "searchConfig": { 
+    "singleTiled": [
+        "mapgo.v_incident_pkt",
+        "mapgo.guldborgsund-stikp"
+    ],
+    "searchConfig": {
         "komkode": "376"
-  }
+    }
 }
