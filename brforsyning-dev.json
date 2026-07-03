@@ -12,7 +12,7 @@
         "matrikel_datahub",
         "drift_og_vedligehold",
         "ledningsplan_fjv",
-        "lukkeliste",
+        "lukkeliste"
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
     "enabledExtensions": [
