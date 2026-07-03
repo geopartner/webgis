@@ -10,7 +10,9 @@
         "bbr_datahub",
         "ejerkort_datahub",
         "matrikel_datahub",
-        "drift_og_vedligehold"
+        "drift_og_vedligehold",
+        "ledningsplan_fjv",
+        "lukkeliste",
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
     "enabledExtensions": [
