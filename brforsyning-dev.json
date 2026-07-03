@@ -10,8 +10,6 @@
         "bbr_datahub",
         "ejerkort_datahub",
         "matrikel_datahub",
-        "br_bl_termografi",
-        "ler",
         "drift_og_vedligehold"
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
