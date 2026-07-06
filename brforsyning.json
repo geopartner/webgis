@@ -12,7 +12,8 @@
         "matrikel_datahub",
         "br_bl_termografi",
         "ler",
-        "drift_og_vedligehold"
+        "drift_og_vedligehold",
+        "deklarationer"
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
     "enabledExtensions": [
