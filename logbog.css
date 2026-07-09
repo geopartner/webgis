@@ -12,3 +12,7 @@
 .popup-delete-btn {
     visibility: hidden;
 }
+
+.leaflet-path-draggable {
+    visibility: hidden;
+}
