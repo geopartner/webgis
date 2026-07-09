@@ -8,3 +8,7 @@
     stroke: #006666;
     fill: #006666;
 }
+
+.popup-delete-btn {
+    visibility: hidden;
+}
