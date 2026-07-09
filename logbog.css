@@ -16,3 +16,7 @@
 .leaflet-path-draggable {
     visibility: hidden;
 }
+
+.input-group-text {
+    visibility: hidden;
+}
