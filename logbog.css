@@ -1,11 +1,11 @@
 .leaflet-interactive {
     stroke: if (
-                style(--stroke-dasharray: "8 5"): #003333;
-                else: #00FFFF;
+                style(--stroke-dasharray: "8 5"): "#003333";
+                else: "#00FFFF";
                 );
     fill: if (
-                style(--stroke-dasharray: "8 5"): #003333;
-                else: #00FFFF;
+                style(--stroke-dasharray: "8 5"): "#003333";
+                else: "#00FFFF";
                 );
     fill-opacity: 0.2;
     
