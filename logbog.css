@@ -1,6 +1,7 @@
 .leaflet-interactive {
     stroke: #00FFFF;
     fill: #00FFFF;
+    fill-opacity: 0.2;
 }
 
 .leaflet-interactive[stroke-dasharray="8 5"] {
