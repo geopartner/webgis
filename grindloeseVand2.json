@@ -1,8 +1,26 @@
 {
- 
   "brandName": "Grindløse Vand",
-  "enabledPrints": ["vandvaerk2"],
-  "searchModules":["google","danish"],
-  "enabledSearch":"danish",
-  "searchConfig":{"komkode":"480"}  
-} 
+  "schemata": [
+    "grindloesevand"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "mode": "2",
+  "enabledPrints": [
+    "vandvaerk2"
+  ],
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "480"
+    ]
+  },
+  "popupDraggable": true
+}
