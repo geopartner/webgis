@@ -7,6 +7,7 @@
         "dar_datahub",
         "dkjord_datahub",
         "ejerkort_datahub",
+        "fikspunkter_datahub",
         "geodanmark_datahub",
         "geus_datahub",
         "grukos_datahub",
@@ -18,8 +19,7 @@
         "vejdirektoratet",
         "gc2_io_dk_danmarksarealinformation",
         "gc2_io_dk_kulturarvsstyrelsen",
-        "gc2_io_dk_dagi",
-        "gc2_io_dk_kortforsyningen"
+        "gc2_io_dk_dagi"
     ],
     "cssFiles": [
         "geosag_intern.css"
