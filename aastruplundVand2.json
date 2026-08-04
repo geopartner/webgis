@@ -1,7 +1,18 @@
 {
   "brandName": "Aastruplund vandværk",
-  "schemata": [],
+  "schemata": [ "aastruplundvand" ],
+  "activateMainTab": "info",
+  "activeLayers": [
+    "aastruplundvand.ledninger_hovedledning",
+    "aastruplundvand.komponenter_malerbrond",
+    "aastruplundvand.komponenter_ventil",
+    "aastruplundvand.komponenter_stophane",
+    "aastruplundvand.komponenter_reduktion",
+    "aastruplundvand.ledninger_stikledning"
+  ],
+  "showLayerGroupCheckbox": true,
   "enabledExtensions": ["streetView", "coordinates"],
+  "showOffcanvas": "mobile",
   "showLayerGroupCheckbox": true,
   "enabledPrints": ["vandvaerk_aastruplundvand2"],
   "searchModules": ["google", "danish"],
