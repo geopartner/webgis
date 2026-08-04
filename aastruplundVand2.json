@@ -10,7 +10,6 @@
     "aastruplundvand.komponenter_reduktion",
     "aastruplundvand.ledninger_stikledning"
   ],
-  "showLayerGroupCheckbox": true,
   "enabledExtensions": ["streetView", "coordinates"],
   "showOffcanvas": "mobile",
   "showLayerGroupCheckbox": true,
