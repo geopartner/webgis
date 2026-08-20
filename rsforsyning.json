@@ -314,44 +314,6 @@
             ]
         },
         {
-            "type": "_wms",
-            "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
-            "layers": [
-                "orto_foraar"
-            ],
-            "id": "Luftfoto_nyeste",
-            "name": "Luftfoto nyeste",
-            "description": "Luftfotokort fra kortforsyningen",
-            "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
-            "abstract": "<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-            "config": {
-                "minZoom": 4,
-                "maxZoom": 21,
-                "maxNativeZoom": 19,
-                "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner."
-            },
-            "overlays": [
-                {
-                    "id": "public.mvw_adgangsadresser",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                },
-                {
-                    "id": "public.mvw_vejnavne",
-                    "db": "mapconnectbase",
-                    "host": "https://mapgogc2.geopartner.dk",
-                    "config": {
-                        "maxZoom": 21,
-                        "maxNativeZoom": 19
-                    }
-                }
-            ]
-        },
-        {
             "type": "wms",
             "url": "/api/dataforsyningen/orto_foraar_DAF",
             "layers": [
