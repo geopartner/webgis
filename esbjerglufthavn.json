@@ -1,6 +1,7 @@
 {
 	"schemata": [
-		"aixm"
+		"aixm",
+		"drone"
 	],
 	"brandName": "Esbjerg Lufthavn",
 	"enabledSearch": "danish",
