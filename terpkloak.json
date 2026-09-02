@@ -1,6 +1,9 @@
 {
   "brandName": "Terp Kloak & Entreprenør ApS",
   "enabledSearch": "danish",
+  "schemata": [
+    "public"
+  ],
   "searchConfig": {
     "esrSearchActive": false,
     "sfeSearchActive": false,
@@ -12,6 +15,11 @@
       "710"
     ]
   },
+  "showLayerGroupCheckbox": true,
+  "autoPanPopup": true,
+  "removeDisabledLayersFromLegend": true,
+  "popupDraggable": true,
+  "showOffcanvas": "mobile",  
   "searchModules": ["google", "danish"],
   "enabledSearch": "danish",
   "enabledExtensions": [
@@ -26,3 +34,4 @@
     }
   }
 }
+
