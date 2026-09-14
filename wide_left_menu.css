@@ -1,4 +1,4 @@
 .offcanvas {
-    bs-offcanvas-width: 625px !important;
+    --bs-offcanvas-width: 625px !important;
 }
 
