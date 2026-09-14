@@ -22,7 +22,9 @@
         "gc2_io_dk_dagi"
     ],
     "cssFiles": [
-        "geosag_intern.css"
+        "geosag_intern.css",
+        "wide_left_menu.css",
+        "narrow_layer_list.css"
     ],
     "brandName": "GP kort - Geopartner A/S",
     "title": "GP kort - Geopartner A/S",
