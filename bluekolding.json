@@ -23,6 +23,8 @@
     ],
     "enabledSearch": "danish",
     "searchConfig": {
+		"esrSearchActive": true,
+        "sfeSearchActive": true,
         "komkode": [
             "621"
         ]
@@ -40,10 +42,6 @@
     "activateMainTab": "search",
     "showOffcanvas": "mobile",
     "removeDisabledLayersFromLegend": false,
-    "searchConfig": {
-        "esrSearchActive": true,
-        "sfeSearchActive": true
-    },
     "featureInfoTableOnMap": true,
     "template": "default.tmpl"
 }
