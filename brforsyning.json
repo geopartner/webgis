@@ -13,7 +13,8 @@
         "br_bl_termografi",
         "ler",
         "drift_og_vedligehold",
-        "deklarationer"
+        "deklarationer",        
+        "gc2_io_dk_geus"
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
     "removeDisabledLayersFromLegend": false,
