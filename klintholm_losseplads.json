@@ -1,7 +1,8 @@
 {
 	"schemata": [
 		"mapstatus_dd_klintholm_losseplads",
-		"gc2_io_dk_geus"
+		"gc2_io_dk_geus",
+		"public"
 	],
   "activeLayers": [
 		"tag:DefaultOn"
