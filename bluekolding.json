@@ -17,8 +17,15 @@
         "session",
         "editor"
     ],
+    "searchModules": [
+        "google",
+        "danish"
+    ],
+    "enabledSearch": "danish",
     "searchConfig": {
-        "komkode": "621"
+        "komkode": [
+            "621"
+        ]
     },
 	"extensionConfig": {
 		"_session": {
