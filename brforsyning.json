@@ -16,6 +16,7 @@
         "deklarationer"
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
+    "removeDisabledLayersFromLegend": false,
     "enabledExtensions": [
         "streetView",
         "coordinates",
