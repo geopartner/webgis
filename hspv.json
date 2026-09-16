@@ -478,7 +478,7 @@
                 "quickorto"
             ],
             "id": "ortofoto_foraar_temp_DF",
-            "name": "GeoDanmark ortofoto forår (quick-orto)",
+            "name": "GeoDanmark ortofoto forår (quick-orto, opdateres maj/jun)",
             "description": "Ortofoto forår fra Dataforsyningen",
             "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste ortofoto, midlertidig ikke kvalitetskontrolleret udgave</p><p>Copyright: Klimadatastyrelsen og Danske kommuner.</p><p>Baggrundskortet må frit anvendes, men følgende skal angives 'Indeholder data fra Klimadatastyrelsen.'. </p><br>",
@@ -491,7 +491,7 @@
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
             "id": "ortofoto_foraar_wmts0",
-            "name": "GeoDanmark ortofoto forår (seneste, WMTS)",
+            "name": "GeoDanmark ortofoto forår (seneste, opdateres nov/dec)",
             "description": "Seneste ortofoto forår (WMTS) fra GeoDanmark",
             "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
             "abstract": "<p>Ortofoto forår, nyeste WMTS udgave fra forvaltningstjenesten under GeoDanmark.</p><p>&copy; Klimadatastyrelsen og Danske kommuner.</p><p>Ortofotoet viser følgende temaer:<br><ul><li>Basis_ortofoto</li></ul></p><br>",
