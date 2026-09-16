@@ -24,7 +24,7 @@
     "enabledSearch": "danish",
     "searchConfig": {
         "komkode": [
-            "0621"
+            "621"
         ]
     },
 	"extensionConfig": {
@@ -38,7 +38,6 @@
 	},
     "showLayerGroupCheckbox": true,
     "activateMainTab": "search",
-    "enabledSearch": "danish",
     "showOffcanvas": "mobile",
     "removeDisabledLayersFromLegend": false,
     "searchConfig": {
