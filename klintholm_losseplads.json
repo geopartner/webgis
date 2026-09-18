@@ -3,7 +3,8 @@
 		"mapstatus_dd_klintholm_losseplads",
 		"gc2_io_dk_geus",
 		"public",
-		"fremmedledninger"
+		"fremmedledninger",
+		"ler2"
 	],
   "activeLayers": [
 		"tag:DefaultOn"
