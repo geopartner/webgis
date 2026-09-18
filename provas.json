@@ -21,6 +21,9 @@
       "deklarationer",
 "dar_datahub"
    ],
+  "cssFiles": [
+        "provas.css"
+    ],
    "enabledExtensions":[
       "graveAssistent",
       "streetView",
