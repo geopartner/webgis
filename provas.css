@@ -1,0 +1,274 @@
+.leaflet-popup-content-wrapper {
+    width: 700px;
+}
+
+.leaflet-popup-content {
+    width: 670px !important;
+}
+
+.alternative-info-container-right {
+	width: 660px;
+}
+
+/*--------------------------------------------------------------
+Grid display smaller devices
+--------------------------------------------------------------*/
+.grid-container {
+	display: block;
+	align-items: center;
+	font-size: 12px;
+	width: 300px;
+}
+
+/* col1 forbeholdes info med line-break. Ellers virker right border ikke */
+.col1 {
+	width: 90%;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.col2 {
+	width: 90%;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+
+.col-all {
+	width: 100%;
+	color: rgb(189, 189, 189);
+}
+
+ 
+/*
+.leaflet-popup-content {
+	width: 260px;
+} */
+/*--------------------------------------------------------------
+Grid display for larger screens
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 50em) {
+	.grid-container {
+		display: grid;
+		width: 520px;
+		grid-template-columns: 50% 50%;
+		align-items: center;
+		grid-template-rows: auto;
+		font-size: 12px;
+	}
+
+	.col1 {
+		grid-column: 1 / 2;
+		background-image: linear-gradient(to left, rgb(255, 0, 0) 1px, transparent 1px);
+		min-height: 40px;
+	}
+
+	.col2 {
+		grid-column: 2 / 3;
+		padding-left: 10px;
+ 	}
+
+
+	.col-all {
+		grid-column: 1 / 3;
+		color: rgb(189, 189, 189);
+	}
+/*
+	.leaflet-popup-content {
+		width: 520px !important;
+
+	} */
+	
+}
+ 
+
+/*--------------------------------------------------------------*/
+Generel items for all devices
+
+
+
+.grid-item-left {
+	text-align: left;
+}
+
+.item-label {
+	color: rgb(57, 57, 57);
+	margin-bottom: 0 !important;
+	font-weight: bold;
+}
+
+.item-value {
+	margin-bottom: 8px !important;
+	margin-top: 0 !important;
+	word-wrap: break-word;
+	font-weight: normal;
+}
+
+.item-value-multiline {
+	border: 1px solid #a7a7a7;
+}
+.item-value-multiline:empty {
+	border: none;
+}
+
+.allow-y-scroll {
+	overflow-y: scroll;
+}
+
+
+
+.info-dialog-content {
+	background-color: rgb(255, 255, 255);
+	max-height: 600px;
+	/* min-height: 520px; */
+	overflow-y: auto;
+	user-select: none;
+}
+
+
+
+.info-dialog-content>label {
+	width: 30%;
+	text-align: right;
+	padding-right: 20px;
+}
+
+summary {
+	display: list-item !important;
+}
+
+h4 {
+	margin-left: 1em;
+}
+
+span p {
+	color: #000;
+}
+
+span label {
+	color: #555;
+	font-size: 12px;
+}
+
+.feltBeskrivelse {
+	color: #808080;
+	font-size: 8pt;
+	white-space: nowrap;
+}
+
+.float-right {
+	float: right
+}
+
+.row-display {
+	display: table-cell;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+
+summary:hover {
+	cursor: pointer;
+}
+
+/*
+background-color: #888; 
+*/
+
+.boxOutPanel {
+	border: 1px solid #a7a7a7;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 8px;
+	min-width: 95%;
+}
+
+
+.boxOutPanel table {
+	margin: 25px;
+	width: 100%;
+}
+
+.boxOutPanel textarea {
+	resize: none;
+	overflow-y: auto;
+}
+
+.popup-title {
+	margin-left: 1em;
+}
+
+
+ 
+
+/* Then some settings regardign the TABs itself */
+.info-tabbed {
+	overflow-x: hidden;
+	/* so we could easily hide the radio inputs */
+	margin-top: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #ccc;
+}
+
+.info-tabbed [type="radio"] {
+	/* hiding the inputs */
+	display: none;
+}
+
+.info-tabs {
+	display: flex;
+	align-items: stretch;
+	list-style: none;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.info-tab>label {
+	display: block;
+	margin-bottom: -1px;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	background: #eee;
+	color: #666;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.info-tab:hover label {
+	border-top-color: #333;
+	color: #333;
+}
+
+.info-tab-content {
+	display: none;
+	color: #000;
+}
+
+/* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
+.info-tabbed [type="radio"]:nth-of-type(1):checked~.info-tabs .info-tab:nth-of-type(1) label,
+.info-tabbed [type="radio"]:nth-of-type(2):checked~.info-tabs .info-tab:nth-of-type(2) label,
+.info-tabbed [type="radio"]:nth-of-type(3):checked~.info-tabs .info-tab:nth-of-type(3) label,
+.info-tabbed [type="radio"]:nth-of-type(4):checked~.info-tabs .info-tab:nth-of-type(4) label,
+.info-tabbed [type="radio"]:nth-of-type(5):checked~.info-tabs .info-tab:nth-of-type(5) label,
+.info-tabbed [type="radio"]:nth-of-type(6):checked~.info-tabs .info-tab:nth-of-type(6) label,
+.info-tabbed [type="radio"]:nth-of-type(7):checked~.info-tabs .info-tab:nth-of-type(7) label,
+.info-tabbed [type="radio"]:nth-of-type(8):checked~.info-tabs .info-tab:nth-of-type(8) label {
+	border-bottom-color: #fff;
+	border-top-color: #B721FF;
+	background: #fff;
+	color: #222;
+}
+
+.info-tabbed [type="radio"]:nth-of-type(1):checked~.info-tab-content:nth-of-type(1),
+.info-tabbed [type="radio"]:nth-of-type(2):checked~.info-tab-content:nth-of-type(2),
+.info-tabbed [type="radio"]:nth-of-type(3):checked~.info-tab-content:nth-of-type(3),
+.info-tabbed [type="radio"]:nth-of-type(4):checked~.info-tab-content:nth-of-type(4),
+.info-tabbed [type="radio"]:nth-of-type(5):checked~.info-tab-content:nth-of-type(5),
+.info-tabbed [type="radio"]:nth-of-type(6):checked~.info-tab-content:nth-of-type(6),
+.info-tabbed [type="radio"]:nth-of-type(7):checked~.info-tab-content:nth-of-type(7) {
+	display: block;
+}
