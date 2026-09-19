@@ -24,3 +24,7 @@
 button[data-gc2-key="vores_elnet.ejendomme.the_geom"] {
     display: none !important;
 }
+
+.leaflet-marker-pane {
+    display: none !important;
+}
