@@ -1,0 +1,26 @@
+.leaflet-interactive {
+    stroke: #00FFFF;
+    fill: #00FFFF;
+    fill-opacity: 0;
+}
+
+.leaflet-interactive[stroke-dasharray="8 5"] {
+    stroke: #006666;
+    fill: #006666;
+}
+
+.popup-delete-btn {
+    visibility: hidden;
+}
+
+.leaflet-path-draggable {
+    visibility: hidden;
+}
+
+.input-group-text {
+    visibility: hidden;
+}
+
+button[data-gc2-key="vores_elnet.ejendomme.the_geom"] {
+    display: none !important;
+}
