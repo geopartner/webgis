@@ -28,3 +28,8 @@ button[data-gc2-key="vores_elnet.ejendomme.the_geom"] {
 .leaflet-marker-pane {
     display: none !important;
 }
+
+.popup-edit-btn::after {
+    content: "Opdater status";
+    margin-left: 5px;
+}
