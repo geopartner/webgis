@@ -18,7 +18,8 @@
         "gisdata",
         "matrikel_datahub",
         "projekter",
-		"sharepoint"
+		"sharepoint",
+	    "drift_og_vedligehold"
     ],
     "enabledPrints": [
         "rsforsyning"
