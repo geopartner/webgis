@@ -83,8 +83,9 @@ Grid display for larger screens
 }
  
 
-/*--------------------------------------------------------------*/
+/*---------------------------
 Generel items for all devices
+-----------------------------------*/
 
 
 
@@ -107,6 +108,7 @@ Generel items for all devices
 
 .item-value-multiline {
 	border: 1px solid #a7a7a7;
+	white-space: pre-line;
 }
 .item-value-multiline:empty {
 	border: none;
