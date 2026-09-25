@@ -1,13 +1,8 @@
-button[data-gc2-key="drift.job_aktiv.the_geom"] {
-    display: inline !important;
-}
+
 button[data-gc2-key="drift.job_afsluttet.the_geom"] {
      display: none !important;
 }
 
-button[data-gc2-key="drift.henvendelse_aktiv.the_geom"] {
-    display: inline !important;
-}
 button[data-gc2-key="drift.henvendelse_afsluttet.the_geom"] {
      display: none !important;
 }
