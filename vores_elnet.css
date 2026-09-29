@@ -6,8 +6,9 @@
 }
 
 .leaflet-interactive[stroke-dasharray="8 5"] {
-    stroke: #00FFFF; !important;
-    fill: #00FFFF; !important;
+    stroke: #00FFFF !important;
+    fill: #00FFFF !important;
+    fill-opacity: 1 !important;
 }
 
 .leaflet-interactive[stroke-dasharray="8 5"] {
