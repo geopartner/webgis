@@ -1,12 +1,13 @@
-.leaflet-interactive[stroke-dasharray="8 5"] {
-    stroke: #00FFFF;
-    fill: #00FFFF;
-}
-    
+ 
 .leaflet-interactive {
     stroke: #00FFFF;
     fill: #00FFFF;
     fill-opacity: 0;
+}
+
+.leaflet-interactive[stroke-dasharray="8 5"] {
+    stroke: #00FFFF; !important;
+    fill: #00FFFF; !important;
 }
 
 .leaflet-interactive[stroke-dasharray="8 5"] {
