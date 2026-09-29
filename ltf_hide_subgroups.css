@@ -12,3 +12,8 @@
 #group-check-box-QWZsw7hiLTI {
     visibility: hidden;
 }
+
+/* Fjerner check-boks for gruppen: Vandforsyning-2 */
+#group-check-box-VmFuZGZvcnN5bmluZy0y {
+    visibility: hidden;
+}
