@@ -11,11 +11,6 @@
     fill-opacity: 1 !important;
 }
 
-.leaflet-interactive[stroke-dasharray="8 5"] {
-    stroke: #006666;
-    fill: #006666;
-}
-
 .popup-delete-btn {
     visibility: hidden;
 }
