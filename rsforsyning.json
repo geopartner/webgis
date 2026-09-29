@@ -19,7 +19,8 @@
         "matrikel_datahub",
         "projekter",
 		"sharepoint",
-	    "drift_og_vedligehold"
+	    "drift_og_vedligehold",
+		"grukos_datahub"
     ],
     "enabledPrints": [
         "rsforsyning"
