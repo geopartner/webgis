@@ -8,7 +8,7 @@
 .leaflet-interactive[stroke-dasharray="8 5"] {
     stroke: #00FFFF !important;
     fill: #00FFFF !important;
-    fill-opacity: 1 !important;
+    fill-opacity: 0 !important;
 }
 
 .popup-delete-btn {
