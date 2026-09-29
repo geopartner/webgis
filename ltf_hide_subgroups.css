@@ -7,3 +7,8 @@
 #group-check-box-VmFuZGZvcnN5bmluZw {
     visibility: hidden;
 }
+
+/* Fjerner check-boks for gruppen: Afløb-2 */
+#group-check-box-QWZsw7hiLTI {
+    visibility: hidden;
+}
