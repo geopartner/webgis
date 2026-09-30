@@ -1,0 +1,24 @@
+{
+   "schemata": [
+    "ler2"
+   ],
+  "brandName": "Aabybro Fjernvarme",
+  "enabledPrints": [
+    "aabybro_fjernvarme"
+  ],
+  "enabledExtensions": [
+    "streetView",
+    "coordinates"
+  ],
+  "showLayerGroupCheckbox": true,
+  "searchModules": [
+    "google",
+    "danish"
+  ],
+  "enabledSearch": "danish",
+  "searchConfig": {
+    "komkode": [
+      "849"
+    ]
+  }
+}
