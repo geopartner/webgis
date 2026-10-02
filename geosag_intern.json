@@ -3,6 +3,7 @@
         "public",
         "geosag_intern",
         "bbr_datahub",
+        "dagi_datahub",
         "danmarksarealinformation_datahub",
         "dar_datahub",
         "dkjord_datahub",
@@ -18,8 +19,7 @@
         "ler",
         "vejdirektoratet",
         "gc2_io_dk_danmarksarealinformation",
-        "gc2_io_dk_kulturarvsstyrelsen",
-        "gc2_io_dk_dagi"
+        "gc2_io_dk_kulturarvsstyrelsen"
     ],
     "cssFiles": [
         "geosag_intern.css",
