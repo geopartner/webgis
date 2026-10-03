@@ -14,7 +14,8 @@
         "ler",
         "drift_og_vedligehold",
         "deklarationer",        
-        "gc2_io_dk_geus"
+        "geus_datahub",        
+        "puls_datahub"
     ],
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
     "removeDisabledLayersFromLegend": false,
