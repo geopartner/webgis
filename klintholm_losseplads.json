@@ -42,7 +42,8 @@
 	"enabledExtensions": [
 		"streetView",
 		"coordinates",
-		"session"
+		"session",
+		"editor"
 	],
 	"activeLayers": [
       "opmaalt_omrids",
