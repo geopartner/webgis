@@ -20,6 +20,17 @@
 			"startBuffer": 40
 		}
 	},
+    "activeLayers": [
+        "aixm.guidanceline",
+        "aixm.runwaymarking_line",
+        "aixm.apronmarking_line",
+        "aixm.taxiwaymarking_polygon",
+        "aixm.taxiwaymarking_point",
+        "aixm.taxiwaymarking_line",
+        "aixm.runwaymarking_polygon",
+        "aixm.runwaymarking_point",
+        "aixm.airportheliport"
+    ],	
 	"featureInfoTableOnMap": true,
 	"showLayerGroupCheckbox": true,
 	"enabledExtensions": [
