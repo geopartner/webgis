@@ -22,6 +22,9 @@
 	],
 	"brandName": "Klintholm Losseplads I/S",
 	"enabledSearch": "danish",
+  	"cssFiles": [
+        "klintholm_losseplads.css"
+    ],
 	"showLayerGroupCheckbox": true,
 	"searchConfig": {
 		"size": 15,
