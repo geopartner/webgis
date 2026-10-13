@@ -19,7 +19,7 @@
 	"showOffcanvas": "mobile",
 	"removeDisabledLayersFromLegend": true,
 	"enabledPrints": [
-		"print2"
+		"jndata"
 	],
 	"brandName": "Klintholm Losseplads I/S",
 	"enabledSearch": "danish",
