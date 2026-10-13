@@ -13,6 +13,7 @@
     ]
   },
   "searchModules":["google","danish"],
-  "enabledSearch":"danish" 
+  "enabledSearch":"danish",
+  "showLayerGroupCheckbox": true
 }
  
