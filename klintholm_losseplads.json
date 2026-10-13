@@ -4,7 +4,8 @@
 		"gc2_io_dk_geus",
 		"public",
 		"fremmedledninger",
-		"ler2"
+		"ler2",
+		"drift"
 	],
   "activeLayers": [
 		"tag:DefaultOn"
