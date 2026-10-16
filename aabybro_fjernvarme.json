@@ -8,7 +8,8 @@
   ],
   "enabledExtensions": [
     "streetView",
-    "coordinates"
+    "coordinates",
+	"session"
   ],
   "showLayerGroupCheckbox": true,
   "searchModules": [
