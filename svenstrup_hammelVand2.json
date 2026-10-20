@@ -3,6 +3,11 @@
     "schemata": [
       "tag:svenstrup_hammel_login"
     ],
+    "activeLayers": [
+      "ler2_svenstrupvand.vandledning",
+      "ler2_svenstrupvand.vandkomponent",
+      "ler2_svenstrupvand.foeringsroer"
+    ],
     "initZoomCenter": "/13/9.7676/56.2213",
     "enabledExtensions": [
       "streetView",
