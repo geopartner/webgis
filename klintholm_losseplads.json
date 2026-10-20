@@ -18,9 +18,6 @@
         ],
 	"showOffcanvas": "mobile",
 	"removeDisabledLayersFromLegend": true,
-	"enabledPrints": [
-		"vandvaerk2"
-	],
 	"brandName": "Klintholm Losseplads I/S",
 	"enabledSearch": "danish",
 	"showLayerGroupCheckbox": true,
