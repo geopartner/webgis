@@ -3,6 +3,7 @@
     "schemata": [
       "tag:svenstrup_hammel_login"
     ],
+    "initZoomCenter": "/13/9.7676/56.2213",
     "enabledExtensions": [
       "streetView",
       "coordinates",
