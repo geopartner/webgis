@@ -82,14 +82,13 @@
 			"maxNativeZoom": 20
 		},
 		{
-			"id": "dhm.dhm_terraen_skyggekort",
-            "db": "klintholm",
-			"name": "Terræn skyggekort",
-			"abstract": "<p>Danmarks Højdemodel, Terræn skyggekort.</p><br>",
+			"id": "osm",
+			"name": "Topografisk kort - Open Street Map",
+			"abstract": "<p>Kortet hentes fra Open Street Map.</p><br>",
 			"config": {
 				"maxZoom": 23,
 				"maxNativeZoom": 19,
-				"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering"
+				"attribution": "&copy; Open Street Map"
 			}
 		},
 		{
