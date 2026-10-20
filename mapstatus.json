@@ -79,7 +79,7 @@
 		},
 		{
 			"type": "wms",
-			"url": "https://wms.datafordeler.dk/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS?apikey=1oCyYXsB7Nct9aKuUKFqFjdUOPf0XDh1IApCSNUtWpG4J1AExLedF7DFosda1Rw3bDwtjJtxDPFaTHFlMcz9XKjdpNnFo8WGN",
+			"url": "https://wms.datafordeler.dk/MATRIKLEN2/MatGaeldendeOgForeloebigWMS/1.0.0/WMS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG",
 			"layers": [
 				"Centroide_Gaeldende",
 				"OptagetVej_Gaeldende",
