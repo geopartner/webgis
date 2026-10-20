@@ -1,0 +1,24 @@
+{
+  "brandName": "Svenstrup Vandværk a.m.b.a",
+  "template": "embed.tmpl",
+  "enabledExtensions": [],
+  "schemata": [
+    "ler2_svenstrupvand.vandledning_offentlig",
+    "ler2_svenstrupvand.vandkomponent_offentlig",
+    "ler2_svenstrupvand.foeringsroer_offentlig"
+  ],
+  "activeLayers": [
+    "ler2_svenstrupvand.vandledning_offentlig",
+    "ler2_svenstrupvand.vandkomponent_offentlig",
+    "ler2_svenstrupvand.foeringsroer_offentlig"
+  ],
+  "initZoomCenter": "/13/9.7968/56.2215",
+  "searchConfig": {
+    "komkode": ["710"]
+  },
+  "searchModules": ["google", "danish"],
+  "enabledSearch": "danish",
+  "showLayerGroupCheckbox": true,
+  "startUpModal": "",
+  "aboutBox": ""
+}
