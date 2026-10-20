@@ -3,9 +3,7 @@
   "template": "embed.tmpl",
   "enabledExtensions": [],
   "schemata": [
-    "ler2_svenstrupvand.vandledning_offentlig",
-    "ler2_svenstrupvand.vandkomponent_offentlig",
-    "ler2_svenstrupvand.foeringsroer_offentlig"
+    "tag:svenstrup_hammel_offentlig"
   ],
   "activeLayers": [
     "ler2_svenstrupvand.vandledning_offentlig",

@@ -1,9 +1,7 @@
 {    
     "brandName": "Svenstrup Vandværk a.m.b.a",
     "schemata": [
-      "ler2_svenstrupvand.vandledning",
-      "ler2_svenstrupvand.vandkomponent",
-      "ler2_svenstrupvand.foeringsroer"
+      "tag:svenstrup_hammel_login"
     ],
     "enabledExtensions": [
       "streetView",
