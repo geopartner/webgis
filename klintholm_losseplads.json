@@ -4,7 +4,8 @@
 		"public",
 		"fremmedledninger",
 		"ler2",
-		"drift"
+		"drift",
+		"dhm"
 	],
   "activeLayers": [
 		"tag:DefaultOn"
