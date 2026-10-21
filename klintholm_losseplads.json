@@ -24,7 +24,7 @@
 	"showLayerGroupCheckbox": true,
 	"searchConfig": {
 		"size": 15,
-		"esrSearchActive": true,
+		"esrSearchActive": false,
 		"sfeSearchActive": true,
 		"advanced": false
 	},
