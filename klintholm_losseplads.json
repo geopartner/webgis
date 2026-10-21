@@ -140,7 +140,20 @@
 		  "id": "forvaltning2",
 		  "name": "Forvaltning2 (UTM)",
 		  "tileMatrixTransform": "(zoom) => {return 'L' + zoom.padStart(2, '0').toString()}"
-		}
+		},
+		{
+			"type": "WMTS",
+			"url": "https://api.dataforsyningen.dk/orto_foraar_wmts_DAF?token=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
+			"tileMatrixSet": 'KortforsyningTilingDK',
+			"layer": 'orto_foraar_webm',
+			"id": "wmts",
+			"name": "Ortofoto (wmts)",
+			"description": "Kort fra wmts",
+			"attribution": "wmts",
+			"minZoom": 8,
+			"maxZoom": 20,
+			"maxNativeZoom": 19
+		},
 		{
 			"type": "wms",
             "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG",
