@@ -134,7 +134,8 @@
 		},
 		{
             "type": "WMTS",
-            "url": "/api/dataforsyningen/orto_foraar_webm_DAF",
+            "_url": "/api/dataforsyningen/orto_foraar_DAF",
+           	"url": "/api/dataforsyningen/orto_foraar_wmts_DAF",
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layer": "orto_foraar_webm",
             "id": "Luftfoto_nyeste",
