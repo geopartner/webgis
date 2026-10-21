@@ -47,7 +47,6 @@
 		}
 	},
 	"statelessDraw": true,
-	"crs": "EPSG:25832",
 	"popupDraggable": true,
 	"featureInfoTableOnMap": true,
 	"enabledExtensions": [
@@ -81,15 +80,7 @@
                 "ortofoto_foraar_2016",
                 "ortofoto_foraar_2015"
             ]
-        },
-		{
-            "groupName": "Skærmkort",
-            "layers": [
-                "topo_skaermkort",
-                "topo_skaermkort_daempet",
-                "topo_skaermkort_graa"
-            ]
-        }		
+        }
     ],
 	"baseLayers": [
 		{
@@ -150,43 +141,16 @@
 			"transparent": false
 		},
 		{
-            "type": "WMTS",
-            "url": "https://api.dataforsyningen.dk/wmts/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
-            "_url": "api.dataforsyningen.dk/wmts/forvaltning2",
-            "tileMatrixSet": "View1",
-            "layer": "forvaltningDF1",
-            "id": "ForvaltningskortDF1",
-            "name": "Forvaltningskort (WMTS) 4",
-            "description": "Forvaltningskort (WMTS) fra Dataforsyningen",
-            "attribution": "&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.",
-            "abstract": "<p>Forvaltningskort.</p><p>&copy; Klimadatastyrelsen, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-            "minZoom": 8,
-            "maxZoom": 22,
-            "maxNativeZoom": 20			
-		},
-		{
-		  "type": "WMTS",
-		  "url": "/api/dataforsyningen/forvaltning2",
-		  "description": "Forvaltningskort fra Dataforsyningen",
-		  "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-		  "abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-		  "tileMatrixSet": "View1",
-		  "layer": "forvaltning2",
-		  "id": "forvaltning2",
-		  "name": "Forvaltning2 (UTM)",
-		  "tileMatrixTransform": "(zoom) => {return 'L' + zoom.padStart(2, '0').toString()}"
-		},
-		{
 			"type": "WMTS",
-			"url": "https://wmts.datafordeler.dk/GeoDanmarkOrto/orto_foraar_wmts/1.0.0/WMTS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
+			"url": "https://wmts.datafordeler.dk/GeoDanmarkOrto/orto_foraar_webm/1.0.0/WMTS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
 			"tileMatrixSet": "KortforsyningTilingDK",
-			"layer": "orto_foraar_wmts",
+			"layer": "orto_foraar_webm",
 			"id": "wmts",
 			"name": "Aktuelt luftofoto",
             "description": "Luftfotokort fra kortforsyningen",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
-			"attribution": "wmts",
+            "attribution": "&copy; Klimadatastyrelsen og Danske kommuner.",
 			"minZoom": 4,
 			"maxZoom": 22,
 			"maxNativeZoom": 20,
@@ -375,48 +339,6 @@
             "minZoom": 4,
             "maxZoom": 22,
             "maxNativeZoom": 20
-        },
-		{
-			"type": "WMTS",
-			"url": "https://wmts.datafordeler.dk/Dkskaermkort/topo_skaermkort_wmts/1.0.0/wmts?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
-			"tileMatrixSet": "View1",
-			"layer": "topo_skaermkort",
-			"id": "topo_skaermkort",
-			"name": "Skærmkort",
-			"description": "Skærmkort",
-			"abstract": "<p>Skærmkortet Klassisk er baseret på data fra GeoDanmark og Danske Stednavne og viser data i 13 intervaller fra gadeniveau til territorialgrænsen.</p><br>",
-			"attribution": "wmts",
-			"minZoom": 8,
-			"maxZoom": 20,
-			"maxNativeZoom": 19
-		},
-		{
-			"type": "WMTS",
-			"url": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/wmts?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
-			"tileMatrixSet": "View1",
-			"layer": "topo_skaermkort_daempet",
-			"id": "topo_skaermkort_daempet",
-			"name": "Skærmkort dæmpet",
-			"description": "Skærmkort",
-			"abstract": "<p>Skærmkortet Dæmpet er baseret på data fra GeoDanmark og Danske Stednavne og viser data i 13 intervaller fra gadeniveau til territorialgrænsen.</p><br>",
-			"attribution": "wmts",
-			"minZoom": 8,
-			"maxZoom": 20,
-			"maxNativeZoom": 19
-		},
-		{
-			"type": "WMTS",
-			"url": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_graa/1.0.0/wmts?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
-			"tileMatrixSet": "View1",
-			"layer": "topo_skaermkort_graa",
-			"id": "topo_skaermkort_graa",
-			"name": "Skærmkort grå",
-			"description": "Skærmkort",
-			"abstract": "<p>Skærmkortet Grå er baseret på data fra GeoDanmark og Danske Stednavne og viser data i 13 intervaller fra gadeniveau til territorialgrænsen.</p><br>",
-			"attribution": "wmts",
-			"minZoom": 8,
-			"maxZoom": 20,
-			"maxNativeZoom": 19
-		}
+        }
 	]
 }
