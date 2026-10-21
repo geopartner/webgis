@@ -88,7 +88,7 @@
 			"maxNativeZoom": 20
 		},
         {
-			"type": "WMTS",
+			"type": "_WMTS",
 			"url": "/api/dataforsyningen/wmts/forvaltning2",            
 			"tileMatrixSet": "View1",
 			"layer": "forvaltning2",
