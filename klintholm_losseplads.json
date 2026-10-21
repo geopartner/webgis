@@ -143,7 +143,7 @@
 		},
 		{
 			"type": "WMTS",
-			"url": "https://api.dataforsyningen.dk/orto_foraar_wmts_DAF?token=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
+			"url": "https://wmts.datafordeler.dk/GeoDanmarkOrto/orto_foraar_wmts/1.0.0/WMTS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
 			"tileMatrixSet": "KortforsyningTilingDK",
 			"layer": "orto_foraar_webm",
 			"id": "wmts",
