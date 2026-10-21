@@ -72,7 +72,15 @@
                 "ortofoto_foraar_2016",
                 "ortofoto_foraar_2015"
             ]
-        }
+        },
+		{
+            "groupName": "Skærmkort",
+            "layers": [
+                "topo_skaermkort",
+                "topo_skaermkort_daempet",
+                "topo_skaermkort_graa"
+            ]
+        }		
     ],
 	"baseLayers": [
 		{
@@ -360,12 +368,41 @@
 			"tileMatrixSet": "View1",
 			"layer": "topo_skaermkort",
 			"id": "topo_skaermkort",
-			"name": "Skærmkort (wmts)",
-			"description": "Skærmkort fra wmts",
+			"name": "Skærmkort",
+			"description": "Skærmkort",
+			"abstract": "<p>Skærmkortet Klassisk er baseret på data fra GeoDanmark og Danske Stednavne og viser data i 13 intervaller fra gadeniveau til territorialgrænsen.</p><br>",
 			"attribution": "wmts",
 			"minZoom": 8,
 			"maxZoom": 20,
 			"maxNativeZoom": 19
-		}
+		},
+		{
+			"type": "WMTS",
+			"url": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_daempet/1.0.0/wmts?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
+			"tileMatrixSet": "View1",
+			"layer": "topo_skaermkort_daempet",
+			"id": "topo_skaermkort",
+			"name": "Skærmkort dæmpet",
+			"description": "Skærmkort",
+			"abstract": "<p>Skærmkortet Dæmpet er baseret på data fra GeoDanmark og Danske Stednavne og viser data i 13 intervaller fra gadeniveau til territorialgrænsen.</p><br>",
+			"attribution": "wmts",
+			"minZoom": 8,
+			"maxZoom": 20,
+			"maxNativeZoom": 19
+		},
+		{
+			"type": "WMTS",
+			"url": "https://wmts.datafordeler.dk/DKskaermkort/topo_skaermkort_graa/1.0.0/wmts?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
+			"tileMatrixSet": "View1",
+			"layer": "topo_skaermkort_graa",
+			"id": "topo_skaermkort",
+			"name": "Skærmkort grå",
+			"description": "Skærmkort",
+			"abstract": "<p>Skærmkortet Grå er baseret på data fra GeoDanmark og Danske Stednavne og viser data i 13 intervaller fra gadeniveau til territorialgrænsen.</p><br>",
+			"attribution": "wmts",
+			"minZoom": 8,
+			"maxZoom": 20,
+			"maxNativeZoom": 19
+		}		
 	]
 }
