@@ -151,7 +151,7 @@
 		},
 		{
 		  "type": "WMTS",
-		  "url": "https://api.dataforsyningen.dk/wmts/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
+		  "url": "/api/dataforsyningen/wmts/forvaltning2",
 		  "tileMatrixSet": "View1",
 		  "layer": "forvaltning2",
 		  "id": "forvaltning2",
