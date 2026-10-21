@@ -152,6 +152,9 @@
 		{
 		  "type": "WMTS",
 		  "url": "/api/dataforsyningen/wmts/forvaltning2",
+		  "description": "Forvaltningskort fra Dataforsyningen",
+		  "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
+		  "abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
 		  "tileMatrixSet": "View1",
 		  "layer": "forvaltning2",
 		  "id": "forvaltning2",
@@ -164,7 +167,7 @@
 			"tileMatrixSet": "KortforsyningTilingDK",
 			"layer": "orto_foraar_wmts",
 			"id": "wmts",
-			"name": "Ortofoto (wmts)",
+			"name": "Aktuelt luftofoto",
             "description": "Luftfotokort fra kortforsyningen",
             "attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.",
             "abstract": "<p>Baggrundskort med seneste udgave af GeoDanmark ortofoto forår</p><p>Copyright: Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.</p><p>Luftfotoet må frit anvendes, men følgende skal angives 'Indeholder GeoDanmark-data fra Styrelsen for Dataforsyning og Effektivisering og Danske kommuner.'.</p><br>",
@@ -399,6 +402,6 @@
 			"minZoom": 8,
 			"maxZoom": 20,
 			"maxNativeZoom": 19
-		}		
+		}
 	]
 }
