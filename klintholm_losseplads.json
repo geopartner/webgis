@@ -62,12 +62,6 @@
             ]
         }
     ],
-	"df": {
-        "dataforsyningen": {
-            "token": "4aacd5977eb46ca012c260ecb608c65c"
-        }
-    },
-	"_crs": "EPSG:25832",
 	"baseLayers": [
 		{
 			"type": "wms",
@@ -87,15 +81,6 @@
 			"maxZoom": 24,
 			"maxNativeZoom": 20
 		},
-        {
-			"type": "_WMTS",
-			"url": "/api/dataforsyningen/wmts/forvaltning2",            
-			"tileMatrixSet": "View1",
-			"layer": "forvaltning2",
-			"id": "forvaltning2",
-			"name": "Forvaltning2 (UTM)",
-			"tileMatrixTransform": "(zoom) => {return 'L' + zoom.padStart(2, '0').toString()}"
-        },
 		{
 			"id": "osm",
 			"name": "Topografisk kort - Open Street Map",
