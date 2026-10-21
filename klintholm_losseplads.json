@@ -133,6 +133,15 @@
 			"transparent": false
 		},
 		{
+		  "type": "WMTS",
+		  "url": "https://api.dataforsyningen.dk/wmts/forvaltning2?",
+		  "tileMatrixSet": "View1",
+		  "layer": "forvaltning2",
+		  "id": "forvaltning2",
+		  "name": "Forvaltning2 (UTM)",
+		  "tileMatrixTransform": "(zoom) => {return 'L' + zoom.padStart(2, '0').toString()}"
+		}
+		{
 			"type": "wms",
             "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG",
             "layers": [
