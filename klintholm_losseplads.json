@@ -142,7 +142,7 @@
 		},
 		{
 			"type": "WMTS",
-			"url": "https://api.dataforsyningen.dk/orto_foraar_webm_DAF?token=4aacd5977eb46ca012c260ecb608c65c",
+			"url": "/api/dataforsyningen/orto_foraar_webm_DAF",
 			"tileMatrixSet": "DFD_GoogleMapsCompatible",
 			"layer": "orto_foraar_wmts",
 			"id": "orto_foraar_wmts",
