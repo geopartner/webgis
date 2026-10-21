@@ -38,8 +38,16 @@
 		"coordinates": {
 			"default": "utm",
 			"lockUtmZoneTo": 32
+		},
+		"editor": {
+			"alwaysActivate": false
+		},
+		"symbols": {
+			"stateless": true
 		}
 	},
+	"statelessDraw": true,
+	"crs": "EPSG:25832",
 	"popupDraggable": true,
 	"featureInfoTableOnMap": true,
 	"enabledExtensions": [
@@ -48,7 +56,6 @@
 		"session",
 		"editor"
 	],
-	"statelessDraw": true,	
     "baseLayerGroups": [        
         {
             "groupName": "Historiske luftfoto 2015-2025",
