@@ -133,11 +133,15 @@
 			"transparent": false
 		},
 		{
-            "type": "WMTS",
-            "_url": "/api/dataforsyningen/orto_foraar_DAF",
-           	"url": "/api/dataforsyningen/orto_foraar_wmts_DAF",
+            "type": "WMS",
+            "_type": "WMTS",
+            "url": "/api/dataforsyningen/orto_foraar_DAF",
+           	"_url": "/api/dataforsyningen/orto_foraar_wmts_DAF",
             "tileMatrixSet": "DFD_GoogleMapsCompatible",
-            "layer": "orto_foraar_webm",
+            "_layer": "orto_foraar",
+            "layers": [
+                "orto_foraar"
+            ],			
             "id": "Luftfoto_nyeste",
             "name": "Luftfoto nyeste",
             "description": "Luftfotokort fra kortforsyningen",
