@@ -354,5 +354,18 @@
             "maxZoom": 22,
             "maxNativeZoom": 20
         }		
-	]
+	],
+	{
+		"type": "WMTS",
+		"url": "https://wmts.datafordeler.dk/Dkskaermkort/topo_skaermkort_wmts/1.0.0/wmts?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
+		"tileMatrixSet": "View1",
+		"layer": "topo_skaermkort",
+		"id": "topo_skaermkort",
+		"name": "Skærmkort (wmts)",
+		"description": "Skærmkort fra wmts",
+		"attribution": "wmts",
+		"minZoom": 8,
+		"maxZoom": 20,
+		"maxNativeZoom": 19
+	}
 }
