@@ -34,6 +34,10 @@
 				"mapillary",
 				"cowi"
 			]
+		},
+		"coordinates": {
+			"default": "utm",
+			"lockUtmZoneTo": 32
 		}
 	},
 	"popupDraggable": true,
@@ -44,6 +48,7 @@
 		"session",
 		"editor"
 	],
+	"statelessDraw": true,	
     "baseLayerGroups": [        
         {
             "groupName": "Historiske luftfoto 2015-2025",
