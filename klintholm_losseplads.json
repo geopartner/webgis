@@ -145,7 +145,7 @@
 			"type": "WMTS",
 			"url": "https://wmts.datafordeler.dk/GeoDanmarkOrto/orto_foraar_wmts/1.0.0/WMTS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG&",
 			"tileMatrixSet": "KortforsyningTilingDK",
-			"layer": "orto_foraar_webm",
+			"layer": "orto_foraar_wmts",
 			"id": "wmts",
 			"name": "Ortofoto (wmts)",
 			"description": "Kort fra wmts",
