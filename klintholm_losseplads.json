@@ -135,7 +135,6 @@
 		{
             "type": "WMS",
             "url": "/api/dataforsyningen/orto_foraar_DAF",
-            "tileMatrixSet": "DFD_GoogleMapsCompatible",
             "layers": [
                 "orto_foraar"
             ],			
