@@ -62,6 +62,7 @@
             ]
         }
     ],
+	"_crs": "EPSG:25832",
 	"baseLayers": [
 		{
 			"type": "wms",
@@ -82,18 +83,13 @@
 			"maxNativeZoom": 20
 		},
         {
-            "type": "WMTS",
-            "url": "/api/dataforsyningen/forvaltning2",
-            "tileMatrixSet": "DFD_GoogleMapsCompatible",
-            "id": "ForvaltningskortDFWMTS",
-			"layer": "ForvaltningskortDFWMTS",
-            "name": "Forvaltningskort (WMTS)",
-			"description": "Forvaltningskort fra Dataforsyningen",
-			"attribution": "&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.",
-			"abstract": "<p>Forvaltningskort.</p><p>&copy; Styrelsen for Dataforsyning og Effektivisering, GeoDanmark og Danske kommuner.</p><p>Forvaltningskortet viser følgende temaer:<br><ul><li>Basis_kort</li><li>Stednavne_basiskort</li><li>Vejnavne_basiskort</li><li>Husnummer</li></ul></p><br>",
-			"minZoom": 7,
-			"maxZoom": 24,
-			"maxNativeZoom": 20
+			"type": "WMTS",
+			"url": "https://api.dataforsyningen.dk/wmts/forvaltning2?",
+			"tileMatrixSet": "View1",
+			"layer": "forvaltning2",
+			"id": "forvaltning2",
+			"name": "Forvaltning2 (UTM)",
+			"tileMatrixTransform": "(zoom) => {return 'L' + zoom.padStart(2, '0').toString()}"
         },
 		{
 			"id": "osm",
