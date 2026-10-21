@@ -56,6 +56,15 @@
 		"session",
 		"editor"
 	],
+	"df": {
+	    "datafordeler" : {
+	        "token": "aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG"
+	    },
+	    "dataforsyningen" : {
+	        "token": "4aacd5977eb46ca012c260ecb608c65c"
+	    },
+	    "redirect": true
+	}
     "baseLayerGroups": [        
         {
             "groupName": "Historiske luftfoto 2015-2025",
