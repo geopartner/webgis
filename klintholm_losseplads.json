@@ -62,7 +62,7 @@
             ]
         }
     ],
-	"crs": "EPSG:25832",
+	"_crs": "EPSG:25832",
 	"baseLayers": [
 		{
 			"type": "wms",
