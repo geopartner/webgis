@@ -95,7 +95,7 @@
     "baseLayers": [
         {
             "type": "wms",
-            "url": "/api/dataforsyningen/forvaltning2",
+            "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
             "layers": [
                 "Basis_kort",
                 "Stednavne_basiskort",
@@ -112,7 +112,7 @@
         },
         {
             "type": "wms",
-            "url": "/api/dataforsyningen/forvaltning2",
+            "url": "https://api.dataforsyningen.dk/wms/forvaltning2?token=4aacd5977eb46ca012c260ecb608c65c",
             "layers": [
                 "Basis_kort",
                 "Matrikel",
@@ -172,7 +172,7 @@
         },
         {
             "type": "wms",
-            "url": "/api/dataforsyningen/orto_foraar_temp",
+            "url": "https://api.dataforsyningen.dk/wms/orto_foraar_temp?token=4aacd5977eb46ca012c260ecb608c65c",
             "layers": [
                 "quickorto"
             ],
