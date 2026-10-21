@@ -176,8 +176,8 @@
 			]
 		},
 		{
-            "type": "wms",
-            "url": "/api/dataforsyningen/orto_foraar_DAF",
+            "type": "wms",			
+            "url": "https://wms.datafordeler.dk/GeoDanmarkOrto/orto_foraar/1.0.0/WMS?apikey=aRNjOGKemYZwZrLUyB9MEtUqy28FhnECQfLSqhfAya5witwTxnoojb5DvmMUgjrHZuEnVPgwnftJYbjzDv8pynI07s78TSbKG",
             "layers": [
                 "geodanmark_2025_12_5cm"
             ],
