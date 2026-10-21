@@ -133,7 +133,7 @@
 			"transparent": false
 		},
 		{
-            "type": "WMS",
+			"type": "wms",
             "url": "/api/dataforsyningen/orto_foraar_DAF",
             "layers": [
                 "orto_foraar"
