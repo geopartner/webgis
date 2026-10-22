@@ -1,0 +1,4 @@
+/* Fjerner donlaod funktion på alle lag */
+button.js-toggle-download {
+    visibility: hidden !important;
+}
