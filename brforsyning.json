@@ -20,7 +20,7 @@
 	"dateFormats": {
 	    "kort": "D MMMM - YYYY",
 	    "lang": "dddd DD.MM.YYYY HH:mm"
-	}
+	},
     "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
     "removeDisabledLayersFromLegend": false,
     "enabledExtensions": [
