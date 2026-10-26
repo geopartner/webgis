@@ -26,6 +26,7 @@
         "rsforsyning"
     ],
     "_initZoomCenter": "/10/8.5378/55.9972",
+	"initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",    
     "brandName": "Ringkøbing-Skjern Forsyning",
     "enabledSearch": "danish",
     "showLayerGroupCheckbox": true,
