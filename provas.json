@@ -96,7 +96,7 @@
 	   "editor": {
             "defaultValues": {
                 "_my_dynamic_field": "$user.properties.my_property",
-                "ansvarligid": "Claus Andersen"
+                "ansvarligid": "7"
             }
         },
       "blueidea":{
