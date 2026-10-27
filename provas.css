@@ -1,3 +1,13 @@
+/* Fjerner donlaod funktion på alle lag */
+button.js-toggle-table, 
+button.js-toggle-style, 
+button.js-toggle-load-strategy, 
+button.js-set-online, 
+button.js-set-offline, 
+button.js-refresh
+{
+    visibility: hidden !important;
+}
 
 button[data-gc2-key="drift.job_afsluttet.the_geom"] {
      display: none !important;
