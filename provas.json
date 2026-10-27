@@ -93,6 +93,12 @@
          "autoLogin":true,
          "autoLoginMaxAge":630720000000
       },
+	   "editor": {
+            "defaultValues": {
+                "_my_dynamic_field": "$user.properties.my_property",
+                "ansvarligid": "Claus Andersen"
+            }
+        },
       "blueidea":{
          "userid":"882ffd30-b65a-4455-9b83-599a48fcdcf2"
       },
