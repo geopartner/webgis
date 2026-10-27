@@ -17,6 +17,10 @@
         "mapstatus.css",
 		 "klintholm_losseplads.css"
         ],
+	"vectorTable": {
+    	"position": "right",
+    	"width": "10%",
+	}
 	"showOffcanvas": "mobile",
 	"removeDisabledLayersFromLegend": true,
 	"brandName": "Klintholm Losseplads I/S",
