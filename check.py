@@ -184,14 +184,18 @@ if __name__ == "__main__":
         print(f"Error in config: {cfg}")
         exit(1)
 
-    # Check if all templates are valid
+    # Check if all templates are valid HTML
     tmpls = find_tmpl_files()
-    try:
-        for tmpl in tmpls:
-            template = read_file(tmpl)
-            # TODO: Check if template is valid parsable HTML
+    tmpl_errs = []
+    for tmpl in tmpls:
+        try:
+            etree.fromstring(
+                read_file(tmpl).encode("utf-8"), etree.HTMLParser(recover=False)
+            )
+        except etree.LxmlError as e:
+            tmpl_errs.append(f"{tmpl}: {e}")
 
-    except Exception as e:
-        print(f"Error: {e}")
-        print(f"Error in template: {tmpl}")
+    if tmpl_errs:
+        for err in tmpl_errs:
+            print(err)
         exit(1)
