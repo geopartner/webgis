@@ -2,15 +2,15 @@
 
 /* First some changes regarding size of info-box */
 .leaflet-popup-content-wrapper {
-    width: 900px;
+    width: 950px;
 }
 
 .leaflet-popup-content {
-    width: 870px !important;
+    width: 920px !important;
 }
 
 .alternative-info-container-right {
-	width: 860px;
+	width: 910px;
 }
 
 /* Then some settings regardign the TABs itself */
