@@ -21,7 +21,7 @@
 	    "kort": "D MMMM - YYYY",
 	    "lang": "dddd DD.MM.YYYY HH:mm"
 	},
-    "initFunction": "function(){$('#add-legend-btn').prop('checked', false);}",
+    "initFunction": "function(){$('#add-legend-btn').prop('checked', false);setTimeout(() => { const L = window.leaflet; if (!window.fundetMap && !window._mapFinderInstalled) { window._mapFinderInstalled = true; const originalGetZoom = L.Map.prototype.getZoom; L.Map.prototype.getZoom = function(...args) { if (this.getContainer()?.id === 'map') window.fundetMap = this; return originalGetZoom.apply(this, args); }; } }, 1000);}",
     "removeDisabledLayersFromLegend": false,
     "enabledExtensions": [
         "streetView",
