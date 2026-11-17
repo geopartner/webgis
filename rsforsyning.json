@@ -20,7 +20,8 @@
         "projekter",
 		"sharepoint",
 	    "drift_og_vedligehold",
-		"grukos_datahub"
+		"grukos_datahub",
+		"puls_datahub"
     ],
     "enabledPrints": [
         "rsforsyning"
