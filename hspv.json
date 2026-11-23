@@ -27,6 +27,10 @@
         "session",
         "editor"
     ],
+    "dateFormats": {
+        "kort": "D MMMM - YYYY",
+        "lang": "dddd DD.MM.YYYY HH:mm"
+    }
     "showLayerGroupCheckbox": true,
     "openLayerTreeGroups": [
         "Afløb"
