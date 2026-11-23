@@ -28,7 +28,7 @@
         "editor"
     ],
     "dateFormats": {
-        "kort": "D MMMM - YYYY",
+        "kort": "D. MMMM - YYYY",
         "lang": "dddd DD.MM.YYYY HH:mm"
     },
     "showLayerGroupCheckbox": true,
