@@ -1,8 +1,8 @@
 /* Begin of section regarding no vector editing possible in when using editor in Vidi */
 
-.leaflet-pane leaflet-marker-pane {
+.leaflet-marker-pane {
     display: none;
 }
-leaflet-path-draggable {
+.leaflet-path-draggable {
     display: none;
 }
