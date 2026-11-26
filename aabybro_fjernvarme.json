@@ -9,8 +9,50 @@
   "enabledExtensions": [
     "streetView",
     "coordinates",
-	"session"
+	"session",
+	"alarm",
+	"blueidea"
   ],
+"extensionConfig": {
+	"blueidea": {
+		"userid": "257f77da-a570-4935-9210-cb8b860f3ddc",
+		"afbrudt_ledning_tooltip": "Afbrudt ledning forsøg_",
+		"afbrudt_ledning_farve": "#f30acc",
+		"indirekte_ledning_tooltip": "Indirekte berørt ledning  forsøg",
+		"indirekte_ledning_farve": "#fff700",
+		"ventil_forbundet_farve": "#00ff00",
+		"ventil_ikke_forbundet_farve": "#2600ff",
+		"show_berorte": true,
+		"snap_distance": 2,
+		"udpeg_layer": "ler2.termiskledning",
+		"layersOnStart": [
+			"ler2.termiskledning"
+		]
+	},
+	"alarm": {
+		"userid": "ee3f25a7-3332-40fd-ac8f-3c62da0e85eb",
+		"alarmkabel_distance": 100,
+		"alarmkabel_art": 2,
+		"alarmkabel": true,
+		"udpeg_layer": "ledningsplan_fjv.vw_alarmtraade",
+		"layersOnStart": [
+			"ler2.termiskledning",
+			"ler2.alarmledning",
+			"ledningsplan_fjv.vw_alarmkomponent2"
+		],
+		"alarm_skab": {
+			"layer": "lukkeliste.vw_alarm_komponent",
+			"geom": "the_geom",
+			"key": "gid",
+			"name": "skabsnummer"
+		}
+	},
+	"streetView": {
+		"ignorelist": [
+			"mapillary",
+			"cowi"
+		]
+	}	
   "showLayerGroupCheckbox": true,
   "searchModules": [
     "google",
